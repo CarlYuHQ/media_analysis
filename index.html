@@ -231,17 +231,17 @@ nav .nav-links a:hover { color: var(--accent-gold); }
   font-size:0.8rem; color:var(--text-muted); margin-top:0.3rem;
 }
 .hero-leaders {
-  display:grid; grid-template-columns:1fr 1fr; gap:1.5rem;
-  max-width:720px; margin:0 auto 2.5rem;
+  display:flex; flex-direction:column; gap:1.2rem;
+  max-width:860px; margin:0 auto 2.5rem;
 }
 .leader-card {
-  display:flex; gap:1rem; align-items:center;
+  display:flex; gap:1.5rem; align-items:flex-start;
   background: rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08);
-  border-radius: var(--radius); padding:1rem 1.2rem;
+  border-radius: var(--radius); padding:1.2rem 1.5rem;
   text-align:left;
 }
 .leader-card img {
-  width:64px; height:64px; border-radius:50%; object-fit:cover;
+  width:80px; height:100px; border-radius:8px; object-fit:cover;
   border:2px solid rgba(212,168,83,0.3); flex-shrink:0;
 }
 .leader-info h3 {
@@ -501,14 +501,14 @@ footer a { color: var(--accent-gold); text-decoration:none; }
     </p>
     <div class="hero-leaders">
       <div class="leader-card">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sanae_Takaichi_at_January_2024.jpg/220px-Sanae_Takaichi_at_January_2024.jpg" alt="高市早苗" onerror="this.style.display='none'">
+        <img src="imgs/高市早苗.png" alt="高市早苗" onerror="this.style.display='none'">
         <div class="leader-info">
           <h3>高市早苗 <span style="font-weight:300;font-size:0.85rem;opacity:0.6;">Sanae Takaichi</span></h3>
           <p>日本保守派政治家，自由民主党众议院议员（1993年起）。曾任总务大臣（2008-2009）、内阁府特命担当大臣等职，以强硬保守立场著称。2021年首次参选自民党总裁获第三名；2024年再次参选，在首轮投票中领先，最终在决胜轮惜败于石破茂，被视为日本首位女性首相的最有力竞争者。主张修宪、强化防卫、经济安保，社交媒体上同时受到支持者的热情追随和反对者的尖锐批评。</p>
         </div>
       </div>
       <div class="leader-card">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Marine_Le_Pen_%282024%29_%28cropped%29.jpg/220px-Marine_Le_Pen_%282024%29_%28cropped%29.jpg" alt="玛丽娜·勒庞" onerror="this.style.display='none'">
+        <img src="imgs/勒庞.png" alt="玛丽娜·勒庞" onerror="this.style.display='none'">
         <div class="leader-info">
           <h3>玛丽娜·勒庞 <span style="font-weight:300;font-size:0.85rem;opacity:0.6;">Marine Le Pen</span></h3>
           <p>法国极右翼政治家，国民联盟（Rassemblement National，前国民阵线 FN）主席（2011-2022，现任名誉主席）。其父让-玛丽·勒庞创立国民阵线，她接手后推动政党"去极端化"战略，将反移民、反全球化、疑欧主义包装为主流议题。曾三次参选法国总统（2012、2017、2022），2022年获得41.5%选票进入第二轮决选，创极右翼历史最佳成绩。2024年欧洲议会选举后因挪用公款案被定罪，引发广泛国际关注。</p>
@@ -558,16 +558,26 @@ footer a { color: var(--accent-gold); text-decoration:none; }
   <span class="section-number">02</span>
   <h2 class="section-title reveal">研究方法</h2>
   <p class="section-subtitle reveal">混合研究方法：计算文本分析与性别理论相结合</p>
+  <!-- Row 1: Data source (2 cols, one per leader) + Analysis method -->
   <div class="grid-3 reveal">
     <div class="method-col card-dark" style="padding:2rem; border-radius:var(--radius);">
-      <h3>数据来源</h3>
-      <p>我们从8个社交媒体平台收集了8,310条提及高市早苗（日本）和玛丽娜·勒庞（法国）的帖子，涵盖三种语言语境。</p>
+      <h3>数据来源 — 高市早苗</h3>
+      <p>从多个社交媒体平台收集提及高市早苗的帖子，覆盖日语、英语、中文三种语言语境。</p>
       <ul>
-        <li>Twitter/X、微博、YouTube、Bluesky</li>
-        <li>Reddit、Instagram、Facebook、Threads</li>
-        <li>语言：日语、英语、中文</li>
+        <li><strong>日语数据：</strong>Twitter/X、YouTube、Bluesky</li>
+        <li><strong>中文数据：</strong>微博、Twitter/X</li>
+        <li><strong>英语数据：</strong>Twitter/X、Reddit</li>
         <li>时间范围：2017年4月 – 2026年5月</li>
-        <li>过滤后7,015条相关帖子</li>
+      </ul>
+    </div>
+    <div class="method-col card-dark" style="padding:2rem; border-radius:var(--radius);">
+      <h3>数据来源 — 玛丽娜·勒庞</h3>
+      <p>从多个社交媒体平台收集提及玛丽娜·勒庞的帖子，覆盖英语和中文两种语言语境。</p>
+      <ul>
+        <li><strong>英语数据：</strong>Twitter/X、Reddit、Facebook、Instagram、Threads</li>
+        <li><strong>中文数据：</strong>微博、Twitter/X</li>
+        <li>平台共覆盖：8个社交媒体平台</li>
+        <li>全部数据集过滤后共7,015条相关帖子</li>
       </ul>
     </div>
     <div class="method-col card-dark" style="padding:2rem; border-radius:var(--radius);">
@@ -576,13 +586,40 @@ footer a { color: var(--accent-gold); text-decoration:none; }
       <ul>
         <li>情感分析（AI标注：正面/负面/中性）</li>
         <li>情绪分类（愤怒、厌恶、恐惧、快乐等）</li>
-        <li>TF-IDF 关键词提取（多语言）</li>
-        <li>NMF 主题建模（每个数据集5-8个主题）</li>
-        <li>卡方检验（含 Cramer's V 效应量）</li>
-        <li>Pearson 相关系数用于时间趋势分析</li>
+        <li><strong>TF-IDF</strong> 关键词提取（多语言）</li>
+        <li><strong>NMF</strong> 主题建模（每个数据集5-8个主题）</li>
+        <li><strong>卡方检验</strong>（含 Cramer's V 效应量）</li>
+        <li><strong>Pearson</strong> 相关系数用于时间趋势分析</li>
       </ul>
     </div>
-    <div class="method-col card-dark" style="padding:2rem; border-radius:var(--radius);">
+  </div>
+
+  <!-- Row 2: Method formulas / explanations -->
+  <div class="reveal" style="margin-top:2rem; padding:1.5rem 2rem; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:var(--radius);">
+    <h3 style="font-family:var(--font-heading); color:var(--accent-gold); margin-bottom:1rem;">分析方法说明</h3>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:1.2rem 2.5rem; font-size:0.85rem; color:#c0bdb6; line-height:1.7;">
+      <div>
+        <p><strong>TF-IDF（词频-逆文档频率）</strong></p>
+        <p style="margin:0.3rem 0;">衡量词语在文档中的重要程度。公式：<em>TF-IDF(t,d) = TF(t,d) &times; log(N / DF(t))</em>，其中 TF 为词频，N 为文档总数，DF 为包含该词的文档数。TF-IDF 值越高，说明该词对当前文档越具有区分性。</p>
+      </div>
+      <div>
+        <p><strong>NMF（非负矩阵分解）</strong></p>
+        <p style="margin:0.3rem 0;">将词-文档矩阵 V 分解为两个非负矩阵 W &times; H，其中 W 代表「文档-主题」分布，H 代表「主题-词语」分布。通过迭代最小化 ‖V - WH‖&sup2;，自动发现潜在主题结构。</p>
+      </div>
+      <div>
+        <p><strong>卡方检验（&chi;&sup2; Test）与 Cramer's V</strong></p>
+        <p style="margin:0.3rem 0;">检验分类变量之间是否存在显著关联：<em>&chi;&sup2; = &Sigma;(O-E)&sup2;/E</em>，O 为观测频数，E 为期望频数。Cramer's V = &radic;(&chi;&sup2;/(n&times;k-1)) 衡量效应量大小（0~1），V&lt;0.1为弱关联，0.1~0.3为中等，&gt;0.3为强关联。</p>
+      </div>
+      <div>
+        <p><strong>Pearson 相关系数</strong></p>
+        <p style="margin:0.3rem 0;">衡量两个连续变量之间的线性相关程度：<em>r = &Sigma;(x<sub>i</sub>-x&#772;)(y<sub>i</sub>-&#772;y) / &radic;(&Sigma;(x<sub>i</sub>-x&#772;)&sup2;&times;&Sigma;(y<sub>i</sub>-&#772;y)&sup2;)</em>。r &isin; [-1,1]，|r|&gt;0.5表示强相关，用于分析讨论量与负面情感比例的时间趋势关联。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 3: Theory framework (full width) -->
+  <div class="reveal" style="margin-top:2rem;">
+    <div class="card-dark" style="padding:2rem; border-radius:var(--radius);">
       <h3>理论框架</h3>
       <p>本研究综合运用女性主义政治传播理论与批判话语分析方法，构建多层次分析视角。</p>
       <ul>
@@ -782,15 +819,13 @@ footer a { color: var(--accent-gold); text-decoration:none; }
     <h3 style="color:#e8e4df;">月度负面情感比例趋势</h3>
     <div id="chart-temporal-line" style="height:380px;"></div>
   </div>
-  <div class="grid-2 reveal">
-    <div class="chart-container" style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08);">
-      <h3 style="color:#e8e4df;">讨论量 vs 负面情感（散点图）</h3>
-      <div style="height:320px;"><canvas id="scatterCanvas"></canvas></div>
-    </div>
-    <div class="card-dark" style="padding:2rem; border-radius:var(--radius); border:1px solid rgba(255,255,255,0.08);">
-      <h3 style="color:#e8e4df; font-family:var(--font-heading); margin-bottom:1rem;">关键事件时间线</h3>
-      <div id="events-timeline" style="font-size:0.85rem; color:var(--text-muted);"></div>
-    </div>
+  <div class="chart-container reveal" style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); margin-bottom:2rem;">
+    <h3 style="color:#e8e4df;">讨论量 vs 负面情感（散点图）</h3>
+    <div style="height:320px;"><canvas id="scatterCanvas"></canvas></div>
+  </div>
+  <div class="card-dark reveal" style="padding:2rem; border-radius:var(--radius); border:1px solid rgba(255,255,255,0.08);">
+    <h3 style="color:#e8e4df; font-family:var(--font-heading); margin-bottom:1rem;">关键事件时间线</h3>
+    <div id="events-timeline" style="font-size:0.85rem; color:var(--text-muted);"></div>
   </div>
 </section>
 
@@ -856,15 +891,15 @@ footer a { color: var(--accent-gold); text-decoration:none; }
 <section style="background:var(--bg-deep); padding:3rem 2rem; text-align:center;">
   <div style="max-width:700px; margin:0 auto; display:flex; justify-content:center; gap:4rem; flex-wrap:wrap;">
     <div>
-      <div style="width:160px; height:160px; border-radius:50%; overflow:hidden; margin:0 auto 1rem; border:3px solid var(--accent-gold);">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Sanae_Takaichi_at_JANJAN_%28cropped%29.jpg/220px-Sanae_Takaichi_at_JANJAN_%28cropped%29.jpg" alt="高市早苗" style="width:100%; height:100%; object-fit:cover;" onerror="this.parentElement.innerHTML='<div style=&quot;width:100%;height:100%;background:#2a2a3a;display:flex;align-items:center;justify-content:center;color:var(--accent-gold);font-size:2.5rem;font-family:var(--font-heading);&quot;>高市</div>'">
+      <div style="width:160px; height:160px; border-radius:8px; overflow:hidden; margin:0 auto 1rem; border:3px solid var(--accent-gold);">
+        <img src="imgs/高市早苗.png" alt="高市早苗" style="width:100%; height:100%; object-fit:cover;">
       </div>
       <p style="color:#e8e4df; font-family:var(--font-heading); font-size:1.1rem; margin-bottom:0.3rem;">高市早苗</p>
       <p style="color:var(--text-muted); font-size:0.8rem;">Sanae Takaichi</p>
     </div>
     <div>
-      <div style="width:160px; height:160px; border-radius:50%; overflow:hidden; margin:0 auto 1rem; border:3px solid var(--accent-gold);">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Marine_Le_Pen_%28cropped%29_2.jpg/220px-Marine_Le_Pen_%28cropped%29_2.jpg" alt="玛丽娜·勒庞" style="width:100%; height:100%; object-fit:cover;" onerror="this.parentElement.innerHTML='<div style=&quot;width:100%;height:100%;background:#2a2a3a;display:flex;align-items:center;justify-content:center;color:var(--accent-gold);font-size:2.5rem;font-family:var(--font-heading);&quot;>勒庞</div>'">
+      <div style="width:160px; height:160px; border-radius:8px; overflow:hidden; margin:0 auto 1rem; border:3px solid var(--accent-gold);">
+        <img src="imgs/勒庞.png" alt="玛丽娜·勒庞" style="width:100%; height:100%; object-fit:cover;">
       </div>
       <p style="color:#e8e4df; font-family:var(--font-heading); font-size:1.1rem; margin-bottom:0.3rem;">玛丽娜·勒庞</p>
       <p style="color:var(--text-muted); font-size:0.8rem;">Marine Le Pen</p>
@@ -1397,10 +1432,10 @@ function isDarkSection(el) {
   const segZh={"LePen-EN":"勒庞(英语)","LePen-ZH":"勒庞(中文)","Takaichi-JP":"高市早苗(日语)","Takaichi-EN":"高市早苗(英语)","Takaichi-ZH":"高市早苗(中文)"};
   const eventZh={"French Presidential Election Runoff":"法国总统选举第二轮","European Parliament Elections":"欧洲议会选举","LDP Leadership Election":"自民党总裁选举","LDP Leadership Race / PM Campaign":"自民党总裁竞选 / 首相竞选","Regular Diet Session / Policy Debate":"例行国会 / 政策辩论","Embezzlement Trial Verdict":"挪用公款案判决"};
   const eventDesc={"French Presidential Election Runoff":"玛丽娜·勒庞在2022年法国总统选举第二轮中挑战马克龙，虽最终败选但获得41.5%选票，创下国民联盟历史最佳成绩。社交媒体讨论聚焦其极右政策立场、女性领导力表现及性别化报道框架。","European Parliament Elections":"2024年欧洲议会选举中，勒庞领导的国民联盟在法国获得压倒性胜利，引发关于右翼女性领导人如何利用反移民和民族主义议程扩大影响力的广泛讨论。","LDP Leadership Election":"2024年9月自民党总裁选举中，高市早苗作为热门候选人参选，主张经济改革和安全保障强化。日语社交媒体围绕其保守政策立场和作为女性政治家在自民党内的独特地位展开激烈讨论。","LDP Leadership Race / PM Campaign":"高市早苗在2024年10月自民党总裁竞选期间积极争取首相职位，中文社交媒体关注其对中国政策的强硬立场、参拜靖国神社等敏感议题，负面情感显著升高。","Regular Diet Session / Policy Debate":"2025年1月例行国会召开，高市早苗作为内阁成员参与政策辩论和预算审议，日语社交媒体关注其在安保、经济等议题上的政策主张及其作为女性政治人物的表现。","Embezzlement Trial Verdict":"2025年3月，勒庞因涉嫌挪用欧盟公款被巴黎法院裁定有罪，此案直接关系到其政治前途和竞选资格。英语社交媒体围绕司法公正性、政治迫害指控以及媒体对女性政治人物的道德审判展开讨论。"};
-  el.innerHTML = events.map(e => `<div style="margin-bottom:1rem; padding-left:1rem; border-left:2px solid ${COLORS.gold};">
-    <strong style="color:${COLORS.gold}">${e.date}</strong> — ${eventZh[e.event]||e.event}<br>
-    <span style="opacity:0.7; margin-right:0.5rem;">${segZh[e.segment]||e.segment}</span>
-    <p style="margin:0.4rem 0 0 0; line-height:1.5; color:var(--text-muted);">${eventDesc[e.event]||''}</p>
+  el.innerHTML = events.map(e => `<div style="margin-bottom:1.2rem; padding:1rem 1.2rem; background:rgba(255,255,255,0.03); border-radius:var(--radius); border-left:3px solid ${COLORS.gold};">
+    <strong style="color:${COLORS.gold};">${e.date}</strong> — <span style="color:#e8e4df;">${eventZh[e.event]||e.event}</span>
+    <span style="opacity:0.6; margin-left:0.8rem; font-size:0.8rem;">${segZh[e.segment]||e.segment}</span>
+    <p style="margin:0.5rem 0 0 0; line-height:1.6; color:#a0a0aa;">${eventDesc[e.event]||''}</p>
   </div>`).join('');
 })();
 
