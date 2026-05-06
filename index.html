@@ -384,6 +384,14 @@ nav .nav-links a:hover { color: var(--accent-gold); }
   font-size:0.85rem; color:#c0bdb6;
   padding:0.3rem 0; padding-left:1.2rem; position:relative;
 }
+.chart-note {
+  font-size: 0.78rem; color: #8a8a9a; margin-top: 0.8rem; line-height: 1.7;
+  padding: 0.6rem 0.8rem; background: rgba(0,0,0,0.03); border-radius: 4px;
+}
+.chart-note code { background: rgba(0,0,0,0.06); padding: 1px 4px; border-radius: 3px; font-size: 0.75rem; }
+.section-dark .chart-note { background: rgba(255,255,255,0.03); }
+.section-dark .chart-note code { background: rgba(255,255,255,0.08); }
+
 .method-col ul li::before {
   content:''; position:absolute; left:0; top:0.6rem;
   width:6px; height:6px; border-radius:50%;
@@ -651,22 +659,24 @@ footer a { color: var(--accent-gold); text-decoration:none; }
     <div class="chart-container">
       <h3>平台分布</h3>
       <div id="chart-platform" style="height:360px;"></div>
+      <p class="chart-note"><strong>数据来源：</strong>原始CSV字段 <code>platform</code>（采集工具自动识别：twitter/weibo/youtube/bluesky/reddit/instagram/facebook/threads）。统计每个平台的帖子总数，按数据集（领导人-语言）分组着色。</p>
     </div>
     <div class="chart-container">
       <h3>账户类型分布</h3>
       <div id="chart-account" style="height:360px;"><canvas id="accountCanvas"></canvas></div>
-      <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.8rem; line-height:1.6;"><strong>说明：</strong>账户类型基于平台元数据自动分类：个人账号为普通用户，媒体账号为新闻机构官方账号，组织账号为政府、NGO等机构账号。</p>
+      <p class="chart-note"><strong>数据来源：</strong>原始CSV字段 <code>account_type</code>（采集工具AI辅助标注：Individual个人/Media媒体/Organization组织/Unknown未知），标注理由见<code>account_type_reason</code>字段。</p>
     </div>
   </div>
   <div class="grid-2 reveal" style="margin-top:2rem;">
     <div class="chart-container">
       <h3>按帖子量排名的国家/地区</h3>
       <div id="chart-country" style="height:360px;"><canvas id="countryCanvas"></canvas></div>
+      <p class="chart-note"><strong>数据来源：</strong>原始CSV字段 <code>country</code>（采集工具AI辅助标注，基于用户profile地理信息和发帖内容推断），标注理由见<code>country_reason</code>字段。按领导人分组着色。</p>
     </div>
     <div class="chart-container">
       <h3>各数据集帖子数量</h3>
       <div id="chart-segments" style="height:360px;"><canvas id="segmentsCanvas"></canvas></div>
-      <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.8rem; line-height:1.6;"><strong>说明：</strong>「相关」指帖子经AI情感标注后被判定为正面、负面或中性（即非"无关"）；「无关」指帖子内容与领导人无关或情感倾向无法判定。每个数据集按领导人-语言组合划分（如高市早苗-日语、勒庞-英语）。</p>
+      <p class="chart-note"><strong>数据来源：</strong>「相关」= 原始CSV字段<code>sentiment</code>值为positive/negative/neutral的帖子；「无关」= <code>sentiment</code>值为irrelevant的帖子（内容与领导人无关或无法判定情感倾向）。按领导人-语言组合划分数据集。</p>
     </div>
   </div>
 </section>
@@ -693,8 +703,8 @@ footer a { color: var(--accent-gold); text-decoration:none; }
 
   <!-- Chi-square results -->
   <div class="card-dark reveal" style="margin-top:2rem; padding:2rem; border-radius:var(--radius); border:1px solid rgba(255,255,255,0.08);">
-    <h3 style="color:#e8e4df; font-family:var(--font-heading); margin-bottom:1rem;">统计显著性检验：卡方检验</h3>
-    <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:1rem;">全部四项跨组比较均达到统计显著差异（p &lt; 0.001），证实情感差异是系统性的，非随机波动。</p>
+    <h3 style="color:#e8e4df; font-family:var(--font-heading); margin-bottom:1rem;">统计显著性检验：卡方检验（&chi;&sup2; Test）</h3>
+    <p style="color:var(--text-muted); font-size:0.85rem; margin-bottom:1rem; line-height:1.6;">对<code>sentiment</code>字段（正面/负面/中性）构建列联表，进行卡方独立性检验。全部四项跨组比较均达到统计显著差异（p &lt; 0.001）。<strong>比较项</strong>为检验的两组对比；<strong>卡方值(&chi;&sup2;)</strong>衡量观测频数与期望频数的偏离程度，值越大差异越大；<strong>p值</strong>为显著性水平，p&lt;0.001表示差异极显著；<strong>Cramer's V</strong>为效应量，衡量关联强度（&lt;0.1弱、0.1-0.3中、&gt;0.3强）。</p>
     <table class="data-table" id="chi-table" style="color:var(--text-light);">
       <!-- Populated by JS -->
     </table>
@@ -704,6 +714,7 @@ footer a { color: var(--accent-gold); text-decoration:none; }
   <div class="chart-container reveal" style="margin-top:2rem; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08);">
     <h3 style="color:#e8e4df;">各平台情感分布</h3>
     <div id="chart-sentiment-platform" style="height:360px;"></div>
+    <p class="chart-note"><strong>数据来源：</strong>原始CSV字段<code>platform</code> × <code>sentiment</code>交叉统计。每个平台的正面/负面/中性帖子比例，展示不同平台社区的舆论倾向差异。</p>
   </div>
 </section>
 
@@ -723,6 +734,7 @@ footer a { color: var(--accent-gold); text-decoration:none; }
     <div class="chart-container">
       <h3>情绪-情感交叉热力图</h3>
       <div id="chart-emotion-heatmap" style="height:400px;"></div>
+      <p class="chart-note"><strong>数据来源：</strong>原始CSV字段<code>emotion</code> × <code>sentiment</code>交叉统计。热力图颜色深浅表示同时被标注为某情绪+某情感的帖子数量，揭示情绪与情感极性的关联模式（如"愤怒"与"负面"的强关联）。</p>
     </div>
   </div>
   <div class="grid-2 reveal" style="margin-top:2rem;">
@@ -744,6 +756,9 @@ footer a { color: var(--accent-gold); text-decoration:none; }
   <span class="section-number">06</span>
   <h2 class="section-title reveal">主题与关键词分析</h2>
   <p class="section-subtitle reveal">人们在讨论什么？TF-IDF 关键词与 NMF 主题建模揭示话语主题结构</p>
+  <div class="reveal" style="margin-bottom:1.5rem; padding:1rem 1.2rem; background:rgba(0,0,0,0.03); border-radius:var(--radius); font-size:0.8rem; color:var(--text-secondary); line-height:1.7;">
+    <strong>方法说明：</strong>关键词提取基于原始CSV字段<code>text</code>（帖子正文），经<code>scripts/05_tfidf_analysis.py</code>处理：中文用jieba分词、日文用MeCab(fugashi)词性标注提取名詞/動詞/形容詞、英文按空格分词且仅保留纯ASCII词。停用词过滤后计算TF-IDF权重，取Top 50关键词生成词云。主题建模基于<code>scripts/06_topic_modeling.py</code>：对分词后文本构建TF-IDF矩阵（sklearn TfidfVectorizer），再用NMF非负矩阵分解提取6个潜在主题，每个主题展示权重最高的10个关键词。
+  </div>
   <div class="grid-3 reveal">
     <div class="chart-container" style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08);">
       <h3 style="color:#e8e4df;">中文关键词</h3>
@@ -777,6 +792,12 @@ footer a { color: var(--accent-gold); text-decoration:none; }
   <span class="section-number">07</span>
   <h2 class="section-title reveal">比较分析与性别框架分析</h2>
   <p class="section-subtitle reveal">不同领导人间的媒体框架有何差异？通过计算编码检测性别化模式</p>
+  <div class="reveal" style="margin-bottom:1.5rem; padding:1rem 1.2rem; background:rgba(0,0,0,0.03); border-radius:var(--radius); font-size:0.8rem; color:var(--text-secondary); line-height:1.7;">
+    <strong>方法说明（<code>scripts/08_comparative_analysis.py</code>）：</strong><br>
+    <strong>比较雷达图：</strong>汇总两位领导人在五个维度的综合得分——情感分布（<code>sentiment</code>字段统计正面/负面比例）、主导情绪（<code>emotion</code>字段众数）、性别框架倾向（关键词匹配，见下方）、双重束缚得分（负面帖子中<code>text</code>同时出现性别词汇+领导力词汇的比例）和女性民族主义指标（<code>text</code>中同时出现女性权利词汇+民族主义/反移民词汇）。每个维度归一化为0-100分。<br>
+    <strong>性别框架检测：</strong>对每条帖子的<code>text</code>字段进行多语言关键词模式匹配——如"铁娘子"/"iron lady"/"強い女性"匹配铁娘子框架，"漂亮"/"beauty"/"化粧"匹配外貌框架——统计各框架匹配帖子数量。<br>
+    <strong>双重束缚得分：</strong>筛选<code>sentiment=negative</code>的帖子，检查<code>text</code>是否同时包含性别词汇（如"她"/"女性"/"woman"）和领导力词汇（如"首相"/"领导"/"leader"），双重提及的帖子占负面帖子比例为双重束缚得分。
+  </div>
   <div class="grid-2 reveal">
     <div class="chart-container">
       <h3>领导人多维对比</h3>
@@ -822,6 +843,9 @@ footer a { color: var(--accent-gold); text-decoration:none; }
   <span class="section-number">08</span>
   <h2 class="section-title reveal">时间趋势分析</h2>
   <p class="section-subtitle reveal">情感如何随时间变化——关键事件、讨论高峰与相关性</p>
+  <div class="reveal" style="margin-bottom:1.5rem; padding:1rem 1.2rem; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:var(--radius); font-size:0.8rem; color:#a0a0aa; line-height:1.7;">
+    <strong>方法说明（<code>scripts/07_temporal_analysis.py</code>）：</strong>时间轴基于原始CSV字段<code>created_at</code>（帖子发布时间戳），按月（YYYY-MM）重采样。每月负面情感比例 = 该月<code>sentiment=negative</code>帖子数 / 该月相关帖子总数。讨论量-负面情感相关性用Pearson相关系数衡量月度帖子总量与月度负面比例之间的线性关联。
+  </div>
   <div class="chart-container reveal" style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); margin-bottom:2rem;">
     <h3 style="color:#e8e4df;">月度负面情感比例趋势</h3>
     <div id="chart-temporal-line" style="height:380px;"></div>
@@ -829,9 +853,11 @@ footer a { color: var(--accent-gold); text-decoration:none; }
   <div class="chart-container reveal" style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); margin-bottom:2rem;">
     <h3 style="color:#e8e4df;">讨论量 vs 负面情感（散点图）</h3>
     <div style="height:400px; max-width:100%;"><canvas id="scatterCanvas"></canvas></div>
+    <p class="chart-note"><strong>数据来源：</strong>X轴=每月帖子总量（<code>created_at</code>按月聚合计数）；Y轴=每月负面比例（<code>sentiment=negative</code>占比）。每个点代表一个月份，颜色区分数据集。趋势线反映讨论热度与负面情感的关联方向。</p>
   </div>
   <div class="card-dark reveal" style="padding:2rem; border-radius:var(--radius); border:1px solid rgba(255,255,255,0.08);">
     <h3 style="color:#e8e4df; font-family:var(--font-heading); margin-bottom:1rem;">关键事件时间线</h3>
+    <p class="chart-note" style="margin-bottom:1rem;"><strong>数据来源：</strong>事件为研究者根据政治日历手工标注（定义在<code>scripts/07_temporal_analysis.py</code>的<code>known_events</code>列表中），与<code>created_at</code>时间轴对齐。标注信息包含数据集（<code>segment</code>）、事件日期和详细描述。</p>
     <div id="events-timeline" style="font-size:0.85rem; color:var(--text-muted);"></div>
   </div>
 </section>
