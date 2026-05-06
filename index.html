@@ -572,24 +572,25 @@ footer a { color: var(--accent-gold); text-decoration:none; }
     </div>
     <div class="method-col card-dark" style="padding:2rem; border-radius:var(--radius);">
       <h3>数据来源 — 玛丽娜·勒庞</h3>
-      <p>从多个社交媒体平台收集提及玛丽娜·勒庞的帖子，覆盖英语和中文两种语言语境。</p>
+      <p>通过社交媒体数据采集工具获取提及玛丽娜·勒庞的公开帖子，覆盖8个平台、2种语言。</p>
       <ul>
-        <li><strong>英语数据：</strong>Twitter/X、Reddit、Facebook、Instagram、Threads</li>
-        <li><strong>中文数据：</strong>微博、Twitter/X</li>
-        <li>平台共覆盖：8个社交媒体平台</li>
-        <li>全部数据集过滤后共6,945条相关帖子</li>
+        <li><strong>英语数据（2,064条）：</strong>Twitter/X（480+）、Reddit（380+）、Instagram（480+）、Facebook（190+）、Threads（40+）、YouTube（90+）、Bluesky（430+）</li>
+        <li><strong>中文数据（1,002条）：</strong>微博（500）、Twitter/X（480+）、Bluesky（21+）</li>
+        <li>数据时间范围：2022年3月 – 2026年5月</li>
       </ul>
+      <p style="font-size:0.8rem; color:#a0a0aa; margin-top:0.5rem; line-height:1.6;">数据字段说明同上。全部数据集经日期过滤和相关性筛选后共6,945条相关帖子（过滤掉情感标注为"无关"的帖子）。</p>
     </div>
     <div class="method-col card-dark" style="padding:2rem; border-radius:var(--radius);">
       <h3>分析方法</h3>
-      <p>多层次的计算分析，结合定量与定性方法。</p>
+      <p>多层次计算分析，结合预标注数据与统计建模。</p>
       <ul>
-        <li>情感分析（预标注：正面/负面/中性/无关）</li>
-        <li>情绪分类（预标注：愤怒、厌恶、恐惧、快乐等十余种）</li>
-        <li><strong>TF-IDF</strong> 关键词提取（多语言）</li>
-        <li><strong>NMF</strong> 主题建模（每个数据集5-8个主题）</li>
-        <li><strong>卡方检验</strong>（含 Cramer's V 效应量）</li>
-        <li><strong>Pearson</strong> 相关系数用于时间趋势分析</li>
+        <li>情感分析：基于数据采集工具预标注的情感字段（正面/负面/中性/无关），统计各数据集情感分布</li>
+        <li>情绪分类：基于预标注的情绪字段（愤怒、厌恶、恐惧、快乐等十余种），计算情绪占比</li>
+        <li><strong>TF-IDF</strong> 关键词提取：中文用jieba分词、日文用MeCab(fugashi)分词、英文按空格分词，计算TF-IDF权重</li>
+        <li><strong>NMF</strong> 主题建模：对分词后的文本构建TF-IDF矩阵，用非负矩阵分解提取潜在主题</li>
+        <li><strong>卡方检验</strong>：检验不同数据集间情感分布差异的统计显著性</li>
+        <li><strong>Pearson</strong> 相关系数：分析月度讨论量与负面情感比例的时间趋势关联</li>
+        <li>性别框架检测：通过预定义关键词模式（多语言）匹配五种性别框架</li>
       </ul>
     </div>
   </div>
