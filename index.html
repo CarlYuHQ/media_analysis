@@ -230,6 +230,30 @@ nav .nav-links a:hover { color: var(--accent-gold); }
 .hero-stat .label {
   font-size:0.8rem; color:var(--text-muted); margin-top:0.3rem;
 }
+.hero-leaders {
+  display:grid; grid-template-columns:1fr 1fr; gap:1.5rem;
+  max-width:720px; margin:0 auto 2.5rem;
+}
+.leader-card {
+  display:flex; gap:1rem; align-items:center;
+  background: rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08);
+  border-radius: var(--radius); padding:1rem 1.2rem;
+  text-align:left;
+}
+.leader-card img {
+  width:64px; height:64px; border-radius:50%; object-fit:cover;
+  border:2px solid rgba(212,168,83,0.3); flex-shrink:0;
+}
+.leader-info h3 {
+  font-family: var(--font-heading); font-size:1rem; font-weight:700;
+  color: var(--accent-gold); margin-bottom:0.3rem;
+}
+.leader-info p {
+  font-size:0.78rem; color:var(--text-muted); line-height:1.5;
+}
+@media(max-width:640px) {
+  .hero-leaders { grid-template-columns:1fr; }
+}
 
 /* === SECTION LAYOUT === */
 .section {
@@ -351,13 +375,13 @@ nav .nav-links a:hover { color: var(--accent-gold); }
   margin-bottom:0.8rem; color: var(--accent-gold);
 }
 .method-col p {
-  font-size:0.9rem; color:var(--text-secondary); line-height:1.7;
+  font-size:0.9rem; color:#c0bdb6; line-height:1.7;
 }
 .method-col ul {
   list-style:none; padding:0; margin:0.5rem 0;
 }
 .method-col ul li {
-  font-size:0.85rem; color:var(--text-secondary);
+  font-size:0.85rem; color:#c0bdb6;
   padding:0.3rem 0; padding-left:1.2rem; position:relative;
 }
 .method-col ul li::before {
@@ -472,8 +496,24 @@ footer a { color: var(--accent-gold); text-decoration:none; }
     <span class="hero-label">计算社会科学研究</span>
     <h1>Media Portrayal of<br><em>Right-Wing Female Leaders</em></h1>
     <p class="subtitle">
-      跨文化社交媒体分析<br>高市早苗 与 玛丽娜·勒庞 — 日语、英语、中文语境
+      跨文化社交媒体分析 — 日语、英语、中文语境
     </p>
+    <div class="hero-leaders">
+      <div class="leader-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sanae_Takaichi_at_January_2024.jpg/220px-Sanae_Takaichi_at_January_2024.jpg" alt="高市早苗" onerror="this.style.display='none'">
+        <div class="leader-info">
+          <h3>高市早苗 <span style="font-weight:300;font-size:0.85rem;opacity:0.6;">Sanae Takaichi</span></h3>
+          <p>日本保守派政治家，曾任总务大臣。2024年参选自民党总裁，是日本首位女性首相的有力竞争者。</p>
+        </div>
+      </div>
+      <div class="leader-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Marine_Le_Pen_%282024%29_%28cropped%29.jpg/220px-Marine_Le_Pen_%282024%29_%28cropped%29.jpg" alt="玛丽娜·勒庞" onerror="this.style.display='none'">
+        <div class="leader-info">
+          <h3>玛丽娜·勒庞 <span style="font-weight:300;font-size:0.85rem;opacity:0.6;">Marine Le Pen</span></h3>
+          <p>法国国民联盟（前国民阵线）主席，欧洲极右翼代表人物。曾三次参选法国总统，2022年进入第二轮决选。</p>
+        </div>
+      </div>
+    </div>
     <div class="hero-stats">
       <div class="hero-stat">
         <span class="number">8,310</span>
@@ -861,14 +901,16 @@ function isDarkSection(el) {
   const el = document.getElementById('chart-platform');
   if (!el || !DS.platform_distribution) return;
   const chart = echarts.init(el);
+  const segNameMap = {'Takaichi-JP':'高市早苗(日语)','Takaichi-EN':'高市早苗(英语)','Takaichi-ZH':'高市早苗(中文)','LePen-EN':'勒庞(英语)','LePen-ZH':'勒庞(中文)'};
+  const platNameMap = {'twitter':'Twitter/X','weibo':'微博','youtube':'YouTube','bluesky':'Bluesky','reddit':'Reddit','instagram':'Instagram','facebook':'Facebook','threads':'Threads'};
   const data = [];
   const leaderColors = { Takaichi: '#7c3aed', LePen: '#c41e3a' };
   const platColors = ['#d4a853','#0a8a6e','#2563eb','#ec4899','#f59e0b','#6366f1','#14b8a6','#f97316'];
   let pi = 0;
   for (const [seg, plats] of Object.entries(DS.platform_distribution)) {
     const leader = seg.split('-')[0];
-    const children = Object.entries(plats).map(([p, v]) => ({ name: p, value: v, itemStyle: { color: platColors[pi++ % platColors.length] } }));
-    data.push({ name: seg, children, itemStyle: { color: leaderColors[leader] } });
+    const children = Object.entries(plats).map(([p, v]) => ({ name: platNameMap[p]||p, value: v, itemStyle: { color: platColors[pi++ % platColors.length] } }));
+    data.push({ name: segNameMap[seg]||seg, children, itemStyle: { color: leaderColors[leader] } });
   }
   chart.setOption({
     tooltip: { trigger: 'item', formatter: '{b}: {c}' },
@@ -883,27 +925,40 @@ function isDarkSection(el) {
 (function() {
   const ctx = document.getElementById('accountCanvas');
   if (!ctx || !DS.account_type_distribution) return;
+  const typeMap = {'Individual':'个人','Media':'媒体','Organization':'组织','Unknown':'未知'};
   const types = new Set();
   Object.values(DS.account_type_distribution).forEach(s => Object.keys(s).forEach(t => types.add(t)));
   const typeArr = [...types];
+  const typeLabels = typeArr.map(t => typeMap[t] || t);
   const datasets = SEGMENTS.map((seg, i) => ({
     label: SEG_LABELS[i],
     data: typeArr.map(t => DS.account_type_distribution[seg]?.[t] || 0),
     backgroundColor: SEG_COLORS[i] + 'cc'
   }));
-  new Chart(ctx, { type:'bar', data:{ labels:typeArr, datasets }, options:{ indexAxis:'y', responsive:true, plugins:{ legend:{ position:'bottom', labels:{boxWidth:12} } }, scales:{ x:{beginAtZero:true} } } });
+  new Chart(ctx, { type:'bar', data:{ labels:typeLabels, datasets }, options:{ indexAxis:'y', responsive:true, plugins:{ legend:{ position:'bottom', labels:{boxWidth:12} } }, scales:{ x:{beginAtZero:true, title:{display:true,text:'帖子数量'}} } } });
 })();
 
 // ============================
-// 4. COUNTRY BAR (Chart.js)
+// 4. COUNTRY BAR (Chart.js) - split by leader
 // ============================
 (function() {
   const ctx = document.getElementById('countryCanvas');
   if (!ctx || !DS.country_distribution) return;
+  // Aggregate by leader
+  const takaichiCountries = {};
+  const lepenCountries = {};
+  for (const [seg, countries] of Object.entries(DS.country_distribution)) {
+    const target = seg.startsWith('Takaichi') ? takaichiCountries : lepenCountries;
+    Object.entries(countries).forEach(([k,v]) => target[k] = (target[k]||0) + v);
+  }
+  // Get top 12 countries overall
   const allCountries = {};
   Object.values(DS.country_distribution).forEach(s => Object.entries(s).forEach(([k,v]) => allCountries[k] = (allCountries[k]||0) + v));
-  const sorted = Object.entries(allCountries).sort((a,b) => b[1]-a[1]).slice(0,12);
-  new Chart(ctx, { type:'bar', data:{ labels:sorted.map(s=>s[0]), datasets:[{ label:'帖子数', data:sorted.map(s=>s[1]), backgroundColor:'#d4a853cc' }] }, options:{ indexAxis:'y', responsive:true, plugins:{ legend:{display:false} }, scales:{ x:{beginAtZero:true} } } });
+  const topCountries = Object.entries(allCountries).sort((a,b) => b[1]-a[1]).slice(0,12).map(s=>s[0]);
+  new Chart(ctx, { type:'bar', data:{ labels:topCountries, datasets:[
+    { label:'高市早苗', data:topCountries.map(c => takaichiCountries[c]||0), backgroundColor:'#7c3aedcc' },
+    { label:'勒庞', data:topCountries.map(c => lepenCountries[c]||0), backgroundColor:'#c41e3acc' }
+  ]}, options:{ indexAxis:'y', responsive:true, plugins:{ legend:{position:'bottom',labels:{boxWidth:12}} }, scales:{ x:{beginAtZero:true, title:{display:true,text:'帖子数量'}} } } });
 })();
 
 // ============================
