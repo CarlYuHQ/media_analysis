@@ -44,7 +44,7 @@ def main():
 
     # 生成embedded_data.js
     js_path = os.path.join(OUTPUT_DIR, 'embedded_data.js')
-    js_content = f"const REPORT_DATA = {json.dumps(report_data, ensure_ascii=False)};"
+    js_content = f"var REPORT_DATA = {json.dumps(report_data, ensure_ascii=False)};"
     with open(js_path, 'w', encoding='utf-8') as f:
         f.write(js_content)
     print(f"Saved embedded_data.js ({os.path.getsize(js_path) / 1024:.0f} KB)")
