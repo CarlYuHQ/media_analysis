@@ -990,8 +990,8 @@ function isDarkSection(el) {
   if (!ctx || !OV.rows_by_segment) return;
   const segs = Object.entries(OV.rows_by_segment);
   new Chart(ctx, { type:'bar', data:{ labels:segs.map(s=>s[0]), datasets:[
-    { label:'相关', data:segs.map(s=>s[1].relevant), backgroundColor:'#0a8a6ecc' },
-    { label:'不相关', data:segs.map(s=>s[1].irrelevant), backgroundColor:'#94a3b8cc' }
+    { label:'相关帖子', data:segs.map(s=>s[1].relevant), backgroundColor:'#0a8a6ecc' },
+    { label:'不相关帖子（如双关语、无关话题）', data:segs.map(s=>s[1].irrelevant), backgroundColor:'#94a3b8cc' }
   ]}, options:{ responsive:true, plugins:{ legend:{position:'bottom',labels:{boxWidth:12}} }, scales:{ y:{beginAtZero:true} } } });
 })();
 
@@ -1065,8 +1065,9 @@ function isDarkSection(el) {
 (function() {
   const table = document.getElementById('chi-table');
   if (!table || !S.chi_square_tests) return;
+  const testZh = {'Takaichi vs LePen (Chinese)':'高市早苗 vs 勒庞（中文）','Takaichi vs LePen (English)':'高市早苗 vs 勒庞（英语）','Takaichi across languages (JP vs EN vs ZH)':'高市早苗跨语言（日语 vs 英语 vs 中文）','LePen across languages (EN vs ZH)':'勒庞跨语言（英语 vs 中文）'};
   table.innerHTML = `<thead><tr><th>比较项</th><th>卡方值</th><th>p值</th><th>Cramer's V</th><th>显著</th></tr></thead><tbody>` +
-    S.chi_square_tests.map(t => `<tr><td>${t.test}</td><td>${t.chi2}</td><td>${t.p_value < 0.001 ? '< 0.001' : t.p_value.toFixed(4)}</td><td>${t.cramers_v}</td><td class="sig-star">${t.significant ? '是 ***' : '否'}</td></tr>`).join('') +
+    S.chi_square_tests.map(t => `<tr><td>${testZh[t.test]||t.test}</td><td>${t.chi2}</td><td>${t.p_value < 0.001 ? '< 0.001' : t.p_value.toFixed(4)}</td><td>${t.cramers_v}</td><td class="sig-star">${t.significant ? '是 ***' : '否'}</td></tr>`).join('') +
     `</tbody>`;
 })();
 
@@ -1103,15 +1104,16 @@ function isDarkSection(el) {
   if (!el || !E.radar_data) return;
   const chart = echarts.init(el);
   const emotions = E.radar_data.emotions || [];
+  const emoZh = {anger:'愤怒',confusion:'困惑',disappointment:'失望',discomfort:'不适',disgust:'厌恶',embarrassment:'尴尬',fear:'恐惧',frustration:'沮丧',happiness:'快乐',hope:'希望',neutral:'中性',relief:'释然',respect:'尊敬',sadness:'悲伤',surprise:'惊讶'};
   const series = E.radar_data.series || {};
   const sList = Object.entries(series).map(([key, vals]) => ({
-    value: vals, name: key.replace('-',' '),
+    value: vals, name: key.startsWith('Takaichi') ? '高市早苗('+key.split('-')[1]+')' : '勒庞('+key.split('-')[1]+')',
     itemStyle: { color: key.startsWith('Takaichi') ? COLORS.takaichi : COLORS.lepen }
   }));
   chart.setOption({
     tooltip: {},
     legend: { data: Object.keys(series).map(k => k.startsWith('Takaichi') ? '高市早苗' : '勒庞'), bottom: 0, textStyle:{color:'#4a4a5a'} },
-    radar: { indicator: emotions.map(e=>({name:e,max:1})), radius:'65%', axisName:{color:'#4a4a5a',fontSize:11} },
+    radar: { indicator: emotions.map(e=>({name:emoZh[e]||e,max:1})), radius:'65%', axisName:{color:'#4a4a5a',fontSize:10} },
     series: [{ type:'radar', data:sList, lineStyle:{width:2}, areaStyle:{opacity:0.15} }]
   });
   window.addEventListener('resize', () => chart.resize());
@@ -1125,13 +1127,15 @@ function isDarkSection(el) {
   if (!el) return;
   const chart = echarts.init(el);
   // Build from leader_emotion_summary
-  const leaders = ['高市早苗','勒庞'];
-  const allEmotions = ['愤怒','厌恶','恐惧','快乐','惊讶','中性','悲伤']; const allEmotionsKey = ['anger','disgust','fear','happiness','surprise','neutral','sadness'];
+  const leaderKeys = ['Takaichi','LePen'];
+  const leaderLabels = ['高市早苗','勒庞'];
+  const emotionKeys = ['anger','disgust','fear','happiness','surprise','neutral','sadness'];
+  const emotionLabels = ['愤怒','厌恶','恐惧','快乐','惊讶','中性','悲伤'];
   const heatData = [];
   let maxVal = 0;
-  leaders.forEach((l, li) => {
-    const props = E.leader_emotion_summary?.[l]?.proportions || {};
-    allEmotions.forEach((emo, ei) => {
+  leaderKeys.forEach((lk, li) => {
+    const props = E.leader_emotion_summary?.[lk]?.proportions || {};
+    emotionKeys.forEach((emo, ei) => {
       const v = props[emo] || 0;
       if (v > maxVal) maxVal = v;
       heatData.push([ei, li, v]);
@@ -1241,9 +1245,10 @@ function isDarkSection(el) {
   if (!ctx || !C.gender_frames) return;
   const frameIds = ['iron_lady','emotional_woman','appearance','competence','ideology'];
   const frameLabels = ['铁娘子框架','情感女性框架','外貌/身体框架','能力框架','意识形态框架'];
-  const leaders = ['高市早苗','勒庞'];
-  const datasets = leaders.map((l,i) => ({
-    label: l,
+  const leaderKeys = ['Takaichi','LePen'];
+  const leaderLabels = ['高市早苗','勒庞'];
+  const datasets = leaderKeys.map((l,i) => ({
+    label: leaderLabels[i],
     data: frameIds.map(fid => {
       const total = Object.values(C.gender_frames[l]?.[fid]?.counts_by_language || {}).reduce((s,v) => s+v.ratio, 0);
       return Math.round(total*10)/10;
@@ -1338,11 +1343,11 @@ function isDarkSection(el) {
   const ctx = document.getElementById('scatterCanvas');
   if (!ctx || !TM.monthly_sentiment) return;
   const datasets = [];
-  ['Takaichi-ZH','LePen-EN'].forEach(seg => {
+  ['Takaichi-JP','Takaichi-EN','Takaichi-ZH','LePen-EN','LePen-ZH'].forEach(seg => {
     const data = TM.monthly_sentiment[seg] || [];
     if (!data.length) return;
     datasets.push({
-      label: seg.startsWith('Takaichi') ? seg.replace('Takaichi','高市早苗').replace('-',' ') : seg.replace('LePen','勒庞').replace('-',' '),
+      label: {"Takaichi-JP":"高市早苗(日语)","Takaichi-EN":"高市早苗(英语)","Takaichi-ZH":"高市早苗(中文)","LePen-EN":"勒庞(英语)","LePen-ZH":"勒庞(中文)"}[seg]||seg,
       data: data.map(d => ({ x: d.total, y: d.neg_ratio })),
       backgroundColor: seg.startsWith('Takaichi') ? COLORS.takaichi+'99' : COLORS.lepen+'99',
       pointRadius: 4
@@ -1359,8 +1364,10 @@ function isDarkSection(el) {
   if (!el) return;
   const events = TM.known_events || [];
   if (!events.length) { el.innerHTML = '<p>暂无事件数据。</p>'; return; }
-  const segZh={"LePen-EN":"勒庞(英语)","LePen-ZH":"勒庞(中文)","Takaichi-JP":"高市早苗(日语)","Takaichi-EN":"高市早苗(英语)","Takaichi-ZH":"高市早苗(中文)"}; el.innerHTML = events.map(e => `<div style="margin-bottom:0.8rem; padding-left:1rem; border-left:2px solid ${COLORS.gold};">
-    <strong style="color:${COLORS.gold}">${e.date}</strong> — ${e.event}<br><span style="opacity:0.7">${segZh[e.segment]||e.segment}</span>
+  const segZh={"LePen-EN":"勒庞(英语)","LePen-ZH":"勒庞(中文)","Takaichi-JP":"高市早苗(日语)","Takaichi-EN":"高市早苗(英语)","Takaichi-ZH":"高市早苗(中文)"};
+  const eventZh={"French Presidential Election Runoff":"法国总统选举第二轮","European Parliament Elections":"欧洲议会选举","LDP Leadership Election":"自民党总裁选举","LDP Leadership Race / PM Campaign":"自民党总裁竞选 / 首相竞选","Regular Diet Session / Policy Debate":"例行国会 / 政策辩论","Embezzlement Trial Verdict":"挪用公款案判决"};
+  el.innerHTML = events.map(e => `<div style="margin-bottom:0.8rem; padding-left:1rem; border-left:2px solid ${COLORS.gold};">
+    <strong style="color:${COLORS.gold}">${e.date}</strong> — ${eventZh[e.event]||e.event}<br><span style="opacity:0.7">${segZh[e.segment]||e.segment}</span>
   </div>`).join('');
 })();
 
