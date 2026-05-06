@@ -262,7 +262,7 @@ nav .nav-links a:hover { color: var(--accent-gold); }
   margin: 0 auto;
 }
 .section-dark {
-  background: var(--bg-deep);
+  background: linear-gradient(165deg, #0f0f14 0%, #1a1a2e 50%, #1e1530 100%);
   color: var(--text-light);
 }
 .section-divider {
@@ -619,7 +619,7 @@ footer a { color: var(--accent-gold); text-decoration:none; }
 
   <!-- Row 3: Theory framework (full width) -->
   <div class="reveal" style="margin-top:2rem;">
-    <div class="card-dark" style="padding:2rem; border-radius:var(--radius);">
+    <div class="method-col card-dark" style="padding:2rem; border-radius:var(--radius);">
       <h3>理论框架</h3>
       <p>本研究综合运用女性主义政治传播理论与批判话语分析方法，构建多层次分析视角。</p>
       <ul>
@@ -821,7 +821,7 @@ footer a { color: var(--accent-gold); text-decoration:none; }
   </div>
   <div class="chart-container reveal" style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); margin-bottom:2rem;">
     <h3 style="color:#e8e4df;">讨论量 vs 负面情感（散点图）</h3>
-    <div style="height:320px;"><canvas id="scatterCanvas"></canvas></div>
+    <div style="height:400px; max-width:100%;"><canvas id="scatterCanvas"></canvas></div>
   </div>
   <div class="card-dark reveal" style="padding:2rem; border-radius:var(--radius); border:1px solid rgba(255,255,255,0.08);">
     <h3 style="color:#e8e4df; font-family:var(--font-heading); margin-bottom:1rem;">关键事件时间线</h3>
@@ -837,31 +837,46 @@ footer a { color: var(--accent-gold); text-decoration:none; }
   <h2 class="section-title reveal">讨论与结论</h2>
   <p class="section-subtitle reveal">理论启示、研究局限与未来方向</p>
 
+  <!-- Row 1: Key findings with data linkage -->
+  <div class="card reveal" style="padding:2rem; margin-bottom:2rem;">
+    <h3 style="font-family:var(--font-heading); margin-bottom:1.2rem; color:var(--accent-crimson);">核心发现与数据分析</h3>
+    <div style="font-size:0.9rem; color:var(--text-secondary); line-height:1.9;">
+      <p style="margin-bottom:1rem;"><strong>1. 地缘政治语境主导情感分布。</strong>本研究最突出的发现是中文社交媒体对高市早苗的负面情感比例高达62.5%（1,233条负面/1,974条总帖），远超日语（16.4%）和英语（21.8%）语境。卡方检验证实这一差异具有高度统计显著性（&chi;&sup2;=787.65, p&lt;0.001, Cramer's V=0.304）。相比之下，勒庞的中文数据集负面比例仅为16.0%，而英语数据集达36.1%。这说明中文社交媒体对高市早苗的负面态度并非普遍性的性别偏见，而是由中日地缘政治紧张关系所驱动的特殊现象。</p>
+
+      <p style="margin-bottom:1rem;"><strong>2. 性别框架的跨文化差异。</strong>两位领导人虽然都受到强烈的「铁娘子」框架化（高市：418条匹配帖，勒庞：548条），但主导框架存在显著分歧——高市早苗最突出的性别框架是「外貌/身体框架」（456条），而勒庞最突出的是「意识形态框架」（586条）。这意味着英语社交媒体倾向于从身体外观角度审视高市早苗作为女性政治人物的形象，而对勒庞则更多将其简化为极右翼意识形态符号。两者都受到「情感女性框架」的较少关注（分别为27条和20条），暗示在右翼政治语境中，这些女性领导人的情绪表现不是主要的媒体攻击点。</p>
+
+      <p style="margin-bottom:1rem;"><strong>3. 双重束缚的语境敏感性。</strong>双重束缚得分呈现出惊人的跨语境差异：勒庞的中文数据集得分最高（37.1%），即37.1%的负面帖子同时提及性别和领导力；而勒庞的英语数据集仅为2.4%，高市早苗的日语数据集为4.1%，中文数据集为3.6%。值得注意的是，高市早苗的英语数据集双重束缚得分为25.4%，显著高于其他高市语境。这表明双重束缚并非女性政治家的普遍体验，而是深刻依赖于文化语境——在中文社交媒体讨论勒庞时，性别与领导力议题的交叉尤为突出，可能反映了中文舆论场对西方女性政治人物的特殊关注框架。</p>
+
+      <p style="margin-bottom:1rem;"><strong>4. 女性民族主义话语的运用差异。</strong>勒庞相关的女性民族主义帖子（140条）远高于高市早苗（56条），这与勒庞长期以「保护法国女性」为名推动反伊斯兰、反移民政策的政治策略一致。值得注意的是，中文语境中勒庞的女性民族主义比例最高（9.4%），远超英语语境（3.1%），暗示中国社交媒体在传播勒庞反伊斯兰言论时较少进行批判性审视，反而可能将其作为特定叙事的工具。</p>
+
+      <p style="margin-bottom:1rem;"><strong>5. 讨论量与负面情感的动态关系。</strong>时间趋势分析揭示了一个关键模式：高市早苗中文数据集的讨论量与负面情感之间存在强正相关（r=0.854, p&lt;0.001），而日语数据集的相关性则较弱（r=0.457, p=0.037）。这意味着在中国社交媒体中，每当高市早苗成为讨论焦点——尤其是涉及参拜靖国神社、对华政策等敏感议题时——负面情感会随之显著放大。在日语语境中，讨论热度与情感极性的关联更为复杂，可能反映了日本国内对其政治立场更为多元的态度。</p>
+    </div>
+  </div>
+
   <div class="grid-2 reveal">
     <div class="card">
-      <h3 style="font-family:var(--font-heading); margin-bottom:1rem; color:var(--accent-crimson);">核心理论发现</h3>
+      <h3 style="font-family:var(--font-heading); margin-bottom:1rem; color:var(--accent-teal);">理论启示</h3>
       <ul style="padding-left:1.2rem; font-size:0.9rem; color:var(--text-secondary); line-height:1.8;">
-        <li><strong>地缘政治框架化：</strong> 中文社交媒体通过高度负面的视角描绘高市早苗（62.5%），反映的是更广泛的中日关系紧张而非纯粹的性别话语。</li>
-        <li><strong>「铁娘子」悖论：</strong> 两位领导人都受到强烈的「铁娘子」框架化，但勒庞同时被意识形态视角（极右翼极端主义）描绘，而高市早苗则面临更多外貌相关的评论。</li>
-        <li><strong>双重束缚的表现差异：</strong> 勒庞的中文报道显示出最高的双重束缚得分（37.1%），性别与领导力张力在此交织。高市早苗的英文报道的双重束缚得分（25.4%）也高于其他语境。</li>
-        <li><strong>女性民族主义：</strong> 勒庞的话语显示出更强的女性民族主义指标，与其挪用女性权利为反移民立场服务的策略一致。</li>
-        <li><strong>时间动态：</strong> 讨论量与高市早苗（中文）的负面情感强相关（r=0.854），表明在中国媒体中，关注度升高会放大负面情绪。</li>
+        <li><strong>交叉性视角的必要性：</strong>本研究证实，单一维度（性别或政治立场）的分析不足以理解媒体对女性政治人物的再现。高市早苗在中文语境中62.5%的负面情感并非纯粹的性别歧视，而是地缘政治、民族主义与性别偏见的多重交织。正如 Crenshaw (1989) 所指出的，交叉性身份产生的压迫并非各维度简单叠加，而是产生了独特的、不可化约的体验。</li>
+        <li><strong>双重束缚理论的文化调节：</strong>Eagly &amp; Karau (2002) 的角色一致性理论需要纳入文化语境变量。勒庞在法语语境中面临的性别-领导力冲突（2.4%）远低于中文语境（37.1%），表明双重束缚的强度不仅取决于领导人的性别和行为，更取决于受众的文化预期和媒体框架。</li>
+        <li><strong>Femonationalism 作为话语策略：</strong>Farris (2017) 提出的女性民族主义概念在本研究中得到了数据支持——勒庞的社交媒体讨论中频繁出现以女性权利为包装的反移民话语（140条匹配帖），且这一话语在不同语言语境中的接受程度存在显著差异，反映了女性民族主义在全球传播中的适应性变异。</li>
+        <li><strong>性别框架的跨文化通用性：</strong>Goffman (1974) 的框架分析揭示了五种性别框架在不同语言和文化语境中的普遍存在，但其主导模式存在显著差异——中文语境偏重意识形态框架，英语语境偏重外貌/身体框架，日语语境则更为多元化。</li>
       </ul>
     </div>
     <div class="card">
       <h3 style="font-family:var(--font-heading); margin-bottom:1rem; color:var(--accent-gold);">研究局限与未来方向</h3>
       <ul style="padding-left:1.2rem; font-size:0.9rem; color:var(--text-secondary); line-height:1.8;">
-        <li><strong>AI标注：</strong> 情感和情绪标签由AI生成，可能在非英文文本中引入系统性偏差。</li>
-        <li><strong>平台偏差：</strong> 每个数据集每个平台最多500条帖子，可能遗漏长尾讨论。</li>
-        <li><strong>缺少男性对照组：</strong> 没有男性右翼领导人作为对照，无法将性别效应与一般党派负面情绪区分。</li>
-        <li><strong>时间覆盖不足：</strong> 部分数据集在早期年份（2017-2023）覆盖不足。</li>
-        <li><strong>未来方向：</strong> 纳入梅洛尼和韦德尔以扩大比较范围；加入图像分析以研究视觉框架；对AI标注进行人工编码验证。</li>
+        <li><strong>AI标注偏差：</strong>情感和情绪标签由AI模型生成，在非英文文本（尤其是日语和中文）中可能引入系统性分类偏差。不同语言的文化表达习惯（如日语的含蓄表达 vs 英语的直接表达）可能导致情感判断的不一致。未来研究应引入人工编码验证，建立AI标注与人工判断之间的校准基线。</li>
+        <li><strong>平台采样偏差：</strong>每个数据集每个平台最多抽取500条帖子，虽保证了跨平台的可比性，但可能遗漏了重要的长尾讨论。Twitter/X 在数据集中占主导地位，而 Facebook、Instagram 等平台的样本量较小，限制了跨平台比较的统计效力。</li>
+        <li><strong>缺少男性对照组：</strong>没有纳入男性右翼领导人（如马琳·勒庞之父让-玛丽·勒庞、日本的安倍晋三等）作为对照，因此无法将观察到的性别化框架效应与一般性的党派负面情绪完全区分。加入男性对照组将是未来研究提升内部效度的关键步骤。</li>
+        <li><strong>时间覆盖不均：</strong>部分数据集在早期年份（2017-2023）的帖子数量有限（如高市早苗日语数据集仅有452条），时间序列分析的稳定性因此受限。数据在2024-2025年的集中可能导致对近期事件的过度权重。</li>
+        <li><strong>未来方向：</strong>(1) 纳入意大利总理梅洛尼和德国选择党领导人韦德尔，将比较范围扩展至更多右翼女性领导人；(2) 加入图像和视频分析，研究视觉框架（如照片角度、表情捕捉）如何与文本框架互补或矛盾；(3) 进行跨时间段的纵向对比，追踪同一位领导人在不同政治周期中的媒体形象演变；(4) 结合受众反应数据（点赞、转发、评论情感），分析性别化框架对公众态度的实际影响。</li>
       </ul>
     </div>
   </div>
 
   <div class="pull-quote reveal" style="margin-top:2rem;">
-    右翼女性领导人的媒体形象并非一成不变——它深刻地受到话语发生的语言、文化和地缘政治语境的影响。理解这些差异对于进行细致的性别化政治传播分析至关重要。
+    右翼女性领导人的媒体形象并非一成不变——它深刻地受到话语发生的语言、文化和地缘政治语境的影响。本研究的跨文化比较分析表明，同一领导人在不同语言语境中的媒体再现可以截然不同：高市早苗在日语语境中被正面讨论（39.8%正面），而在中文语境中则遭遇压倒性负面评价（62.5%负面）。理解这些差异，对于推动更加细致的性别化政治传播研究至关重要。
   </div>
 </section>
 
@@ -1418,7 +1433,7 @@ function isDarkSection(el) {
       pointRadius: 4
     });
   });
-  new Chart(ctx, { type:'scatter', data:{ datasets }, options:{ responsive:true, plugins:{legend:{position:'bottom',labels:{boxWidth:12}}}, scales:{ x:{title:{display:true,text:'月度帖子量'}}, y:{title:{display:true,text:'负面比例'}} } } });
+  new Chart(ctx, { type:'scatter', data:{ datasets }, options:{ responsive:true, maintainAspectRatio:false, plugins:{legend:{position:'bottom',labels:{boxWidth:12}}}, scales:{ x:{title:{display:true,text:'月度帖子量'}}, y:{title:{display:true,text:'负面比例'}} } } });
 })();
 
 // ============================
@@ -1431,7 +1446,7 @@ function isDarkSection(el) {
   if (!events.length) { el.innerHTML = '<p>暂无事件数据。</p>'; return; }
   const segZh={"LePen-EN":"勒庞(英语)","LePen-ZH":"勒庞(中文)","Takaichi-JP":"高市早苗(日语)","Takaichi-EN":"高市早苗(英语)","Takaichi-ZH":"高市早苗(中文)"};
   const eventZh={"French Presidential Election Runoff":"法国总统选举第二轮","European Parliament Elections":"欧洲议会选举","LDP Leadership Election":"自民党总裁选举","LDP Leadership Race / PM Campaign":"自民党总裁竞选 / 首相竞选","Regular Diet Session / Policy Debate":"例行国会 / 政策辩论","Embezzlement Trial Verdict":"挪用公款案判决"};
-  const eventDesc={"French Presidential Election Runoff":"玛丽娜·勒庞在2022年法国总统选举第二轮中挑战马克龙，虽最终败选但获得41.5%选票，创下国民联盟历史最佳成绩。社交媒体讨论聚焦其极右政策立场、女性领导力表现及性别化报道框架。","European Parliament Elections":"2024年欧洲议会选举中，勒庞领导的国民联盟在法国获得压倒性胜利，引发关于右翼女性领导人如何利用反移民和民族主义议程扩大影响力的广泛讨论。","LDP Leadership Election":"2024年9月自民党总裁选举中，高市早苗作为热门候选人参选，主张经济改革和安全保障强化。日语社交媒体围绕其保守政策立场和作为女性政治家在自民党内的独特地位展开激烈讨论。","LDP Leadership Race / PM Campaign":"高市早苗在2024年10月自民党总裁竞选期间积极争取首相职位，中文社交媒体关注其对中国政策的强硬立场、参拜靖国神社等敏感议题，负面情感显著升高。","Regular Diet Session / Policy Debate":"2025年1月例行国会召开，高市早苗作为内阁成员参与政策辩论和预算审议，日语社交媒体关注其在安保、经济等议题上的政策主张及其作为女性政治人物的表现。","Embezzlement Trial Verdict":"2025年3月，勒庞因涉嫌挪用欧盟公款被巴黎法院裁定有罪，此案直接关系到其政治前途和竞选资格。英语社交媒体围绕司法公正性、政治迫害指控以及媒体对女性政治人物的道德审判展开讨论。"};
+  const eventDesc={"French Presidential Election Runoff":"2022年4月，玛丽娜·勒庞在法国总统选举第二轮中挑战现任总统马克龙。尽管最终以41.5%对58.5%落败，这一得票率仍创下法国极右翼政党历史最佳成绩，标志着国民联盟从边缘政党向主流政治力量的转型。勒庞在竞选中尝试软化反移民立场，聚焦生活成本和购买力等经济议题——这一'去极端化'策略使其在女性和年轻选民中支持率提升。英语社交媒体讨论聚焦其极右政策立场与女性领导力表现之间的张力；中文用户更多从国际政治视角报道选举结果。","European Parliament Elections":"2024年6月欧洲议会选举成为勒庞政治生涯的又一里程碑——国民联盟在法国获超31%选票，远超执政联盟。此胜利巩固了勒庞在法国政坛的核心地位，也引发全欧洲关于右翼民粹主义崛起的广泛讨论。英语讨论聚焦其对欧盟一体化的潜在冲击、反移民政策主张及女性民族主义话语的运用——勒庞频繁以'保护欧洲女性'为名包装反伊斯兰立场。中文讨论则更多关注选举结果对中欧关系的潜在影响。","LDP Leadership Election":"2024年9月27日，高市早苗参加自民党总裁选举。在因岸田文雄宣布不连任而引发的激烈竞争中，高市作为保守派代表参选，主张修改宪法第九条、强化防卫力量、推进经济安保立法。她在首轮投票中获181票领先，但因未过半数进入决胜轮，最终以194票对215票惜败于石破茂。日语社交媒体反应强烈——支持者称其为'日本的铁娘子'，认为败选反映自民党内部对女性领导人的抵触；批评者质疑其强硬保守立场的可行性。作为自民党历史上最接近首相职位的女性，这次选举使高市早苗的政治影响力达到新高度。","LDP Leadership Race / PM Campaign":"2024年10月，高市早苗在自民党总裁竞选决胜阶段积极争取首相职位。中文社交媒体关注度在此期间急剧上升——讨论集中于她对中国政策的强硬立场（主张强化日美同盟对抗中国在亚太地区军事扩张）、其参拜靖国神社的历史争议，以及作为安倍晋三'精神继承人'的政治定位。数据显示中文数据集的负面情感比例在此期间飙升至最高点，讨论量与负面情感呈强正相关（r=0.854），反映中国社交媒体在报道高市早苗时深受中日地缘政治紧张关系影响，媒体报道框架以意识形态批判为主。","Regular Diet Session / Policy Debate":"2025年1月，日本第217例行国会开幕，高市早苗作为石破茂内阁中重要保守派力量参与政策辩论。她在预算委员会中就防卫费增额、经济安全保障推进法案及对华政策等议题发表强硬主张，主张将防卫费提升至GDP的2%以上。日语社交媒体关注其在国会辩论中的表现——支持者赞赏'不妥协的保守主义'立场，批评者认为其政策主张缺乏现实性。此期间性别框架主要体现在对其'铁娘子'形象的强化及对男性主导政治环境中沟通风格的讨论。","Embezzlement Trial Verdict":"2025年3月31日，巴黎刑事法院裁定玛丽娜·勒庞及多位国民联盟欧洲议会议员挪用公款罪名成立。勒庞被判四年监禁（两年缓刑）、罚款10万欧元，并被禁止五年内担任公职——意味着可能无法参加2027年总统选举。英语社交媒体围绕司法独立性、'司法武器化'争议及极右翼选民反应展开辩论；许多帖子将此案与特朗普法律困境类比，讨论'政治精英对民粹领袖的打压'叙事。女性主义视角讨论聚焦于勒庞作为女性政治家是否面临比男性同僚更严厉的道德审判和媒体审查。"};
   el.innerHTML = events.map(e => `<div style="margin-bottom:1.2rem; padding:1rem 1.2rem; background:rgba(255,255,255,0.03); border-radius:var(--radius); border-left:3px solid ${COLORS.gold};">
     <strong style="color:${COLORS.gold};">${e.date}</strong> — <span style="color:#e8e4df;">${eventZh[e.event]||e.event}</span>
     <span style="opacity:0.6; margin-left:0.8rem; font-size:0.8rem;">${segZh[e.segment]||e.segment}</span>
