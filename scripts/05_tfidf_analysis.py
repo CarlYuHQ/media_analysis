@@ -56,15 +56,29 @@ def clean_text(text):
 
 
 def tokenize_japanese(text):
-    """日文分词：字符级 + jieba混合"""
-    import jieba
-    # 对日文文本使用jieba（能处理汉字部分）
-    words = jieba.lcut(text)
-    # 过滤
-    words = [w.strip() for w in words if len(w.strip()) > 1]
-    words = [w for w in words if w not in JAPANESE_STOPWORDS]
-    # 额外过滤纯平假名单词（太短无意义）
-    words = [w for w in words if not (len(w) <= 2 and all('\u3040' <= c <= '\u309f' for c in w))]
+    """日文分词：使用fugashi（MeCab封装）"""
+    try:
+        import fugashi
+        tagger = fugashi.Tagger()
+    except ImportError:
+        import jieba
+        words = jieba.lcut(text)
+        words = [w.strip() for w in words if len(w.strip()) > 1]
+        words = [w for w in words if w not in JAPANESE_STOPWORDS]
+        return words
+
+    words = []
+    for word in tagger(text):
+        w = word.surface.strip()
+        if len(w) <= 1:
+            continue
+        if w in JAPANESE_STOPWORDS:
+            continue
+        # Get POS from fugashi feature (UnidicFeatures26 has pos1 attribute)
+        pos1 = getattr(word.feature, 'pos1', '') if word.feature else ''
+        if pos1 in ('名詞', '動詞', '形容詞', '副詞'):
+            if not (len(w) <= 2 and all('\u3040' <= c <= '\u309f' for c in w)):
+                words.append(w)
     return words
 
 
@@ -78,10 +92,9 @@ def tokenize_chinese(text):
 
 
 def tokenize_english(text):
-    """英文分词"""
-    from collections import Counter
+    """英文分词：仅保留纯ASCII英文单词"""
     words = text.lower().split()
-    words = [w for w in words if len(w) > 2 and w.isalpha() and w not in CHINESE_STOPWORDS]
+    words = [w for w in words if len(w) > 2 and w.isalpha() and w.isascii() and w not in CHINESE_STOPWORDS]
     return words
 
 

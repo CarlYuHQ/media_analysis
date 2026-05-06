@@ -63,12 +63,24 @@ def preprocess_texts(texts, language):
             words = jieba.lcut(text)
             words = [w.strip() for w in words if len(w.strip()) > 1 and w.strip() not in CHINESE_STOPWORDS]
         elif language == 'JP':
-            words = jieba.lcut(text)
-            words = [w.strip() for w in words if len(w.strip()) > 1 and w.strip() not in JAPANESE_STOPWORDS]
-            words = [w for w in words if not (len(w) <= 2 and all('\u3040' <= c <= '\u309f' for c in w))]
-        else:  # EN
+            try:
+                import fugashi
+                tagger = fugashi.Tagger()
+                words = []
+                for word in tagger(text):
+                    w = word.surface.strip()
+                    if len(w) <= 1 or w in JAPANESE_STOPWORDS:
+                        continue
+                    pos1 = getattr(word.feature, 'pos1', '') if word.feature else ''
+                    if pos1 in ('名詞', '動詞', '形容詞', '副詞'):
+                        if not (len(w) <= 2 and all('\u3040' <= c <= '\u309f' for c in w)):
+                            words.append(w)
+            except ImportError:
+                words = jieba.lcut(text)
+                words = [w.strip() for w in words if len(w.strip()) > 1 and w.strip() not in JAPANESE_STOPWORDS]
+        else:  # EN - only pure ASCII English words
             words = text.lower().split()
-            words = [w for w in words if len(w) > 2 and w.isalpha() and w not in CHINESE_STOPWORDS]
+            words = [w for w in words if len(w) > 2 and w.isalpha() and w.isascii() and w not in CHINESE_STOPWORDS]
 
         if words:
             processed.append(' '.join(words))
@@ -84,8 +96,7 @@ def run_topic_modeling(documents, n_topics=6, n_top_words=10):
     vectorizer = TfidfVectorizer(
         max_df=0.85,
         min_df=2,
-        max_features=5000,
-        stop_words='english'
+        max_features=5000
     )
 
     try:

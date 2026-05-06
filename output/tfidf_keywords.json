@@ -3,203 +3,203 @@
     "LePen-EN": [
       {
         "word": "pen",
-        "score": 0.0439
+        "score": 0.0616
       },
       {
         "word": "les",
-        "score": 0.0196
+        "score": 0.0274
       },
       {
         "word": "est",
-        "score": 0.015
+        "score": 0.0211
       },
       {
         "word": "des",
-        "score": 0.015
+        "score": 0.021
       },
       {
         "word": "pour",
-        "score": 0.0133
+        "score": 0.0187
       },
       {
         "word": "une",
-        "score": 0.0124
+        "score": 0.0174
       },
       {
         "word": "sur",
-        "score": 0.0116
+        "score": 0.0163
       },
       {
         "word": "qui",
-        "score": 0.0095
+        "score": 0.0133
       },
       {
         "word": "que",
-        "score": 0.0094
+        "score": 0.0132
       },
       {
         "word": "france",
-        "score": 0.0093
+        "score": 0.013
       },
       {
         "word": "pas",
-        "score": 0.0086
+        "score": 0.0121
       },
       {
         "word": "dans",
-        "score": 0.0084
+        "score": 0.0118
       },
       {
         "word": "macron",
-        "score": 0.0078
+        "score": 0.011
       },
       {
         "word": "avec",
-        "score": 0.0075
+        "score": 0.0106
       },
       {
         "word": "vous",
-        "score": 0.0072
+        "score": 0.0101
       },
       {
         "word": "bardella",
-        "score": 0.0072
-      },
-      {
-        "word": "收起d",
-        "score": 0.007
+        "score": 0.0101
       },
       {
         "word": "elle",
-        "score": 0.0061
+        "score": 0.0086
       },
       {
         "word": "jordan",
-        "score": 0.006
+        "score": 0.0084
       },
       {
         "word": "nous",
-        "score": 0.0055
+        "score": 0.0077
       },
       {
         "word": "par",
-        "score": 0.0054
+        "score": 0.0076
       },
       {
         "word": "son",
-        "score": 0.0054
+        "score": 0.0076
       },
       {
         "word": "emmanuel",
-        "score": 0.0049
+        "score": 0.0068
       },
       {
         "word": "national",
-        "score": 0.0046
+        "score": 0.0064
       },
       {
         "word": "plus",
-        "score": 0.0044
+        "score": 0.0062
       },
       {
         "word": "jean",
-        "score": 0.0038
+        "score": 0.0054
       },
       {
         "word": "politique",
-        "score": 0.0037
+        "score": 0.0052
       },
       {
         "word": "rassemblement",
-        "score": 0.0037
-      },
-      {
-        "word": "extrême",
-        "score": 0.0036
-      },
-      {
-        "word": "présidentielle",
-        "score": 0.0036
-      },
-      {
-        "word": "français",
-        "score": 0.0035
+        "score": 0.0051
       },
       {
         "word": "droite",
-        "score": 0.0035
+        "score": 0.0049
       },
       {
         "word": "aux",
-        "score": 0.0035
-      },
-      {
-        "word": "国民联盟",
-        "score": 0.0034
+        "score": 0.0049
       },
       {
         "word": "french",
-        "score": 0.0032
+        "score": 0.0046
       },
       {
         "word": "mais",
-        "score": 0.0032
+        "score": 0.0046
       },
       {
         "word": "comme",
-        "score": 0.0031
-      },
-      {
-        "word": "été",
-        "score": 0.0031
+        "score": 0.0043
       },
       {
         "word": "ses",
-        "score": 0.003
+        "score": 0.0042
       },
       {
         "word": "ans",
-        "score": 0.0029
+        "score": 0.004
       },
       {
         "word": "cette",
-        "score": 0.0028
+        "score": 0.004
       },
       {
         "word": "sont",
-        "score": 0.0026
+        "score": 0.0037
       },
       {
         "word": "europe",
-        "score": 0.0026
-      },
-      {
-        "word": "être",
-        "score": 0.0026
+        "score": 0.0036
       },
       {
         "word": "notre",
-        "score": 0.0025
+        "score": 0.0036
       },
       {
         "word": "contre",
-        "score": 0.0025
+        "score": 0.0035
       },
       {
         "word": "faire",
-        "score": 0.0025
-      },
-      {
-        "word": "procès",
-        "score": 0.0025
+        "score": 0.0034
       },
       {
         "word": "ont",
-        "score": 0.0024
+        "score": 0.0034
       },
       {
         "word": "orban",
-        "score": 0.0024
+        "score": 0.0034
+      },
+      {
+        "word": "trump",
+        "score": 0.0033
+      },
+      {
+        "word": "ils",
+        "score": 0.0029
+      },
+      {
+        "word": "viktor",
+        "score": 0.0029
+      },
+      {
+        "word": "face",
+        "score": 0.0028
+      },
+      {
+        "word": "nos",
+        "score": 0.0027
+      },
+      {
+        "word": "right",
+        "score": 0.0027
+      },
+      {
+        "word": "paris",
+        "score": 0.0026
+      },
+      {
+        "word": "quand",
+        "score": 0.0026
       }
     ],
     "LePen-ZH": [
@@ -209,11 +209,15 @@
       },
       {
         "word": "玛丽娜",
-        "score": 0.0245
+        "score": 0.0304
       },
       {
         "word": "总统",
         "score": 0.0154
+      },
+      {
+        "word": "极右翼",
+        "score": 0.0122
       },
       {
         "word": "马克",
@@ -240,16 +244,24 @@
         "score": 0.0089
       },
       {
-        "word": "极右翼",
-        "score": 0.0085
-      },
-      {
         "word": "判决",
         "score": 0.0078
       },
       {
         "word": "欧盟",
         "score": 0.0075
+      },
+      {
+        "word": "收起",
+        "score": 0.0074
+      },
+      {
+        "word": "参选",
+        "score": 0.0066
+      },
+      {
+        "word": "领导人",
+        "score": 0.0066
       },
       {
         "word": "政党",
@@ -268,10 +280,6 @@
         "score": 0.0063
       },
       {
-        "word": "收起",
-        "score": 0.0062
-      },
-      {
         "word": "欧洲议会",
         "score": 0.006
       },
@@ -284,10 +292,6 @@
         "score": 0.0054
       },
       {
-        "word": "参选",
-        "score": 0.0053
-      },
-      {
         "word": "上诉",
         "score": 0.0053
       },
@@ -296,15 +300,19 @@
         "score": 0.0052
       },
       {
+        "word": "特朗普",
+        "score": 0.0051
+      },
+      {
+        "word": "俄罗斯",
+        "score": 0.0048
+      },
+      {
         "word": "巴黎",
         "score": 0.0046
       },
       {
         "word": "挪用",
-        "score": 0.0046
-      },
-      {
-        "word": "领导人",
         "score": 0.0046
       },
       {
@@ -324,6 +332,10 @@
         "score": 0.0041
       },
       {
+        "word": "微博",
+        "score": 0.004
+      },
+      {
         "word": "Pen",
         "score": 0.004
       },
@@ -334,6 +346,10 @@
       {
         "word": "监禁",
         "score": 0.0039
+      },
+      {
+        "word": "候选人",
+        "score": 0.0038
       },
       {
         "word": "国家",
@@ -356,12 +372,12 @@
         "score": 0.0036
       },
       {
-        "word": "公职",
+        "word": "乌克兰",
         "score": 0.0036
       },
       {
-        "word": "特朗普",
-        "score": 0.0035
+        "word": "公职",
+        "score": 0.0036
       },
       {
         "word": "右翼",
@@ -369,10 +385,6 @@
       },
       {
         "word": "投票",
-        "score": 0.0034
-      },
-      {
-        "word": "俄罗斯",
         "score": 0.0034
       },
       {
@@ -384,428 +396,416 @@
         "score": 0.0034
       },
       {
-        "word": "微博",
-        "score": 0.0033
-      },
-      {
         "word": "正在",
         "score": 0.0033
       },
       {
         "word": "领袖",
         "score": 0.0032
-      },
-      {
-        "word": "视频",
-        "score": 0.0032
-      },
-      {
-        "word": "候选人",
-        "score": 0.0031
       }
     ],
     "Takaichi-EN": [
       {
         "word": "japan",
-        "score": 0.0357
+        "score": 0.0438
       },
       {
         "word": "minister",
-        "score": 0.0223
+        "score": 0.0273
       },
       {
         "word": "japanese",
-        "score": 0.0189
+        "score": 0.0232
       },
       {
         "word": "prime",
-        "score": 0.0181
+        "score": 0.0222
       },
       {
         "word": "trump",
-        "score": 0.0144
+        "score": 0.0177
       },
       {
         "word": "china",
-        "score": 0.0108
+        "score": 0.0132
       },
       {
         "word": "news",
-        "score": 0.0062
-      },
-      {
-        "word": "japón",
-        "score": 0.0058
+        "score": 0.0075
       },
       {
         "word": "taiwan",
-        "score": 0.0055
+        "score": 0.0068
       },
       {
         "word": "first",
-        "score": 0.0054
+        "score": 0.0066
       },
       {
         "word": "donald",
-        "score": 0.0051
-      },
-      {
-        "word": "收起d",
-        "score": 0.0048
+        "score": 0.0062
       },
       {
         "word": "president",
-        "score": 0.0045
+        "score": 0.0055
       },
       {
         "word": "que",
-        "score": 0.0044
+        "score": 0.0054
       },
       {
         "word": "female",
-        "score": 0.0041
+        "score": 0.005
       },
       {
         "word": "ministra",
-        "score": 0.004
+        "score": 0.0049
       },
       {
         "word": "tokyo",
-        "score": 0.0038
+        "score": 0.0046
       },
       {
         "word": "house",
-        "score": 0.0036
+        "score": 0.0044
       },
       {
         "word": "war",
-        "score": 0.0035
+        "score": 0.0043
       },
       {
         "word": "its",
-        "score": 0.0033
-      },
-      {
-        "word": "nhật",
-        "score": 0.0032
+        "score": 0.004
       },
       {
         "word": "world",
-        "score": 0.0032
+        "score": 0.0039
       },
       {
         "word": "pearl",
-        "score": 0.0031
+        "score": 0.0038
       },
       {
         "word": "primera",
-        "score": 0.0031
+        "score": 0.0038
       },
       {
         "word": "said",
-        "score": 0.003
-      },
-      {
-        "word": "thủ",
-        "score": 0.003
-      },
-      {
-        "word": "tướng",
-        "score": 0.0029
-      },
-      {
-        "word": "bản",
-        "score": 0.0029
+        "score": 0.0037
       },
       {
         "word": "harbor",
-        "score": 0.0029
+        "score": 0.0035
       },
       {
         "word": "you",
-        "score": 0.0028
+        "score": 0.0034
       },
       {
         "word": "jepang",
-        "score": 0.0028
+        "score": 0.0034
       },
       {
         "word": "new",
-        "score": 0.0026
+        "score": 0.0032
       },
       {
         "word": "ldp",
-        "score": 0.0025
+        "score": 0.0031
       },
       {
         "word": "del",
-        "score": 0.0025
+        "score": 0.0031
       },
       {
         "word": "party",
-        "score": 0.0025
+        "score": 0.0031
       },
       {
         "word": "meeting",
-        "score": 0.0025
+        "score": 0.003
       },
       {
         "word": "iran",
-        "score": 0.0024
+        "score": 0.003
       },
       {
         "word": "white",
-        "score": 0.0024
-      },
-      {
-        "word": "của",
-        "score": 0.0024
+        "score": 0.003
       },
       {
         "word": "foreign",
-        "score": 0.0023
+        "score": 0.0028
       },
       {
         "word": "security",
-        "score": 0.0023
+        "score": 0.0028
       },
       {
         "word": "para",
-        "score": 0.0023
+        "score": 0.0028
       },
       {
         "word": "chinese",
-        "score": 0.0023
-      },
-      {
-        "word": "quốc",
-        "score": 0.0022
+        "score": 0.0028
       },
       {
         "word": "los",
-        "score": 0.0022
+        "score": 0.0027
       },
       {
         "word": "por",
-        "score": 0.0022
-      },
-      {
-        "word": "việt",
-        "score": 0.0022
+        "score": 0.0027
       },
       {
         "word": "country",
-        "score": 0.0022
+        "score": 0.0027
       },
       {
         "word": "political",
-        "score": 0.0022
+        "score": 0.0027
       },
       {
         "word": "global",
-        "score": 0.0021
+        "score": 0.0026
+      },
+      {
+        "word": "asia",
+        "score": 0.0026
+      },
+      {
+        "word": "yang",
+        "score": 0.0026
+      },
+      {
+        "word": "leader",
+        "score": 0.0025
+      },
+      {
+        "word": "official",
+        "score": 0.0025
+      },
+      {
+        "word": "office",
+        "score": 0.0025
+      },
+      {
+        "word": "breaking",
+        "score": 0.0025
+      },
+      {
+        "word": "tin",
+        "score": 0.0024
+      },
+      {
+        "word": "his",
+        "score": 0.0024
+      },
+      {
+        "word": "also",
+        "score": 0.0024
       }
     ],
     "Takaichi-JP": [
       {
         "word": "日本",
-        "score": 0.035
+        "score": 0.0246
+      },
+      {
+        "word": "総理",
+        "score": 0.0196
+      },
+      {
+        "word": "さなえ",
+        "score": 0.0153
       },
       {
         "word": "首相",
-        "score": 0.0204
+        "score": 0.0144
       },
       {
-        "word": "大臣",
-        "score": 0.0164
+        "word": "チャンネル",
+        "score": 0.012
       },
       {
         "word": "動画",
-        "score": 0.0148
+        "score": 0.0114
       },
       {
-        "word": "中国",
-        "score": 0.0094
+        "word": "大臣",
+        "score": 0.0109
       },
       {
         "word": "政治",
-        "score": 0.0091
-      },
-      {
-        "word": "配信",
-        "score": 0.0091
-      },
-      {
-        "word": "ng",
         "score": 0.0088
       },
       {
-        "word": "公式",
-        "score": 0.0079
+        "word": "ニュース",
+        "score": 0.0085
       },
       {
-        "word": "政策",
-        "score": 0.0075
+        "word": "自民",
+        "score": 0.0077
       },
       {
-        "word": "NEWS",
+        "word": "トランプ",
+        "score": 0.0071
+      },
+      {
+        "word": "ください",
         "score": 0.0069
       },
       {
-        "word": "自民党",
-        "score": 0.0063
+        "word": "中国",
+        "score": 0.0065
       },
       {
-        "word": "大統領",
-        "score": 0.0063
+        "word": "願い",
+        "score": 0.0065
       },
       {
-        "word": "情報",
+        "word": "配信",
+        "score": 0.0061
+      },
+      {
+        "word": "経済",
         "score": 0.006
       },
       {
-        "word": "女性",
+        "word": "登録",
         "score": 0.0058
       },
       {
-        "word": "the",
-        "score": 0.0056
-      },
-      {
-        "word": "担当",
-        "score": 0.0055
-      },
-      {
-        "word": "Takaichi",
-        "score": 0.0055
-      },
-      {
-        "word": "問題",
-        "score": 0.0054
-      },
-      {
-        "word": "th",
-        "score": 0.0052
-      },
-      {
-        "word": "Sanae",
-        "score": 0.005
-      },
-      {
-        "word": "SNS",
-        "score": 0.005
-      },
-      {
-        "word": "TikTok",
-        "score": 0.005
-      },
-      {
-        "word": "TBS",
-        "score": 0.005
-      },
-      {
-        "word": "2025",
-        "score": 0.0049
-      },
-      {
-        "word": "10",
-        "score": 0.0049
-      },
-      {
-        "word": "安全",
-        "score": 0.0049
-      },
-      {
-        "word": "提供",
-        "score": 0.0049
-      },
-      {
-        "word": "議院",
-        "score": 0.0049
-      },
-      {
-        "word": "特典",
-        "score": 0.0049
-      },
-      {
-        "word": "投稿",
-        "score": 0.0048
-      },
-      {
-        "word": "国民",
-        "score": 0.0047
-      },
-      {
-        "word": "議員",
-        "score": 0.0047
-      },
-      {
-        "word": "世界",
-        "score": 0.0046
-      },
-      {
-        "word": "and",
-        "score": 0.0045
-      },
-      {
-        "word": "最新",
-        "score": 0.0044
+        "word": "大統領",
+        "score": 0.0057
       },
       {
         "word": "会談",
+        "score": 0.0057
+      },
+      {
+        "word": "テレビ",
+        "score": 0.0056
+      },
+      {
+        "word": "ござい",
+        "score": 0.0053
+      },
+      {
+        "word": "総裁",
+        "score": 0.0052
+      },
+      {
+        "word": "公式",
+        "score": 0.0052
+      },
+      {
+        "word": "政策",
+        "score": 0.0051
+      },
+      {
+        "word": "内閣",
+        "score": 0.0047
+      },
+      {
+        "word": "NEWS",
+        "score": 0.0047
+      },
+      {
+        "word": "発言",
+        "score": 0.0047
+      },
+      {
+        "word": "選挙",
+        "score": 0.0045
+      },
+      {
+        "word": "首脳",
         "score": 0.0044
       },
       {
-        "word": "英語",
+        "word": "情報",
+        "score": 0.0044
+      },
+      {
+        "word": "衆議",
+        "score": 0.0043
+      },
+      {
+        "word": "ひろゆき",
+        "score": 0.0043
+      },
+      {
+        "word": "議員",
         "score": 0.0042
       },
       {
-        "word": "場合",
+        "word": "ライブ",
         "score": 0.0041
       },
       {
-        "word": "映像",
+        "word": "日テレ",
         "score": 0.0041
       },
       {
-        "word": "Facebook",
+        "word": "報道",
+        "score": 0.0041
+      },
+      {
+        "word": "考え",
         "score": 0.004
       },
       {
-        "word": "保障",
-        "score": 0.0039
+        "word": "女性",
+        "score": 0.0038
       },
       {
-        "word": "基本",
+        "word": "the",
         "score": 0.0037
       },
       {
-        "word": "nh",
+        "word": "問題",
+        "score": 0.0037
+      },
+      {
+        "word": "担当",
         "score": 0.0036
       },
       {
-        "word": "台湾",
+        "word": "応援",
         "score": 0.0036
       },
       {
-        "word": "11",
+        "word": "視聴",
+        "score": 0.0036
+      },
+      {
+        "word": "Takaichi",
+        "score": 0.0036
+      },
+      {
+        "word": "コメント",
         "score": 0.0034
       },
       {
-        "word": "Instagram",
-        "score": 0.0034
-      },
-      {
-        "word": "00",
-        "score": 0.0034
-      },
-      {
-        "word": "Jepang",
+        "word": "Sanae",
         "score": 0.0033
       },
       {
-        "word": "新聞",
+        "word": "SNS",
         "score": 0.0033
+      },
+      {
+        "word": "TikTok",
+        "score": 0.0033
+      },
+      {
+        "word": "TBS",
+        "score": 0.0033
+      },
+      {
+        "word": "2025",
+        "score": 0.0032
       }
     ],
     "Takaichi-ZH": [
@@ -822,7 +822,15 @@
         "score": 0.01
       },
       {
+        "word": "自民党",
+        "score": 0.0074
+      },
+      {
         "word": "動画",
+        "score": 0.0067
+      },
+      {
+        "word": "收起",
         "score": 0.0067
       },
       {
@@ -834,12 +842,12 @@
         "score": 0.0061
       },
       {
-        "word": "视频",
+        "word": "微博",
         "score": 0.0056
       },
       {
-        "word": "收起",
-        "score": 0.0055
+        "word": "视频",
+        "score": 0.0056
       },
       {
         "word": "大臣",
@@ -850,16 +858,12 @@
         "score": 0.0053
       },
       {
-        "word": "自民党",
-        "score": 0.0051
+        "word": "特朗普",
+        "score": 0.0053
       },
       {
         "word": "国家",
         "score": 0.0049
-      },
-      {
-        "word": "微博",
-        "score": 0.0047
       },
       {
         "word": "世界",
@@ -872,10 +876,6 @@
       {
         "word": "憲法",
         "score": 0.0038
-      },
-      {
-        "word": "特朗普",
-        "score": 0.0037
       },
       {
         "word": "安全",
@@ -902,6 +902,10 @@
         "score": 0.0031
       },
       {
+        "word": "日本首相",
+        "score": 0.003
+      },
+      {
         "word": "政府",
         "score": 0.0029
       },
@@ -922,6 +926,14 @@
         "score": 0.0024
       },
       {
+        "word": "不是",
+        "score": 0.0024
+      },
+      {
+        "word": "重要",
+        "score": 0.0022
+      },
+      {
         "word": "女性",
         "score": 0.0022
       },
@@ -930,15 +942,15 @@
         "score": 0.0021
       },
       {
+        "word": "政治家",
+        "score": 0.0021
+      },
+      {
         "word": "内容",
         "score": 0.0021
       },
       {
         "word": "投稿",
-        "score": 0.0021
-      },
-      {
-        "word": "日本首相",
         "score": 0.0021
       },
       {
@@ -966,10 +978,6 @@
         "score": 0.002
       },
       {
-        "word": "不是",
-        "score": 0.002
-      },
-      {
         "word": "教会",
         "score": 0.0019
       },
@@ -982,8 +990,8 @@
         "score": 0.0019
       },
       {
-        "word": "重要",
-        "score": 0.0018
+        "word": "日本政府",
+        "score": 0.0019
       },
       {
         "word": "社会",
@@ -1000,14 +1008,6 @@
       {
         "word": "表示",
         "score": 0.0018
-      },
-      {
-        "word": "引用",
-        "score": 0.0018
-      },
-      {
-        "word": "自由",
-        "score": 0.0017
       }
     ]
   },
@@ -1015,607 +1015,607 @@
     "LePen-EN-negative": [
       {
         "word": "pen",
-        "score": 0.0558
+        "score": 0.0749
       },
       {
         "word": "est",
-        "score": 0.0246
+        "score": 0.033
       },
       {
         "word": "les",
-        "score": 0.0237
+        "score": 0.0318
       },
       {
         "word": "des",
-        "score": 0.0194
+        "score": 0.026
       },
       {
         "word": "pour",
-        "score": 0.0181
+        "score": 0.0242
       },
       {
         "word": "que",
-        "score": 0.0157
+        "score": 0.021
       },
       {
         "word": "une",
-        "score": 0.0152
+        "score": 0.0204
       },
       {
         "word": "pas",
-        "score": 0.0137
+        "score": 0.0184
       },
       {
         "word": "qui",
-        "score": 0.0134
+        "score": 0.018
       },
       {
         "word": "avec",
-        "score": 0.0128
+        "score": 0.0172
       },
       {
         "word": "dans",
-        "score": 0.0103
+        "score": 0.0138
       },
       {
         "word": "sur",
-        "score": 0.0103
+        "score": 0.0137
       },
       {
         "word": "vous",
-        "score": 0.0095
+        "score": 0.0127
       },
       {
         "word": "bardella",
-        "score": 0.0089
+        "score": 0.0119
       },
       {
         "word": "elle",
-        "score": 0.0081
+        "score": 0.0109
       },
       {
         "word": "par",
-        "score": 0.008
+        "score": 0.0108
       },
       {
         "word": "france",
-        "score": 0.008
+        "score": 0.0107
       },
       {
         "word": "son",
-        "score": 0.0079
+        "score": 0.0106
       },
       {
         "word": "droite",
-        "score": 0.0074
-      },
-      {
-        "word": "extrême",
-        "score": 0.0074
+        "score": 0.0099
       },
       {
         "word": "nous",
-        "score": 0.0066
+        "score": 0.0088
       },
       {
         "word": "ans",
-        "score": 0.0064
+        "score": 0.0086
       },
       {
         "word": "jordan",
-        "score": 0.0063
-      },
-      {
-        "word": "收起d",
-        "score": 0.0061
+        "score": 0.0085
       },
       {
         "word": "orban",
-        "score": 0.006
+        "score": 0.0081
       },
       {
         "word": "plus",
-        "score": 0.0059
+        "score": 0.008
       },
       {
         "word": "mais",
-        "score": 0.0053
+        "score": 0.0071
       },
       {
         "word": "macron",
-        "score": 0.0053
+        "score": 0.0071
       },
       {
         "word": "comme",
-        "score": 0.0046
+        "score": 0.0062
       },
       {
         "word": "faire",
-        "score": 0.0045
+        "score": 0.0061
       },
       {
         "word": "national",
-        "score": 0.0043
+        "score": 0.0057
       },
       {
         "word": "politique",
-        "score": 0.0042
-      },
-      {
-        "word": "été",
-        "score": 0.0042
+        "score": 0.0057
       },
       {
         "word": "viktor",
-        "score": 0.0042
+        "score": 0.0056
       },
       {
         "word": "trump",
-        "score": 0.0041
+        "score": 0.0056
       },
       {
         "word": "fonds",
-        "score": 0.0041
-      },
-      {
-        "word": "même",
-        "score": 0.004
+        "score": 0.0055
       },
       {
         "word": "paris",
-        "score": 0.004
+        "score": 0.0053
       },
       {
         "word": "quand",
-        "score": 0.0039
-      },
-      {
-        "word": "orbán",
-        "score": 0.0039
-      },
-      {
-        "word": "était",
-        "score": 0.0039
+        "score": 0.0052
       },
       {
         "word": "ils",
-        "score": 0.0038
+        "score": 0.0051
       },
       {
         "word": "contre",
-        "score": 0.0037
+        "score": 0.005
       },
       {
         "word": "ont",
-        "score": 0.0037
+        "score": 0.0049
       },
       {
         "word": "emmanuel",
-        "score": 0.0036
+        "score": 0.0048
       },
       {
         "word": "aux",
-        "score": 0.0036
+        "score": 0.0048
       },
       {
         "word": "patrons",
-        "score": 0.0035
+        "score": 0.0048
       },
       {
         "word": "cette",
-        "score": 0.0035
+        "score": 0.0047
       },
       {
         "word": "jean",
-        "score": 0.0035
+        "score": 0.0047
       },
       {
         "word": "rassemblement",
-        "score": 0.0034
+        "score": 0.0046
+      },
+      {
+        "word": "sont",
+        "score": 0.0046
+      },
+      {
+        "word": "french",
+        "score": 0.0045
+      },
+      {
+        "word": "ses",
+        "score": 0.0043
+      },
+      {
+        "word": "publics",
+        "score": 0.0041
+      },
+      {
+        "word": "avait",
+        "score": 0.0039
+      },
+      {
+        "word": "parti",
+        "score": 0.0038
       }
     ],
     "LePen-EN-neutral": [
       {
         "word": "pen",
-        "score": 0.0582
+        "score": 0.0925
       },
       {
         "word": "les",
-        "score": 0.0165
+        "score": 0.0262
       },
       {
         "word": "sur",
-        "score": 0.0155
+        "score": 0.0246
       },
       {
         "word": "macron",
-        "score": 0.0133
+        "score": 0.0211
       },
       {
         "word": "des",
-        "score": 0.0129
-      },
-      {
-        "word": "收起d",
-        "score": 0.0117
+        "score": 0.0205
       },
       {
         "word": "pour",
-        "score": 0.0113
+        "score": 0.0179
       },
       {
         "word": "une",
-        "score": 0.0111
+        "score": 0.0176
       },
       {
         "word": "est",
-        "score": 0.0108
+        "score": 0.0172
       },
       {
         "word": "emmanuel",
-        "score": 0.0096
+        "score": 0.0152
       },
       {
         "word": "bardella",
-        "score": 0.0085
+        "score": 0.0135
       },
       {
         "word": "france",
-        "score": 0.0084
+        "score": 0.0133
       },
       {
         "word": "dans",
-        "score": 0.0083
+        "score": 0.0131
       },
       {
         "word": "avec",
-        "score": 0.0078
+        "score": 0.0124
       },
       {
         "word": "jordan",
-        "score": 0.0073
+        "score": 0.0116
       },
       {
         "word": "vous",
-        "score": 0.0071
+        "score": 0.0112
       },
       {
         "word": "national",
-        "score": 0.0068
-      },
-      {
-        "word": "国民联盟",
-        "score": 0.0068
+        "score": 0.0108
       },
       {
         "word": "que",
-        "score": 0.0067
+        "score": 0.0106
       },
       {
         "word": "pas",
-        "score": 0.0066
-      },
-      {
-        "word": "présidentielle",
-        "score": 0.0062
+        "score": 0.0105
       },
       {
         "word": "jean",
-        "score": 0.0062
+        "score": 0.0099
       },
       {
         "word": "elle",
-        "score": 0.0062
+        "score": 0.0099
       },
       {
         "word": "son",
-        "score": 0.0053
+        "score": 0.0083
       },
       {
         "word": "qui",
-        "score": 0.0053
+        "score": 0.0083
       },
       {
         "word": "rassemblement",
-        "score": 0.0051
+        "score": 0.008
       },
       {
         "word": "par",
-        "score": 0.0048
-      },
-      {
-        "word": "actualité",
-        "score": 0.0044
+        "score": 0.0076
       },
       {
         "word": "nous",
-        "score": 0.0043
+        "score": 0.0068
       },
       {
         "word": "politique",
-        "score": 0.0041
-      },
-      {
-        "word": "procès",
-        "score": 0.004
+        "score": 0.0065
       },
       {
         "word": "canteloup",
-        "score": 0.004
-      },
-      {
-        "word": "o网页链接",
-        "score": 0.004
-      },
-      {
-        "word": "马克龙",
-        "score": 0.0039
+        "score": 0.0064
       },
       {
         "word": "plus",
-        "score": 0.0039
-      },
-      {
-        "word": "élection",
-        "score": 0.0037
+        "score": 0.0061
       },
       {
         "word": "french",
-        "score": 0.0035
-      },
-      {
-        "word": "été",
-        "score": 0.0034
+        "score": 0.0056
       },
       {
         "word": "europe",
-        "score": 0.0033
+        "score": 0.0052
       },
       {
         "word": "right",
-        "score": 0.0033
+        "score": 0.0052
       },
       {
         "word": "ses",
-        "score": 0.0033
+        "score": 0.0052
       },
       {
         "word": "aux",
-        "score": 0.0032
-      },
-      {
-        "word": "inéligibilité",
-        "score": 0.0032
-      },
-      {
-        "word": "français",
-        "score": 0.0032
+        "score": 0.0052
       },
       {
         "word": "cette",
-        "score": 0.0032
+        "score": 0.0051
       },
       {
         "word": "instagram",
-        "score": 0.0031
+        "score": 0.0048
       },
       {
         "word": "far",
-        "score": 0.0031
+        "score": 0.0048
       },
       {
         "word": "face",
-        "score": 0.003
+        "score": 0.0048
       },
       {
         "word": "appel",
-        "score": 0.003
+        "score": 0.0047
       },
       {
         "word": "sont",
-        "score": 0.0029
+        "score": 0.0046
+      },
+      {
+        "word": "mais",
+        "score": 0.0046
+      },
+      {
+        "word": "droite",
+        "score": 0.0045
+      },
+      {
+        "word": "suivez",
+        "score": 0.0042
+      },
+      {
+        "word": "imite",
+        "score": 0.0041
+      },
+      {
+        "word": "affaire",
+        "score": 0.0041
+      },
+      {
+        "word": "contre",
+        "score": 0.0041
+      },
+      {
+        "word": "luc",
+        "score": 0.0041
+      },
+      {
+        "word": "facebook",
+        "score": 0.0039
+      },
+      {
+        "word": "parti",
+        "score": 0.0038
+      },
+      {
+        "word": "tour",
+        "score": 0.0038
+      },
+      {
+        "word": "premier",
+        "score": 0.0036
       }
     ],
     "LePen-EN-positive": [
       {
         "word": "pen",
-        "score": 0.057
+        "score": 0.0704
       },
       {
         "word": "les",
-        "score": 0.0222
+        "score": 0.0275
       },
       {
         "word": "france",
-        "score": 0.02
+        "score": 0.0247
       },
       {
         "word": "des",
-        "score": 0.0195
+        "score": 0.0241
       },
       {
         "word": "une",
-        "score": 0.017
+        "score": 0.021
       },
       {
         "word": "pour",
-        "score": 0.0163
+        "score": 0.0202
       },
       {
         "word": "qui",
-        "score": 0.0157
+        "score": 0.0194
       },
       {
         "word": "est",
-        "score": 0.0151
+        "score": 0.0187
       },
       {
         "word": "que",
-        "score": 0.0145
+        "score": 0.0179
       },
       {
         "word": "sur",
-        "score": 0.013
+        "score": 0.0161
       },
       {
         "word": "nous",
-        "score": 0.0129
+        "score": 0.016
       },
       {
         "word": "dans",
-        "score": 0.0101
+        "score": 0.0125
       },
       {
         "word": "vous",
-        "score": 0.0092
+        "score": 0.0113
       },
       {
         "word": "pas",
-        "score": 0.0088
+        "score": 0.0109
       },
       {
         "word": "avec",
-        "score": 0.0086
+        "score": 0.0106
       },
       {
         "word": "macron",
-        "score": 0.0081
-      },
-      {
-        "word": "français",
-        "score": 0.0074
+        "score": 0.01
       },
       {
         "word": "aux",
-        "score": 0.0069
+        "score": 0.0086
       },
       {
         "word": "jordan",
-        "score": 0.0068
+        "score": 0.0084
       },
       {
         "word": "mosques",
-        "score": 0.0066
+        "score": 0.0081
       },
       {
         "word": "bardella",
-        "score": 0.0065
+        "score": 0.008
       },
       {
         "word": "elle",
-        "score": 0.0061
+        "score": 0.0076
       },
       {
         "word": "rassemblement",
-        "score": 0.006
+        "score": 0.0075
       },
       {
         "word": "notre",
-        "score": 0.006
+        "score": 0.0074
       },
       {
         "word": "national",
-        "score": 0.0058
+        "score": 0.0072
       },
       {
         "word": "plus",
-        "score": 0.0053
+        "score": 0.0065
       },
       {
         "word": "par",
-        "score": 0.0052
+        "score": 0.0064
       },
       {
         "word": "french",
-        "score": 0.005
+        "score": 0.0062
       },
       {
         "word": "expelled",
-        "score": 0.0046
-      },
-      {
-        "word": "été",
-        "score": 0.0046
+        "score": 0.0057
       },
       {
         "word": "francia",
-        "score": 0.0046
+        "score": 0.0056
       },
       {
         "word": "son",
-        "score": 0.0045
+        "score": 0.0056
       },
       {
         "word": "comme",
-        "score": 0.0044
+        "score": 0.0054
       },
       {
         "word": "radical",
-        "score": 0.0043
-      },
-      {
-        "word": "être",
-        "score": 0.0042
+        "score": 0.0053
       },
       {
         "word": "ont",
-        "score": 0.0042
+        "score": 0.0052
       },
       {
         "word": "brotherhood",
-        "score": 0.0042
+        "score": 0.0052
       },
       {
         "word": "politique",
-        "score": 0.0042
+        "score": 0.0052
       },
       {
         "word": "gauche",
-        "score": 0.0041
+        "score": 0.005
       },
       {
         "word": "union",
-        "score": 0.004
+        "score": 0.005
       },
       {
         "word": "ils",
-        "score": 0.0038
+        "score": 0.0047
       },
       {
         "word": "wake",
-        "score": 0.0038
+        "score": 0.0047
       },
       {
         "word": "cette",
-        "score": 0.0038
+        "score": 0.0047
       },
       {
         "word": "avait",
-        "score": 0.0037
+        "score": 0.0046
       },
       {
         "word": "ses",
-        "score": 0.0036
+        "score": 0.0045
       },
       {
         "word": "los",
-        "score": 0.0036
+        "score": 0.0045
       },
       {
         "word": "muslim",
-        "score": 0.0035
+        "score": 0.0044
       },
       {
         "word": "gouvernement",
-        "score": 0.0035
-      },
-      {
-        "word": "assemblée",
-        "score": 0.0034
+        "score": 0.0043
       },
       {
         "word": "contre",
-        "score": 0.0034
+        "score": 0.0042
+      },
+      {
+        "word": "faire",
+        "score": 0.0042
+      },
+      {
+        "word": "down",
+        "score": 0.0042
+      },
+      {
+        "word": "nos",
+        "score": 0.0041
+      },
+      {
+        "word": "mass",
+        "score": 0.004
       }
     ],
     "LePen-ZH-negative": [
@@ -1625,7 +1625,11 @@
       },
       {
         "word": "玛丽娜",
-        "score": 0.0255
+        "score": 0.0334
+      },
+      {
+        "word": "极右翼",
+        "score": 0.0197
       },
       {
         "word": "联盟",
@@ -1634,10 +1638,6 @@
       {
         "word": "总统",
         "score": 0.0168
-      },
-      {
-        "word": "极右翼",
-        "score": 0.0157
       },
       {
         "word": "国民",
@@ -1676,6 +1676,10 @@
         "score": 0.011
       },
       {
+        "word": "收起",
+        "score": 0.0103
+      },
+      {
         "word": "挪用",
         "score": 0.0101
       },
@@ -1686,6 +1690,10 @@
       {
         "word": "被判",
         "score": 0.0091
+      },
+      {
+        "word": "参选",
+        "score": 0.009
       },
       {
         "word": "禁止",
@@ -1700,16 +1708,16 @@
         "score": 0.0086
       },
       {
-        "word": "收起",
-        "score": 0.0083
+        "word": "微博",
+        "score": 0.0086
+      },
+      {
+        "word": "领导人",
+        "score": 0.0084
       },
       {
         "word": "巴黎",
         "score": 0.0082
-      },
-      {
-        "word": "微博",
-        "score": 0.0079
       },
       {
         "word": "判处",
@@ -1728,11 +1736,7 @@
         "score": 0.0077
       },
       {
-        "word": "参加",
-        "score": 0.0076
-      },
-      {
-        "word": "参选",
+        "word": "俄罗斯",
         "score": 0.0074
       },
       {
@@ -1744,8 +1748,8 @@
         "score": 0.0072
       },
       {
-        "word": "领导人",
-        "score": 0.0068
+        "word": "参加",
+        "score": 0.0071
       },
       {
         "word": "公职",
@@ -1760,12 +1764,12 @@
         "score": 0.0065
       },
       {
-        "word": "俄罗斯",
-        "score": 0.0064
-      },
-      {
         "word": "议员",
         "score": 0.0063
+      },
+      {
+        "word": "助理",
+        "score": 0.006
       },
       {
         "word": "视频",
@@ -1774,10 +1778,6 @@
       {
         "word": "立即",
         "score": 0.0058
-      },
-      {
-        "word": "助理",
-        "score": 0.0055
       },
       {
         "word": "两年",
@@ -1800,6 +1800,10 @@
         "score": 0.0051
       },
       {
+        "word": "挪用公款",
+        "score": 0.0049
+      },
+      {
         "word": "指控",
         "score": 0.0049
       },
@@ -1808,15 +1812,11 @@
         "score": 0.0049
       },
       {
+        "word": "意大利",
+        "score": 0.0049
+      },
+      {
         "word": "罚款",
-        "score": 0.0047
-      },
-      {
-        "word": "Le",
-        "score": 0.0047
-      },
-      {
-        "word": "法官",
         "score": 0.0047
       }
     ],
@@ -1827,11 +1827,15 @@
       },
       {
         "word": "玛丽娜",
-        "score": 0.0225
+        "score": 0.0293
       },
       {
         "word": "总统",
         "score": 0.0177
+      },
+      {
+        "word": "极右翼",
+        "score": 0.017
       },
       {
         "word": "马克",
@@ -1840,10 +1844,6 @@
       {
         "word": "联盟",
         "score": 0.0147
-      },
-      {
-        "word": "极右翼",
-        "score": 0.0135
       },
       {
         "word": "国民",
@@ -1862,6 +1862,10 @@
         "score": 0.0089
       },
       {
+        "word": "收起",
+        "score": 0.0085
+      },
+      {
         "word": "政治",
         "score": 0.0085
       },
@@ -1878,16 +1882,16 @@
         "score": 0.0078
       },
       {
+        "word": "领导人",
+        "score": 0.0075
+      },
+      {
         "word": "2027",
         "score": 0.0073
       },
       {
         "word": "欧洲议会",
         "score": 0.0069
-      },
-      {
-        "word": "收起",
-        "score": 0.0068
       },
       {
         "word": "表示",
@@ -1898,19 +1902,27 @@
         "score": 0.0066
       },
       {
+        "word": "参选",
+        "score": 0.0066
+      },
+      {
         "word": "资金",
         "score": 0.0065
       },
       {
-        "word": "领导人",
-        "score": 0.006
+        "word": "特朗普",
+        "score": 0.0063
       },
       {
         "word": "上诉",
         "score": 0.0057
       },
       {
-        "word": "参选",
+        "word": "候选人",
+        "score": 0.0054
+      },
+      {
+        "word": "乌克兰",
         "score": 0.0054
       },
       {
@@ -1922,10 +1934,6 @@
         "score": 0.0054
       },
       {
-        "word": "候选人",
-        "score": 0.005
-      },
-      {
         "word": "投票",
         "score": 0.0049
       },
@@ -1934,19 +1942,15 @@
         "score": 0.0049
       },
       {
+        "word": "俄罗斯",
+        "score": 0.0048
+      },
+      {
         "word": "欧元",
         "score": 0.0048
       },
       {
-        "word": "特朗普",
-        "score": 0.0048
-      },
-      {
         "word": "支持",
-        "score": 0.0046
-      },
-      {
-        "word": "乌克兰",
         "score": 0.0046
       },
       {
@@ -1970,15 +1974,11 @@
         "score": 0.0041
       },
       {
-        "word": "俄罗斯",
-        "score": 0.0041
-      },
-      {
-        "word": "参加",
-        "score": 0.0041
-      },
-      {
         "word": "认为",
+        "score": 0.004
+      },
+      {
+        "word": "微博",
         "score": 0.004
       },
       {
@@ -2006,15 +2006,15 @@
         "score": 0.0038
       },
       {
+        "word": "参加",
+        "score": 0.0038
+      },
+      {
         "word": "Pen",
         "score": 0.0037
       },
       {
         "word": "视频",
-        "score": 0.0037
-      },
-      {
-        "word": "微博",
         "score": 0.0037
       },
       {
@@ -2024,12 +2024,12 @@
     ],
     "LePen-ZH-positive": [
       {
-        "word": "法国",
-        "score": 0.0435
+        "word": "玛丽娜",
+        "score": 0.0436
       },
       {
-        "word": "玛丽娜",
-        "score": 0.0334
+        "word": "法国",
+        "score": 0.0435
       },
       {
         "word": "总统",
@@ -2064,6 +2064,10 @@
         "score": 0.009
       },
       {
+        "word": "参选",
+        "score": 0.0084
+      },
+      {
         "word": "国民",
         "score": 0.0081
       },
@@ -2088,7 +2092,7 @@
         "score": 0.007
       },
       {
-        "word": "参选",
+        "word": "极右翼",
         "score": 0.0069
       },
       {
@@ -2108,12 +2112,28 @@
         "score": 0.0064
       },
       {
+        "word": "特朗普",
+        "score": 0.0063
+      },
+      {
+        "word": "俄罗斯",
+        "score": 0.0062
+      },
+      {
+        "word": "收起",
+        "score": 0.0061
+      },
+      {
         "word": "上诉",
         "score": 0.006
       },
       {
         "word": "Pen",
         "score": 0.006
+      },
+      {
+        "word": "领导人",
+        "score": 0.0059
       },
       {
         "word": "Marine",
@@ -2128,32 +2148,20 @@
         "score": 0.0057
       },
       {
-        "word": "极右翼",
-        "score": 0.0055
-      },
-      {
         "word": "右翼",
         "score": 0.0055
       },
       {
-        "word": "民主",
-        "score": 0.0055
+        "word": "新闻",
+        "score": 0.0054
       },
       {
         "word": "支持",
         "score": 0.0054
       },
       {
-        "word": "俄罗斯",
-        "score": 0.0053
-      },
-      {
-        "word": "参加",
+        "word": "民主",
         "score": 0.0051
-      },
-      {
-        "word": "新闻",
-        "score": 0.005
       },
       {
         "word": "巴黎",
@@ -2164,16 +2172,12 @@
         "score": 0.0049
       },
       {
-        "word": "收起",
+        "word": "候选人",
         "score": 0.0049
       },
       {
-        "word": "特朗普",
+        "word": "参加",
         "score": 0.0048
-      },
-      {
-        "word": "领导人",
-        "score": 0.0047
       },
       {
         "word": "表示",
@@ -2190,10 +2194,6 @@
       {
         "word": "de",
         "score": 0.0046
-      },
-      {
-        "word": "候选人",
-        "score": 0.0045
       },
       {
         "word": "空调",
@@ -2227,396 +2227,594 @@
     "Takaichi-EN-negative": [
       {
         "word": "japan",
-        "score": 0.0423
+        "score": 0.0493
       },
       {
         "word": "china",
-        "score": 0.0288
+        "score": 0.0336
       },
       {
         "word": "japanese",
-        "score": 0.0282
+        "score": 0.0328
       },
       {
         "word": "minister",
-        "score": 0.0173
+        "score": 0.0202
       },
       {
         "word": "taiwan",
-        "score": 0.0168
+        "score": 0.0196
       },
       {
         "word": "prime",
-        "score": 0.0147
-      },
-      {
-        "word": "收起d",
-        "score": 0.0104
+        "score": 0.0172
       },
       {
         "word": "trump",
-        "score": 0.0097
+        "score": 0.0113
       },
       {
         "word": "war",
-        "score": 0.0094
+        "score": 0.011
       },
       {
         "word": "que",
-        "score": 0.0064
+        "score": 0.0075
       },
       {
         "word": "chinese",
-        "score": 0.0063
+        "score": 0.0074
       },
       {
         "word": "people",
-        "score": 0.0063
-      },
-      {
-        "word": "japón",
-        "score": 0.0061
+        "score": 0.0074
       },
       {
         "word": "world",
-        "score": 0.0061
+        "score": 0.0071
       },
       {
         "word": "ministra",
-        "score": 0.0055
+        "score": 0.0064
       },
       {
         "word": "its",
-        "score": 0.0054
+        "score": 0.0063
       },
       {
         "word": "remarks",
-        "score": 0.0053
+        "score": 0.0062
       },
       {
         "word": "foreign",
-        "score": 0.0052
+        "score": 0.006
       },
       {
         "word": "las",
-        "score": 0.0049
+        "score": 0.0057
       },
       {
         "word": "tokyo",
-        "score": 0.0047
+        "score": 0.0055
       },
       {
         "word": "development",
-        "score": 0.0045
+        "score": 0.0053
       },
       {
         "word": "right",
-        "score": 0.0045
+        "score": 0.0053
       },
       {
         "word": "japonesa",
-        "score": 0.0045
+        "score": 0.0052
       },
       {
         "word": "military",
-        "score": 0.0042
+        "score": 0.0049
       },
       {
         "word": "sobre",
-        "score": 0.0041
+        "score": 0.0048
       },
       {
         "word": "jepang",
-        "score": 0.0041
+        "score": 0.0048
       },
       {
         "word": "primera",
-        "score": 0.0041
+        "score": 0.0047
       },
       {
         "word": "human",
-        "score": 0.0041
-      },
-      {
-        "word": "news",
-        "score": 0.0039
+        "score": 0.0047
       },
       {
         "word": "history",
-        "score": 0.0037
+        "score": 0.0044
       },
       {
         "word": "self",
-        "score": 0.0037
+        "score": 0.0044
       },
       {
         "word": "political",
-        "score": 0.0037
+        "score": 0.0043
+      },
+      {
+        "word": "news",
+        "score": 0.0042
       },
       {
         "word": "los",
-        "score": 0.0036
+        "score": 0.0041
       },
       {
         "word": "international",
-        "score": 0.0036
+        "score": 0.0041
       },
       {
         "word": "iran",
-        "score": 0.0035
+        "score": 0.0041
       },
       {
         "word": "defense",
-        "score": 0.0034
+        "score": 0.004
       },
       {
         "word": "declaraciones",
-        "score": 0.0034
+        "score": 0.0039
       },
       {
         "word": "erroneous",
-        "score": 0.0033
+        "score": 0.0039
       },
       {
         "word": "donald",
-        "score": 0.0033
+        "score": 0.0038
       },
       {
         "word": "para",
-        "score": 0.0033
+        "score": 0.0038
       },
       {
         "word": "also",
-        "score": 0.0032
+        "score": 0.0038
       },
       {
         "word": "you",
-        "score": 0.0031
+        "score": 0.0037
       },
       {
         "word": "una",
-        "score": 0.0031
+        "score": 0.0036
       },
       {
         "word": "por",
-        "score": 0.0031
+        "score": 0.0036
       },
       {
         "word": "yang",
-        "score": 0.003
+        "score": 0.0035
       },
       {
         "word": "pearl",
-        "score": 0.003
+        "score": 0.0035
       },
       {
         "word": "harbor",
-        "score": 0.003
+        "score": 0.0035
       },
       {
         "word": "militarism",
-        "score": 0.003
-      },
-      {
-        "word": "más",
-        "score": 0.003
+        "score": 0.0035
       },
       {
         "word": "government",
-        "score": 0.0029
+        "score": 0.0034
+      },
+      {
+        "word": "forces",
+        "score": 0.0034
+      },
+      {
+        "word": "long",
+        "score": 0.0033
+      },
+      {
+        "word": "pacifist",
+        "score": 0.0033
       }
     ],
     "Takaichi-EN-neutral": [
       {
         "word": "japan",
-        "score": 0.0447
+        "score": 0.0572
       },
       {
         "word": "minister",
-        "score": 0.0383
+        "score": 0.0491
       },
       {
         "word": "prime",
-        "score": 0.0312
+        "score": 0.04
       },
       {
         "word": "japanese",
-        "score": 0.02
+        "score": 0.0256
       },
       {
         "word": "trump",
-        "score": 0.0157
+        "score": 0.0201
       },
       {
         "word": "news",
-        "score": 0.0091
+        "score": 0.011
       },
       {
         "word": "china",
-        "score": 0.0082
+        "score": 0.0105
       },
       {
         "word": "first",
-        "score": 0.0078
+        "score": 0.01
       },
       {
         "word": "president",
-        "score": 0.0073
+        "score": 0.0094
       },
       {
         "word": "house",
-        "score": 0.0069
+        "score": 0.0089
       },
       {
         "word": "donald",
-        "score": 0.0065
+        "score": 0.0083
       },
       {
         "word": "female",
-        "score": 0.0063
-      },
-      {
-        "word": "japón",
-        "score": 0.0059
+        "score": 0.0081
       },
       {
         "word": "pearl",
-        "score": 0.0054
+        "score": 0.0069
       },
       {
         "word": "harbor",
-        "score": 0.0051
+        "score": 0.0065
       },
       {
         "word": "tin",
-        "score": 0.0051
-      },
-      {
-        "word": "quốc",
-        "score": 0.0047
-      },
-      {
-        "word": "收起d",
-        "score": 0.0047
+        "score": 0.0065
       },
       {
         "word": "white",
-        "score": 0.0044
+        "score": 0.0057
       },
       {
         "word": "iran",
-        "score": 0.0044
-      },
-      {
-        "word": "nhật",
-        "score": 0.0043
+        "score": 0.0056
       },
       {
         "word": "party",
-        "score": 0.0043
+        "score": 0.0055
       },
       {
         "word": "new",
-        "score": 0.0042
+        "score": 0.0054
       },
       {
         "word": "said",
-        "score": 0.0042
-      },
-      {
-        "word": "chính",
-        "score": 0.0042
-      },
-      {
-        "word": "thủ",
-        "score": 0.0041
-      },
-      {
-        "word": "tướng",
-        "score": 0.0041
+        "score": 0.0053
       },
       {
         "word": "its",
-        "score": 0.004
+        "score": 0.0051
       },
       {
         "word": "meeting",
-        "score": 0.0039
+        "score": 0.005
       },
       {
         "word": "que",
-        "score": 0.0038
-      },
-      {
-        "word": "bản",
-        "score": 0.0037
+        "score": 0.0049
       },
       {
         "word": "democratic",
-        "score": 0.0037
+        "score": 0.0047
       },
       {
         "word": "ldp",
-        "score": 0.0036
+        "score": 0.0047
       },
       {
         "word": "liberal",
-        "score": 0.0035
-      },
-      {
-        "word": "các",
-        "score": 0.0035
+        "score": 0.0045
       },
       {
         "word": "country",
-        "score": 0.0035
+        "score": 0.0044
       },
       {
         "word": "taiwan",
-        "score": 0.0034
+        "score": 0.0044
       },
       {
         "word": "war",
-        "score": 0.0034
+        "score": 0.0043
       },
       {
         "word": "ministra",
-        "score": 0.0033
+        "score": 0.0043
       },
       {
         "word": "security",
-        "score": 0.0032
+        "score": 0.0042
       },
       {
         "word": "video",
-        "score": 0.0032
+        "score": 0.0042
       },
       {
         "word": "follow",
-        "score": 0.0032
+        "score": 0.0041
       },
       {
         "word": "tokyo",
-        "score": 0.0031
+        "score": 0.004
       },
       {
         "word": "conservative",
-        "score": 0.0031
+        "score": 0.004
       },
       {
         "word": "world",
-        "score": 0.0031
+        "score": 0.004
       },
       {
         "word": "you",
-        "score": 0.0031
-      },
-      {
-        "word": "việt",
-        "score": 0.0031
+        "score": 0.004
       },
       {
         "word": "office",
+        "score": 0.004
+      },
+      {
+        "word": "asia",
+        "score": 0.0039
+      },
+      {
+        "word": "leader",
+        "score": 0.0039
+      },
+      {
+        "word": "washington",
+        "score": 0.0039
+      },
+      {
+        "word": "primera",
+        "score": 0.0038
+      },
+      {
+        "word": "summit",
+        "score": 0.0038
+      },
+      {
+        "word": "hormuz",
+        "score": 0.0038
+      },
+      {
+        "word": "fox",
+        "score": 0.0036
+      },
+      {
+        "word": "official",
+        "score": 0.0035
+      },
+      {
+        "word": "his",
+        "score": 0.0034
+      },
+      {
+        "word": "visit",
+        "score": 0.0033
+      },
+      {
+        "word": "global",
+        "score": 0.0033
+      },
+      {
+        "word": "subscribe",
+        "score": 0.0033
+      }
+    ],
+    "Takaichi-EN-positive": [
+      {
+        "word": "japan",
+        "score": 0.0594
+      },
+      {
+        "word": "minister",
+        "score": 0.0299
+      },
+      {
+        "word": "prime",
+        "score": 0.025
+      },
+      {
+        "word": "trump",
+        "score": 0.0237
+      },
+      {
+        "word": "japanese",
+        "score": 0.0223
+      },
+      {
+        "word": "news",
+        "score": 0.0097
+      },
+      {
+        "word": "president",
+        "score": 0.009
+      },
+      {
+        "word": "first",
+        "score": 0.0083
+      },
+      {
+        "word": "tokyo",
+        "score": 0.0083
+      },
+      {
+        "word": "que",
+        "score": 0.0081
+      },
+      {
+        "word": "female",
+        "score": 0.008
+      },
+      {
+        "word": "donald",
+        "score": 0.0071
+      },
+      {
+        "word": "ministra",
+        "score": 0.0068
+      },
+      {
+        "word": "china",
+        "score": 0.0059
+      },
+      {
+        "word": "you",
+        "score": 0.0054
+      },
+      {
+        "word": "world",
+        "score": 0.005
+      },
+      {
+        "word": "house",
+        "score": 0.0048
+      },
+      {
+        "word": "primera",
+        "score": 0.0048
+      },
+      {
+        "word": "global",
+        "score": 0.0048
+      },
+      {
+        "word": "our",
+        "score": 0.0048
+      },
+      {
+        "word": "new",
+        "score": 0.0046
+      },
+      {
+        "word": "subscribe",
+        "score": 0.0045
+      },
+      {
+        "word": "breaking",
+        "score": 0.0045
+      },
+      {
+        "word": "visit",
+        "score": 0.0045
+      },
+      {
+        "word": "follow",
+        "score": 0.0041
+      },
+      {
+        "word": "dan",
+        "score": 0.004
+      },
+      {
+        "word": "white",
+        "score": 0.0039
+      },
+      {
+        "word": "nam",
+        "score": 0.0039
+      },
+      {
+        "word": "jepang",
+        "score": 0.0039
+      },
+      {
+        "word": "its",
+        "score": 0.0039
+      },
+      {
+        "word": "una",
+        "score": 0.0038
+      },
+      {
+        "word": "del",
+        "score": 0.0038
+      },
+      {
+        "word": "ani",
+        "score": 0.0038
+      },
+      {
+        "word": "landslide",
+        "score": 0.0038
+      },
+      {
+        "word": "south",
+        "score": 0.0038
+      },
+      {
+        "word": "australia",
+        "score": 0.0038
+      },
+      {
+        "word": "his",
+        "score": 0.0037
+      },
+      {
+        "word": "yang",
+        "score": 0.0037
+      },
+      {
+        "word": "leader",
+        "score": 0.0037
+      },
+      {
+        "word": "para",
+        "score": 0.0036
+      },
+      {
+        "word": "like",
+        "score": 0.0035
+      },
+      {
+        "word": "said",
+        "score": 0.0034
+      },
+      {
+        "word": "leaders",
+        "score": 0.0033
+      },
+      {
+        "word": "official",
+        "score": 0.0032
+      },
+      {
+        "word": "ldp",
+        "score": 0.0032
+      },
+      {
+        "word": "summit",
+        "score": 0.0031
+      },
+      {
+        "word": "history",
         "score": 0.0031
       },
       {
@@ -2624,816 +2822,618 @@
         "score": 0.0031
       },
       {
-        "word": "leader",
-        "score": 0.003
-      }
-    ],
-    "Takaichi-EN-positive": [
-      {
-        "word": "japan",
-        "score": 0.0493
-      },
-      {
-        "word": "minister",
-        "score": 0.0248
-      },
-      {
-        "word": "prime",
-        "score": 0.0208
-      },
-      {
-        "word": "trump",
-        "score": 0.0197
-      },
-      {
-        "word": "japanese",
-        "score": 0.0185
-      },
-      {
-        "word": "news",
-        "score": 0.0086
-      },
-      {
-        "word": "japón",
-        "score": 0.0078
-      },
-      {
-        "word": "president",
-        "score": 0.0075
-      },
-      {
-        "word": "first",
-        "score": 0.0069
-      },
-      {
-        "word": "tokyo",
-        "score": 0.0069
-      },
-      {
-        "word": "que",
-        "score": 0.0067
-      },
-      {
-        "word": "female",
-        "score": 0.0067
-      },
-      {
-        "word": "donald",
-        "score": 0.0059
-      },
-      {
-        "word": "ministra",
-        "score": 0.0056
-      },
-      {
-        "word": "nhật",
-        "score": 0.005
-      },
-      {
-        "word": "china",
-        "score": 0.0049
-      },
-      {
-        "word": "của",
-        "score": 0.0048
-      },
-      {
-        "word": "bản",
-        "score": 0.0048
-      },
-      {
-        "word": "thủ",
-        "score": 0.0045
-      },
-      {
-        "word": "you",
-        "score": 0.0045
-      },
-      {
-        "word": "việt",
-        "score": 0.0044
-      },
-      {
-        "word": "tướng",
-        "score": 0.0043
-      },
-      {
-        "word": "world",
-        "score": 0.0041
-      },
-      {
-        "word": "japão",
-        "score": 0.0041
-      },
-      {
-        "word": "house",
-        "score": 0.004
-      },
-      {
-        "word": "primera",
-        "score": 0.004
-      },
-      {
-        "word": "global",
-        "score": 0.004
-      },
-      {
-        "word": "our",
-        "score": 0.004
-      },
-      {
-        "word": "new",
-        "score": 0.0038
-      },
-      {
-        "word": "subscribe",
-        "score": 0.0038
-      },
-      {
-        "word": "breaking",
-        "score": 0.0038
-      },
-      {
-        "word": "visit",
-        "score": 0.0037
-      },
-      {
-        "word": "follow",
-        "score": 0.0034
-      },
-      {
-        "word": "dan",
-        "score": 0.0033
-      },
-      {
-        "word": "white",
-        "score": 0.0033
-      },
-      {
-        "word": "nam",
-        "score": 0.0033
-      },
-      {
-        "word": "jepang",
-        "score": 0.0032
-      },
-      {
-        "word": "its",
-        "score": 0.0032
-      },
-      {
-        "word": "una",
-        "score": 0.0032
-      },
-      {
-        "word": "del",
-        "score": 0.0032
-      },
-      {
-        "word": "ani",
-        "score": 0.0032
-      },
-      {
-        "word": "landslide",
+        "word": "security",
         "score": 0.0031
       },
       {
-        "word": "south",
+        "word": "meeting",
         "score": 0.0031
-      },
-      {
-        "word": "australia",
-        "score": 0.0031
-      },
-      {
-        "word": "his",
-        "score": 0.0031
-      },
-      {
-        "word": "yang",
-        "score": 0.0031
-      },
-      {
-        "word": "leader",
-        "score": 0.0031
-      },
-      {
-        "word": "para",
-        "score": 0.003
-      },
-      {
-        "word": "like",
-        "score": 0.0029
-      },
-      {
-        "word": "said",
-        "score": 0.0028
       }
     ],
     "Takaichi-JP-negative": [
       {
+        "word": "さなえ",
+        "score": 0.0465
+      },
+      {
         "word": "日本",
-        "score": 0.0484
+        "score": 0.037
+      },
+      {
+        "word": "総理",
+        "score": 0.0275
       },
       {
         "word": "大臣",
-        "score": 0.0302
+        "score": 0.0203
+      },
+      {
+        "word": "ニュース",
+        "score": 0.0123
+      },
+      {
+        "word": "ください",
+        "score": 0.0123
       },
       {
         "word": "寰宇",
-        "score": 0.0182
+        "score": 0.0122
+      },
+      {
+        "word": "戦争",
+        "score": 0.0104
       },
       {
         "word": "新聞",
-        "score": 0.0129
-      },
-      {
-        "word": "国民",
-        "score": 0.0121
-      },
-      {
-        "word": "自民党",
-        "score": 0.0112
-      },
-      {
-        "word": "消防",
-        "score": 0.0109
-      },
-      {
-        "word": "首相",
         "score": 0.0102
       },
       {
-        "word": "生活",
+        "word": "自衛",
         "score": 0.0095
       },
       {
-        "word": "自由",
-        "score": 0.0093
+        "word": "自民",
+        "score": 0.0094
       },
       {
-        "word": "世界",
-        "score": 0.0087
-      },
-      {
-        "word": "本当",
-        "score": 0.0086
-      },
-      {
-        "word": "总务",
-        "score": 0.0079
+        "word": "首相",
+        "score": 0.0088
       },
       {
         "word": "政治",
-        "score": 0.0078
+        "score": 0.0082
       },
       {
-        "word": "News",
-        "score": 0.0077
+        "word": "国民",
+        "score": 0.0076
       },
       {
-        "word": "台湾",
-        "score": 0.0075
+        "word": "チャンネル",
+        "score": 0.0076
       },
       {
-        "word": "主张",
-        "score": 0.0075
-      },
-      {
-        "word": "经济",
+        "word": "ルール",
         "score": 0.0074
       },
       {
-        "word": "YT",
+        "word": "消防",
         "score": 0.0073
       },
       {
-        "word": "and",
-        "score": 0.007
+        "word": "ファシズム",
+        "score": 0.0073
       },
       {
-        "word": "有事",
-        "score": 0.007
+        "word": "考え",
+        "score": 0.0066
       },
       {
-        "word": "担任",
-        "score": 0.007
+        "word": "経済",
+        "score": 0.0066
       },
       {
-        "word": "本音",
-        "score": 0.0065
+        "word": "みんな",
+        "score": 0.0066
       },
       {
-        "word": "自衛隊",
-        "score": 0.0065
-      },
-      {
-        "word": "大切",
-        "score": 0.0065
-      },
-      {
-        "word": "仕事",
-        "score": 0.0065
-      },
-      {
-        "word": "動画",
-        "score": 0.0065
-      },
-      {
-        "word": "投稿",
-        "score": 0.0065
-      },
-      {
-        "word": "BBC",
-        "score": 0.0065
-      },
-      {
-        "word": "公務員",
+        "word": "生活",
         "score": 0.0064
       },
       {
-        "word": "心配",
-        "score": 0.0064
-      },
-      {
-        "word": "訂閱",
-        "score": 0.0064
-      },
-      {
-        "word": "予備",
+        "word": "自由",
         "score": 0.0063
       },
       {
-        "word": "地獄",
-        "score": 0.0063
-      },
-      {
-        "word": "奈良县",
-        "score": 0.0063
-      },
-      {
-        "word": "中国",
+        "word": "じえい",
         "score": 0.0061
       },
       {
-        "word": "收起",
+        "word": "むかし",
         "score": 0.0061
       },
       {
-        "word": "国会",
-        "score": 0.006
+        "word": "消し",
+        "score": 0.0061
       },
       {
-        "word": "生命",
-        "score": 0.006
-      },
-      {
-        "word": "当选",
-        "score": 0.006
-      },
-      {
-        "word": "災害",
+        "word": "世界",
         "score": 0.0058
       },
       {
-        "word": "总裁",
+        "word": "本当",
         "score": 0.0058
       },
       {
-        "word": "俳句",
-        "score": 0.0055
+        "word": "たかい",
+        "score": 0.0057
       },
       {
-        "word": "情報",
-        "score": 0.0054
+        "word": "変え",
+        "score": 0.0057
       },
       {
-        "word": "中文",
-        "score": 0.0054
+        "word": "总务",
+        "score": 0.0053
       },
       {
-        "word": "战争",
-        "score": 0.0054
-      },
-      {
-        "word": "2025",
+        "word": "News",
         "score": 0.0052
       },
       {
-        "word": "自衛官",
+        "word": "台湾",
         "score": 0.0051
       },
       {
-        "word": "中國",
-        "score": 0.0051
+        "word": "经济",
+        "score": 0.005
       },
       {
-        "word": "每个",
-        "score": 0.0051
+        "word": "イチ",
+        "score": 0.0049
+      },
+      {
+        "word": "YT",
+        "score": 0.0049
+      },
+      {
+        "word": "アメリカ",
+        "score": 0.0047
+      },
+      {
+        "word": "守る",
+        "score": 0.0047
+      },
+      {
+        "word": "and",
+        "score": 0.0047
+      },
+      {
+        "word": "言っ",
+        "score": 0.0047
+      },
+      {
+        "word": "新しい",
+        "score": 0.0047
+      },
+      {
+        "word": "テレビ",
+        "score": 0.0047
+      },
+      {
+        "word": "党員",
+        "score": 0.0047
+      },
+      {
+        "word": "自分",
+        "score": 0.0047
+      },
+      {
+        "word": "有事",
+        "score": 0.0047
+      },
+      {
+        "word": "担任",
+        "score": 0.0047
+      },
+      {
+        "word": "本音",
+        "score": 0.0044
+      },
+      {
+        "word": "仕事",
+        "score": 0.0044
+      },
+      {
+        "word": "動画",
+        "score": 0.0044
+      },
+      {
+        "word": "投稿",
+        "score": 0.0044
       }
     ],
     "Takaichi-JP-neutral": [
       {
         "word": "日本",
-        "score": 0.0348
-      },
-      {
-        "word": "首相",
-        "score": 0.0219
+        "score": 0.0254
       },
       {
         "word": "動画",
-        "score": 0.0208
+        "score": 0.0176
+      },
+      {
+        "word": "総理",
+        "score": 0.0172
+      },
+      {
+        "word": "チャンネル",
+        "score": 0.0161
+      },
+      {
+        "word": "首相",
+        "score": 0.0157
+      },
+      {
+        "word": "ニュース",
+        "score": 0.012
       },
       {
         "word": "大臣",
-        "score": 0.017
+        "score": 0.0119
       },
       {
         "word": "中国",
-        "score": 0.0144
+        "score": 0.0107
       },
       {
-        "word": "配信",
-        "score": 0.014
-      },
-      {
-        "word": "NEWS",
-        "score": 0.0125
-      },
-      {
-        "word": "政策",
-        "score": 0.0109
-      },
-      {
-        "word": "担当",
+        "word": "ひろゆき",
         "score": 0.0102
       },
       {
+        "word": "さなえ",
+        "score": 0.0101
+      },
+      {
         "word": "政治",
-        "score": 0.0098
+        "score": 0.0101
       },
       {
-        "word": "特典",
-        "score": 0.0098
+        "word": "配信",
+        "score": 0.01
       },
       {
-        "word": "ng",
-        "score": 0.009
+        "word": "NEWS",
+        "score": 0.0091
       },
       {
-        "word": "問題",
-        "score": 0.0087
+        "word": "日テレ",
+        "score": 0.0086
       },
       {
-        "word": "公式",
-        "score": 0.0087
+        "word": "衆議",
+        "score": 0.0083
       },
       {
-        "word": "議院",
-        "score": 0.0084
+        "word": "総裁",
+        "score": 0.0083
       },
       {
-        "word": "TikTok",
+        "word": "テレビ",
+        "score": 0.0081
+      },
+      {
+        "word": "政策",
         "score": 0.0078
       },
       {
-        "word": "TBS",
-        "score": 0.0072
+        "word": "経済",
+        "score": 0.0076
       },
       {
-        "word": "自民党",
-        "score": 0.0071
+        "word": "発言",
+        "score": 0.0074
       },
       {
-        "word": "Takaichi",
-        "score": 0.0069
+        "word": "担当",
+        "score": 0.007
       },
       {
-        "word": "SNS",
-        "score": 0.0069
+        "word": "ください",
+        "score": 0.0068
       },
       {
-        "word": "台湾",
-        "score": 0.0069
+        "word": "ライブ",
+        "score": 0.0068
       },
       {
         "word": "議員",
+        "score": 0.0068
+      },
+      {
+        "word": "特典",
+        "score": 0.0067
+      },
+      {
+        "word": "ござい",
         "score": 0.0066
       },
       {
-        "word": "安全",
+        "word": "登録",
         "score": 0.0066
       },
       {
-        "word": "会議",
+        "word": "願い",
+        "score": 0.0066
+      },
+      {
+        "word": "自民",
         "score": 0.0065
       },
       {
-        "word": "Facebook",
-        "score": 0.0065
+        "word": "ダボス",
+        "score": 0.0064
       },
       {
-        "word": "基本",
+        "word": "問題",
         "score": 0.0063
       },
       {
-        "word": "th",
-        "score": 0.0063
-      },
-      {
-        "word": "情報",
-        "score": 0.0062
-      },
-      {
-        "word": "投稿",
-        "score": 0.0062
-      },
-      {
-        "word": "場合",
+        "word": "内閣",
         "score": 0.006
       },
       {
-        "word": "女性",
-        "score": 0.0059
+        "word": "公式",
+        "score": 0.006
       },
       {
-        "word": "10",
-        "score": 0.0057
+        "word": "選挙",
+        "score": 0.006
       },
       {
-        "word": "最新",
-        "score": 0.0055
-      },
-      {
-        "word": "提供",
-        "score": 0.0055
-      },
-      {
-        "word": "Sanae",
-        "score": 0.0055
-      },
-      {
-        "word": "Instagram",
-        "score": 0.0055
-      },
-      {
-        "word": "Jepang",
+        "word": "TikTok",
         "score": 0.0054
       },
       {
-        "word": "2025",
-        "score": 0.0053
+        "word": "視聴",
+        "score": 0.0054
       },
       {
-        "word": "映像",
-        "score": 0.0053
+        "word": "首脳",
+        "score": 0.0051
       },
       {
-        "word": "保障",
-        "score": 0.0052
+        "word": "ニコニコ",
+        "score": 0.0051
       },
       {
-        "word": "野党",
-        "score": 0.0052
+        "word": "報道",
+        "score": 0.0051
       },
       {
-        "word": "報道局",
+        "word": "会談",
         "score": 0.005
       },
       {
-        "word": "月額",
+        "word": "TBS",
+        "score": 0.005
+      },
+      {
+        "word": "台湾",
         "score": 0.0049
       },
       {
-        "word": "the",
+        "word": "会見",
+        "score": 0.0049
+      },
+      {
+        "word": "安全",
         "score": 0.0048
       },
       {
-        "word": "代表",
+        "word": "民主",
+        "score": 0.0048
+      },
+      {
+        "word": "Takaichi",
+        "score": 0.0047
+      },
+      {
+        "word": "SNS",
+        "score": 0.0047
+      },
+      {
+        "word": "応じ",
         "score": 0.0046
       },
       {
-        "word": "放送",
+        "word": "会議",
         "score": 0.0046
       },
       {
-        "word": "連絡",
-        "score": 0.0046
-      },
-      {
-        "word": "輸出",
-        "score": 0.0046
-      },
-      {
-        "word": "所属",
-        "score": 0.0045
-      },
-      {
-        "word": "公明党",
+        "word": "考え",
         "score": 0.0045
       }
     ],
     "Takaichi-JP-positive": [
       {
+        "word": "総理",
+        "score": 0.0282
+      },
+      {
         "word": "日本",
-        "score": 0.0435
+        "score": 0.0278
       },
       {
         "word": "首相",
-        "score": 0.0287
+        "score": 0.019
       },
       {
-        "word": "ng",
-        "score": 0.0225
+        "word": "さなえ",
+        "score": 0.0187
+      },
+      {
+        "word": "トランプ",
+        "score": 0.0172
       },
       {
         "word": "大統領",
-        "score": 0.0177
+        "score": 0.0134
       },
       {
-        "word": "英語",
-        "score": 0.0146
-      },
-      {
-        "word": "大臣",
-        "score": 0.0146
+        "word": "チャンネル",
+        "score": 0.0119
       },
       {
         "word": "会談",
-        "score": 0.0117
+        "score": 0.0111
       },
       {
-        "word": "th",
-        "score": 0.0117
-      },
-      {
-        "word": "動画",
-        "score": 0.0112
-      },
-      {
-        "word": "nh",
+        "word": "自民",
         "score": 0.0107
       },
       {
-        "word": "the",
-        "score": 0.0107
+        "word": "英語",
+        "score": 0.0105
       },
       {
-        "word": "公式",
-        "score": 0.0101
+        "word": "願い",
+        "score": 0.0095
       },
       {
-        "word": "自民党",
-        "score": 0.0097
+        "word": "大臣",
+        "score": 0.0089
       },
       {
         "word": "政治",
-        "score": 0.0096
+        "score": 0.0082
       },
       {
-        "word": "and",
-        "score": 0.0093
+        "word": "ください",
+        "score": 0.008
       },
       {
-        "word": "自民黨",
-        "score": 0.0078
+        "word": "首脳",
+        "score": 0.008
       },
       {
-        "word": "世界",
-        "score": 0.0075
+        "word": "登録",
+        "score": 0.0074
       },
       {
-        "word": "情報",
-        "score": 0.0075
-      },
-      {
-        "word": "00",
+        "word": "動画",
         "score": 0.0073
       },
       {
-        "word": "女性",
-        "score": 0.0072
+        "word": "応援",
+        "score": 0.0071
       },
       {
-        "word": "ch",
-        "score": 0.0062
+        "word": "the",
+        "score": 0.0065
       },
       {
-        "word": "Sanae",
-        "score": 0.006
+        "word": "ござい",
+        "score": 0.0065
       },
       {
-        "word": "TBS",
-        "score": 0.0057
+        "word": "解説",
+        "score": 0.0065
       },
       {
-        "word": "時間",
+        "word": "総裁",
+        "score": 0.0063
+      },
+      {
+        "word": "公式",
+        "score": 0.0061
+      },
+      {
+        "word": "and",
         "score": 0.0056
       },
       {
-        "word": "報道",
+        "word": "経済",
         "score": 0.0056
       },
       {
-        "word": "ph",
+        "word": "ニュース",
+        "score": 0.0056
+      },
+      {
+        "word": "情報",
         "score": 0.0054
       },
       {
-        "word": "SANAE",
-        "score": 0.0049
+        "word": "歴史",
+        "score": 0.0053
       },
       {
-        "word": "總裁",
-        "score": 0.0049
-      },
-      {
-        "word": "情勢",
-        "score": 0.0049
-      },
-      {
-        "word": "VOICEVOX",
-        "score": 0.0049
-      },
-      {
-        "word": "投資",
-        "score": 0.0049
-      },
-      {
-        "word": "配信",
-        "score": 0.0049
-      },
-      {
-        "word": "Takaichi",
-        "score": 0.0049
-      },
-      {
-        "word": "未来",
-        "score": 0.0048
-      },
-      {
-        "word": "2025",
-        "score": 0.0048
-      },
-      {
-        "word": "提供",
-        "score": 0.0048
-      },
-      {
-        "word": "10",
-        "score": 0.0045
-      },
-      {
-        "word": "政策",
-        "score": 0.0045
-      },
-      {
-        "word": "引用",
-        "score": 0.0045
-      },
-      {
-        "word": "再生",
-        "score": 0.0045
-      },
-      {
-        "word": "官邸",
-        "score": 0.0045
-      },
-      {
-        "word": "市内",
-        "score": 0.0045
+        "word": "アメリカ",
+        "score": 0.0053
       },
       {
         "word": "候補",
-        "score": 0.0045
+        "score": 0.0052
       },
       {
-        "word": "Miraa",
+        "word": "政権",
+        "score": 0.005
+      },
+      {
+        "word": "選挙",
+        "score": 0.005
+      },
+      {
+        "word": "演説",
+        "score": 0.005
+      },
+      {
+        "word": "内閣",
+        "score": 0.0048
+      },
+      {
+        "word": "世界",
+        "score": 0.0047
+      },
+      {
+        "word": "評価",
+        "score": 0.0047
+      },
+      {
+        "word": "テレビ",
         "score": 0.0044
       },
       {
-        "word": "tr",
+        "word": "00",
         "score": 0.0044
       },
       {
-        "word": "工作",
+        "word": "女性",
+        "score": 0.0044
+      },
+      {
+        "word": "思い",
         "score": 0.0042
       },
       {
-        "word": "新聞",
+        "word": "コメント",
+        "score": 0.0042
+      },
+      {
+        "word": "報道",
         "score": 0.0041
       },
       {
-        "word": "今回",
-        "score": 0.0041
-      },
-      {
-        "word": "日米",
-        "score": 0.0041
-      },
-      {
-        "word": "誕生",
+        "word": "バンド",
         "score": 0.004
+      },
+      {
+        "word": "よろしく",
+        "score": 0.0039
+      },
+      {
+        "word": "強く",
+        "score": 0.0039
+      },
+      {
+        "word": "考え",
+        "score": 0.0039
+      },
+      {
+        "word": "にほん",
+        "score": 0.0037
+      },
+      {
+        "word": "音楽",
+        "score": 0.0037
+      },
+      {
+        "word": "Sanae",
+        "score": 0.0036
+      },
+      {
+        "word": "時間",
+        "score": 0.0036
       }
     ],
     "Takaichi-ZH-negative": [
@@ -3450,20 +3450,28 @@
         "score": 0.0126
       },
       {
+        "word": "收起",
+        "score": 0.0103
+      },
+      {
         "word": "视频",
         "score": 0.0097
       },
       {
-        "word": "收起",
-        "score": 0.0083
+        "word": "自民党",
+        "score": 0.0088
       },
       {
         "word": "微博",
-        "score": 0.0079
+        "score": 0.0085
       },
       {
         "word": "美国",
         "score": 0.0078
+      },
+      {
+        "word": "特朗普",
+        "score": 0.0075
       },
       {
         "word": "国民",
@@ -3474,16 +3482,8 @@
         "score": 0.0064
       },
       {
-        "word": "自民党",
-        "score": 0.0064
-      },
-      {
         "word": "憲法",
         "score": 0.0063
-      },
-      {
-        "word": "特朗普",
-        "score": 0.0057
       },
       {
         "word": "jp",
@@ -3558,7 +3558,7 @@
         "score": 0.0031
       },
       {
-        "word": "改憲",
+        "word": "自卫队",
         "score": 0.003
       },
       {
@@ -3566,7 +3566,23 @@
         "score": 0.003
       },
       {
+        "word": "次郎",
+        "score": 0.003
+      },
+      {
+        "word": "日本首相",
+        "score": 0.003
+      },
+      {
+        "word": "不是",
+        "score": 0.0029
+      },
+      {
         "word": "本当",
+        "score": 0.0029
+      },
+      {
+        "word": "日本政府",
         "score": 0.0029
       },
       {
@@ -3582,7 +3598,11 @@
         "score": 0.0027
       },
       {
-        "word": "不是",
+        "word": "改憲",
+        "score": 0.0027
+      },
+      {
+        "word": "靖国神社",
         "score": 0.0027
       },
       {
@@ -3616,26 +3636,6 @@
       {
         "word": "天皇",
         "score": 0.0026
-      },
-      {
-        "word": "日本政府",
-        "score": 0.0026
-      },
-      {
-        "word": "問題",
-        "score": 0.0026
-      },
-      {
-        "word": "右翼",
-        "score": 0.0026
-      },
-      {
-        "word": "和平",
-        "score": 0.0025
-      },
-      {
-        "word": "次郎",
-        "score": 0.0025
       }
     ],
     "Takaichi-ZH-neutral": [
@@ -3652,16 +3652,16 @@
         "score": 0.0129
       },
       {
+        "word": "自民党",
+        "score": 0.0097
+      },
+      {
         "word": "中国",
         "score": 0.0083
       },
       {
         "word": "政治",
         "score": 0.0079
-      },
-      {
-        "word": "自民党",
-        "score": 0.0071
       },
       {
         "word": "大臣",
@@ -3672,8 +3672,20 @@
         "score": 0.0059
       },
       {
+        "word": "日本首相",
+        "score": 0.0055
+      },
+      {
         "word": "問題",
         "score": 0.0053
+      },
+      {
+        "word": "特朗普",
+        "score": 0.0053
+      },
+      {
+        "word": "收起",
+        "score": 0.0048
       },
       {
         "word": "越南",
@@ -3689,6 +3701,10 @@
       },
       {
         "word": "情報",
+        "score": 0.0044
+      },
+      {
+        "word": "微博",
         "score": 0.0044
       },
       {
@@ -3708,24 +3724,12 @@
         "score": 0.0042
       },
       {
-        "word": "微博",
+        "word": "高評",
         "score": 0.0041
       },
       {
         "word": "内容",
         "score": 0.004
-      },
-      {
-        "word": "日本首相",
-        "score": 0.004
-      },
-      {
-        "word": "特朗普",
-        "score": 0.004
-      },
-      {
-        "word": "收起",
-        "score": 0.0038
       },
       {
         "word": "问题",
@@ -3756,10 +3760,6 @@
         "score": 0.0033
       },
       {
-        "word": "高評",
-        "score": 0.0033
-      },
-      {
         "word": "映像",
         "score": 0.0033
       },
@@ -3780,7 +3780,15 @@
         "score": 0.0031
       },
       {
+        "word": "所有者",
+        "score": 0.0031
+      },
+      {
         "word": "选举",
+        "score": 0.003
+      },
+      {
+        "word": "不是",
         "score": 0.003
       },
       {
@@ -3792,15 +3800,23 @@
         "score": 0.0029
       },
       {
+        "word": "众议院",
+        "score": 0.0029
+      },
+      {
         "word": "石脑油",
         "score": 0.0029
       },
       {
-        "word": "不是",
+        "word": "NEWS",
         "score": 0.0028
       },
       {
-        "word": "NEWS",
+        "word": "議院",
+        "score": 0.0028
+      },
+      {
+        "word": "稀土",
         "score": 0.0028
       },
       {
@@ -3822,22 +3838,6 @@
       {
         "word": "議員",
         "score": 0.0026
-      },
-      {
-        "word": "投稿",
-        "score": 0.0026
-      },
-      {
-        "word": "安全",
-        "score": 0.0026
-      },
-      {
-        "word": "右翼",
-        "score": 0.0026
-      },
-      {
-        "word": "稀土",
-        "score": 0.0025
       }
     ],
     "Takaichi-ZH-positive": [
@@ -3850,8 +3850,16 @@
         "score": 0.0253
       },
       {
+        "word": "自民党",
+        "score": 0.0109
+      },
+      {
         "word": "大臣",
         "score": 0.0096
+      },
+      {
+        "word": "ng",
+        "score": 0.0093
       },
       {
         "word": "安全",
@@ -3860,14 +3868,6 @@
       {
         "word": "政治",
         "score": 0.0088
-      },
-      {
-        "word": "ng",
-        "score": 0.0083
-      },
-      {
-        "word": "自民党",
-        "score": 0.0079
       },
       {
         "word": "動画",
@@ -3890,6 +3890,10 @@
         "score": 0.0059
       },
       {
+        "word": "重要",
+        "score": 0.0058
+      },
+      {
         "word": "美国",
         "score": 0.0056
       },
@@ -3902,15 +3906,15 @@
         "score": 0.0054
       },
       {
+        "word": "nh",
+        "score": 0.0052
+      },
+      {
         "word": "竹田恒泰",
         "score": 0.0052
       },
       {
         "word": "地域",
-        "score": 0.005
-      },
-      {
-        "word": "重要",
         "score": 0.005
       },
       {
@@ -3922,12 +3926,24 @@
         "score": 0.0046
       },
       {
+        "word": "th",
+        "score": 0.0045
+      },
+      {
         "word": "支持",
         "score": 0.0045
       },
       {
         "word": "引用",
         "score": 0.0043
+      },
+      {
+        "word": "大統領",
+        "score": 0.0042
+      },
+      {
+        "word": "自民黨",
+        "score": 0.0042
       },
       {
         "word": "Youtube",
@@ -3946,20 +3962,12 @@
         "score": 0.0042
       },
       {
+        "word": "太平洋",
+        "score": 0.0041
+      },
+      {
         "word": "分野",
         "score": 0.004
-      },
-      {
-        "word": "th",
-        "score": 0.004
-      },
-      {
-        "word": "nh",
-        "score": 0.004
-      },
-      {
-        "word": "大統領",
-        "score": 0.0039
       },
       {
         "word": "OPENREC",
@@ -3967,10 +3975,6 @@
       },
       {
         "word": "配信",
-        "score": 0.0038
-      },
-      {
-        "word": "自民黨",
         "score": 0.0038
       },
       {
@@ -3990,6 +3994,10 @@
         "score": 0.0036
       },
       {
+        "word": "日本首相",
+        "score": 0.0036
+      },
+      {
         "word": "台灣",
         "score": 0.0036
       },
@@ -4006,10 +4014,6 @@
         "score": 0.0035
       },
       {
-        "word": "太平洋",
-        "score": 0.0035
-      },
-      {
         "word": "時間",
         "score": 0.0035
       },
@@ -4020,10 +4024,6 @@
       {
         "word": "提供",
         "score": 0.0034
-      },
-      {
-        "word": "情勢",
-        "score": 0.0033
       },
       {
         "word": "今回",
@@ -4047,203 +4047,203 @@
     "LePen-EN": [
       {
         "name": "pen",
-        "value": 44
+        "value": 62
       },
       {
         "name": "les",
-        "value": 20
+        "value": 27
       },
       {
         "name": "est",
-        "value": 15
+        "value": 21
       },
       {
         "name": "des",
-        "value": 15
+        "value": 21
       },
       {
         "name": "pour",
-        "value": 13
+        "value": 19
       },
       {
         "name": "une",
-        "value": 12
+        "value": 17
       },
       {
         "name": "sur",
-        "value": 12
+        "value": 16
       },
       {
         "name": "qui",
-        "value": 10
+        "value": 13
       },
       {
         "name": "que",
-        "value": 9
+        "value": 13
       },
       {
         "name": "france",
-        "value": 9
+        "value": 13
       },
       {
         "name": "pas",
-        "value": 9
+        "value": 12
       },
       {
         "name": "dans",
-        "value": 8
+        "value": 12
       },
       {
         "name": "macron",
-        "value": 8
+        "value": 11
       },
       {
         "name": "avec",
-        "value": 8
+        "value": 11
       },
       {
         "name": "vous",
-        "value": 7
+        "value": 10
       },
       {
         "name": "bardella",
-        "value": 7
-      },
-      {
-        "name": "收起d",
-        "value": 7
+        "value": 10
       },
       {
         "name": "elle",
-        "value": 6
+        "value": 9
       },
       {
         "name": "jordan",
-        "value": 6
+        "value": 8
       },
       {
         "name": "nous",
-        "value": 6
+        "value": 8
       },
       {
         "name": "par",
-        "value": 5
+        "value": 8
       },
       {
         "name": "son",
-        "value": 5
+        "value": 8
       },
       {
         "name": "emmanuel",
-        "value": 5
+        "value": 7
       },
       {
         "name": "national",
-        "value": 5
+        "value": 6
       },
       {
         "name": "plus",
-        "value": 4
+        "value": 6
       },
       {
         "name": "jean",
-        "value": 4
+        "value": 5
       },
       {
         "name": "politique",
-        "value": 4
+        "value": 5
       },
       {
         "name": "rassemblement",
-        "value": 4
-      },
-      {
-        "name": "extrême",
-        "value": 4
-      },
-      {
-        "name": "présidentielle",
-        "value": 4
-      },
-      {
-        "name": "français",
-        "value": 4
+        "value": 5
       },
       {
         "name": "droite",
-        "value": 4
+        "value": 5
       },
       {
         "name": "aux",
-        "value": 4
-      },
-      {
-        "name": "国民联盟",
-        "value": 3
+        "value": 5
       },
       {
         "name": "french",
-        "value": 3
+        "value": 5
       },
       {
         "name": "mais",
-        "value": 3
+        "value": 5
       },
       {
         "name": "comme",
-        "value": 3
-      },
-      {
-        "name": "été",
-        "value": 3
+        "value": 4
       },
       {
         "name": "ses",
-        "value": 3
+        "value": 4
       },
       {
         "name": "ans",
-        "value": 3
+        "value": 4
       },
       {
         "name": "cette",
-        "value": 3
+        "value": 4
       },
       {
         "name": "sont",
-        "value": 3
+        "value": 4
       },
       {
         "name": "europe",
-        "value": 3
-      },
-      {
-        "name": "être",
-        "value": 3
+        "value": 4
       },
       {
         "name": "notre",
-        "value": 2
+        "value": 4
       },
       {
         "name": "contre",
-        "value": 2
+        "value": 4
       },
       {
         "name": "faire",
-        "value": 2
-      },
-      {
-        "name": "procès",
-        "value": 2
+        "value": 3
       },
       {
         "name": "ont",
-        "value": 2
+        "value": 3
       },
       {
         "name": "orban",
-        "value": 2
+        "value": 3
+      },
+      {
+        "name": "trump",
+        "value": 3
+      },
+      {
+        "name": "ils",
+        "value": 3
+      },
+      {
+        "name": "viktor",
+        "value": 3
+      },
+      {
+        "name": "face",
+        "value": 3
+      },
+      {
+        "name": "nos",
+        "value": 3
+      },
+      {
+        "name": "right",
+        "value": 3
+      },
+      {
+        "name": "paris",
+        "value": 3
+      },
+      {
+        "name": "quand",
+        "value": 3
       }
     ],
     "LePen-ZH": [
@@ -4253,11 +4253,15 @@
       },
       {
         "name": "玛丽娜",
-        "value": 24
+        "value": 30
       },
       {
         "name": "总统",
         "value": 15
+      },
+      {
+        "name": "极右翼",
+        "value": 12
       },
       {
         "name": "马克",
@@ -4284,16 +4288,24 @@
         "value": 9
       },
       {
-        "name": "极右翼",
-        "value": 8
-      },
-      {
         "name": "判决",
         "value": 8
       },
       {
         "name": "欧盟",
         "value": 8
+      },
+      {
+        "name": "收起",
+        "value": 7
+      },
+      {
+        "name": "参选",
+        "value": 7
+      },
+      {
+        "name": "领导人",
+        "value": 7
       },
       {
         "name": "政党",
@@ -4312,10 +4324,6 @@
         "value": 6
       },
       {
-        "name": "收起",
-        "value": 6
-      },
-      {
         "name": "欧洲议会",
         "value": 6
       },
@@ -4328,10 +4336,6 @@
         "value": 5
       },
       {
-        "name": "参选",
-        "value": 5
-      },
-      {
         "name": "上诉",
         "value": 5
       },
@@ -4340,15 +4344,19 @@
         "value": 5
       },
       {
+        "name": "特朗普",
+        "value": 5
+      },
+      {
+        "name": "俄罗斯",
+        "value": 5
+      },
+      {
         "name": "巴黎",
         "value": 5
       },
       {
         "name": "挪用",
-        "value": 5
-      },
-      {
-        "name": "领导人",
         "value": 5
       },
       {
@@ -4368,6 +4376,10 @@
         "value": 4
       },
       {
+        "name": "微博",
+        "value": 4
+      },
+      {
         "name": "Pen",
         "value": 4
       },
@@ -4377,6 +4389,10 @@
       },
       {
         "name": "监禁",
+        "value": 4
+      },
+      {
+        "name": "候选人",
         "value": 4
       },
       {
@@ -4400,11 +4416,11 @@
         "value": 4
       },
       {
-        "name": "公职",
+        "name": "乌克兰",
         "value": 4
       },
       {
-        "name": "特朗普",
+        "name": "公职",
         "value": 4
       },
       {
@@ -4416,19 +4432,11 @@
         "value": 3
       },
       {
-        "name": "俄罗斯",
-        "value": 3
-      },
-      {
         "name": "议员",
         "value": 3
       },
       {
         "name": "法官",
-        "value": 3
-      },
-      {
-        "name": "微博",
         "value": 3
       },
       {
@@ -4438,84 +4446,68 @@
       {
         "name": "领袖",
         "value": 3
-      },
-      {
-        "name": "视频",
-        "value": 3
-      },
-      {
-        "name": "候选人",
-        "value": 3
       }
     ],
     "Takaichi-EN": [
       {
         "name": "japan",
-        "value": 36
+        "value": 44
       },
       {
         "name": "minister",
-        "value": 22
+        "value": 27
       },
       {
         "name": "japanese",
-        "value": 19
+        "value": 23
       },
       {
         "name": "prime",
-        "value": 18
+        "value": 22
       },
       {
         "name": "trump",
-        "value": 14
+        "value": 18
       },
       {
         "name": "china",
-        "value": 11
+        "value": 13
       },
       {
         "name": "news",
-        "value": 6
-      },
-      {
-        "name": "japón",
-        "value": 6
+        "value": 8
       },
       {
         "name": "taiwan",
-        "value": 6
+        "value": 7
       },
       {
         "name": "first",
-        "value": 5
+        "value": 7
       },
       {
         "name": "donald",
-        "value": 5
-      },
-      {
-        "name": "收起d",
-        "value": 5
+        "value": 6
       },
       {
         "name": "president",
-        "value": 4
+        "value": 6
       },
       {
         "name": "que",
-        "value": 4
+        "value": 5
       },
       {
         "name": "female",
-        "value": 4
+        "value": 5
       },
       {
         "name": "ministra",
-        "value": 4
+        "value": 5
       },
       {
         "name": "tokyo",
-        "value": 4
+        "value": 5
       },
       {
         "name": "house",
@@ -4527,43 +4519,27 @@
       },
       {
         "name": "its",
-        "value": 3
-      },
-      {
-        "name": "nhật",
-        "value": 3
+        "value": 4
       },
       {
         "name": "world",
-        "value": 3
+        "value": 4
       },
       {
         "name": "pearl",
-        "value": 3
+        "value": 4
       },
       {
         "name": "primera",
-        "value": 3
+        "value": 4
       },
       {
         "name": "said",
-        "value": 3
-      },
-      {
-        "name": "thủ",
-        "value": 3
-      },
-      {
-        "name": "tướng",
-        "value": 3
-      },
-      {
-        "name": "bản",
-        "value": 3
+        "value": 4
       },
       {
         "name": "harbor",
-        "value": 3
+        "value": 4
       },
       {
         "name": "you",
@@ -4579,124 +4555,168 @@
       },
       {
         "name": "ldp",
-        "value": 2
+        "value": 3
       },
       {
         "name": "del",
-        "value": 2
+        "value": 3
       },
       {
         "name": "party",
-        "value": 2
+        "value": 3
       },
       {
         "name": "meeting",
-        "value": 2
+        "value": 3
       },
       {
         "name": "iran",
-        "value": 2
+        "value": 3
       },
       {
         "name": "white",
-        "value": 2
-      },
-      {
-        "name": "của",
-        "value": 2
+        "value": 3
       },
       {
         "name": "foreign",
-        "value": 2
+        "value": 3
       },
       {
         "name": "security",
-        "value": 2
+        "value": 3
       },
       {
         "name": "para",
-        "value": 2
+        "value": 3
       },
       {
         "name": "chinese",
-        "value": 2
-      },
-      {
-        "name": "quốc",
-        "value": 2
+        "value": 3
       },
       {
         "name": "los",
-        "value": 2
+        "value": 3
       },
       {
         "name": "por",
-        "value": 2
-      },
-      {
-        "name": "việt",
-        "value": 2
+        "value": 3
       },
       {
         "name": "country",
-        "value": 2
+        "value": 3
       },
       {
         "name": "political",
-        "value": 2
+        "value": 3
       },
       {
         "name": "global",
+        "value": 3
+      },
+      {
+        "name": "asia",
+        "value": 3
+      },
+      {
+        "name": "yang",
+        "value": 3
+      },
+      {
+        "name": "leader",
+        "value": 2
+      },
+      {
+        "name": "official",
+        "value": 2
+      },
+      {
+        "name": "office",
+        "value": 2
+      },
+      {
+        "name": "breaking",
+        "value": 2
+      },
+      {
+        "name": "tin",
+        "value": 2
+      },
+      {
+        "name": "his",
+        "value": 2
+      },
+      {
+        "name": "also",
         "value": 2
       }
     ],
     "Takaichi-JP": [
       {
         "name": "日本",
-        "value": 35
+        "value": 25
       },
       {
-        "name": "首相",
+        "name": "総理",
         "value": 20
       },
       {
-        "name": "大臣",
-        "value": 16
-      },
-      {
-        "name": "動画",
+        "name": "さなえ",
         "value": 15
       },
       {
-        "name": "中国",
-        "value": 9
+        "name": "首相",
+        "value": 14
+      },
+      {
+        "name": "チャンネル",
+        "value": 12
+      },
+      {
+        "name": "動画",
+        "value": 11
+      },
+      {
+        "name": "大臣",
+        "value": 11
       },
       {
         "name": "政治",
         "value": 9
       },
       {
-        "name": "配信",
-        "value": 9
-      },
-      {
-        "name": "ng",
-        "value": 9
-      },
-      {
-        "name": "公式",
+        "name": "ニュース",
         "value": 8
       },
       {
-        "name": "政策",
+        "name": "自民",
         "value": 8
       },
       {
-        "name": "NEWS",
+        "name": "トランプ",
         "value": 7
       },
       {
-        "name": "自民党",
+        "name": "ください",
+        "value": 7
+      },
+      {
+        "name": "中国",
+        "value": 6
+      },
+      {
+        "name": "願い",
+        "value": 6
+      },
+      {
+        "name": "配信",
+        "value": 6
+      },
+      {
+        "name": "経済",
+        "value": 6
+      },
+      {
+        "name": "登録",
         "value": 6
       },
       {
@@ -4704,151 +4724,131 @@
         "value": 6
       },
       {
+        "name": "会談",
+        "value": 6
+      },
+      {
+        "name": "テレビ",
+        "value": 6
+      },
+      {
+        "name": "ござい",
+        "value": 5
+      },
+      {
+        "name": "総裁",
+        "value": 5
+      },
+      {
+        "name": "公式",
+        "value": 5
+      },
+      {
+        "name": "政策",
+        "value": 5
+      },
+      {
+        "name": "内閣",
+        "value": 5
+      },
+      {
+        "name": "NEWS",
+        "value": 5
+      },
+      {
+        "name": "発言",
+        "value": 5
+      },
+      {
+        "name": "選挙",
+        "value": 4
+      },
+      {
+        "name": "首脳",
+        "value": 4
+      },
+      {
         "name": "情報",
-        "value": 6
+        "value": 4
       },
       {
-        "name": "女性",
-        "value": 6
+        "name": "衆議",
+        "value": 4
       },
       {
-        "name": "the",
-        "value": 6
-      },
-      {
-        "name": "担当",
-        "value": 6
-      },
-      {
-        "name": "Takaichi",
-        "value": 6
-      },
-      {
-        "name": "問題",
-        "value": 5
-      },
-      {
-        "name": "th",
-        "value": 5
-      },
-      {
-        "name": "Sanae",
-        "value": 5
-      },
-      {
-        "name": "SNS",
-        "value": 5
-      },
-      {
-        "name": "TikTok",
-        "value": 5
-      },
-      {
-        "name": "TBS",
-        "value": 5
-      },
-      {
-        "name": "2025",
-        "value": 5
-      },
-      {
-        "name": "10",
-        "value": 5
-      },
-      {
-        "name": "安全",
-        "value": 5
-      },
-      {
-        "name": "提供",
-        "value": 5
-      },
-      {
-        "name": "議院",
-        "value": 5
-      },
-      {
-        "name": "特典",
-        "value": 5
-      },
-      {
-        "name": "投稿",
-        "value": 5
-      },
-      {
-        "name": "国民",
-        "value": 5
+        "name": "ひろゆき",
+        "value": 4
       },
       {
         "name": "議員",
-        "value": 5
-      },
-      {
-        "name": "世界",
-        "value": 5
-      },
-      {
-        "name": "and",
         "value": 4
       },
       {
-        "name": "最新",
+        "name": "ライブ",
         "value": 4
       },
       {
-        "name": "会談",
+        "name": "日テレ",
         "value": 4
       },
       {
-        "name": "英語",
+        "name": "報道",
         "value": 4
       },
       {
-        "name": "場合",
+        "name": "考え",
         "value": 4
       },
       {
-        "name": "映像",
+        "name": "女性",
         "value": 4
       },
       {
-        "name": "Facebook",
+        "name": "the",
         "value": 4
       },
       {
-        "name": "保障",
+        "name": "問題",
         "value": 4
       },
       {
-        "name": "基本",
+        "name": "担当",
         "value": 4
       },
       {
-        "name": "nh",
+        "name": "応援",
         "value": 4
       },
       {
-        "name": "台湾",
+        "name": "視聴",
         "value": 4
       },
       {
-        "name": "11",
+        "name": "Takaichi",
+        "value": 4
+      },
+      {
+        "name": "コメント",
         "value": 3
       },
       {
-        "name": "Instagram",
+        "name": "Sanae",
         "value": 3
       },
       {
-        "name": "00",
+        "name": "SNS",
         "value": 3
       },
       {
-        "name": "Jepang",
+        "name": "TikTok",
         "value": 3
       },
       {
-        "name": "新聞",
+        "name": "TBS",
+        "value": 3
+      },
+      {
+        "name": "2025",
         "value": 3
       }
     ],
@@ -4866,7 +4866,15 @@
         "value": 10
       },
       {
+        "name": "自民党",
+        "value": 7
+      },
+      {
         "name": "動画",
+        "value": 7
+      },
+      {
+        "name": "收起",
         "value": 7
       },
       {
@@ -4878,11 +4886,11 @@
         "value": 6
       },
       {
-        "name": "视频",
+        "name": "微博",
         "value": 6
       },
       {
-        "name": "收起",
+        "name": "视频",
         "value": 6
       },
       {
@@ -4894,15 +4902,11 @@
         "value": 5
       },
       {
-        "name": "自民党",
+        "name": "特朗普",
         "value": 5
       },
       {
         "name": "国家",
-        "value": 5
-      },
-      {
-        "name": "微博",
         "value": 5
       },
       {
@@ -4915,10 +4919,6 @@
       },
       {
         "name": "憲法",
-        "value": 4
-      },
-      {
-        "name": "特朗普",
         "value": 4
       },
       {
@@ -4946,6 +4946,10 @@
         "value": 3
       },
       {
+        "name": "日本首相",
+        "value": 3
+      },
+      {
         "name": "政府",
         "value": 3
       },
@@ -4966,6 +4970,14 @@
         "value": 2
       },
       {
+        "name": "不是",
+        "value": 2
+      },
+      {
+        "name": "重要",
+        "value": 2
+      },
+      {
         "name": "女性",
         "value": 2
       },
@@ -4974,15 +4986,15 @@
         "value": 2
       },
       {
+        "name": "政治家",
+        "value": 2
+      },
+      {
         "name": "内容",
         "value": 2
       },
       {
         "name": "投稿",
-        "value": 2
-      },
-      {
-        "name": "日本首相",
         "value": 2
       },
       {
@@ -5010,10 +5022,6 @@
         "value": 2
       },
       {
-        "name": "不是",
-        "value": 2
-      },
-      {
         "name": "教会",
         "value": 2
       },
@@ -5026,7 +5034,7 @@
         "value": 2
       },
       {
-        "name": "重要",
+        "name": "日本政府",
         "value": 2
       },
       {
@@ -5043,14 +5051,6 @@
       },
       {
         "name": "表示",
-        "value": 2
-      },
-      {
-        "name": "引用",
-        "value": 2
-      },
-      {
-        "name": "自由",
         "value": 2
       }
     ]

@@ -4,133 +4,133 @@
       {
         "id": 0,
         "keywords": [
-          "收起d",
-          "l身为里中横的微博视频",
-          "lruptly国际新闻视频通讯社的微博视频",
-          "popular",
-          "europe",
-          "和八名",
-          "frédéric",
-          "pouvoir",
-          "rally",
-          "mars"
-        ],
-        "doc_count": 251,
-        "weight": 3.783171228856271,
-        "sentiment_dist": {
-          "negative": 28.7,
-          "positive": 7.2,
-          "neutral": 64.1
-        }
-      },
-      {
-        "id": 1,
-        "keywords": [
           "les",
           "des",
           "pour",
           "sur",
-          "qui",
           "une",
+          "qui",
           "que",
           "pas",
           "dans",
           "avec"
         ],
-        "doc_count": 822,
-        "weight": 48.56457770352656,
+        "doc_count": 835,
+        "weight": 46.500344607312414,
         "sentiment_dist": {
-          "negative": 41.4,
-          "neutral": 33.5,
-          "positive": 25.2
+          "negative": 41.3,
+          "neutral": 33.4,
+          "positive": 25.3
+        }
+      },
+      {
+        "id": 1,
+        "keywords": [
+          "macron",
+          "emmanuel",
+          "april",
+          "june",
+          "president",
+          "second",
+          "think",
+          "better",
+          "presidential",
+          "tour"
+        ],
+        "doc_count": 106,
+        "weight": 6.302657106212302,
+        "sentiment_dist": {
+          "neutral": 58.5,
+          "positive": 16.0,
+          "negative": 25.5
         }
       },
       {
         "id": 2,
         "keywords": [
-          "macron",
-          "o网页链接",
-          "emmanuel",
-          "april",
-          "法国总统",
-          "与极右翼候选人",
-          "法国总统候选人",
-          "june",
           "pen",
-          "法国极右翼政党总统候选人"
+          "april",
+          "french",
+          "france",
+          "jordan",
+          "viktor",
+          "die",
+          "der",
+          "bardella",
+          "european"
         ],
-        "doc_count": 102,
-        "weight": 7.168268960518012,
+        "doc_count": 367,
+        "weight": 9.300814167288399,
         "sentiment_dist": {
-          "neutral": 56.9,
-          "positive": 21.6,
-          "negative": 21.6
+          "positive": 25.6,
+          "negative": 39.8,
+          "neutral": 34.6
         }
       },
       {
         "id": 3,
         "keywords": [
-          "mosques",
           "radical",
+          "mosques",
           "brotherhood",
           "muslim",
-          "shut",
           "wake",
           "west",
           "islamist",
           "nationality",
-          "stripped"
+          "stripped",
+          "ideology"
         ],
-        "doc_count": 41,
-        "weight": 8.39791461061299,
+        "doc_count": 32,
+        "weight": 8.269823827595197,
         "sentiment_dist": {
-          "positive": 82.9,
-          "neutral": 12.2,
-          "negative": 4.9
+          "positive": 78.1,
+          "neutral": 18.8,
+          "negative": 3.1
         }
       },
       {
         "id": 4,
         "keywords": [
-          "pen",
-          "french",
-          "viktor",
-          "support",
-          "yes",
-          "france",
-          "法国极右翼政党总统候选人",
-          "european",
-          "stand",
-          "leader"
-        ],
-        "doc_count": 518,
-        "weight": 17.81911586167194,
-        "sentiment_dist": {
-          "positive": 26.6,
-          "negative": 39.0,
-          "neutral": 34.4
-        }
-      },
-      {
-        "id": 5,
-        "keywords": [
           "las",
           "los",
-          "derecha",
           "que",
+          "derecha",
           "extrema",
           "grandes",
           "ciudades",
           "francesas",
           "izquierda",
-          "para"
+          "del"
         ],
-        "doc_count": 81,
-        "weight": 14.266951634814246,
+        "doc_count": 86,
+        "weight": 13.867687287177416,
         "sentiment_dist": {
-          "neutral": 19.8,
-          "positive": 53.1,
-          "negative": 27.2
+          "neutral": 17.4,
+          "positive": 50.0,
+          "negative": 32.6
+        }
+      },
+      {
+        "id": 5,
+        "keywords": [
+          "you",
+          "yes",
+          "back",
+          "stand",
+          "down",
+          "deport",
+          "branded",
+          "islamic",
+          "plan",
+          "combat"
+        ],
+        "doc_count": 175,
+        "weight": 15.758673004414273,
+        "sentiment_dist": {
+          "positive": 33.7,
+          "neutral": 34.9,
+          "negative": 31.4
         }
       }
     ],
@@ -150,7 +150,7 @@
           "被判"
         ],
         "doc_count": 240,
-        "weight": 27.355847986579306,
+        "weight": 27.35447590594885,
         "sentiment_dist": {
           "positive": 25.4,
           "neutral": 55.0,
@@ -172,7 +172,7 @@
           "扮演"
         ],
         "doc_count": 83,
-        "weight": 5.941334749062547,
+        "weight": 5.944764331993236,
         "sentiment_dist": {
           "negative": 18.1,
           "neutral": 50.6,
@@ -194,7 +194,7 @@
           "欧洲"
         ],
         "doc_count": 391,
-        "weight": 41.85028005112256,
+        "weight": 41.853777317452554,
         "sentiment_dist": {
           "positive": 41.7,
           "neutral": 44.5,
@@ -216,7 +216,7 @@
           "意识形态"
         ],
         "doc_count": 42,
-        "weight": 8.197119946978802,
+        "weight": 8.202776433423658,
         "sentiment_dist": {
           "neutral": 42.9,
           "positive": 50.0,
@@ -238,7 +238,7 @@
           "结束"
         ],
         "doc_count": 23,
-        "weight": 2.6966037267926204,
+        "weight": 2.6993331503327935,
         "sentiment_dist": {
           "neutral": 39.1,
           "positive": 21.7,
@@ -260,7 +260,7 @@
           "压制"
         ],
         "doc_count": 90,
-        "weight": 13.958813539464158,
+        "weight": 13.944872860848893,
         "sentiment_dist": {
           "positive": 57.8,
           "neutral": 28.9,
@@ -272,133 +272,133 @@
       {
         "id": 0,
         "keywords": [
-          "收起d",
-          "o网页链接",
-          "democratic",
-          "下载app搞定全球市场",
-          "さなえ",
-          "epic",
-          "images",
-          "draws",
-          "invest",
-          "china"
+          "minister",
+          "prime",
+          "japanese",
+          "white",
+          "dinner",
+          "state",
+          "house",
+          "president",
+          "visit",
+          "macron"
         ],
-        "doc_count": 138,
-        "weight": 3.3549559356762475,
+        "doc_count": 337,
+        "weight": 17.009597731875896,
         "sentiment_dist": {
-          "positive": 12.3,
-          "negative": 50.7,
-          "neutral": 37.0
+          "neutral": 51.0,
+          "positive": 31.2,
+          "negative": 17.8
         }
       },
       {
         "id": 1,
-        "keywords": [
-          "trump",
-          "japanese",
-          "president",
-          "white",
-          "donald",
-          "minister",
-          "prime",
-          "house",
-          "pearl",
-          "meeting"
-        ],
-        "doc_count": 378,
-        "weight": 18.96053293074317,
-        "sentiment_dist": {
-          "positive": 31.0,
-          "negative": 23.3,
-          "neutral": 45.8
-        }
-      },
-      {
-        "id": 2,
         "keywords": [
           "que",
           "primera",
           "ministra",
           "del",
           "una",
-          "las",
           "los",
-          "japón",
+          "las",
+          "con",
           "por",
           "para"
         ],
-        "doc_count": 285,
-        "weight": 22.441719544266554,
+        "doc_count": 271,
+        "weight": 19.60078852884636,
         "sentiment_dist": {
-          "positive": 40.0,
-          "neutral": 39.3,
-          "negative": 20.7
+          "positive": 38.4,
+          "neutral": 39.1,
+          "negative": 22.5
+        }
+      },
+      {
+        "id": 2,
+        "keywords": [
+          "female",
+          "first",
+          "elected",
+          "prime",
+          "become",
+          "party",
+          "minister",
+          "conservative",
+          "ruling",
+          "leader"
+        ],
+        "doc_count": 185,
+        "weight": 14.005328179886689,
+        "sentiment_dist": {
+          "neutral": 52.4,
+          "positive": 30.8,
+          "negative": 16.8
         }
       },
       {
         "id": 3,
         "keywords": [
-          "prime",
-          "minister",
-          "female",
-          "elected",
-          "party",
-          "set",
-          "leader",
-          "conservative",
-          "ruling",
-          "new"
+          "japan",
+          "news",
+          "its",
+          "china",
+          "follow",
+          "our",
+          "subscribe",
+          "war",
+          "taiwan",
+          "global"
         ],
-        "doc_count": 386,
-        "weight": 14.755657929375573,
+        "doc_count": 510,
+        "weight": 26.49209809543038,
         "sentiment_dist": {
-          "neutral": 53.4,
-          "positive": 30.8,
-          "negative": 15.8
+          "neutral": 45.9,
+          "positive": 33.1,
+          "negative": 21.0
         }
       },
       {
         "id": 4,
         "keywords": [
-          "japan",
-          "news",
-          "china",
-          "follow",
-          "war",
-          "like",
-          "subscribe",
-          "taiwan",
-          "global",
-          "visit"
+          "trump",
+          "donald",
+          "president",
+          "pearl",
+          "meeting",
+          "harbor",
+          "you",
+          "oval",
+          "tell",
+          "white"
         ],
-        "doc_count": 516,
-        "weight": 24.241429686504414,
+        "doc_count": 300,
+        "weight": 16.199847362330036,
         "sentiment_dist": {
-          "positive": 34.7,
-          "neutral": 47.1,
-          "negative": 18.2
+          "positive": 33.3,
+          "negative": 24.0,
+          "neutral": 42.7
         }
       },
       {
         "id": 5,
         "keywords": [
-          "thủ",
-          "tướng",
-          "nhật",
-          "bản",
-          "của",
-          "việt",
-          "chính",
           "minh",
-          "quốc",
-          "thăm"
+          "nam",
+          "trong",
+          "tin",
+          "khi",
+          "theo",
+          "cho",
+          "quan",
+          "xem",
+          "trung"
         ],
-        "doc_count": 59,
-        "weight": 16.245703973434054,
+        "doc_count": 61,
+        "weight": 6.69234010163063,
         "sentiment_dist": {
-          "positive": 42.4,
-          "negative": 10.2,
-          "neutral": 47.5
+          "neutral": 54.1,
+          "positive": 37.7,
+          "negative": 8.2
         }
       }
     ],
@@ -406,133 +406,133 @@
       {
         "id": 0,
         "keywords": [
-          "特典",
-          "news",
-          "配信",
-          "sns",
-          "facebook",
-          "機能",
-          "月額",
-          "290",
-          "報道局",
-          "tiktok"
+          "さなえ",
+          "みんな",
+          "たかい",
+          "しよう",
+          "書い",
+          "やめろ",
+          "にほん",
+          "あたり",
+          "ねー",
+          "100"
         ],
-        "doc_count": 39,
-        "weight": 17.403844801115266,
+        "doc_count": 82,
+        "weight": 4.671907478070364,
         "sentiment_dist": {
-          "positive": 43.6,
-          "negative": 17.9,
-          "neutral": 38.5
+          "negative": 41.5,
+          "positive": 24.4,
+          "neutral": 34.1
         }
       },
       {
         "id": 1,
         "keywords": [
-          "日本",
-          "首相",
-          "高評",
-          "中国",
-          "平和",
-          "世界",
-          "大統領",
-          "国民",
-          "会談",
-          "女性"
+          "日テレ",
+          "特典",
+          "news",
+          "配信",
+          "応じ",
+          "チャット",
+          "使える",
+          "ステータス",
+          "クラブ",
+          "290"
         ],
-        "doc_count": 97,
-        "weight": 21.732993077947913,
+        "doc_count": 19,
+        "weight": 18.724137792575164,
         "sentiment_dist": {
-          "neutral": 38.1,
-          "positive": 45.4,
-          "negative": 16.5
+          "positive": 36.8,
+          "neutral": 57.9,
+          "negative": 5.3
         }
       },
       {
         "id": 2,
         "keywords": [
           "動画",
+          "チャンネル",
+          "コメント",
+          "内容",
           "著作",
           "連絡",
-          "内容",
+          "ください",
           "場合",
-          "引用",
-          "政治",
-          "特定",
-          "使用",
-          "目的"
+          "登録",
+          "政治"
         ],
-        "doc_count": 62,
-        "weight": 19.28603801206344,
+        "doc_count": 70,
+        "weight": 22.22704085178797,
         "sentiment_dist": {
-          "positive": 35.5,
-          "negative": 12.9,
-          "neutral": 51.6
+          "positive": 42.9,
+          "neutral": 51.4,
+          "negative": 5.7
         }
       },
       {
         "id": 3,
         "keywords": [
-          "tbs",
-          "提供",
-          "公式",
-          "映像",
-          "投稿",
-          "dig",
-          "情報",
-          "中国",
-          "news",
-          "台湾"
+          "日本",
+          "首相",
+          "大臣",
+          "自民",
+          "女性",
+          "政策",
+          "総理",
+          "政治",
+          "首位",
+          "内閣"
         ],
-        "doc_count": 41,
-        "weight": 12.315321509387648,
+        "doc_count": 131,
+        "weight": 24.241414145870017,
         "sentiment_dist": {
-          "negative": 9.8,
-          "neutral": 51.2,
-          "positive": 39.0
+          "neutral": 37.4,
+          "positive": 49.6,
+          "negative": 13.0
         }
       },
       {
         "id": 4,
         "keywords": [
-          "takaichi",
-          "sanae",
-          "jepang",
-          "dan",
-          "yang",
-          "ng",
-          "minister",
-          "ldp",
-          "prime",
-          "th"
+          "tbs",
+          "公式",
+          "提供",
+          "総理",
+          "中国",
+          "会談",
+          "大統領",
+          "サイト",
+          "トランプ",
+          "news"
         ],
-        "doc_count": 41,
-        "weight": 12.81941830153115,
+        "doc_count": 62,
+        "weight": 17.55523292605985,
         "sentiment_dist": {
-          "positive": 43.9,
-          "negative": 26.8,
-          "neutral": 29.3
+          "positive": 30.6,
+          "negative": 12.9,
+          "neutral": 56.5
         }
       },
       {
         "id": 5,
         "keywords": [
-          "大臣",
-          "自民党",
-          "女性",
-          "文字",
-          "担当",
-          "議院",
-          "議員",
-          "政策",
-          "政治",
-          "安全"
+          "takaichi",
+          "sanae",
+          "jepang",
+          "the",
+          "dan",
+          "yang",
+          "and",
+          "ldp",
+          "menteri",
+          "minister"
         ],
-        "doc_count": 96,
-        "weight": 16.442384297954586,
+        "doc_count": 39,
+        "weight": 12.580266805636645,
         "sentiment_dist": {
-          "positive": 35.4,
-          "negative": 15.6,
-          "neutral": 49.0
+          "negative": 12.8,
+          "neutral": 35.9,
+          "positive": 51.3
         }
       }
     ],
@@ -549,14 +549,14 @@
           "外交",
           "海峡",
           "问题",
-          "原油"
+          "国民"
         ],
-        "doc_count": 484,
-        "weight": 32.51415507614916,
+        "doc_count": 483,
+        "weight": 32.640188814724965,
         "sentiment_dist": {
           "positive": 12.2,
-          "neutral": 25.0,
-          "negative": 62.8
+          "neutral": 25.1,
+          "negative": 62.7
         }
       },
       {
@@ -574,7 +574,7 @@
           "记者"
         ],
         "doc_count": 174,
-        "weight": 8.751358018825352,
+        "weight": 8.670553147573589,
         "sentiment_dist": {
           "negative": 66.7,
           "neutral": 27.0,
@@ -595,12 +595,12 @@
           "jp",
           "女性"
         ],
-        "doc_count": 644,
-        "weight": 28.181893456949364,
+        "doc_count": 652,
+        "weight": 28.77991099759128,
         "sentiment_dist": {
-          "neutral": 18.9,
-          "positive": 14.8,
-          "negative": 66.3
+          "neutral": 19.2,
+          "positive": 14.7,
+          "negative": 66.1
         }
       },
       {
@@ -609,16 +609,16 @@
           "收起",
           "新闻",
           "央视",
-          "lcctv",
           "时讯",
+          "lcctv",
           "国际",
           "上台",
-          "新华社",
           "北京日报",
+          "新华社",
           "报道"
         ],
         "doc_count": 49,
-        "weight": 3.5938679614947615,
+        "weight": 3.597330705897102,
         "sentiment_dist": {
           "negative": 59.2,
           "neutral": 30.6,
@@ -631,20 +631,20 @@
           "動画",
           "早苗陣",
           "著作",
-          "引用",
           "中傷",
+          "引用",
           "政治",
           "次郎",
           "投稿",
           "作成",
           "内容"
         ],
-        "doc_count": 308,
-        "weight": 17.49028936455491,
+        "doc_count": 312,
+        "weight": 17.54365578724654,
         "sentiment_dist": {
           "positive": 17.9,
-          "neutral": 28.6,
-          "negative": 53.6
+          "neutral": 27.9,
+          "negative": 54.2
         }
       },
       {
@@ -654,19 +654,19 @@
           "教会",
           "統一",
           "投票",
-          "議員",
           "候補者",
+          "議員",
           "本当",
           "国賊",
-          "政策",
-          "一票"
+          "一票",
+          "政策"
         ],
-        "doc_count": 200,
-        "weight": 9.468436122026466,
+        "doc_count": 189,
+        "weight": 8.768360546966527,
         "sentiment_dist": {
-          "neutral": 21.0,
-          "positive": 16.5,
-          "negative": 62.5
+          "neutral": 21.2,
+          "positive": 16.4,
+          "negative": 62.4
         }
       }
     ]
@@ -675,27 +675,27 @@
     {
       "language": "ZH",
       "shared_keywords": [
+        "收起",
         "国际",
+        "投票",
+        "特朗普",
         "美国",
-        "国民",
         "微博",
         "视频",
-        "收起",
-        "投票",
-        "特朗普"
+        "国民"
       ],
       "count": 8
     },
     {
       "language": "EN",
       "shared_keywords": [
-        "leader",
-        "para",
-        "收起d",
-        "o网页链接",
+        "los",
+        "del",
+        "you",
+        "macron",
         "que",
-        "las",
-        "los"
+        "president",
+        "las"
       ],
       "count": 7
     }
