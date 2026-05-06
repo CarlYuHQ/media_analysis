@@ -1323,7 +1323,8 @@ function isDarkSection(el) {
   const chart = echarts.init(el);
   // Merge Takaichi and LePen wordcloud data for this language
   let merged = [];
-  const segKeys = Object.keys(T.wordcloud_data).filter(k => k.toLowerCase().includes(lang));
+  const langUpper = lang.toUpperCase();
+  const segKeys = Object.keys(T.wordcloud_data).filter(k => k.endsWith('-' + langUpper));
   segKeys.forEach(k => merged = merged.concat(T.wordcloud_data[k] || []));
   // Deduplicate by summing
   const wordMap = {};
