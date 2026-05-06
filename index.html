@@ -584,8 +584,8 @@ footer a { color: var(--accent-gold); text-decoration:none; }
       <h3>分析方法</h3>
       <p>多层次的计算分析，结合定量与定性方法。</p>
       <ul>
-        <li>情感分析（AI标注：正面/负面/中性）</li>
-        <li>情绪分类（愤怒、厌恶、恐惧、快乐等）</li>
+        <li>情感分析（预标注：正面/负面/中性/无关）</li>
+        <li>情绪分类（预标注：愤怒、厌恶、恐惧、快乐等十余种）</li>
         <li><strong>TF-IDF</strong> 关键词提取（多语言）</li>
         <li><strong>NMF</strong> 主题建模（每个数据集5-8个主题）</li>
         <li><strong>卡方检验</strong>（含 Cramer's V 效应量）</li>
@@ -682,7 +682,7 @@ footer a { color: var(--accent-gold); text-decoration:none; }
     <div class="chart-container" style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08);">
       <h3 style="color:#e8e4df;">各数据集情感分布</h3>
       <div id="chart-sentiment-bar" style="height:380px;"><canvas id="sentimentBarCanvas"></canvas></div>
-      <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.8rem; line-height:1.6;"><strong>说明：</strong>每条帖子的情感（正面/负面/中性）由AI大语言模型标注，模型根据帖子文本内容判断其对该领导人的整体态度倾向。比例基于各数据集的相关帖子总数计算。</p>
+      <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.8rem; line-height:1.6;"><strong>说明：</strong>每条帖子的情感（正面/负面/中性）帖子情感标注为原始数据集自带字段，由数据采集阶段的AI辅助标注系统生成（包含正面/负面/中性/无关四类）。本研究直接使用这些预标注结果进行统计计算。</p>
     </div>
     <div class="chart-container" style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08);">
       <h3 style="color:#e8e4df;">情感比例细目</h3>
@@ -717,7 +717,7 @@ footer a { color: var(--accent-gold); text-decoration:none; }
     <div class="chart-container">
       <h3>情绪雷达图：高市早苗 vs 勒庞</h3>
       <div id="chart-emotion-radar" style="height:400px;"></div>
-      <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.8rem; line-height:1.6;"><strong>说明：</strong>每条帖子的情绪（愤怒、厌恶、恐惧、快乐等）由AI大语言模型根据文本语义标注。雷达图显示各情绪类别在两位领导人全部相关帖子中的占比，数值为百分比（%）。例如勒庞的"愤怒"占比25.6%，表示其相关帖子中有25.6%被标注为愤怒情绪。</p>
+      <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.8rem; line-height:1.6;"><strong>说明：</strong>帖子的情绪分类（预标注：愤怒、厌恶、恐惧、快乐等十余种）为原始数据集预标注字段，涵盖十余种情绪类型。雷达图显示各情绪类别在两位领导人全部相关帖子中的占比，数值为百分比（%）。</p>
     </div>
     <div class="chart-container">
       <h3>情绪-情感交叉热力图</h3>
