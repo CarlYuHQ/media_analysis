@@ -1,0 +1,112 @@
+{
+  "total_rows": 8310,
+  "relevant_rows": 7015,
+  "irrelevant_rows": 1295,
+  "leaders": [
+    "Takaichi",
+    "LePen"
+  ],
+  "languages": [
+    "JP",
+    "EN",
+    "ZH"
+  ],
+  "date_range": {
+    "min": "2017-04-24 02:00:53",
+    "max": "2026-05-06 06:00:44"
+  },
+  "file_stats": {
+    "高市早苗-日语.csv": {
+      "original_rows": 1103,
+      "leader": "Takaichi",
+      "language": "JP"
+    },
+    "高市早苗-英文.csv": {
+      "original_rows": 2102,
+      "leader": "Takaichi",
+      "language": "EN"
+    },
+    "高市早苗-中文.csv": {
+      "original_rows": 2174,
+      "leader": "Takaichi",
+      "language": "ZH"
+    },
+    "勒庞-中文.csv": {
+      "original_rows": 1010,
+      "leader": "LePen",
+      "language": "ZH"
+    },
+    "勒庞-英文.csv": {
+      "original_rows": 2127,
+      "leader": "LePen",
+      "language": "EN"
+    }
+  },
+  "sentiment_values": [
+    "irrelevant",
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "emotion_values": [
+    "anger",
+    "confusion",
+    "disappointment",
+    "discomfort",
+    "disgust",
+    "embarrassment",
+    "fear",
+    "frustration",
+    "happiness",
+    "hope",
+    "irrelevant",
+    "neutral",
+    "relief",
+    "respect",
+    "sadness",
+    "surprise"
+  ],
+  "platforms": [
+    "bluesky",
+    "facebook",
+    "instagram",
+    "reddit",
+    "threads",
+    "twitter",
+    "weibo",
+    "youtube"
+  ],
+  "account_types": [
+    "Individual",
+    "Media",
+    "Organization",
+    "Unknown"
+  ],
+  "rows_by_segment": {
+    "LePen-EN": {
+      "total": 2067,
+      "relevant": 1870,
+      "irrelevant": 197
+    },
+    "LePen-ZH": {
+      "total": 1002,
+      "relevant": 873,
+      "irrelevant": 129
+    },
+    "Takaichi-EN": {
+      "total": 2068,
+      "relevant": 1846,
+      "irrelevant": 222
+    },
+    "Takaichi-JP": {
+      "total": 1068,
+      "relevant": 452,
+      "irrelevant": 616
+    },
+    "Takaichi-ZH": {
+      "total": 2105,
+      "relevant": 1974,
+      "irrelevant": 131
+    }
+  }
+}

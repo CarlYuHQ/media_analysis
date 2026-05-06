@@ -1,0 +1,170 @@
+{
+  "raw_counts": {
+    "LePen-EN": {
+      "neutral": 717,
+      "negative": 675,
+      "positive": 478,
+      "irrelevant": 197
+    },
+    "LePen-ZH": {
+      "neutral": 405,
+      "positive": 328,
+      "negative": 140,
+      "irrelevant": 129
+    },
+    "Takaichi-EN": {
+      "neutral": 855,
+      "positive": 589,
+      "negative": 402,
+      "irrelevant": 219
+    },
+    "Takaichi-JP": {
+      "irrelevant": 614,
+      "neutral": 198,
+      "positive": 180,
+      "negative": 74
+    },
+    "Takaichi-ZH": {
+      "negative": 1233,
+      "neutral": 463,
+      "positive": 278,
+      "irrelevant": 128
+    }
+  },
+  "proportions": {
+    "LePen-EN": {
+      "neutral": 38.3,
+      "negative": 36.1,
+      "positive": 25.6,
+      "total": 1870
+    },
+    "LePen-ZH": {
+      "neutral": 46.4,
+      "positive": 37.6,
+      "negative": 16.0,
+      "total": 873
+    },
+    "Takaichi-EN": {
+      "neutral": 46.3,
+      "positive": 31.9,
+      "negative": 21.8,
+      "total": 1846
+    },
+    "Takaichi-JP": {
+      "neutral": 43.8,
+      "positive": 39.8,
+      "negative": 16.4,
+      "total": 452
+    },
+    "Takaichi-ZH": {
+      "negative": 62.5,
+      "neutral": 23.5,
+      "positive": 14.1,
+      "total": 1974
+    }
+  },
+  "chi_square_tests": [
+    {
+      "test": "Takaichi vs LePen (Chinese)",
+      "chi2": 531.86,
+      "p_value": 3.216944055456137e-116,
+      "df": 2,
+      "cramers_v": 0.432,
+      "significant": true
+    },
+    {
+      "test": "Takaichi vs LePen (English)",
+      "chi2": 92.71,
+      "p_value": 7.37916931629423e-21,
+      "df": 2,
+      "cramers_v": 0.158,
+      "significant": true
+    },
+    {
+      "test": "Takaichi across languages (JP vs EN vs ZH)",
+      "chi2": 787.65,
+      "p_value": 3.6251665337767037e-169,
+      "df": 4,
+      "cramers_v": 0.304,
+      "significant": true
+    },
+    {
+      "test": "LePen across languages (EN vs ZH)",
+      "chi2": 119.24,
+      "p_value": 1.2775221559529415e-26,
+      "df": 2,
+      "cramers_v": 0.209,
+      "significant": true
+    }
+  ],
+  "sentiment_by_platform": {
+    "bluesky": {
+      "negative": 55.3,
+      "neutral": 38.1,
+      "positive": 6.6,
+      "total": 1453
+    },
+    "facebook": {
+      "positive": 42.7,
+      "neutral": 40.2,
+      "negative": 17.1,
+      "total": 281
+    },
+    "instagram": {
+      "positive": 50.5,
+      "neutral": 37.5,
+      "negative": 11.9,
+      "total": 637
+    },
+    "reddit": {
+      "neutral": 49.6,
+      "negative": 31.0,
+      "positive": 19.4,
+      "total": 268
+    },
+    "threads": {
+      "negative": 39.6,
+      "positive": 35.8,
+      "neutral": 24.5,
+      "total": 53
+    },
+    "twitter": {
+      "positive": 41.6,
+      "negative": 37.1,
+      "neutral": 21.3,
+      "total": 1867
+    },
+    "weibo": {
+      "neutral": 45.9,
+      "negative": 42.1,
+      "positive": 12.0,
+      "total": 1654
+    },
+    "youtube": {
+      "neutral": 53.6,
+      "positive": 33.5,
+      "negative": 12.8,
+      "total": 802
+    }
+  },
+  "sentiment_by_account_type": {
+    "Individual": {
+      "negative": 44.6,
+      "positive": 39.5,
+      "neutral": 16.0,
+      "total": 1115
+    },
+    "Media": {
+      "neutral": 44.3,
+      "negative": 30.9,
+      "positive": 24.8,
+      "total": 149
+    },
+    "Organization": {
+      "neutral": 42.7,
+      "positive": 33.5,
+      "negative": 23.8,
+      "total": 164
+    }
+  }
+}

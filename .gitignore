@@ -1,0 +1,17 @@
+# Claude Code
+.claude/
+
+# Design docs
+awesome-design-md/
+Agent.md
+
+# Node
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

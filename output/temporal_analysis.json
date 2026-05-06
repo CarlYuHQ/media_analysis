@@ -1,0 +1,2200 @@
+{
+  "monthly_sentiment": {
+    "LePen-EN": [
+      {
+        "month": "2017-04",
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 100.0
+      },
+      {
+        "month": "2021-07",
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 100.0
+      },
+      {
+        "month": "2021-10",
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 100.0
+      },
+      {
+        "month": "2022-03",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 2,
+        "total": 2,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2022-04",
+        "positive": 1,
+        "negative": 9,
+        "neutral": 10,
+        "total": 20,
+        "neg_ratio": 45.0,
+        "pos_ratio": 5.0
+      },
+      {
+        "month": "2022-09",
+        "positive": 0,
+        "negative": 1,
+        "neutral": 0,
+        "total": 1,
+        "neg_ratio": 100.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2023-03",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2023-05",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2023-06",
+        "positive": 0,
+        "negative": 1,
+        "neutral": 0,
+        "total": 1,
+        "neg_ratio": 100.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2023-07",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2023-09",
+        "positive": 0,
+        "negative": 1,
+        "neutral": 2,
+        "total": 3,
+        "neg_ratio": 33.3,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2023-10",
+        "positive": 0,
+        "negative": 3,
+        "neutral": 0,
+        "total": 3,
+        "neg_ratio": 100.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2023-11",
+        "positive": 0,
+        "negative": 2,
+        "neutral": 1,
+        "total": 3,
+        "neg_ratio": 66.7,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2023-12",
+        "positive": 0,
+        "negative": 4,
+        "neutral": 1,
+        "total": 5,
+        "neg_ratio": 80.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2024-01",
+        "positive": 0,
+        "negative": 1,
+        "neutral": 0,
+        "total": 1,
+        "neg_ratio": 100.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2024-02",
+        "positive": 0,
+        "negative": 1,
+        "neutral": 3,
+        "total": 4,
+        "neg_ratio": 25.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2024-03",
+        "positive": 0,
+        "negative": 1,
+        "neutral": 0,
+        "total": 1,
+        "neg_ratio": 100.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2024-05",
+        "positive": 1,
+        "negative": 2,
+        "neutral": 0,
+        "total": 3,
+        "neg_ratio": 66.7,
+        "pos_ratio": 33.3
+      },
+      {
+        "month": "2024-06",
+        "positive": 4,
+        "negative": 1,
+        "neutral": 6,
+        "total": 11,
+        "neg_ratio": 9.1,
+        "pos_ratio": 36.4
+      },
+      {
+        "month": "2024-07",
+        "positive": 0,
+        "negative": 10,
+        "neutral": 10,
+        "total": 20,
+        "neg_ratio": 50.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2024-08",
+        "positive": 0,
+        "negative": 1,
+        "neutral": 0,
+        "total": 1,
+        "neg_ratio": 100.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2024-09",
+        "positive": 0,
+        "negative": 3,
+        "neutral": 2,
+        "total": 5,
+        "neg_ratio": 60.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2024-10",
+        "positive": 1,
+        "negative": 0,
+        "neutral": 3,
+        "total": 4,
+        "neg_ratio": 0.0,
+        "pos_ratio": 25.0
+      },
+      {
+        "month": "2024-11",
+        "positive": 1,
+        "negative": 8,
+        "neutral": 8,
+        "total": 17,
+        "neg_ratio": 47.1,
+        "pos_ratio": 5.9
+      },
+      {
+        "month": "2024-12",
+        "positive": 0,
+        "negative": 10,
+        "neutral": 5,
+        "total": 15,
+        "neg_ratio": 66.7,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2025-01",
+        "positive": 2,
+        "negative": 5,
+        "neutral": 10,
+        "total": 17,
+        "neg_ratio": 29.4,
+        "pos_ratio": 11.8
+      },
+      {
+        "month": "2025-02",
+        "positive": 1,
+        "negative": 2,
+        "neutral": 3,
+        "total": 6,
+        "neg_ratio": 33.3,
+        "pos_ratio": 16.7
+      },
+      {
+        "month": "2025-03",
+        "positive": 9,
+        "negative": 23,
+        "neutral": 7,
+        "total": 39,
+        "neg_ratio": 59.0,
+        "pos_ratio": 23.1
+      },
+      {
+        "month": "2025-04",
+        "positive": 6,
+        "negative": 2,
+        "neutral": 2,
+        "total": 10,
+        "neg_ratio": 20.0,
+        "pos_ratio": 60.0
+      },
+      {
+        "month": "2025-05",
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 100.0
+      },
+      {
+        "month": "2025-06",
+        "positive": 4,
+        "negative": 2,
+        "neutral": 2,
+        "total": 8,
+        "neg_ratio": 25.0,
+        "pos_ratio": 50.0
+      },
+      {
+        "month": "2025-07",
+        "positive": 3,
+        "negative": 0,
+        "neutral": 1,
+        "total": 4,
+        "neg_ratio": 0.0,
+        "pos_ratio": 75.0
+      },
+      {
+        "month": "2025-08",
+        "positive": 4,
+        "negative": 1,
+        "neutral": 2,
+        "total": 7,
+        "neg_ratio": 14.3,
+        "pos_ratio": 57.1
+      },
+      {
+        "month": "2025-09",
+        "positive": 10,
+        "negative": 3,
+        "neutral": 8,
+        "total": 21,
+        "neg_ratio": 14.3,
+        "pos_ratio": 47.6
+      },
+      {
+        "month": "2025-10",
+        "positive": 11,
+        "negative": 3,
+        "neutral": 8,
+        "total": 22,
+        "neg_ratio": 13.6,
+        "pos_ratio": 50.0
+      },
+      {
+        "month": "2025-11",
+        "positive": 6,
+        "negative": 4,
+        "neutral": 8,
+        "total": 18,
+        "neg_ratio": 22.2,
+        "pos_ratio": 33.3
+      },
+      {
+        "month": "2025-12",
+        "positive": 12,
+        "negative": 5,
+        "neutral": 15,
+        "total": 32,
+        "neg_ratio": 15.6,
+        "pos_ratio": 37.5
+      },
+      {
+        "month": "2026-01",
+        "positive": 26,
+        "negative": 17,
+        "neutral": 29,
+        "total": 72,
+        "neg_ratio": 23.6,
+        "pos_ratio": 36.1
+      },
+      {
+        "month": "2026-02",
+        "positive": 57,
+        "negative": 72,
+        "neutral": 59,
+        "total": 188,
+        "neg_ratio": 38.3,
+        "pos_ratio": 30.3
+      },
+      {
+        "month": "2026-03",
+        "positive": 116,
+        "negative": 142,
+        "neutral": 85,
+        "total": 343,
+        "neg_ratio": 41.4,
+        "pos_ratio": 33.8
+      },
+      {
+        "month": "2026-04",
+        "positive": 106,
+        "negative": 188,
+        "neutral": 118,
+        "total": 412,
+        "neg_ratio": 45.6,
+        "pos_ratio": 25.7
+      },
+      {
+        "month": "2026-05",
+        "positive": 56,
+        "negative": 34,
+        "neutral": 36,
+        "total": 126,
+        "neg_ratio": 27.0,
+        "pos_ratio": 44.4
+      }
+    ],
+    "LePen-ZH": [
+      {
+        "month": "2022-04",
+        "positive": 1,
+        "negative": 2,
+        "neutral": 15,
+        "total": 18,
+        "neg_ratio": 11.1,
+        "pos_ratio": 5.6
+      },
+      {
+        "month": "2022-09",
+        "positive": 1,
+        "negative": 0,
+        "neutral": 1,
+        "total": 2,
+        "neg_ratio": 0.0,
+        "pos_ratio": 50.0
+      },
+      {
+        "month": "2024-04",
+        "positive": 0,
+        "negative": 1,
+        "neutral": 0,
+        "total": 1,
+        "neg_ratio": 100.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2024-05",
+        "positive": 1,
+        "negative": 1,
+        "neutral": 0,
+        "total": 2,
+        "neg_ratio": 50.0,
+        "pos_ratio": 50.0
+      },
+      {
+        "month": "2024-06",
+        "positive": 1,
+        "negative": 2,
+        "neutral": 3,
+        "total": 6,
+        "neg_ratio": 33.3,
+        "pos_ratio": 16.7
+      },
+      {
+        "month": "2024-07",
+        "positive": 0,
+        "negative": 1,
+        "neutral": 2,
+        "total": 3,
+        "neg_ratio": 33.3,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2024-08",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2024-09",
+        "positive": 1,
+        "negative": 1,
+        "neutral": 0,
+        "total": 2,
+        "neg_ratio": 50.0,
+        "pos_ratio": 50.0
+      },
+      {
+        "month": "2024-12",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 2,
+        "total": 2,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2025-01",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 11,
+        "total": 11,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2025-02",
+        "positive": 1,
+        "negative": 0,
+        "neutral": 3,
+        "total": 4,
+        "neg_ratio": 0.0,
+        "pos_ratio": 25.0
+      },
+      {
+        "month": "2025-03",
+        "positive": 13,
+        "negative": 7,
+        "neutral": 23,
+        "total": 43,
+        "neg_ratio": 16.3,
+        "pos_ratio": 30.2
+      },
+      {
+        "month": "2025-04",
+        "positive": 107,
+        "negative": 18,
+        "neutral": 34,
+        "total": 159,
+        "neg_ratio": 11.3,
+        "pos_ratio": 67.3
+      },
+      {
+        "month": "2025-05",
+        "positive": 11,
+        "negative": 1,
+        "neutral": 5,
+        "total": 17,
+        "neg_ratio": 5.9,
+        "pos_ratio": 64.7
+      },
+      {
+        "month": "2025-06",
+        "positive": 4,
+        "negative": 1,
+        "neutral": 2,
+        "total": 7,
+        "neg_ratio": 14.3,
+        "pos_ratio": 57.1
+      },
+      {
+        "month": "2025-07",
+        "positive": 5,
+        "negative": 2,
+        "neutral": 8,
+        "total": 15,
+        "neg_ratio": 13.3,
+        "pos_ratio": 33.3
+      },
+      {
+        "month": "2025-08",
+        "positive": 1,
+        "negative": 2,
+        "neutral": 0,
+        "total": 3,
+        "neg_ratio": 66.7,
+        "pos_ratio": 33.3
+      },
+      {
+        "month": "2025-09",
+        "positive": 12,
+        "negative": 0,
+        "neutral": 6,
+        "total": 18,
+        "neg_ratio": 0.0,
+        "pos_ratio": 66.7
+      },
+      {
+        "month": "2025-10",
+        "positive": 9,
+        "negative": 0,
+        "neutral": 6,
+        "total": 15,
+        "neg_ratio": 0.0,
+        "pos_ratio": 60.0
+      },
+      {
+        "month": "2025-11",
+        "positive": 5,
+        "negative": 1,
+        "neutral": 4,
+        "total": 10,
+        "neg_ratio": 10.0,
+        "pos_ratio": 50.0
+      },
+      {
+        "month": "2025-12",
+        "positive": 2,
+        "negative": 1,
+        "neutral": 3,
+        "total": 6,
+        "neg_ratio": 16.7,
+        "pos_ratio": 33.3
+      },
+      {
+        "month": "2026-01",
+        "positive": 0,
+        "negative": 3,
+        "neutral": 16,
+        "total": 19,
+        "neg_ratio": 15.8,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2026-02",
+        "positive": 4,
+        "negative": 3,
+        "neutral": 6,
+        "total": 13,
+        "neg_ratio": 23.1,
+        "pos_ratio": 30.8
+      },
+      {
+        "month": "2026-03",
+        "positive": 16,
+        "negative": 2,
+        "neutral": 10,
+        "total": 28,
+        "neg_ratio": 7.1,
+        "pos_ratio": 57.1
+      },
+      {
+        "month": "2026-04",
+        "positive": 26,
+        "negative": 0,
+        "neutral": 4,
+        "total": 30,
+        "neg_ratio": 0.0,
+        "pos_ratio": 86.7
+      },
+      {
+        "month": "2026-05",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      }
+    ],
+    "Takaichi-EN": [
+      {
+        "month": "2024-07",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2024-11",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2025-03",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2025-06",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2025-09",
+        "positive": 2,
+        "negative": 0,
+        "neutral": 0,
+        "total": 2,
+        "neg_ratio": 0.0,
+        "pos_ratio": 100.0
+      },
+      {
+        "month": "2025-10",
+        "positive": 72,
+        "negative": 33,
+        "neutral": 134,
+        "total": 239,
+        "neg_ratio": 13.8,
+        "pos_ratio": 30.1
+      },
+      {
+        "month": "2025-11",
+        "positive": 14,
+        "negative": 23,
+        "neutral": 32,
+        "total": 69,
+        "neg_ratio": 33.3,
+        "pos_ratio": 20.3
+      },
+      {
+        "month": "2025-12",
+        "positive": 5,
+        "negative": 9,
+        "neutral": 20,
+        "total": 34,
+        "neg_ratio": 26.5,
+        "pos_ratio": 14.7
+      },
+      {
+        "month": "2026-01",
+        "positive": 29,
+        "negative": 5,
+        "neutral": 30,
+        "total": 64,
+        "neg_ratio": 7.8,
+        "pos_ratio": 45.3
+      },
+      {
+        "month": "2026-02",
+        "positive": 110,
+        "negative": 15,
+        "neutral": 57,
+        "total": 182,
+        "neg_ratio": 8.2,
+        "pos_ratio": 60.4
+      },
+      {
+        "month": "2026-03",
+        "positive": 209,
+        "negative": 125,
+        "neutral": 269,
+        "total": 603,
+        "neg_ratio": 20.7,
+        "pos_ratio": 34.7
+      },
+      {
+        "month": "2026-04",
+        "positive": 73,
+        "negative": 47,
+        "neutral": 118,
+        "total": 238,
+        "neg_ratio": 19.7,
+        "pos_ratio": 30.7
+      },
+      {
+        "month": "2026-05",
+        "positive": 40,
+        "negative": 12,
+        "neutral": 60,
+        "total": 112,
+        "neg_ratio": 10.7,
+        "pos_ratio": 35.7
+      }
+    ],
+    "Takaichi-JP": [
+      {
+        "month": "2021-09",
+        "positive": 2,
+        "negative": 0,
+        "neutral": 1,
+        "total": 3,
+        "neg_ratio": 0.0,
+        "pos_ratio": 66.7
+      },
+      {
+        "month": "2024-08",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 2,
+        "total": 2,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2024-09",
+        "positive": 4,
+        "negative": 0,
+        "neutral": 0,
+        "total": 4,
+        "neg_ratio": 0.0,
+        "pos_ratio": 100.0
+      },
+      {
+        "month": "2024-10",
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 100.0
+      },
+      {
+        "month": "2024-11",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2025-01",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 2,
+        "total": 2,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2025-02",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2025-03",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 2,
+        "total": 2,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2025-04",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 4,
+        "total": 4,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2025-05",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2025-06",
+        "positive": 1,
+        "negative": 0,
+        "neutral": 3,
+        "total": 4,
+        "neg_ratio": 0.0,
+        "pos_ratio": 25.0
+      },
+      {
+        "month": "2025-08",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2025-09",
+        "positive": 9,
+        "negative": 0,
+        "neutral": 2,
+        "total": 11,
+        "neg_ratio": 0.0,
+        "pos_ratio": 81.8
+      },
+      {
+        "month": "2025-10",
+        "positive": 45,
+        "negative": 2,
+        "neutral": 40,
+        "total": 87,
+        "neg_ratio": 2.3,
+        "pos_ratio": 51.7
+      },
+      {
+        "month": "2025-11",
+        "positive": 18,
+        "negative": 7,
+        "neutral": 24,
+        "total": 49,
+        "neg_ratio": 14.3,
+        "pos_ratio": 36.7
+      },
+      {
+        "month": "2025-12",
+        "positive": 19,
+        "negative": 10,
+        "neutral": 11,
+        "total": 40,
+        "neg_ratio": 25.0,
+        "pos_ratio": 47.5
+      },
+      {
+        "month": "2026-01",
+        "positive": 31,
+        "negative": 10,
+        "neutral": 40,
+        "total": 81,
+        "neg_ratio": 12.3,
+        "pos_ratio": 38.3
+      },
+      {
+        "month": "2026-02",
+        "positive": 25,
+        "negative": 13,
+        "neutral": 26,
+        "total": 64,
+        "neg_ratio": 20.3,
+        "pos_ratio": 39.1
+      },
+      {
+        "month": "2026-03",
+        "positive": 11,
+        "negative": 7,
+        "neutral": 15,
+        "total": 33,
+        "neg_ratio": 21.2,
+        "pos_ratio": 33.3
+      },
+      {
+        "month": "2026-04",
+        "positive": 7,
+        "negative": 13,
+        "neutral": 14,
+        "total": 34,
+        "neg_ratio": 38.2,
+        "pos_ratio": 20.6
+      },
+      {
+        "month": "2026-05",
+        "positive": 5,
+        "negative": 3,
+        "neutral": 2,
+        "total": 10,
+        "neg_ratio": 30.0,
+        "pos_ratio": 50.0
+      }
+    ],
+    "Takaichi-ZH": [
+      {
+        "month": "2021-09",
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 100.0
+      },
+      {
+        "month": "2023-08",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2024-03",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2024-09",
+        "positive": 8,
+        "negative": 0,
+        "neutral": 1,
+        "total": 9,
+        "neg_ratio": 0.0,
+        "pos_ratio": 88.9
+      },
+      {
+        "month": "2024-10",
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 100.0
+      },
+      {
+        "month": "2025-06",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total": 1,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2025-08",
+        "positive": 0,
+        "negative": 0,
+        "neutral": 2,
+        "total": 2,
+        "neg_ratio": 0.0,
+        "pos_ratio": 0.0
+      },
+      {
+        "month": "2025-09",
+        "positive": 5,
+        "negative": 0,
+        "neutral": 3,
+        "total": 8,
+        "neg_ratio": 0.0,
+        "pos_ratio": 62.5
+      },
+      {
+        "month": "2025-10",
+        "positive": 41,
+        "negative": 5,
+        "neutral": 17,
+        "total": 63,
+        "neg_ratio": 7.9,
+        "pos_ratio": 65.1
+      },
+      {
+        "month": "2025-11",
+        "positive": 18,
+        "negative": 7,
+        "neutral": 41,
+        "total": 66,
+        "neg_ratio": 10.6,
+        "pos_ratio": 27.3
+      },
+      {
+        "month": "2025-12",
+        "positive": 11,
+        "negative": 4,
+        "neutral": 17,
+        "total": 32,
+        "neg_ratio": 12.5,
+        "pos_ratio": 34.4
+      },
+      {
+        "month": "2026-01",
+        "positive": 27,
+        "negative": 4,
+        "neutral": 36,
+        "total": 67,
+        "neg_ratio": 6.0,
+        "pos_ratio": 40.3
+      },
+      {
+        "month": "2026-02",
+        "positive": 44,
+        "negative": 19,
+        "neutral": 49,
+        "total": 112,
+        "neg_ratio": 17.0,
+        "pos_ratio": 39.3
+      },
+      {
+        "month": "2026-03",
+        "positive": 28,
+        "negative": 151,
+        "neutral": 36,
+        "total": 215,
+        "neg_ratio": 70.2,
+        "pos_ratio": 13.0
+      },
+      {
+        "month": "2026-04",
+        "positive": 41,
+        "negative": 558,
+        "neutral": 106,
+        "total": 705,
+        "neg_ratio": 79.1,
+        "pos_ratio": 5.8
+      },
+      {
+        "month": "2026-05",
+        "positive": 35,
+        "negative": 135,
+        "neutral": 37,
+        "total": 207,
+        "neg_ratio": 65.2,
+        "pos_ratio": 16.9
+      }
+    ]
+  },
+  "volume_sentiment_correlation": {
+    "LePen-EN": {
+      "r": 0.015,
+      "p_value": 0.9228422360140842,
+      "significant": false
+    },
+    "LePen-ZH": {
+      "r": -0.165,
+      "p_value": 0.420202927039084,
+      "significant": false
+    },
+    "Takaichi-EN": {
+      "r": 0.437,
+      "p_value": 0.13580512553310492,
+      "significant": false
+    },
+    "Takaichi-JP": {
+      "r": 0.457,
+      "p_value": 0.0373093948840432,
+      "significant": true
+    },
+    "Takaichi-ZH": {
+      "r": 0.854,
+      "p_value": 2.6005833005122826e-05,
+      "significant": true
+    }
+  },
+  "key_events": [
+    {
+      "date": "2025-03",
+      "leader": "LePen",
+      "language": "EN",
+      "segment": "LePen-EN",
+      "post_count": 39,
+      "spike_factor": 3.0
+    },
+    {
+      "date": "2026-01",
+      "leader": "LePen",
+      "language": "EN",
+      "segment": "LePen-EN",
+      "post_count": 72,
+      "spike_factor": 5.5
+    },
+    {
+      "date": "2026-02",
+      "leader": "LePen",
+      "language": "EN",
+      "segment": "LePen-EN",
+      "post_count": 188,
+      "spike_factor": 14.2
+    },
+    {
+      "date": "2026-03",
+      "leader": "LePen",
+      "language": "EN",
+      "segment": "LePen-EN",
+      "post_count": 343,
+      "spike_factor": 26.0
+    },
+    {
+      "date": "2026-04",
+      "leader": "LePen",
+      "language": "EN",
+      "segment": "LePen-EN",
+      "post_count": 412,
+      "spike_factor": 31.2
+    },
+    {
+      "date": "2026-05",
+      "leader": "LePen",
+      "language": "EN",
+      "segment": "LePen-EN",
+      "post_count": 126,
+      "spike_factor": 9.5
+    },
+    {
+      "date": "2025-03",
+      "leader": "LePen",
+      "language": "ZH",
+      "segment": "LePen-ZH",
+      "post_count": 43,
+      "spike_factor": 4.9
+    },
+    {
+      "date": "2025-04",
+      "leader": "LePen",
+      "language": "ZH",
+      "segment": "LePen-ZH",
+      "post_count": 159,
+      "spike_factor": 18.2
+    },
+    {
+      "date": "2026-03",
+      "leader": "LePen",
+      "language": "ZH",
+      "segment": "LePen-ZH",
+      "post_count": 28,
+      "spike_factor": 3.2
+    },
+    {
+      "date": "2026-04",
+      "leader": "LePen",
+      "language": "ZH",
+      "segment": "LePen-ZH",
+      "post_count": 30,
+      "spike_factor": 3.4
+    },
+    {
+      "date": "2025-10",
+      "leader": "Takaichi",
+      "language": "EN",
+      "segment": "Takaichi-EN",
+      "post_count": 239,
+      "spike_factor": 3.6
+    },
+    {
+      "date": "2026-02",
+      "leader": "Takaichi",
+      "language": "EN",
+      "segment": "Takaichi-EN",
+      "post_count": 182,
+      "spike_factor": 2.7
+    },
+    {
+      "date": "2026-03",
+      "leader": "Takaichi",
+      "language": "EN",
+      "segment": "Takaichi-EN",
+      "post_count": 603,
+      "spike_factor": 9.0
+    },
+    {
+      "date": "2026-04",
+      "leader": "Takaichi",
+      "language": "EN",
+      "segment": "Takaichi-EN",
+      "post_count": 238,
+      "spike_factor": 3.5
+    },
+    {
+      "date": "2025-10",
+      "leader": "Takaichi",
+      "language": "JP",
+      "segment": "Takaichi-JP",
+      "post_count": 87,
+      "spike_factor": 11.4
+    },
+    {
+      "date": "2025-11",
+      "leader": "Takaichi",
+      "language": "JP",
+      "segment": "Takaichi-JP",
+      "post_count": 49,
+      "spike_factor": 6.4
+    },
+    {
+      "date": "2025-12",
+      "leader": "Takaichi",
+      "language": "JP",
+      "segment": "Takaichi-JP",
+      "post_count": 40,
+      "spike_factor": 5.2
+    },
+    {
+      "date": "2026-01",
+      "leader": "Takaichi",
+      "language": "JP",
+      "segment": "Takaichi-JP",
+      "post_count": 81,
+      "spike_factor": 10.6
+    },
+    {
+      "date": "2026-02",
+      "leader": "Takaichi",
+      "language": "JP",
+      "segment": "Takaichi-JP",
+      "post_count": 64,
+      "spike_factor": 8.4
+    },
+    {
+      "date": "2026-03",
+      "leader": "Takaichi",
+      "language": "JP",
+      "segment": "Takaichi-JP",
+      "post_count": 33,
+      "spike_factor": 4.3
+    },
+    {
+      "date": "2026-04",
+      "leader": "Takaichi",
+      "language": "JP",
+      "segment": "Takaichi-JP",
+      "post_count": 34,
+      "spike_factor": 4.5
+    },
+    {
+      "date": "2025-11",
+      "leader": "Takaichi",
+      "language": "ZH",
+      "segment": "Takaichi-ZH",
+      "post_count": 66,
+      "spike_factor": 2.5
+    },
+    {
+      "date": "2026-01",
+      "leader": "Takaichi",
+      "language": "ZH",
+      "segment": "Takaichi-ZH",
+      "post_count": 67,
+      "spike_factor": 2.6
+    },
+    {
+      "date": "2026-02",
+      "leader": "Takaichi",
+      "language": "ZH",
+      "segment": "Takaichi-ZH",
+      "post_count": 112,
+      "spike_factor": 4.3
+    },
+    {
+      "date": "2026-03",
+      "leader": "Takaichi",
+      "language": "ZH",
+      "segment": "Takaichi-ZH",
+      "post_count": 215,
+      "spike_factor": 8.2
+    },
+    {
+      "date": "2026-04",
+      "leader": "Takaichi",
+      "language": "ZH",
+      "segment": "Takaichi-ZH",
+      "post_count": 705,
+      "spike_factor": 27.0
+    },
+    {
+      "date": "2026-05",
+      "leader": "Takaichi",
+      "language": "ZH",
+      "segment": "Takaichi-ZH",
+      "post_count": 207,
+      "spike_factor": 7.9
+    }
+  ],
+  "known_events": [
+    {
+      "date": "2022-04",
+      "leader": "LePen",
+      "event": "French Presidential Election Runoff",
+      "segment": "LePen-EN"
+    },
+    {
+      "date": "2024-06",
+      "leader": "LePen",
+      "event": "European Parliament Elections",
+      "segment": "LePen-EN"
+    },
+    {
+      "date": "2024-09",
+      "leader": "Takaichi",
+      "event": "LDP Leadership Election",
+      "segment": "Takaichi-JP"
+    },
+    {
+      "date": "2024-10",
+      "leader": "Takaichi",
+      "event": "LDP Leadership Race / PM Campaign",
+      "segment": "Takaichi-ZH"
+    },
+    {
+      "date": "2025-01",
+      "leader": "Takaichi",
+      "event": "Regular Diet Session / Policy Debate",
+      "segment": "Takaichi-JP"
+    },
+    {
+      "date": "2025-03",
+      "leader": "LePen",
+      "event": "Embezzlement Trial Verdict",
+      "segment": "LePen-EN"
+    }
+  ],
+  "cumulative_sentiment": {
+    "Takaichi": [
+      {
+        "month": "2021-09",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2021-10",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2021-11",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2021-12",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2022-01",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2022-02",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2022-03",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2022-04",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2022-05",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2022-06",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2022-07",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2022-08",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2022-09",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2022-10",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2022-11",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2022-12",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2023-01",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2023-02",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2023-03",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2023-04",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2023-05",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2023-06",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2023-07",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2023-08",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2023-09",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2023-10",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2023-11",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2023-12",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2024-01",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2024-02",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2024-03",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2024-04",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2024-05",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2024-06",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2024-07",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2024-08",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2024-09",
+        "cumulative_positive": 15,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2024-10",
+        "cumulative_positive": 17,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2024-11",
+        "cumulative_positive": 17,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2024-12",
+        "cumulative_positive": 17,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2025-01",
+        "cumulative_positive": 17,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2025-02",
+        "cumulative_positive": 17,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2025-03",
+        "cumulative_positive": 17,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2025-04",
+        "cumulative_positive": 17,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2025-05",
+        "cumulative_positive": 17,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2025-06",
+        "cumulative_positive": 18,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2025-07",
+        "cumulative_positive": 18,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2025-08",
+        "cumulative_positive": 18,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2025-09",
+        "cumulative_positive": 34,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2025-10",
+        "cumulative_positive": 192,
+        "cumulative_negative": 40
+      },
+      {
+        "month": "2025-11",
+        "cumulative_positive": 242,
+        "cumulative_negative": 77
+      },
+      {
+        "month": "2025-12",
+        "cumulative_positive": 277,
+        "cumulative_negative": 100
+      },
+      {
+        "month": "2026-01",
+        "cumulative_positive": 364,
+        "cumulative_negative": 119
+      },
+      {
+        "month": "2026-02",
+        "cumulative_positive": 543,
+        "cumulative_negative": 166
+      },
+      {
+        "month": "2026-03",
+        "cumulative_positive": 791,
+        "cumulative_negative": 449
+      },
+      {
+        "month": "2026-04",
+        "cumulative_positive": 912,
+        "cumulative_negative": 1067
+      },
+      {
+        "month": "2026-05",
+        "cumulative_positive": 992,
+        "cumulative_negative": 1217
+      }
+    ],
+    "LePen": [
+      {
+        "month": "2017-04",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2017-05",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2017-06",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2017-07",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2017-08",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2017-09",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2017-10",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2017-11",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2017-12",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2018-01",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2018-02",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2018-03",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2018-04",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2018-05",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2018-06",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2018-07",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2018-08",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2018-09",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2018-10",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2018-11",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2018-12",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2019-01",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2019-02",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2019-03",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2019-04",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2019-05",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2019-06",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2019-07",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2019-08",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2019-09",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2019-10",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2019-11",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2019-12",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2020-01",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2020-02",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2020-03",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2020-04",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2020-05",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2020-06",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2020-07",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2020-08",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2020-09",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2020-10",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2020-11",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2020-12",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2021-01",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2021-02",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2021-03",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2021-04",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2021-05",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2021-06",
+        "cumulative_positive": 1,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2021-07",
+        "cumulative_positive": 2,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2021-08",
+        "cumulative_positive": 2,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2021-09",
+        "cumulative_positive": 2,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2021-10",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2021-11",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2021-12",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2022-01",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2022-02",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2022-03",
+        "cumulative_positive": 3,
+        "cumulative_negative": 0
+      },
+      {
+        "month": "2022-04",
+        "cumulative_positive": 5,
+        "cumulative_negative": 11
+      },
+      {
+        "month": "2022-05",
+        "cumulative_positive": 5,
+        "cumulative_negative": 11
+      },
+      {
+        "month": "2022-06",
+        "cumulative_positive": 5,
+        "cumulative_negative": 11
+      },
+      {
+        "month": "2022-07",
+        "cumulative_positive": 5,
+        "cumulative_negative": 11
+      },
+      {
+        "month": "2022-08",
+        "cumulative_positive": 5,
+        "cumulative_negative": 11
+      },
+      {
+        "month": "2022-09",
+        "cumulative_positive": 6,
+        "cumulative_negative": 12
+      },
+      {
+        "month": "2022-10",
+        "cumulative_positive": 6,
+        "cumulative_negative": 12
+      },
+      {
+        "month": "2022-11",
+        "cumulative_positive": 6,
+        "cumulative_negative": 12
+      },
+      {
+        "month": "2022-12",
+        "cumulative_positive": 6,
+        "cumulative_negative": 12
+      },
+      {
+        "month": "2023-01",
+        "cumulative_positive": 6,
+        "cumulative_negative": 12
+      },
+      {
+        "month": "2023-02",
+        "cumulative_positive": 6,
+        "cumulative_negative": 12
+      },
+      {
+        "month": "2023-03",
+        "cumulative_positive": 6,
+        "cumulative_negative": 12
+      },
+      {
+        "month": "2023-04",
+        "cumulative_positive": 6,
+        "cumulative_negative": 12
+      },
+      {
+        "month": "2023-05",
+        "cumulative_positive": 6,
+        "cumulative_negative": 12
+      },
+      {
+        "month": "2023-06",
+        "cumulative_positive": 6,
+        "cumulative_negative": 13
+      },
+      {
+        "month": "2023-07",
+        "cumulative_positive": 6,
+        "cumulative_negative": 13
+      },
+      {
+        "month": "2023-08",
+        "cumulative_positive": 6,
+        "cumulative_negative": 13
+      },
+      {
+        "month": "2023-09",
+        "cumulative_positive": 6,
+        "cumulative_negative": 14
+      },
+      {
+        "month": "2023-10",
+        "cumulative_positive": 6,
+        "cumulative_negative": 17
+      },
+      {
+        "month": "2023-11",
+        "cumulative_positive": 6,
+        "cumulative_negative": 19
+      },
+      {
+        "month": "2023-12",
+        "cumulative_positive": 6,
+        "cumulative_negative": 23
+      },
+      {
+        "month": "2024-01",
+        "cumulative_positive": 6,
+        "cumulative_negative": 24
+      },
+      {
+        "month": "2024-02",
+        "cumulative_positive": 6,
+        "cumulative_negative": 25
+      },
+      {
+        "month": "2024-03",
+        "cumulative_positive": 6,
+        "cumulative_negative": 26
+      },
+      {
+        "month": "2024-04",
+        "cumulative_positive": 6,
+        "cumulative_negative": 27
+      },
+      {
+        "month": "2024-05",
+        "cumulative_positive": 8,
+        "cumulative_negative": 30
+      },
+      {
+        "month": "2024-06",
+        "cumulative_positive": 13,
+        "cumulative_negative": 33
+      },
+      {
+        "month": "2024-07",
+        "cumulative_positive": 13,
+        "cumulative_negative": 44
+      },
+      {
+        "month": "2024-08",
+        "cumulative_positive": 13,
+        "cumulative_negative": 45
+      },
+      {
+        "month": "2024-09",
+        "cumulative_positive": 14,
+        "cumulative_negative": 49
+      },
+      {
+        "month": "2024-10",
+        "cumulative_positive": 15,
+        "cumulative_negative": 49
+      },
+      {
+        "month": "2024-11",
+        "cumulative_positive": 16,
+        "cumulative_negative": 57
+      },
+      {
+        "month": "2024-12",
+        "cumulative_positive": 16,
+        "cumulative_negative": 67
+      },
+      {
+        "month": "2025-01",
+        "cumulative_positive": 18,
+        "cumulative_negative": 72
+      },
+      {
+        "month": "2025-02",
+        "cumulative_positive": 20,
+        "cumulative_negative": 74
+      },
+      {
+        "month": "2025-03",
+        "cumulative_positive": 42,
+        "cumulative_negative": 104
+      },
+      {
+        "month": "2025-04",
+        "cumulative_positive": 155,
+        "cumulative_negative": 124
+      },
+      {
+        "month": "2025-05",
+        "cumulative_positive": 167,
+        "cumulative_negative": 125
+      },
+      {
+        "month": "2025-06",
+        "cumulative_positive": 175,
+        "cumulative_negative": 128
+      },
+      {
+        "month": "2025-07",
+        "cumulative_positive": 183,
+        "cumulative_negative": 130
+      },
+      {
+        "month": "2025-08",
+        "cumulative_positive": 188,
+        "cumulative_negative": 133
+      },
+      {
+        "month": "2025-09",
+        "cumulative_positive": 210,
+        "cumulative_negative": 136
+      },
+      {
+        "month": "2025-10",
+        "cumulative_positive": 230,
+        "cumulative_negative": 139
+      },
+      {
+        "month": "2025-11",
+        "cumulative_positive": 241,
+        "cumulative_negative": 144
+      },
+      {
+        "month": "2025-12",
+        "cumulative_positive": 255,
+        "cumulative_negative": 150
+      },
+      {
+        "month": "2026-01",
+        "cumulative_positive": 281,
+        "cumulative_negative": 170
+      },
+      {
+        "month": "2026-02",
+        "cumulative_positive": 342,
+        "cumulative_negative": 245
+      },
+      {
+        "month": "2026-03",
+        "cumulative_positive": 474,
+        "cumulative_negative": 389
+      },
+      {
+        "month": "2026-04",
+        "cumulative_positive": 606,
+        "cumulative_negative": 577
+      },
+      {
+        "month": "2026-05",
+        "cumulative_positive": 662,
+        "cumulative_negative": 611
+      }
+    ]
+  }
+}

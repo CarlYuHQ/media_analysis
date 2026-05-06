@@ -1,0 +1,100 @@
+{
+  "total_findings": 11,
+  "high_significance": 7,
+  "findings": [
+    {
+      "id": "finding_1",
+      "title": "中文社交媒体对高市早苗的负面情绪显著偏高",
+      "detail": "Takaichi-ZH的负面情感比例高达62.5%，远高于英文和日文语境。",
+      "type": "sentiment",
+      "significance": "high"
+    },
+    {
+      "id": "finding_2",
+      "title": "4项卡方检验均达到统计显著",
+      "detail": "所有情感分布差异均p<0.001，说明不同语言/领导人间的情感差异是系统性的，非随机波动。",
+      "type": "statistical",
+      "significance": "high"
+    },
+    {
+      "id": "finding_emotion_Takaichi",
+      "title": "Takaichi的主要情绪",
+      "detail": "Takaichi相关帖子中最高情绪为happiness(27.2%)。",
+      "type": "emotion",
+      "significance": "medium"
+    },
+    {
+      "id": "finding_emotion_LePen",
+      "title": "LePen的主要情绪",
+      "detail": "LePen相关帖子中最高情绪为anger(25.6%)。",
+      "type": "emotion",
+      "significance": "medium"
+    },
+    {
+      "id": "finding_frame_Takaichi",
+      "title": "Takaichi的主导性别框架",
+      "detail": "Takaichi的社交媒体中最突出的框架是\"外貌/身体框架\"，共匹配456条帖子。",
+      "type": "frame",
+      "significance": "high"
+    },
+    {
+      "id": "finding_frame_LePen",
+      "title": "LePen的主导性别框架",
+      "detail": "LePen的社交媒体中最突出的框架是\"意识形态框架\"，共匹配586条帖子。",
+      "type": "frame",
+      "significance": "high"
+    },
+    {
+      "id": "finding_doublebind",
+      "title": "双重束缚现象显著",
+      "detail": "勒庞中文数据中双重束缚得分最高(LePen(ZH): 37.1%)，反映中文社交媒体在讨论勒庞时更倾向于将性别与领导力议题交织。",
+      "type": "theory",
+      "significance": "high"
+    },
+    {
+      "id": "finding_femono_Takaichi",
+      "title": "Femonationalism指标",
+      "detail": "Takaichi相关帖子中检测到56条包含女性民族主义框架的帖子。",
+      "type": "theory",
+      "significance": "medium"
+    },
+    {
+      "id": "finding_femono_LePen",
+      "title": "Femonationalism指标",
+      "detail": "LePen相关帖子中检测到140条包含女性民族主义框架的帖子。",
+      "type": "theory",
+      "significance": "medium"
+    },
+    {
+      "id": "finding_temporal_Takaichi-JP",
+      "title": "Takaichi-JP讨论量与负面情感显著相关",
+      "detail": "r=0.457, p=0.0373，说明讨论越多，负面情感比例越高。",
+      "type": "temporal",
+      "significance": "high"
+    },
+    {
+      "id": "finding_temporal_Takaichi-ZH",
+      "title": "Takaichi-ZH讨论量与负面情感显著相关",
+      "detail": "r=0.854, p=0.0000，说明讨论越多，负面情感比例越高。",
+      "type": "temporal",
+      "significance": "high"
+    }
+  ],
+  "overview": {
+    "total_posts": 8310,
+    "relevant_posts": 7015,
+    "leaders": [
+      "Takaichi",
+      "LePen"
+    ],
+    "languages": [
+      "JP",
+      "EN",
+      "ZH"
+    ],
+    "date_range": {
+      "min": "2017-04-24 02:00:53",
+      "max": "2026-05-06 06:00:44"
+    }
+  }
+}

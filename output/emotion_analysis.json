@@ -1,0 +1,538 @@
+{
+  "emotion_counts": {
+    "LePen-EN": {
+      "disgust": 417,
+      "anger": 362,
+      "neutral": 278,
+      "happiness": 268,
+      "fear": 186,
+      "surprise": 110,
+      "sadness": 32,
+      "hope": 3,
+      "frustration": 2,
+      "relief": 2,
+      "disappointment": 1
+    },
+    "LePen-ZH": {
+      "anger": 238,
+      "happiness": 132,
+      "fear": 114,
+      "disgust": 82,
+      "surprise": 47,
+      "neutral": 40,
+      "sadness": 32,
+      "hope": 1
+    },
+    "Takaichi-EN": {
+      "happiness": 553,
+      "neutral": 289,
+      "anger": 219,
+      "fear": 159,
+      "disgust": 142,
+      "surprise": 130,
+      "sadness": 30,
+      "embarrassment": 6,
+      "respect": 2,
+      "hope": 2,
+      "discomfort": 1
+    },
+    "Takaichi-JP": {
+      "happiness": 183,
+      "neutral": 53,
+      "anger": 39,
+      "fear": 28,
+      "disgust": 24,
+      "surprise": 19,
+      "sadness": 4,
+      "confusion": 1
+    },
+    "Takaichi-ZH": {
+      "anger": 556,
+      "disgust": 476,
+      "happiness": 283,
+      "fear": 211,
+      "neutral": 198,
+      "surprise": 82,
+      "sadness": 55,
+      "embarrassment": 1
+    }
+  },
+  "emotion_proportions": {
+    "LePen-EN": {
+      "disgust": 25.1,
+      "anger": 21.8,
+      "neutral": 16.7,
+      "happiness": 16.1,
+      "fear": 11.2,
+      "surprise": 6.6,
+      "sadness": 1.9,
+      "hope": 0.2,
+      "frustration": 0.1,
+      "relief": 0.1,
+      "disappointment": 0.1,
+      "total": 1661
+    },
+    "LePen-ZH": {
+      "anger": 34.7,
+      "happiness": 19.2,
+      "fear": 16.6,
+      "disgust": 12.0,
+      "surprise": 6.9,
+      "neutral": 5.8,
+      "sadness": 4.7,
+      "hope": 0.1,
+      "total": 686
+    },
+    "Takaichi-EN": {
+      "happiness": 36.1,
+      "neutral": 18.9,
+      "anger": 14.3,
+      "fear": 10.4,
+      "disgust": 9.3,
+      "surprise": 8.5,
+      "sadness": 2.0,
+      "embarrassment": 0.4,
+      "respect": 0.1,
+      "hope": 0.1,
+      "discomfort": 0.1,
+      "total": 1533
+    },
+    "Takaichi-JP": {
+      "happiness": 52.1,
+      "neutral": 15.1,
+      "anger": 11.1,
+      "fear": 8.0,
+      "disgust": 6.8,
+      "surprise": 5.4,
+      "sadness": 1.1,
+      "confusion": 0.3,
+      "total": 351
+    },
+    "Takaichi-ZH": {
+      "anger": 29.9,
+      "disgust": 25.6,
+      "happiness": 15.2,
+      "fear": 11.3,
+      "neutral": 10.6,
+      "surprise": 4.4,
+      "sadness": 3.0,
+      "embarrassment": 0.1,
+      "total": 1862
+    }
+  },
+  "radar_data": {
+    "emotions": [
+      "anger",
+      "confusion",
+      "disappointment",
+      "discomfort",
+      "disgust",
+      "embarrassment",
+      "fear",
+      "frustration",
+      "happiness",
+      "hope",
+      "neutral",
+      "relief",
+      "respect",
+      "sadness",
+      "surprise"
+    ],
+    "series": {
+      "LePen-EN": [
+        0.628,
+        0.0,
+        1.0,
+        0.0,
+        0.98,
+        0.0,
+        0.675,
+        1.0,
+        0.309,
+        1.0,
+        0.884,
+        1.0,
+        0.0,
+        0.404,
+        0.776
+      ],
+      "LePen-ZH": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.469,
+        0.0,
+        1.0,
+        0.0,
+        0.369,
+        0.5,
+        0.307,
+        0.0,
+        0.0,
+        1.0,
+        0.812
+      ],
+      "Takaichi-EN": [
+        0.412,
+        0.0,
+        0.0,
+        1.0,
+        0.363,
+        1.0,
+        0.627,
+        0.0,
+        0.693,
+        0.5,
+        1.0,
+        0.0,
+        1.0,
+        0.426,
+        1.0
+      ],
+      "Takaichi-JP": [
+        0.32,
+        1.0,
+        0.0,
+        0.0,
+        0.266,
+        0.0,
+        0.482,
+        0.0,
+        1.0,
+        0.0,
+        0.799,
+        0.0,
+        0.0,
+        0.234,
+        0.635
+      ],
+      "Takaichi-ZH": [
+        0.862,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.25,
+        0.681,
+        0.0,
+        0.292,
+        0.0,
+        0.561,
+        0.0,
+        0.0,
+        0.638,
+        0.518
+      ]
+    }
+  },
+  "emotion_sentiment_cross": {
+    "LePen-EN": {
+      "anger": {
+        "negative": 157,
+        "neutral": 39,
+        "positive": 166
+      },
+      "disappointment": {
+        "negative": 1,
+        "neutral": 0,
+        "positive": 0
+      },
+      "disgust": {
+        "negative": 388,
+        "neutral": 24,
+        "positive": 5
+      },
+      "fear": {
+        "negative": 85,
+        "neutral": 61,
+        "positive": 40
+      },
+      "frustration": {
+        "negative": 0,
+        "neutral": 0,
+        "positive": 2
+      },
+      "happiness": {
+        "negative": 15,
+        "neutral": 9,
+        "positive": 244
+      },
+      "hope": {
+        "negative": 2,
+        "neutral": 1,
+        "positive": 0
+      },
+      "neutral": {
+        "negative": 1,
+        "neutral": 265,
+        "positive": 12
+      },
+      "relief": {
+        "negative": 2,
+        "neutral": 0,
+        "positive": 0
+      },
+      "sadness": {
+        "negative": 15,
+        "neutral": 16,
+        "positive": 1
+      },
+      "surprise": {
+        "negative": 9,
+        "neutral": 93,
+        "positive": 8
+      }
+    },
+    "LePen-ZH": {
+      "anger": {
+        "negative": 32,
+        "neutral": 39,
+        "positive": 167
+      },
+      "disgust": {
+        "negative": 69,
+        "neutral": 11,
+        "positive": 2
+      },
+      "fear": {
+        "negative": 27,
+        "neutral": 64,
+        "positive": 23
+      },
+      "happiness": {
+        "negative": 1,
+        "neutral": 5,
+        "positive": 126
+      },
+      "hope": {
+        "negative": 0,
+        "neutral": 1,
+        "positive": 0
+      },
+      "neutral": {
+        "negative": 0,
+        "neutral": 38,
+        "positive": 2
+      },
+      "sadness": {
+        "negative": 11,
+        "neutral": 16,
+        "positive": 5
+      },
+      "surprise": {
+        "negative": 0,
+        "neutral": 44,
+        "positive": 3
+      }
+    },
+    "Takaichi-EN": {
+      "anger": {
+        "negative": 190,
+        "neutral": 6,
+        "positive": 23
+      },
+      "discomfort": {
+        "negative": 0,
+        "neutral": 1,
+        "positive": 0
+      },
+      "disgust": {
+        "negative": 113,
+        "neutral": 26,
+        "positive": 3
+      },
+      "embarrassment": {
+        "negative": 6,
+        "neutral": 0,
+        "positive": 0
+      },
+      "fear": {
+        "negative": 73,
+        "neutral": 85,
+        "positive": 1
+      },
+      "happiness": {
+        "negative": 0,
+        "neutral": 16,
+        "positive": 537
+      },
+      "hope": {
+        "negative": 0,
+        "neutral": 0,
+        "positive": 2
+      },
+      "neutral": {
+        "negative": 0,
+        "neutral": 285,
+        "positive": 4
+      },
+      "respect": {
+        "negative": 0,
+        "neutral": 0,
+        "positive": 2
+      },
+      "sadness": {
+        "negative": 19,
+        "neutral": 9,
+        "positive": 2
+      },
+      "surprise": {
+        "negative": 1,
+        "neutral": 114,
+        "positive": 15
+      }
+    },
+    "Takaichi-JP": {
+      "anger": {
+        "negative": 31,
+        "neutral": 1,
+        "positive": 7
+      },
+      "confusion": {
+        "negative": 0,
+        "neutral": 1,
+        "positive": 0
+      },
+      "disgust": {
+        "negative": 22,
+        "neutral": 2,
+        "positive": 0
+      },
+      "fear": {
+        "negative": 18,
+        "neutral": 10,
+        "positive": 0
+      },
+      "happiness": {
+        "negative": 0,
+        "neutral": 17,
+        "positive": 166
+      },
+      "neutral": {
+        "negative": 0,
+        "neutral": 48,
+        "positive": 5
+      },
+      "sadness": {
+        "negative": 2,
+        "neutral": 1,
+        "positive": 1
+      },
+      "surprise": {
+        "negative": 1,
+        "neutral": 17,
+        "positive": 1
+      }
+    },
+    "Takaichi-ZH": {
+      "anger": {
+        "negative": 532,
+        "neutral": 7,
+        "positive": 17
+      },
+      "disgust": {
+        "negative": 462,
+        "neutral": 14,
+        "positive": 0
+      },
+      "embarrassment": {
+        "negative": 1,
+        "neutral": 0,
+        "positive": 0
+      },
+      "fear": {
+        "negative": 181,
+        "neutral": 26,
+        "positive": 4
+      },
+      "happiness": {
+        "negative": 1,
+        "neutral": 27,
+        "positive": 255
+      },
+      "neutral": {
+        "negative": 1,
+        "neutral": 197,
+        "positive": 0
+      },
+      "sadness": {
+        "negative": 50,
+        "neutral": 5,
+        "positive": 0
+      },
+      "surprise": {
+        "negative": 5,
+        "neutral": 75,
+        "positive": 2
+      }
+    }
+  },
+  "leader_emotion_summary": {
+    "Takaichi": {
+      "counts": {
+        "happiness": 1019,
+        "anger": 814,
+        "disgust": 642,
+        "neutral": 540,
+        "fear": 398,
+        "surprise": 231,
+        "sadness": 89,
+        "embarrassment": 7,
+        "respect": 2,
+        "hope": 2,
+        "confusion": 1,
+        "discomfort": 1
+      },
+      "proportions": {
+        "happiness": 27.2,
+        "anger": 21.7,
+        "disgust": 17.1,
+        "neutral": 14.4,
+        "fear": 10.6,
+        "surprise": 6.2,
+        "sadness": 2.4,
+        "embarrassment": 0.2,
+        "respect": 0.1,
+        "hope": 0.1,
+        "confusion": 0.0,
+        "discomfort": 0.0
+      },
+      "total": 3746
+    },
+    "LePen": {
+      "counts": {
+        "anger": 600,
+        "disgust": 499,
+        "happiness": 400,
+        "neutral": 318,
+        "fear": 300,
+        "surprise": 157,
+        "sadness": 64,
+        "hope": 4,
+        "frustration": 2,
+        "relief": 2,
+        "disappointment": 1
+      },
+      "proportions": {
+        "anger": 25.6,
+        "disgust": 21.3,
+        "happiness": 17.0,
+        "neutral": 13.5,
+        "fear": 12.8,
+        "surprise": 6.7,
+        "sadness": 2.7,
+        "hope": 0.2,
+        "frustration": 0.1,
+        "relief": 0.1,
+        "disappointment": 0.0
+      },
+      "total": 2347
+    }
+  },
+  "key_findings": [
+    "LePen-EN has high negative emotions: anger+disgust=46.900000000000006% vs happiness=16.1%",
+    "LePen-ZH has high negative emotions: anger+disgust=46.7% vs happiness=19.2%",
+    "Takaichi-ZH has high negative emotions: anger+disgust=55.5% vs happiness=15.2%"
+  ]
+}

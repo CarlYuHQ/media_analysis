@@ -1,0 +1,746 @@
+{
+  "leader_comparison": {
+    "Takaichi": {
+      "sentiment": {
+        "positive": 24.5,
+        "negative": 40.0,
+        "neutral": 35.5
+      },
+      "total_posts": 4272,
+      "emotion": {
+        "happiness": 27.2,
+        "anger": 21.7,
+        "disgust": 17.1,
+        "neutral": 14.4,
+        "fear": 10.6,
+        "surprise": 6.2,
+        "sadness": 2.4,
+        "embarrassment": 0.2,
+        "respect": 0.1,
+        "hope": 0.1,
+        "confusion": 0.0,
+        "discomfort": 0.0
+      }
+    },
+    "LePen": {
+      "sentiment": {
+        "positive": 29.4,
+        "negative": 29.7,
+        "neutral": 40.9
+      },
+      "total_posts": 2743,
+      "emotion": {
+        "anger": 25.6,
+        "disgust": 21.3,
+        "happiness": 17.0,
+        "neutral": 13.5,
+        "fear": 12.8,
+        "surprise": 6.7,
+        "sadness": 2.7,
+        "hope": 0.2,
+        "frustration": 0.1,
+        "relief": 0.1,
+        "disappointment": 0.0
+      }
+    }
+  },
+  "gender_frames": {
+    "Takaichi": {
+      "iron_lady": {
+        "label": "铁娘子框架",
+        "description": "强人、坚定、果断、铁腕等领导力描述",
+        "counts_by_language": {
+          "EN": {
+            "matched": 275,
+            "total": 1846,
+            "ratio": 14.9
+          },
+          "JP": {
+            "matched": 36,
+            "total": 452,
+            "ratio": 8.0
+          },
+          "ZH": {
+            "matched": 107,
+            "total": 1974,
+            "ratio": 5.4
+          }
+        },
+        "total_matched": 418,
+        "examples": [
+          {
+            "text": "Japan’s Iron Lady!  A joy to welcome Prime Minister Sanae Takaichi @takaichi_sanae to the White House for her productive day of bilateral meetings with President @realDonaldTrump. As she said, “Japan ",
+            "matched_patterns": [
+              "iron lady"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "🇺🇸🇯🇵 ¡HISTÓRICO !  \nLa Primera Ministra de Japón, Sanae Takaichi, acaba de lanzar una bomba nuclear diplomática en la Casa Blanca:\n\n«¡Solo tú, Donald Trump, puedes traer la paz verdadera al mundo!»\n\n«",
+            "matched_patterns": [
+              "iron lady"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "🚨 WOW! Japanese PM Sanae Takaichi just STUNNED the world, declaring only President Trump can achieve peace as he decimates the Iranian regime\n\n\"I firmly believe that it is only you, Donald, who can ac",
+            "matched_patterns": [
+              "firm"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "@24newseveryday 「100％を目指していきたい強い思いがある」。\nとたかいちはーん\n3年前とかじゃねーぞ\n1週間前くらいやぞ\n説明責任とかのレベルではない\n流石ラウンジさなえ",
+            "matched_patterns": [
+              "強い"
+            ],
+            "language": "JP"
+          },
+          {
+            "text": "高市早苗 総理と太田光さんのやり取りが話題になり、私の友人が「高市総理は知性が高い」と言ってました。\n\nそこで、好き嫌いの感情は抜きで、私なりに高市総理の姓名判断をしました（あくまでも主観です）。\n\n小林正観さんいわく…。\n\n「名前を何万回も呼ばれると、それが潜在意識に刻まれる」\n\nと。\n例えば「た行」は、\n\n戦い、力、強い、敵、闘争 等。\n\n「か行」は…。\n\n勝つ、気合い、苦闘、ケンカ、蹴り、怖",
+            "matched_patterns": [
+              "強い"
+            ],
+            "language": "JP"
+          }
+        ]
+      },
+      "emotional_woman": {
+        "label": "情感女性框架",
+        "description": "情绪化、非理性、感性等性别刻板印象",
+        "counts_by_language": {
+          "EN": {
+            "matched": 11,
+            "total": 1846,
+            "ratio": 0.6
+          },
+          "JP": {
+            "matched": 5,
+            "total": 452,
+            "ratio": 1.1
+          },
+          "ZH": {
+            "matched": 11,
+            "total": 1974,
+            "ratio": 0.6
+          }
+        },
+        "total_matched": 27,
+        "examples": [
+          {
+            "text": "BREAKING: 🇯🇵🇨🇳🇹🇼 Experts warn that Japan under Sanae Takaichi, who now holds a supermajority, is set to dramatically rebuild its military power, marking a sharp shift away from decades of post WWII re",
+            "matched_patterns": [
+              "dramatic"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "Japanese tabloid Sentaku is claiming that Prime Minister Takaichi initially wanted to answer Trump's call to dispatch naval forces to the Strait of Hormuz. However, she allegedly got into a shouting m",
+            "matched_patterns": [
+              "emotional"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "Japan to Abolish its \"Peace Constitution\"\n\nThe ruling Liberal Democratic Party (LDP) held its 93rd party congress in Tokyo on the 12th. Prime Minister and LDP President Sanae Takaichi declared on the ",
+            "matched_patterns": [
+              "sensitive"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "#令和的織田信長👍👍👍\n日本首相たかいち さなえ（高市早苗）叮嚀「台灣女婿-山口晉」台灣是日本最重要的夥伴，還專程特別幫他助選💪\n\n#山口晉高票當選後感性分享了一段往事。當年他結婚時，高市早苗得知他的妻子是台灣人，便特別感念地提到「311大地震時，給予日本最多援助的國家就是台灣。」她當時語重心長地提醒山口晉「日本得好好守護台灣。」這番話讓山口晉銘記至今，也成為他從政以來堅守友台立場的動力。\n\n身為",
+            "matched_patterns": [
+              "感性"
+            ],
+            "language": "JP"
+          },
+          {
+            "text": "恭喜高市早苗女士刚刚当选日本自民党总裁！并极有可能成为日本首相。\n\n高市早苗（Sanae Takaichi，日语：高市 早苗／たかいち さなえ）是日本的资深政治人物，隶属于自由民主党（LDP），其政治立场偏保守，是日本政坛较引人注目的女性领导人之一。下面是她的生平、政治经历、主要观点与争议等方面的介绍：\n\n一、基本情况与早年经历\n\n出生日期：1961年 3月7日 \n\n出生地：日本奈良县（Nara）",
+            "matched_patterns": [
+              "敏感"
+            ],
+            "language": "JP"
+          }
+        ]
+      },
+      "appearance": {
+        "label": "外貌/身体框架",
+        "description": "关注外貌、穿着、年龄、身材等身体特征",
+        "counts_by_language": {
+          "EN": {
+            "matched": 395,
+            "total": 1846,
+            "ratio": 21.4
+          },
+          "JP": {
+            "matched": 11,
+            "total": 452,
+            "ratio": 2.4
+          },
+          "ZH": {
+            "matched": 50,
+            "total": 1974,
+            "ratio": 2.5
+          }
+        },
+        "total_matched": 456,
+        "examples": [
+          {
+            "text": "🚨 JUST IN: Japanese PM Sanae Takaichi is being praised by Americans for personally going to Arlington National Cemetery and laying a wreath at the Tomb of the Unknown Soldier\n\nShe loves and respects A",
+            "matched_patterns": [
+              "old"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "I am in tears. Japan Prime Minister Sanae Takaichi stuns President Trump by wishing his son Barron a Happy Birthday\n\n\"Tomorrow is the birthday of your son, Mr. Barron Trump. He has grown up so much, i",
+            "matched_patterns": [
+              "look"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "In Japan thousands of Muslims have gathered at the LARGEST Castle in the Country to hold a prayer and implement Sharia Law in several neighborhoods.  \n\nPrime Minister Sanae Takaichi has announced that",
+            "matched_patterns": [
+              "old"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "🌿 今日為大家介紹嘅係日本政壇突出嘅女性政治家：\n高市早苗（たかいち さなえ）\n\nーーーー\n📜 基本背景與政治經歷\n\n高市早苗，1961年出生於奈良縣，是自由民主黨（LDP）衆議院議員，自1993年進入政界，目前已連任多屆，現任為奈良2區代表。\n她是一位資深保守派政治家，歷任多項重大閣僚職務，包括：總務大臣、經濟安全保障大臣、內政通信大臣等，涉足科學技術、通商、經濟安全、網路安全等多面向政策領域。",
+            "matched_patterns": [
+              "老"
+            ],
+            "language": "JP"
+          },
+          {
+            "text": "【高市早苗の裏話】化粧や服装をボロカスにいう議員が居たとのことｗｗ#高市早苗 #高市内閣 #小泉進次郎 #小野田紀美 #麻生太郎 #自民党 \n\nメイクやコスメ色んな指導があったのでしょうか\nいろいろな方向からのサポートがありますねｗｗ",
+            "matched_patterns": [
+              "化粧",
+              "服装"
+            ],
+            "language": "JP"
+          }
+        ]
+      },
+      "competence": {
+        "label": "能力质疑框架",
+        "description": "质疑其能力、资格、经验等",
+        "counts_by_language": {
+          "EN": {
+            "matched": 12,
+            "total": 1846,
+            "ratio": 0.7
+          },
+          "JP": {
+            "matched": 12,
+            "total": 452,
+            "ratio": 2.7
+          },
+          "ZH": {
+            "matched": 84,
+            "total": 1974,
+            "ratio": 4.3
+          }
+        },
+        "total_matched": 108,
+        "examples": [
+          {
+            "text": "🇯🇵 Dear Japanese People,\n\nDo you remember when the constitution was written for peace? When Hiroshima and Nagasaki stood as warnings, not memories to be erased?\n\nSanae Takaichi just said combatants wi",
+            "matched_patterns": [
+              "not fit"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "日本の新首相が台湾問題について発言した際、元陸上自衛隊将官によれば、中国は侵略計画全体を白紙に戻さざるを得なくなったという。\n高市早苗首相は国会で、中国が軍艦と武力を用いて台湾を封鎖した場合、日本はそれを「存亡の危機(台湾有事は日本有事)」とみなすと述べた。\nつまり、日本はそれを戦争行為とみなすということだ。\n先週金曜日、東京で、元西部方面軍司令官の小田清陸将（退役）は、北京がなぜこの動きを予測で",
+            "matched_patterns": [
+              "unable"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "Japanese Prime Minister Sanae Takaichi recently expressed her struggle to maintain a healthy work-life balance, specifically citing a lack of sleep and difficulties managing meals. During a meeting on",
+            "matched_patterns": [
+              "lack of",
+              "unable"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "首屆日本女首相高市早苗，妳認識嗎？\n\n全球女性能力被肯定，女性領導人漸漸浮出台面！\n女性領導人比較溫和、柔性理性，不喜歡發動戰爭，說不定這是她們當領導人的好處\n\n高市早苗（たかいち さなえ）首位日本女首相，今天下午正式誕生了，以日本的鐵娘子自稱、尊敬的人是松下幸之助及柴契爾。\n\n在今天下午的當選發表感言時，\n明確的說出放棄了＂工作與生活平衡＂這樣的語言、為了日本及自民黨的改變、要像馬車一様的拼命工",
+            "matched_patterns": [
+              "能力",
+              "能力"
+            ],
+            "language": "JP"
+          },
+          {
+            "text": "恭喜高市早苗女士刚刚当选日本自民党总裁！并极有可能成为日本首相。\n\n高市早苗（Sanae Takaichi，日语：高市 早苗／たかいち さなえ）是日本的资深政治人物，隶属于自由民主党（LDP），其政治立场偏保守，是日本政坛较引人注目的女性领导人之一。下面是她的生平、政治经历、主要观点与争议等方面的介绍：\n\n一、基本情况与早年经历\n\n出生日期：1961年 3月7日 \n\n出生地：日本奈良县（Nara）",
+            "matched_patterns": [
+              "能力",
+              "能力",
+              "经验"
+            ],
+            "language": "JP"
+          }
+        ]
+      },
+      "ideology": {
+        "label": "意识形态框架",
+        "description": "强调极右翼、民粹主义、排外等意识形态标签",
+        "counts_by_language": {
+          "EN": {
+            "matched": 54,
+            "total": 1846,
+            "ratio": 2.9
+          },
+          "JP": {
+            "matched": 6,
+            "total": 452,
+            "ratio": 1.3
+          },
+          "ZH": {
+            "matched": 52,
+            "total": 1974,
+            "ratio": 2.6
+          }
+        },
+        "total_matched": 112,
+        "examples": [
+          {
+            "text": "Trump se acaba de cargar las relaciones diplomáticas con Japón y ha metido en un grandísimo lío a la primera ministra Sanae Takaichi.\n\nPara los japoneses Pearl Harbor está naturalmente conectado con H",
+            "matched_patterns": [
+              "nazi"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "Alright, this is getting silly. We are not going to uwu Japanese fascism. Sanae Takaichi is a far-right LDP politician, as bad if not worse than her predecessor Shinzo Abe, grandson of a literal war c",
+            "matched_patterns": [
+              "far-right"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "Nearly 10,000 people gathered in central Tokyo on Tuesday night to protest the dangerous policies pursued by the government of Japanese Prime Minister Sanae Takaichi, including the deployment of missi",
+            "matched_patterns": [
+              "dangerous"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "恭喜高市早苗女士刚刚当选日本自民党总裁！并极有可能成为日本首相。\n\n高市早苗（Sanae Takaichi，日语：高市 早苗／たかいち さなえ）是日本的资深政治人物，隶属于自由民主党（LDP），其政治立场偏保守，是日本政坛较引人注目的女性领导人之一。下面是她的生平、政治经历、主要观点与争议等方面的介绍：\n\n一、基本情况与早年经历\n\n出生日期：1961年 3月7日 \n\n出生地：日本奈良县（Nara）",
+            "matched_patterns": [
+              "极右"
+            ],
+            "language": "JP"
+          },
+          {
+            "text": "                   注意‼️高市早苗是什么样的人物？高市早苗（日文名：たかいちさなえ）是日本第104任首相，也是日本历史上首位女性首相，同时担任日本自民党第29任总裁，是立场强硬的极右翼政客￼￼￼。以下是关于她的关键信息￼￼￼：1. 基本背景：1961年3月7日生于日本奈良县，1984年毕业于神户大学经营学部，1993年首次当选众议员正式踏入政坛，还曾担任近畿大学经济学部教授。2",
+            "matched_patterns": [
+              "极右"
+            ],
+            "language": "JP"
+          }
+        ]
+      }
+    },
+    "LePen": {
+      "iron_lady": {
+        "label": "铁娘子框架",
+        "description": "强人、坚定、果断、铁腕等领导力描述",
+        "counts_by_language": {
+          "EN": {
+            "matched": 93,
+            "total": 1870,
+            "ratio": 5.0
+          },
+          "ZH": {
+            "matched": 455,
+            "total": 873,
+            "ratio": 52.1
+          }
+        },
+        "total_matched": 548,
+        "examples": [
+          {
+            "text": "🇫🇷 BREAKING: Marine Le Pen’s right-wing National Rally party has WON the left-wing district of La Flèche in today’s Municipal Elections in France.\n\nLa Flèche has been a socialist stronghold since 1989",
+            "matched_patterns": [
+              "strong",
+              "right-wing"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "Globalism in Europe Is On The Verge of COLLAPSE\n\nFrench President Emmanuel Macron just announced he’s leaving politics for good in 2027 after his party got demolished in elections.\n\nMarine Le Pen’s ri",
+            "matched_patterns": [
+              "right-wing"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "🚨 BREAKING: Right-wing Marine Le Pen is SURGING in popularity despite French President Macron’s allies banning her from the presidential ballot\n\n\"I won’t give up. They are doing this for one reason. W",
+            "matched_patterns": [
+              "right-wing"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "法国极右翼领导人玛丽娜·勒庞在接受《费加罗报》采访时谈特朗普停止对乌克兰援助：\n\n我认为，这一决定的无礼是应该受到谴责的。\n\n这对为祖国而爱国保卫家园的乌克兰士兵来说太残忍了。\n\n--这是第一次转她的话，感谢她守住了最后的人类的底线",
+            "matched_patterns": [
+              "右翼"
+            ],
+            "language": "ZH"
+          },
+          {
+            "text": "重磅突发：法国右翼领导人，2027法国大选最热门人选玛丽娜·勒庞，因罪名为“挪用欧洲议会资金向其政党工作人员支付工资”而被判处 4 年监禁。这样，她将无法参加2027年法国总统大选。\n\n细思极恐。\n\n英国已经由穆斯林信仰者斯坦魔控制，德国大选获得第二票数的选择党领袖魏德尔竟然连组阁的机会都没有，罗马尼亚甚至通过法院直接剥夺民望最高候选人参与大选机会……\n\n欧洲的堕落呈加速趋势，似乎无可挽救了。\n\n",
+            "matched_patterns": [
+              "右翼"
+            ],
+            "language": "ZH"
+          }
+        ]
+      },
+      "emotional_woman": {
+        "label": "情感女性框架",
+        "description": "情绪化、非理性、感性等性别刻板印象",
+        "counts_by_language": {
+          "EN": {
+            "matched": 8,
+            "total": 1870,
+            "ratio": 0.4
+          },
+          "ZH": {
+            "matched": 12,
+            "total": 873,
+            "ratio": 1.4
+          }
+        },
+        "total_matched": 20,
+        "examples": [
+          {
+            "text": "Inspired by Marine Le Pen meltdown upon losing the French election, please enjoy this thread of SAD FASCISTS CRYING. 🧵 https://t.co/KimOUN1UC6",
+            "matched_patterns": [
+              "crying"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "From Marine Le Pen to the Polish president, nearly every pro-Russian political entity in Europe gathered today in Budapest to show their support for Viktor Orban, their fellow pro-Russian kleptocrat t",
+            "matched_patterns": [
+              "crying"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "En 24h, les gauchistes ont appris que Marine Le Pen avait dîné avec Bernard Arnault et les 15 plus grands dirigeants d’entreprises françaises et que Jordan Bardella s’était amouraché avec une princess",
+            "matched_patterns": [
+              "fragile"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "🚨玛丽娜·勒庞昨天在巴黎的反法律战集会上发表了激动人心的演讲，支持者蜂拥而至。我从未见过对马克龙的支持如此之多🔥\n\n法国人民想要夺回他们的国家🇫🇷🇫🇷🇫🇷 https://t.co/NypULXYKxi",
+            "matched_patterns": [
+              "激动"
+            ],
+            "language": "ZH"
+          },
+          {
+            "text": "🚨突发新闻：激动人心的时刻，玛丽娜·勒庞带领数千名爱国者齐唱国歌\n\n玛丽娜·勒庞永不停止战斗。\n\n https://t.co/pDSiuhakma",
+            "matched_patterns": [
+              "激动"
+            ],
+            "language": "ZH"
+          }
+        ]
+      },
+      "appearance": {
+        "label": "外貌/身体框架",
+        "description": "关注外貌、穿着、年龄、身材等身体特征",
+        "counts_by_language": {
+          "EN": {
+            "matched": 257,
+            "total": 1870,
+            "ratio": 13.7
+          },
+          "ZH": {
+            "matched": 41,
+            "total": 873,
+            "ratio": 4.7
+          }
+        },
+        "total_matched": 298,
+        "examples": [
+          {
+            "text": "🇫🇷 BREAKING: Marine Le Pen’s right-wing National Rally party has WON the left-wing district of La Flèche in today’s Municipal Elections in France.\n\nLa Flèche has been a socialist stronghold since 1989",
+            "matched_patterns": [
+              "old"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "🇫🇷 FRANCE BANNED ITS LEADING PRESIDENTIAL CANDIDATE FROM RUNNING\n\nMarine Le Pen - leader of France's largest party, frontrunner for 2027 presidency - got barred from holding office for 5 years.\n\nThe c",
+            "matched_patterns": [
+              "old"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "🚨FRANCE GOES FULL COMMUNIST\n\nA French court has been asked to UPHOLD the 5 year BAN on Marine Le Pen standing for election\n\nAbsolute insane witch hunt\n\nWe all know why this is really happening\n\nIt's b",
+            "matched_patterns": [
+              "old"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "👁️🔥为什么法国政府总是这么难产，最新一届法国政府，又在仅仅 27天后倒台！\n\n🧐原来是马克虫🐛总统多次尝试，组建一个排除玛丽娜·勒庞右翼“国民联盟”党的政府，因为该党主张驱逐非法移民！\n当然还有更多～\n马克虫代表“全球化的法国”——高铁、iPhone、巴黎高端圈；\n勒庞代表“被遗忘的法国”——农民、失业者、反移民群众。\n马克虫代表“巴黎香榭丽舍的精英”，\n勒庞代表“郊区超市门口的老百姓”。\n一个",
+            "matched_patterns": [
+              "老"
+            ],
+            "language": "ZH"
+          },
+          {
+            "text": "@AfwZmWB12s2RNgX @tankman2002 真民主国家和平年代不会超过7成的，因为没人会让超过7成人喜欢。\n不过你都知道了，是拜川普所赐。\n高市早苗78%也是部分拜川普和一尊所赐，部分因为日本伪民主。\n乌克兰小泽73%是拜普金所赐。\n当年法国希拉克82%是拜玛丽勒庞她爹老勒庞所赐。\n否则法国大宝贝小马的66%就是真民主国家和平年代的极限。",
+            "matched_patterns": [
+              "老"
+            ],
+            "language": "ZH"
+          }
+        ]
+      },
+      "competence": {
+        "label": "能力质疑框架",
+        "description": "质疑其能力、资格、经验等",
+        "counts_by_language": {
+          "EN": {
+            "matched": 3,
+            "total": 1870,
+            "ratio": 0.2
+          },
+          "ZH": {
+            "matched": 106,
+            "total": 873,
+            "ratio": 12.1
+          }
+        },
+        "total_matched": 109,
+        "examples": [
+          {
+            "text": "Can't believe the combined efforts of Donald Trump, JD Vance, Vladimir Putin, Sergi Lavrov, Alice Weidel, Javier Milei, Marine Le Pen, Robert Fico, Andrej Babiš were unable to convince the people of H",
+            "matched_patterns": [
+              "unable"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "Marine Le Pen réagit aux propos de Sébastien Lecornu sur l'utilisation du \"surplus des recettes fiscales\" pour électrifier l'économie. La candidate du RN rappelle fermement que le gouvernement avait p",
+            "matched_patterns": [
+              "incapable"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "                   \"Ce gouvernement est incapable de protéger nos écoles\", a réagi Marine Le Pen sur X就算马卡龙能行，但谁愿意明知有风险还赌命呢                 ",
+            "matched_patterns": [
+              "incapable"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "脊背发凉：\n加拿大的现任总理，是直接空降而来。法国下一届总统大选热门人选，又被直接投进监狱。这世界，真的有一个总操盘手在忙乎？那川普算什么？意外失手？\n玛丽娜·勒庞，刚被判入狱 4 年，并被剥夺参选资格 5 年。她将无法参加 2027 年法国大选。她显然是获胜热门人选。 https://t.co/3sTHqLfpyJ",
+            "matched_patterns": [
+              "资格"
+            ],
+            "language": "ZH"
+          },
+          {
+            "text": "连民众燃油税都降不起的法国政府，转头就给欧盟上贡了60亿欧元。\n玛丽娜·勒庞直接掀翻了执政党的账本。\n国民联盟提议把增值税从20%狂砍到5.5%。\n官方的拒绝理由永远只有一句：必须控制公共支出。\n\n钱去哪了？\n勒庞当场揭穿了这场荒谬的预算游戏。\n只要把刚刚多塞给布鲁塞尔官僚的那60亿拿回来，一半的减税成本就有了着落。\n剩下的钱甚至够直接降低全法国的燃油税。\n\n勒庞的态度干脆利落。\n没能力找钱，没思",
+            "matched_patterns": [
+              "能力"
+            ],
+            "language": "ZH"
+          }
+        ]
+      },
+      "ideology": {
+        "label": "意识形态框架",
+        "description": "强调极右翼、民粹主义、排外等意识形态标签",
+        "counts_by_language": {
+          "EN": {
+            "matched": 169,
+            "total": 1870,
+            "ratio": 9.0
+          },
+          "ZH": {
+            "matched": 417,
+            "total": 873,
+            "ratio": 47.8
+          }
+        },
+        "total_matched": 586,
+        "examples": [
+          {
+            "text": "Inspired by Marine Le Pen meltdown upon losing the French election, please enjoy this thread of SAD FASCISTS CRYING. 🧵 https://t.co/KimOUN1UC6",
+            "matched_patterns": [
+              "fascist"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "🚨SHOCKING:         \n\n🇫🇷 Marine Le Pen RISES against Macron's France: \n\n\"France will take all necessary steps.    \n\nRadical mosques will be closed, hate preachers will be deported.\" https://t.co/QOx1O2",
+            "matched_patterns": [
+              "radical"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "🚨 IMPACTANTE:\n\n🇫🇷 Marine Le Pen SE LEVANTA contra la Francia de Macron:\n\n\"Francia tomará todas las medidas necesarias.\n\nLas mezquitas radicales serán clausuradas y los predicadores del odio serán depo",
+            "matched_patterns": [
+              "radical"
+            ],
+            "language": "EN"
+          },
+          {
+            "text": "法国极右翼领导人玛丽娜·勒庞在接受《费加罗报》采访时谈特朗普停止对乌克兰援助：\n\n我认为，这一决定的无礼是应该受到谴责的。\n\n这对为祖国而爱国保卫家园的乌克兰士兵来说太残忍了。\n\n--这是第一次转她的话，感谢她守住了最后的人类的底线",
+            "matched_patterns": [
+              "极右"
+            ],
+            "language": "ZH"
+          },
+          {
+            "text": "玛丽娜·勒庞是法国坚定保守派政党“国民联盟”的前主席，被认为将在总统大选中取代那个无能的二手货马克龙。在马克龙治下，法国已连续换了5个总理。最近的政府预算案，在国会仅获一票赞成，创了记录。勒庞演讲说：“法国将采取一切必要措施。极端主义的清真寺将被关闭，煽动仇恨的传教士将被驱逐。”“萨拉菲主义（伊斯兰极端教派）和穆斯林兄弟会将会被消灭。”\n\n马克龙的司法打手给勒庞加上莫须有罪名，就是恐惧她当选。什么",
+            "matched_patterns": [
+              "极端"
+            ],
+            "language": "ZH"
+          }
+        ]
+      }
+    }
+  },
+  "femonationalism": {
+    "Takaichi": {
+      "counts_by_language": {
+        "EN": {
+          "matched": 33,
+          "total": 1846,
+          "ratio": 1.8
+        },
+        "JP": {
+          "matched": 7,
+          "total": 452,
+          "ratio": 1.5
+        },
+        "ZH": {
+          "matched": 16,
+          "total": 1974,
+          "ratio": 0.8
+        }
+      },
+      "examples": [
+        {
+          "text": "🚨🇯🇵 ÚLTIMA HORA: Japón: Con un apoyo sin precedentes de 354 miembros del parlamento de un total de 465, Sanae Takaichi ha sido reelegida como primera ministra de Japón tras unas elecciones relámpago q",
+          "matched": [
+            "islam"
+          ],
+          "language": "EN"
+        },
+        {
+          "text": "🚨 La nueva primera ministra de Japón, Sanae Takaichi, dice que Japón no aceptará islamistas ni inmigrantes ilegales y que se deben enviar refugiados falsos si “Japón quiere seguir siendo Japón”.\n\n¿La ",
+          "matched": [
+            "islam"
+          ],
+          "language": "EN"
+        },
+        {
+          "text": "🇯🇵La Primer Ministra japonesa, Sanae Takaichi, dijo que deportará de Japón a todos los extranjeros culturalmente incompatibles como los islamistas que se reunieron a orar frente al Castillo de Himeji,",
+          "matched": [
+            "islam"
+          ],
+          "language": "EN"
+        }
+      ]
+    },
+    "LePen": {
+      "counts_by_language": {
+        "EN": {
+          "matched": 58,
+          "total": 1870,
+          "ratio": 3.1
+        },
+        "ZH": {
+          "matched": 82,
+          "total": 873,
+          "ratio": 9.4
+        }
+      },
+      "examples": [
+        {
+          "text": "Marine Le Pen says that the authority of Islam in France has ended. \n\nDo you agree with her? https://t.co/mVrHRPge2M",
+          "matched": [
+            "islam"
+          ],
+          "language": "EN"
+        },
+        {
+          "text": "Muslims cry “Islamophobia” over following viral statements by Marine Le Pen detailing her plan to crackdown on Islam by shutting down mosques and deporting Imams who preach jihad (holy war).\n\nDo you s",
+          "matched": [
+            "islam"
+          ],
+          "language": "EN"
+        },
+        {
+          "text": "🇨🇵 Marine Le Pen: „Diejenigen, die mit der islamistischen Ideologie in Verbindung stehen, müssen ihre Staatsbürgerschaft verlieren und ausgewiesen werden.“  Radikale Moscheen werden geschlossen… und d",
+          "matched": [
+            "islam"
+          ],
+          "language": "EN"
+        }
+      ]
+    }
+  },
+  "double_bind": {
+    "Takaichi": {
+      "EN": {
+        "total_negative_posts": 402,
+        "gender_mentioned": 158,
+        "leadership_mentioned": 169,
+        "both_mentioned": 102,
+        "double_bind_ratio": 25.4
+      },
+      "JP": {
+        "total_negative_posts": 74,
+        "gender_mentioned": 4,
+        "leadership_mentioned": 11,
+        "both_mentioned": 3,
+        "double_bind_ratio": 4.1
+      },
+      "ZH": {
+        "total_negative_posts": 1233,
+        "gender_mentioned": 114,
+        "leadership_mentioned": 280,
+        "both_mentioned": 45,
+        "double_bind_ratio": 3.6
+      }
+    },
+    "LePen": {
+      "EN": {
+        "total_negative_posts": 675,
+        "gender_mentioned": 69,
+        "leadership_mentioned": 38,
+        "both_mentioned": 16,
+        "double_bind_ratio": 2.4
+      },
+      "ZH": {
+        "total_negative_posts": 140,
+        "gender_mentioned": 72,
+        "leadership_mentioned": 98,
+        "both_mentioned": 52,
+        "double_bind_ratio": 37.1
+      }
+    }
+  }
+}
