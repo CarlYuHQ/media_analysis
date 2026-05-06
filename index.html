@@ -833,12 +833,21 @@ function isDarkSection(el) {
 (function() {
   const grid = document.getElementById('findings-grid');
   if (!grid || !EX.findings) return;
-  const highF = EX.findings.filter(f => f.significance === 'high');
-  const shown = highF.length > 0 ? highF.slice(0, 3) : EX.findings.slice(0, 3);
+  // Pick one finding per category to show diversity
+  const picks = [];
+  const seen = new Set();
+  const order = ['sentiment','statistical','frame','theory','temporal'];
+  for (const cat of order) {
+    const f = EX.findings.find(x => x.type === cat && !seen.has(cat));
+    if (f) { picks.push(f); seen.add(cat); }
+    if (picks.length >= 3) break;
+  }
+  const shown = picks.length >= 3 ? picks : EX.findings.slice(0, 3);
   grid.innerHTML = shown.map(f => {
-    const cls = f.type === 'theory' ? 'badge-theory' : 'badge-high';
+    const cls = f.type === 'theory' ? 'badge-theory' : f.type === 'statistical' ? 'badge-medium' : 'badge-high';
+    const typeLabel = {sentiment:'情感分析',statistical:'统计检验',emotion:'情绪分析',frame:'框架分析',theory:'理论发现',temporal:'时间趋势'}[f.type] || f.type;
     return `<div class="finding-card">
-      <span class="badge ${cls}">${f.type}</span>
+      <span class="badge ${cls}">${typeLabel}</span>
       <div class="finding-title">${f.title}</div>
       <div class="finding-detail">${f.detail}</div>
     </div>`;
