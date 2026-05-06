@@ -1,8 +1,8 @@
 {
   "data_overview": {
-    "total_rows": 8310,
-    "relevant_rows": 7015,
-    "irrelevant_rows": 1295,
+    "total_rows": 8220,
+    "relevant_rows": 6945,
+    "irrelevant_rows": 1275,
     "leaders": [
       "Takaichi",
       "LePen"
@@ -13,7 +13,7 @@
       "ZH"
     ],
     "date_range": {
-      "min": "2017-04-24 02:00:53",
+      "min": "2022-03-01 18:16:42",
       "max": "2026-05-06 06:00:44"
     },
     "file_stats": {
@@ -85,8 +85,8 @@
     ],
     "rows_by_segment": {
       "LePen-EN": {
-        "total": 2067,
-        "relevant": 1870,
+        "total": 2064,
+        "relevant": 1867,
         "irrelevant": 197
       },
       "LePen-ZH": {
@@ -95,18 +95,18 @@
         "irrelevant": 129
       },
       "Takaichi-EN": {
-        "total": 2068,
-        "relevant": 1846,
+        "total": 2062,
+        "relevant": 1840,
         "irrelevant": 222
       },
       "Takaichi-JP": {
-        "total": 1068,
-        "relevant": 452,
-        "irrelevant": 616
+        "total": 1011,
+        "relevant": 415,
+        "irrelevant": 596
       },
       "Takaichi-ZH": {
-        "total": 2105,
-        "relevant": 1974,
+        "total": 2081,
+        "relevant": 1950,
         "irrelevant": 131
       }
     }
@@ -118,7 +118,7 @@
         "bluesky": 495,
         "weibo": 480,
         "youtube": 249,
-        "instagram": 185,
+        "instagram": 182,
         "facebook": 71,
         "reddit": 68,
         "threads": 19
@@ -137,15 +137,15 @@
         "weibo": 322,
         "youtube": 270,
         "reddit": 239,
-        "instagram": 166,
+        "instagram": 160,
         "facebook": 76,
         "threads": 20
       },
       "Takaichi-JP": {
         "weibo": 500,
         "youtube": 265,
-        "instagram": 138,
         "twitter": 96,
+        "instagram": 81,
         "facebook": 65,
         "bluesky": 4
       },
@@ -154,7 +154,7 @@
         "bluesky": 500,
         "weibo": 499,
         "youtube": 235,
-        "instagram": 191,
+        "instagram": 167,
         "reddit": 94,
         "facebook": 66,
         "threads": 20
@@ -264,65 +264,6 @@
     },
     "temporal_distribution": {
       "LePen-EN": {
-        "2017-04-30": 1,
-        "2017-05-31": 0,
-        "2017-06-30": 0,
-        "2017-07-31": 0,
-        "2017-08-31": 0,
-        "2017-09-30": 0,
-        "2017-10-31": 0,
-        "2017-11-30": 0,
-        "2017-12-31": 0,
-        "2018-01-31": 0,
-        "2018-02-28": 0,
-        "2018-03-31": 0,
-        "2018-04-30": 0,
-        "2018-05-31": 0,
-        "2018-06-30": 0,
-        "2018-07-31": 0,
-        "2018-08-31": 0,
-        "2018-09-30": 0,
-        "2018-10-31": 0,
-        "2018-11-30": 0,
-        "2018-12-31": 0,
-        "2019-01-31": 0,
-        "2019-02-28": 0,
-        "2019-03-31": 0,
-        "2019-04-30": 0,
-        "2019-05-31": 0,
-        "2019-06-30": 0,
-        "2019-07-31": 0,
-        "2019-08-31": 0,
-        "2019-09-30": 0,
-        "2019-10-31": 0,
-        "2019-11-30": 0,
-        "2019-12-31": 0,
-        "2020-01-31": 0,
-        "2020-02-29": 0,
-        "2020-03-31": 0,
-        "2020-04-30": 0,
-        "2020-05-31": 0,
-        "2020-06-30": 0,
-        "2020-07-31": 0,
-        "2020-08-31": 0,
-        "2020-09-30": 0,
-        "2020-10-31": 0,
-        "2020-11-30": 0,
-        "2020-12-31": 0,
-        "2021-01-31": 0,
-        "2021-02-28": 0,
-        "2021-03-31": 0,
-        "2021-04-30": 0,
-        "2021-05-31": 0,
-        "2021-06-30": 0,
-        "2021-07-31": 1,
-        "2021-08-31": 0,
-        "2021-09-30": 0,
-        "2021-10-31": 1,
-        "2021-11-30": 0,
-        "2021-12-31": 0,
-        "2022-01-31": 0,
-        "2022-02-28": 0,
         "2022-03-31": 5,
         "2022-04-30": 21,
         "2022-05-31": 1,
@@ -428,21 +369,6 @@
         "2026-05-31": 1
       },
       "Takaichi-EN": {
-        "2024-07-31": 1,
-        "2024-08-31": 0,
-        "2024-09-30": 0,
-        "2024-10-31": 0,
-        "2024-11-30": 1,
-        "2024-12-31": 0,
-        "2025-01-31": 0,
-        "2025-02-28": 0,
-        "2025-03-31": 1,
-        "2025-04-30": 0,
-        "2025-05-31": 0,
-        "2025-06-30": 1,
-        "2025-07-31": 0,
-        "2025-08-31": 0,
-        "2025-09-30": 2,
         "2025-10-31": 267,
         "2025-11-30": 95,
         "2025-12-31": 53,
@@ -453,55 +379,6 @@
         "2026-05-31": 124
       },
       "Takaichi-JP": {
-        "2021-09-30": 3,
-        "2021-10-31": 0,
-        "2021-11-30": 0,
-        "2021-12-31": 1,
-        "2022-01-31": 0,
-        "2022-02-28": 0,
-        "2022-03-31": 0,
-        "2022-04-30": 0,
-        "2022-05-31": 0,
-        "2022-06-30": 0,
-        "2022-07-31": 0,
-        "2022-08-31": 0,
-        "2022-09-30": 0,
-        "2022-10-31": 1,
-        "2022-11-30": 0,
-        "2022-12-31": 0,
-        "2023-01-31": 0,
-        "2023-02-28": 0,
-        "2023-03-31": 2,
-        "2023-04-30": 0,
-        "2023-05-31": 0,
-        "2023-06-30": 0,
-        "2023-07-31": 0,
-        "2023-08-31": 0,
-        "2023-09-30": 0,
-        "2023-10-31": 0,
-        "2023-11-30": 0,
-        "2023-12-31": 0,
-        "2024-01-31": 0,
-        "2024-02-29": 0,
-        "2024-03-31": 0,
-        "2024-04-30": 0,
-        "2024-05-31": 0,
-        "2024-06-30": 1,
-        "2024-07-31": 1,
-        "2024-08-31": 2,
-        "2024-09-30": 4,
-        "2024-10-31": 1,
-        "2024-11-30": 2,
-        "2024-12-31": 2,
-        "2025-01-31": 3,
-        "2025-02-28": 1,
-        "2025-03-31": 3,
-        "2025-04-30": 5,
-        "2025-05-31": 3,
-        "2025-06-30": 8,
-        "2025-07-31": 1,
-        "2025-08-31": 2,
-        "2025-09-30": 11,
         "2025-10-31": 101,
         "2025-11-30": 71,
         "2025-12-31": 54,
@@ -512,55 +389,6 @@
         "2026-05-31": 16
       },
       "Takaichi-ZH": {
-        "2021-09-30": 1,
-        "2021-10-31": 0,
-        "2021-11-30": 0,
-        "2021-12-31": 0,
-        "2022-01-31": 0,
-        "2022-02-28": 0,
-        "2022-03-31": 0,
-        "2022-04-30": 0,
-        "2022-05-31": 0,
-        "2022-06-30": 0,
-        "2022-07-31": 0,
-        "2022-08-31": 0,
-        "2022-09-30": 0,
-        "2022-10-31": 0,
-        "2022-11-30": 0,
-        "2022-12-31": 0,
-        "2023-01-31": 0,
-        "2023-02-28": 0,
-        "2023-03-31": 0,
-        "2023-04-30": 0,
-        "2023-05-31": 0,
-        "2023-06-30": 0,
-        "2023-07-31": 0,
-        "2023-08-31": 1,
-        "2023-09-30": 0,
-        "2023-10-31": 0,
-        "2023-11-30": 0,
-        "2023-12-31": 0,
-        "2024-01-31": 0,
-        "2024-02-29": 0,
-        "2024-03-31": 1,
-        "2024-04-30": 0,
-        "2024-05-31": 0,
-        "2024-06-30": 0,
-        "2024-07-31": 0,
-        "2024-08-31": 0,
-        "2024-09-30": 9,
-        "2024-10-31": 1,
-        "2024-11-30": 0,
-        "2024-12-31": 0,
-        "2025-01-31": 0,
-        "2025-02-28": 0,
-        "2025-03-31": 0,
-        "2025-04-30": 0,
-        "2025-05-31": 0,
-        "2025-06-30": 1,
-        "2025-07-31": 0,
-        "2025-08-31": 2,
-        "2025-09-30": 8,
         "2025-10-31": 69,
         "2025-11-30": 80,
         "2025-12-31": 41,
@@ -574,20 +402,20 @@
     "interaction_stats": {
       "LePen-EN": {
         "total_interactions_count": {
-          "mean": 37217.458151910985,
-          "median": 909.0,
-          "std": 172304.71817903745,
+          "mean": 37260.15406976744,
+          "median": 903.0,
+          "std": 172425.97321653157,
           "min": 0.0,
           "max": 3257444.0,
-          "count": 2067
+          "count": 2064
         },
         "like_count": {
-          "mean": 6220.63877755511,
-          "median": 242.0,
-          "std": 27871.673140707448,
+          "mean": 6218.868038133467,
+          "median": 241.0,
+          "std": 27890.70108871484,
           "min": 0.0,
           "max": 775682.0,
-          "count": 1996
+          "count": 1993
         },
         "retweet_count": {
           "mean": 1401.962,
@@ -658,20 +486,20 @@
       },
       "Takaichi-EN": {
         "total_interactions_count": {
-          "mean": 38627.13442940039,
-          "median": 619.0,
-          "std": 239727.0854471025,
+          "mean": 38715.71871968962,
+          "median": 597.5,
+          "std": 240070.0297294512,
           "min": 0.0,
           "max": 5544671.0,
-          "count": 2068
+          "count": 2062
         },
         "like_count": {
-          "mean": 5832.913654618474,
-          "median": 346.0,
-          "std": 36570.112973541916,
+          "mean": 5826.328801611279,
+          "median": 338.0,
+          "std": 36624.44417682854,
           "min": 0.0,
           "max": 753020.0,
-          "count": 1992
+          "count": 1986
         },
         "retweet_count": {
           "mean": 1684.14,
@@ -700,20 +528,20 @@
       },
       "Takaichi-JP": {
         "total_interactions_count": {
-          "mean": 546491.6685393258,
-          "median": 14.0,
-          "std": 5172276.440385932,
+          "mean": 576736.8269040554,
+          "median": 11.0,
+          "std": 5314606.78299102,
           "min": 0.0,
           "max": 160135638.0,
-          "count": 1068
+          "count": 1011
         },
         "like_count": {
-          "mean": 8260.877367896312,
-          "median": 9.0,
-          "std": 30111.25984721903,
+          "mean": 8163.120507399577,
+          "median": 7.0,
+          "std": 30451.25564480481,
           "min": 0.0,
           "max": 519517.0,
-          "count": 1003
+          "count": 946
         },
         "retweet_count": {
           "mean": 0.9583333333333334,
@@ -742,20 +570,20 @@
       },
       "Takaichi-ZH": {
         "total_interactions_count": {
-          "mean": 299450.52874109265,
-          "median": 1028.0,
-          "std": 3729648.230268251,
+          "mean": 302605.3469485824,
+          "median": 995.0,
+          "std": 3750984.569182655,
           "min": 0.0,
           "max": 160135637.0,
-          "count": 2105
+          "count": 2081
         },
         "like_count": {
-          "mean": 12918.516920058852,
-          "median": 899.0,
-          "std": 33046.72846347953,
+          "mean": 12769.324565756824,
+          "median": 860.0,
+          "std": 32903.5304835046,
           "min": 0.0,
           "max": 519517.0,
-          "count": 2039
+          "count": 2015
         },
         "retweet_count": {
           "mean": 7273.04,
@@ -785,16 +613,16 @@
     },
     "text_length_stats": {
       "LePen-EN": {
-        "mean": 413.65747460087084,
+        "mean": 413.9907945736434,
         "median": 255.0,
-        "std": 553.1268983502919,
+        "std": 553.4469043377477,
         "min": 3.0,
         "max": 6436.0,
         "histogram": {
           "0-50": 80,
-          "51-100": 188,
-          "101-200": 436,
-          "201-500": 935,
+          "51-100": 187,
+          "101-200": 435,
+          "201-500": 934,
           "501-1000": 251,
           "1001-2000": 130,
           "2001-5000": 45,
@@ -819,16 +647,16 @@
         }
       },
       "Takaichi-EN": {
-        "mean": 458.79352030947774,
-        "median": 265.5,
-        "std": 728.1135358979395,
+        "mean": 459.91125121241515,
+        "median": 266.0,
+        "std": 728.8670905528073,
         "min": 4.0,
         "max": 20380.0,
         "histogram": {
-          "0-50": 85,
+          "0-50": 81,
           "51-100": 229,
-          "101-200": 431,
-          "201-500": 810,
+          "101-200": 430,
+          "201-500": 809,
           "501-1000": 292,
           "1001-2000": 161,
           "2001-5000": 56,
@@ -836,33 +664,33 @@
         }
       },
       "Takaichi-JP": {
-        "mean": 484.2930711610487,
-        "median": 296.0,
-        "std": 1080.1565340362936,
+        "mean": 494.35905044510383,
+        "median": 302.0,
+        "std": 1104.3178597267954,
         "min": 7.0,
         "max": 15466.0,
         "histogram": {
-          "0-50": 105,
-          "51-100": 81,
-          "101-200": 145,
-          "201-500": 467,
-          "501-1000": 179,
-          "1001-2000": 68,
-          "2001-5000": 17,
+          "0-50": 78,
+          "51-100": 80,
+          "101-200": 139,
+          "201-500": 455,
+          "501-1000": 174,
+          "1001-2000": 63,
+          "2001-5000": 16,
           "5000+": 6
         }
       },
       "Takaichi-ZH": {
-        "mean": 220.93681710213778,
+        "mean": 221.90917827967323,
         "median": 135.0,
-        "std": 373.95937018578184,
+        "std": 375.90891889544366,
         "min": 4.0,
         "max": 10151.0,
         "histogram": {
-          "0-50": 300,
-          "51-100": 460,
-          "101-200": 749,
-          "201-500": 409,
+          "0-50": 295,
+          "51-100": 456,
+          "101-200": 739,
+          "201-500": 404,
           "501-1000": 125,
           "1001-2000": 51,
           "2001-5000": 10,
@@ -871,8 +699,8 @@
       }
     },
     "summary": {
-      "total_rows": 8310,
-      "relevant_rows": 7015,
+      "total_rows": 8220,
+      "relevant_rows": 6945,
       "leaders": [
         "Takaichi",
         "LePen"
@@ -883,7 +711,7 @@
         "ZH"
       ],
       "date_range": {
-        "min": "2017-04-24 02:00:53",
+        "min": "2022-03-01 18:16:42",
         "max": "2026-05-06 06:00:44"
       },
       "platforms": [
@@ -903,7 +731,7 @@
       "LePen-EN": {
         "neutral": 717,
         "negative": 675,
-        "positive": 478,
+        "positive": 475,
         "irrelevant": 197
       },
       "LePen-ZH": {
@@ -913,30 +741,30 @@
         "irrelevant": 129
       },
       "Takaichi-EN": {
-        "neutral": 855,
-        "positive": 589,
+        "neutral": 851,
+        "positive": 587,
         "negative": 402,
         "irrelevant": 219
       },
       "Takaichi-JP": {
-        "irrelevant": 614,
-        "neutral": 198,
-        "positive": 180,
+        "irrelevant": 595,
+        "neutral": 178,
+        "positive": 163,
         "negative": 74
       },
       "Takaichi-ZH": {
         "negative": 1233,
-        "neutral": 463,
-        "positive": 278,
+        "neutral": 454,
+        "positive": 263,
         "irrelevant": 128
       }
     },
     "proportions": {
       "LePen-EN": {
-        "neutral": 38.3,
-        "negative": 36.1,
-        "positive": 25.6,
-        "total": 1870
+        "neutral": 38.4,
+        "negative": 36.2,
+        "positive": 25.4,
+        "total": 1867
       },
       "LePen-ZH": {
         "neutral": 46.4,
@@ -945,53 +773,53 @@
         "total": 873
       },
       "Takaichi-EN": {
-        "neutral": 46.3,
+        "neutral": 46.2,
         "positive": 31.9,
         "negative": 21.8,
-        "total": 1846
+        "total": 1840
       },
       "Takaichi-JP": {
-        "neutral": 43.8,
-        "positive": 39.8,
-        "negative": 16.4,
-        "total": 452
+        "neutral": 42.9,
+        "positive": 39.3,
+        "negative": 17.8,
+        "total": 415
       },
       "Takaichi-ZH": {
-        "negative": 62.5,
-        "neutral": 23.5,
-        "positive": 14.1,
-        "total": 1974
+        "negative": 63.2,
+        "neutral": 23.3,
+        "positive": 13.5,
+        "total": 1950
       }
     },
     "chi_square_tests": [
       {
         "test": "Takaichi vs LePen (Chinese)",
-        "chi2": 531.86,
-        "p_value": 3.216944055456137e-116,
+        "chi2": 549.08,
+        "p_value": 5.8784760624912e-120,
         "df": 2,
-        "cramers_v": 0.432,
+        "cramers_v": 0.441,
         "significant": true
       },
       {
         "test": "Takaichi vs LePen (English)",
-        "chi2": 92.71,
-        "p_value": 7.37916931629423e-21,
+        "chi2": 92.27,
+        "p_value": 9.191554235243447e-21,
         "df": 2,
         "cramers_v": 0.158,
         "significant": true
       },
       {
         "test": "Takaichi across languages (JP vs EN vs ZH)",
-        "chi2": 787.65,
-        "p_value": 3.6251665337767037e-169,
+        "chi2": 784.4,
+        "p_value": 1.8334583935423525e-168,
         "df": 4,
-        "cramers_v": 0.304,
+        "cramers_v": 0.305,
         "significant": true
       },
       {
         "test": "LePen across languages (EN vs ZH)",
-        "chi2": 119.24,
-        "p_value": 1.2775221559529415e-26,
+        "chi2": 120.07,
+        "p_value": 8.451837274510217e-27,
         "df": 2,
         "cramers_v": 0.209,
         "significant": true
@@ -1011,10 +839,10 @@
         "total": 281
       },
       "instagram": {
-        "positive": 50.5,
-        "neutral": 37.5,
-        "negative": 11.9,
-        "total": 637
+        "positive": 50.3,
+        "neutral": 36.3,
+        "negative": 13.4,
+        "total": 567
       },
       "reddit": {
         "neutral": 49.6,
@@ -1072,9 +900,9 @@
     "emotion_counts": {
       "LePen-EN": {
         "disgust": 417,
-        "anger": 362,
+        "anger": 361,
         "neutral": 278,
-        "happiness": 268,
+        "happiness": 266,
         "fear": 186,
         "surprise": 110,
         "sadness": 32,
@@ -1094,8 +922,8 @@
         "hope": 1
       },
       "Takaichi-EN": {
-        "happiness": 553,
-        "neutral": 289,
+        "happiness": 551,
+        "neutral": 285,
         "anger": 219,
         "fear": 159,
         "disgust": 142,
@@ -1107,9 +935,9 @@
         "discomfort": 1
       },
       "Takaichi-JP": {
-        "happiness": 183,
-        "neutral": 53,
+        "happiness": 166,
         "anger": 39,
+        "neutral": 37,
         "fear": 28,
         "disgust": 24,
         "surprise": 19,
@@ -1117,22 +945,22 @@
         "confusion": 1
       },
       "Takaichi-ZH": {
-        "anger": 556,
+        "anger": 554,
         "disgust": 476,
-        "happiness": 283,
-        "fear": 211,
-        "neutral": 198,
-        "surprise": 82,
+        "happiness": 268,
+        "fear": 210,
+        "neutral": 196,
+        "surprise": 81,
         "sadness": 55,
         "embarrassment": 1
       }
     },
     "emotion_proportions": {
       "LePen-EN": {
-        "disgust": 25.1,
+        "disgust": 25.2,
         "anger": 21.8,
-        "neutral": 16.7,
-        "happiness": 16.1,
+        "neutral": 16.8,
+        "happiness": 16.0,
         "fear": 11.2,
         "surprise": 6.6,
         "sadness": 1.9,
@@ -1140,7 +968,7 @@
         "frustration": 0.1,
         "relief": 0.1,
         "disappointment": 0.1,
-        "total": 1661
+        "total": 1658
       },
       "LePen-ZH": {
         "anger": 34.7,
@@ -1155,7 +983,7 @@
       },
       "Takaichi-EN": {
         "happiness": 36.1,
-        "neutral": 18.9,
+        "neutral": 18.7,
         "anger": 14.3,
         "fear": 10.4,
         "disgust": 9.3,
@@ -1165,29 +993,29 @@
         "respect": 0.1,
         "hope": 0.1,
         "discomfort": 0.1,
-        "total": 1533
+        "total": 1527
       },
       "Takaichi-JP": {
-        "happiness": 52.1,
-        "neutral": 15.1,
-        "anger": 11.1,
-        "fear": 8.0,
-        "disgust": 6.8,
-        "surprise": 5.4,
-        "sadness": 1.1,
+        "happiness": 52.2,
+        "anger": 12.3,
+        "neutral": 11.6,
+        "fear": 8.8,
+        "disgust": 7.5,
+        "surprise": 6.0,
+        "sadness": 1.3,
         "confusion": 0.3,
-        "total": 351
+        "total": 318
       },
       "Takaichi-ZH": {
-        "anger": 29.9,
-        "disgust": 25.6,
-        "happiness": 15.2,
-        "fear": 11.3,
+        "anger": 30.1,
+        "disgust": 25.9,
+        "happiness": 14.6,
+        "fear": 11.4,
         "neutral": 10.6,
         "surprise": 4.4,
         "sadness": 3.0,
         "embarrassment": 0.1,
-        "total": 1862
+        "total": 1841
       }
     },
     "radar_data": {
@@ -1214,13 +1042,13 @@
           0.0,
           1.0,
           0.0,
-          0.98,
+          0.973,
           0.0,
           0.675,
           1.0,
-          0.309,
+          0.307,
           1.0,
-          0.884,
+          0.898,
           1.0,
           0.0,
           0.404,
@@ -1231,13 +1059,13 @@
           0.0,
           0.0,
           0.0,
-          0.469,
+          0.463,
           0.0,
           1.0,
           0.0,
-          0.369,
+          0.368,
           0.5,
-          0.307,
+          0.31,
           0.0,
           0.0,
           1.0,
@@ -1248,11 +1076,11 @@
           0.0,
           0.0,
           1.0,
-          0.363,
+          0.359,
           1.0,
           0.627,
           0.0,
-          0.693,
+          0.692,
           0.5,
           1.0,
           0.0,
@@ -1261,34 +1089,34 @@
           1.0
         ],
         "Takaichi-JP": [
-          0.32,
+          0.354,
           1.0,
           0.0,
           0.0,
-          0.266,
+          0.29,
           0.0,
-          0.482,
+          0.53,
           0.0,
           1.0,
           0.0,
-          0.799,
+          0.62,
           0.0,
           0.0,
-          0.234,
-          0.635
+          0.277,
+          0.706
         ],
         "Takaichi-ZH": [
-          0.862,
+          0.867,
           0.0,
           0.0,
           0.0,
           1.0,
           0.25,
-          0.681,
+          0.687,
           0.0,
-          0.292,
+          0.28,
           0.0,
-          0.561,
+          0.567,
           0.0,
           0.0,
           0.638,
@@ -1301,7 +1129,7 @@
         "anger": {
           "negative": 157,
           "neutral": 39,
-          "positive": 166
+          "positive": 165
         },
         "disappointment": {
           "negative": 1,
@@ -1326,7 +1154,7 @@
         "happiness": {
           "negative": 15,
           "neutral": 9,
-          "positive": 244
+          "positive": 242
         },
         "hope": {
           "negative": 2,
@@ -1425,7 +1253,7 @@
         "happiness": {
           "negative": 0,
           "neutral": 16,
-          "positive": 537
+          "positive": 535
         },
         "hope": {
           "negative": 0,
@@ -1434,7 +1262,7 @@
         },
         "neutral": {
           "negative": 0,
-          "neutral": 285,
+          "neutral": 281,
           "positive": 4
         },
         "respect": {
@@ -1477,11 +1305,11 @@
         "happiness": {
           "negative": 0,
           "neutral": 17,
-          "positive": 166
+          "positive": 149
         },
         "neutral": {
           "negative": 0,
-          "neutral": 48,
+          "neutral": 32,
           "positive": 5
         },
         "sadness": {
@@ -1498,7 +1326,7 @@
       "Takaichi-ZH": {
         "anger": {
           "negative": 532,
-          "neutral": 7,
+          "neutral": 5,
           "positive": 17
         },
         "disgust": {
@@ -1513,17 +1341,17 @@
         },
         "fear": {
           "negative": 181,
-          "neutral": 26,
+          "neutral": 25,
           "positive": 4
         },
         "happiness": {
           "negative": 1,
           "neutral": 27,
-          "positive": 255
+          "positive": 240
         },
         "neutral": {
           "negative": 1,
-          "neutral": 197,
+          "neutral": 195,
           "positive": 0
         },
         "sadness": {
@@ -1533,7 +1361,7 @@
         },
         "surprise": {
           "negative": 5,
-          "neutral": 75,
+          "neutral": 74,
           "positive": 2
         }
       }
@@ -1541,12 +1369,12 @@
     "leader_emotion_summary": {
       "Takaichi": {
         "counts": {
-          "happiness": 1019,
-          "anger": 814,
+          "happiness": 985,
+          "anger": 812,
           "disgust": 642,
-          "neutral": 540,
-          "fear": 398,
-          "surprise": 231,
+          "neutral": 518,
+          "fear": 397,
+          "surprise": 230,
           "sadness": 89,
           "embarrassment": 7,
           "respect": 2,
@@ -1555,11 +1383,11 @@
           "discomfort": 1
         },
         "proportions": {
-          "happiness": 27.2,
-          "anger": 21.7,
-          "disgust": 17.1,
-          "neutral": 14.4,
-          "fear": 10.6,
+          "happiness": 26.7,
+          "anger": 22.0,
+          "disgust": 17.4,
+          "neutral": 14.1,
+          "fear": 10.8,
           "surprise": 6.2,
           "sadness": 2.4,
           "embarrassment": 0.2,
@@ -1568,13 +1396,13 @@
           "confusion": 0.0,
           "discomfort": 0.0
         },
-        "total": 3746
+        "total": 3686
       },
       "LePen": {
         "counts": {
-          "anger": 600,
+          "anger": 599,
           "disgust": 499,
-          "happiness": 400,
+          "happiness": 398,
           "neutral": 318,
           "fear": 300,
           "surprise": 157,
@@ -1588,7 +1416,7 @@
           "anger": 25.6,
           "disgust": 21.3,
           "happiness": 17.0,
-          "neutral": 13.5,
+          "neutral": 13.6,
           "fear": 12.8,
           "surprise": 6.7,
           "sadness": 2.7,
@@ -1597,13 +1425,13 @@
           "relief": 0.1,
           "disappointment": 0.0
         },
-        "total": 2347
+        "total": 2344
       }
     },
     "key_findings": [
-      "LePen-EN has high negative emotions: anger+disgust=46.900000000000006% vs happiness=16.1%",
+      "LePen-EN has high negative emotions: anger+disgust=47.0% vs happiness=16.0%",
       "LePen-ZH has high negative emotions: anger+disgust=46.7% vs happiness=19.2%",
-      "Takaichi-ZH has high negative emotions: anger+disgust=55.5% vs happiness=15.2%"
+      "Takaichi-ZH has high negative emotions: anger+disgust=56.0% vs happiness=14.6%"
     ]
   },
   "tfidf_keywords": {
@@ -1651,7 +1479,7 @@
         },
         {
           "word": "pas",
-          "score": 0.0087
+          "score": 0.0086
         },
         {
           "word": "dans",
@@ -1663,7 +1491,7 @@
         },
         {
           "word": "avec",
-          "score": 0.0076
+          "score": 0.0075
         },
         {
           "word": "vous",
@@ -1747,7 +1575,7 @@
         },
         {
           "word": "french",
-          "score": 0.0033
+          "score": 0.0032
         },
         {
           "word": "mais",
@@ -1778,16 +1606,16 @@
           "score": 0.0026
         },
         {
-          "word": "notre",
-          "score": 0.0026
-        },
-        {
           "word": "europe",
           "score": 0.0026
         },
         {
           "word": "être",
           "score": 0.0026
+        },
+        {
+          "word": "notre",
+          "score": 0.0025
         },
         {
           "word": "contre",
@@ -2099,7 +1927,7 @@
         },
         {
           "word": "world",
-          "score": 0.0031
+          "score": 0.0032
         },
         {
           "word": "pearl",
@@ -2217,209 +2045,209 @@
       "Takaichi-JP": [
         {
           "word": "日本",
-          "score": 0.0347
+          "score": 0.035
         },
         {
           "word": "首相",
-          "score": 0.0208
+          "score": 0.0204
         },
         {
           "word": "大臣",
-          "score": 0.0172
+          "score": 0.0164
         },
         {
           "word": "動画",
-          "score": 0.014
-        },
-        {
-          "word": "政治",
-          "score": 0.009
-        },
-        {
-          "word": "配信",
-          "score": 0.0089
+          "score": 0.0148
         },
         {
           "word": "中国",
-          "score": 0.0088
+          "score": 0.0094
+        },
+        {
+          "word": "政治",
+          "score": 0.0091
+        },
+        {
+          "word": "配信",
+          "score": 0.0091
         },
         {
           "word": "ng",
-          "score": 0.0083
-        },
-        {
-          "word": "政策",
-          "score": 0.008
+          "score": 0.0088
         },
         {
           "word": "公式",
+          "score": 0.0079
+        },
+        {
+          "word": "政策",
           "score": 0.0075
         },
         {
-          "word": "自民党",
-          "score": 0.0071
-        },
-        {
-          "word": "情報",
-          "score": 0.0067
-        },
-        {
           "word": "NEWS",
-          "score": 0.0065
+          "score": 0.0069
         },
         {
-          "word": "女性",
-          "score": 0.006
+          "word": "自民党",
+          "score": 0.0063
         },
         {
           "word": "大統領",
-          "score": 0.0059
+          "score": 0.0063
         },
         {
-          "word": "議院",
+          "word": "情報",
+          "score": 0.006
+        },
+        {
+          "word": "女性",
           "score": 0.0058
         },
         {
-          "word": "担当",
-          "score": 0.0056
-        },
-        {
-          "word": "問題",
-          "score": 0.0056
-        },
-        {
-          "word": "安全",
-          "score": 0.0056
-        },
-        {
           "word": "the",
-          "score": 0.0053
+          "score": 0.0056
         },
         {
-          "word": "議員",
-          "score": 0.0053
-        },
-        {
-          "word": "10",
-          "score": 0.0052
+          "word": "担当",
+          "score": 0.0055
         },
         {
           "word": "Takaichi",
-          "score": 0.0052
+          "score": 0.0055
+        },
+        {
+          "word": "問題",
+          "score": 0.0054
         },
         {
           "word": "th",
-          "score": 0.0049
-        },
-        {
-          "word": "最新",
-          "score": 0.0049
-        },
-        {
-          "word": "SNS",
-          "score": 0.0048
-        },
-        {
-          "word": "2025",
-          "score": 0.0048
+          "score": 0.0052
         },
         {
           "word": "Sanae",
-          "score": 0.0047
+          "score": 0.005
+        },
+        {
+          "word": "SNS",
+          "score": 0.005
         },
         {
           "word": "TikTok",
-          "score": 0.0047
+          "score": 0.005
         },
         {
           "word": "TBS",
-          "score": 0.0047
+          "score": 0.005
         },
         {
-          "word": "国民",
-          "score": 0.0046
+          "word": "2025",
+          "score": 0.0049
+        },
+        {
+          "word": "10",
+          "score": 0.0049
+        },
+        {
+          "word": "安全",
+          "score": 0.0049
         },
         {
           "word": "提供",
-          "score": 0.0046
+          "score": 0.0049
+        },
+        {
+          "word": "議院",
+          "score": 0.0049
         },
         {
           "word": "特典",
-          "score": 0.0046
+          "score": 0.0049
         },
         {
           "word": "投稿",
-          "score": 0.0045
+          "score": 0.0048
+        },
+        {
+          "word": "国民",
+          "score": 0.0047
+        },
+        {
+          "word": "議員",
+          "score": 0.0047
         },
         {
           "word": "世界",
+          "score": 0.0046
+        },
+        {
+          "word": "and",
+          "score": 0.0045
+        },
+        {
+          "word": "最新",
           "score": 0.0044
         },
         {
           "word": "会談",
-          "score": 0.0043
+          "score": 0.0044
         },
         {
-          "word": "and",
+          "word": "英語",
           "score": 0.0042
-        },
-        {
-          "word": "保障",
-          "score": 0.0041
         },
         {
           "word": "場合",
           "score": 0.0041
         },
         {
-          "word": "英語",
-          "score": 0.004
-        },
-        {
-          "word": "Instagram",
-          "score": 0.0039
-        },
-        {
           "word": "映像",
-          "score": 0.0038
+          "score": 0.0041
         },
         {
           "word": "Facebook",
-          "score": 0.0037
+          "score": 0.004
+        },
+        {
+          "word": "保障",
+          "score": 0.0039
         },
         {
           "word": "基本",
+          "score": 0.0037
+        },
+        {
+          "word": "nh",
+          "score": 0.0036
+        },
+        {
+          "word": "台湾",
           "score": 0.0036
         },
         {
           "word": "11",
-          "score": 0.0036
-        },
-        {
-          "word": "nh",
           "score": 0.0034
         },
         {
-          "word": "台湾",
+          "word": "Instagram",
           "score": 0.0034
         },
         {
           "word": "00",
-          "score": 0.0032
-        },
-        {
-          "word": "今回",
-          "score": 0.0032
+          "score": 0.0034
         },
         {
           "word": "Jepang",
-          "score": 0.0031
+          "score": 0.0033
+        },
+        {
+          "word": "新聞",
+          "score": 0.0033
         }
       ],
       "Takaichi-ZH": [
         {
           "word": "日本",
-          "score": 0.0493
+          "score": 0.0492
         },
         {
           "word": "首相",
@@ -2427,15 +2255,15 @@
         },
         {
           "word": "中国",
-          "score": 0.0099
+          "score": 0.01
         },
         {
           "word": "動画",
-          "score": 0.0068
+          "score": 0.0067
         },
         {
           "word": "美国",
-          "score": 0.0063
+          "score": 0.0064
         },
         {
           "word": "政治",
@@ -2446,20 +2274,20 @@
           "score": 0.0056
         },
         {
-          "word": "大臣",
-          "score": 0.0055
-        },
-        {
           "word": "收起",
           "score": 0.0055
         },
         {
+          "word": "大臣",
+          "score": 0.0055
+        },
+        {
           "word": "国民",
-          "score": 0.0054
+          "score": 0.0053
         },
         {
           "word": "自民党",
-          "score": 0.0052
+          "score": 0.0051
         },
         {
           "word": "国家",
@@ -2467,7 +2295,7 @@
         },
         {
           "word": "微博",
-          "score": 0.0046
+          "score": 0.0047
         },
         {
           "word": "世界",
@@ -2491,11 +2319,11 @@
         },
         {
           "word": "政策",
-          "score": 0.0033
+          "score": 0.0034
         },
         {
           "word": "問題",
-          "score": 0.0033
+          "score": 0.0032
         },
         {
           "word": "支持",
@@ -2515,7 +2343,7 @@
         },
         {
           "word": "情報",
-          "score": 0.0029
+          "score": 0.0028
         },
         {
           "word": "问题",
@@ -2527,7 +2355,7 @@
         },
         {
           "word": "議員",
-          "score": 0.0023
+          "score": 0.0024
         },
         {
           "word": "女性",
@@ -2570,16 +2398,12 @@
           "score": 0.002
         },
         {
-          "word": "保障",
-          "score": 0.0019
-        },
-        {
           "word": "武器",
-          "score": 0.0019
+          "score": 0.002
         },
         {
           "word": "不是",
-          "score": 0.0019
+          "score": 0.002
         },
         {
           "word": "教会",
@@ -2590,12 +2414,12 @@
           "score": 0.0019
         },
         {
-          "word": "配信",
+          "word": "保障",
           "score": 0.0019
         },
         {
           "word": "重要",
-          "score": 0.0019
+          "score": 0.0018
         },
         {
           "word": "社会",
@@ -2616,6 +2440,10 @@
         {
           "word": "引用",
           "score": 0.0018
+        },
+        {
+          "word": "自由",
+          "score": 0.0017
         }
       ]
     },
@@ -3027,15 +2855,15 @@
       "LePen-EN-positive": [
         {
           "word": "pen",
-          "score": 0.0571
+          "score": 0.057
         },
         {
           "word": "les",
-          "score": 0.0224
+          "score": 0.0222
         },
         {
           "word": "france",
-          "score": 0.0201
+          "score": 0.02
         },
         {
           "word": "des",
@@ -3043,7 +2871,7 @@
         },
         {
           "word": "une",
-          "score": 0.0169
+          "score": 0.017
         },
         {
           "word": "pour",
@@ -3051,7 +2879,7 @@
         },
         {
           "word": "qui",
-          "score": 0.0156
+          "score": 0.0157
         },
         {
           "word": "est",
@@ -3079,11 +2907,11 @@
         },
         {
           "word": "pas",
-          "score": 0.0089
+          "score": 0.0088
         },
         {
           "word": "avec",
-          "score": 0.0087
+          "score": 0.0086
         },
         {
           "word": "macron",
@@ -3103,39 +2931,39 @@
         },
         {
           "word": "mosques",
-          "score": 0.0065
+          "score": 0.0066
         },
         {
           "word": "bardella",
           "score": 0.0065
         },
         {
-          "word": "rassemblement",
-          "score": 0.0062
-        },
-        {
           "word": "elle",
           "score": 0.0061
         },
         {
+          "word": "rassemblement",
+          "score": 0.006
+        },
+        {
           "word": "notre",
-          "score": 0.0061
+          "score": 0.006
         },
         {
           "word": "national",
-          "score": 0.0059
+          "score": 0.0058
         },
         {
           "word": "plus",
-          "score": 0.0054
-        },
-        {
-          "word": "french",
           "score": 0.0053
         },
         {
           "word": "par",
           "score": 0.0052
+        },
+        {
+          "word": "french",
+          "score": 0.005
         },
         {
           "word": "expelled",
@@ -3147,7 +2975,7 @@
         },
         {
           "word": "francia",
-          "score": 0.0045
+          "score": 0.0046
         },
         {
           "word": "son",
@@ -4161,7 +3989,7 @@
         },
         {
           "word": "democratic",
-          "score": 0.0036
+          "score": 0.0037
         },
         {
           "word": "ldp",
@@ -4193,6 +4021,10 @@
         },
         {
           "word": "security",
+          "score": 0.0032
+        },
+        {
+          "word": "video",
           "score": 0.0032
         },
         {
@@ -4230,10 +4062,6 @@
         {
           "word": "leader",
           "score": 0.003
-        },
-        {
-          "word": "video",
-          "score": 0.003
         }
       ],
       "Takaichi-EN-positive": [
@@ -4247,7 +4075,7 @@
         },
         {
           "word": "prime",
-          "score": 0.0207
+          "score": 0.0208
         },
         {
           "word": "trump",
@@ -4275,7 +4103,7 @@
         },
         {
           "word": "tokyo",
-          "score": 0.0068
+          "score": 0.0069
         },
         {
           "word": "que",
@@ -4560,6 +4388,10 @@
           "score": 0.0064
         },
         {
+          "word": "心配",
+          "score": 0.0064
+        },
+        {
           "word": "訂閱",
           "score": 0.0064
         },
@@ -4597,10 +4429,6 @@
         },
         {
           "word": "災害",
-          "score": 0.0058
-        },
-        {
-          "word": "心配",
           "score": 0.0058
         },
         {
@@ -4643,203 +4471,203 @@
       "Takaichi-JP-neutral": [
         {
           "word": "日本",
-          "score": 0.0343
+          "score": 0.0348
         },
         {
           "word": "首相",
-          "score": 0.0236
+          "score": 0.0219
         },
         {
           "word": "動画",
-          "score": 0.0194
+          "score": 0.0208
         },
         {
           "word": "大臣",
-          "score": 0.019
+          "score": 0.017
         },
         {
           "word": "中国",
-          "score": 0.0134
+          "score": 0.0144
         },
         {
           "word": "配信",
-          "score": 0.013
+          "score": 0.014
         },
         {
           "word": "NEWS",
-          "score": 0.0117
+          "score": 0.0125
         },
         {
           "word": "政策",
-          "score": 0.0113
+          "score": 0.0109
         },
         {
           "word": "担当",
-          "score": 0.0105
+          "score": 0.0102
         },
         {
           "word": "政治",
-          "score": 0.01
-        },
-        {
-          "word": "議院",
-          "score": 0.0095
-        },
-        {
-          "word": "自民党",
-          "score": 0.0094
+          "score": 0.0098
         },
         {
           "word": "特典",
-          "score": 0.0091
-        },
-        {
-          "word": "問題",
-          "score": 0.009
+          "score": 0.0098
         },
         {
           "word": "ng",
-          "score": 0.0084
+          "score": 0.009
+        },
+        {
+          "word": "問題",
+          "score": 0.0087
         },
         {
           "word": "公式",
-          "score": 0.0081
+          "score": 0.0087
         },
         {
-          "word": "安全",
-          "score": 0.0077
+          "word": "議院",
+          "score": 0.0084
         },
         {
           "word": "TikTok",
-          "score": 0.0073
-        },
-        {
-          "word": "議員",
-          "score": 0.007
+          "score": 0.0078
         },
         {
           "word": "TBS",
-          "score": 0.0067
+          "score": 0.0072
         },
         {
-          "word": "女性",
-          "score": 0.0065
+          "word": "自民党",
+          "score": 0.0071
         },
         {
           "word": "Takaichi",
-          "score": 0.0064
+          "score": 0.0069
         },
         {
           "word": "SNS",
-          "score": 0.0064
+          "score": 0.0069
         },
         {
           "word": "台湾",
-          "score": 0.0064
+          "score": 0.0069
+        },
+        {
+          "word": "議員",
+          "score": 0.0066
+        },
+        {
+          "word": "安全",
+          "score": 0.0066
+        },
+        {
+          "word": "会議",
+          "score": 0.0065
+        },
+        {
+          "word": "Facebook",
+          "score": 0.0065
+        },
+        {
+          "word": "基本",
+          "score": 0.0063
+        },
+        {
+          "word": "th",
+          "score": 0.0063
         },
         {
           "word": "情報",
           "score": 0.0062
         },
         {
-          "word": "基本",
-          "score": 0.0061
-        },
-        {
-          "word": "会議",
-          "score": 0.006
-        },
-        {
-          "word": "Facebook",
-          "score": 0.006
-        },
-        {
-          "word": "th",
-          "score": 0.0059
-        },
-        {
-          "word": "安倍",
-          "score": 0.0058
+          "word": "投稿",
+          "score": 0.0062
         },
         {
           "word": "場合",
-          "score": 0.0058
+          "score": 0.006
         },
         {
-          "word": "投稿",
-          "score": 0.0058
+          "word": "女性",
+          "score": 0.0059
         },
         {
           "word": "10",
           "score": 0.0057
         },
         {
-          "word": "保障",
+          "word": "最新",
+          "score": 0.0055
+        },
+        {
+          "word": "提供",
+          "score": 0.0055
+        },
+        {
+          "word": "Sanae",
           "score": 0.0055
         },
         {
           "word": "Instagram",
-          "score": 0.0053
+          "score": 0.0055
+        },
+        {
+          "word": "Jepang",
+          "score": 0.0054
         },
         {
           "word": "2025",
           "score": 0.0053
         },
         {
-          "word": "最新",
+          "word": "映像",
           "score": 0.0053
         },
         {
-          "word": "提供",
+          "word": "保障",
           "score": 0.0052
         },
         {
-          "word": "Sanae",
-          "score": 0.0051
-        },
-        {
           "word": "野党",
-          "score": 0.0051
-        },
-        {
-          "word": "Jepang",
-          "score": 0.005
-        },
-        {
-          "word": "映像",
-          "score": 0.0049
-        },
-        {
-          "word": "公明党",
-          "score": 0.0047
+          "score": 0.0052
         },
         {
           "word": "報道局",
-          "score": 0.0046
+          "score": 0.005
         },
         {
           "word": "月額",
+          "score": 0.0049
+        },
+        {
+          "word": "the",
+          "score": 0.0048
+        },
+        {
+          "word": "代表",
+          "score": 0.0046
+        },
+        {
+          "word": "放送",
+          "score": 0.0046
+        },
+        {
+          "word": "連絡",
           "score": 0.0046
         },
         {
           "word": "輸出",
+          "score": 0.0046
+        },
+        {
+          "word": "所属",
           "score": 0.0045
         },
         {
-          "word": "代表",
+          "word": "公明党",
           "score": 0.0045
-        },
-        {
-          "word": "the",
-          "score": 0.0045
-        },
-        {
-          "word": "11",
-          "score": 0.0043
-        },
-        {
-          "word": "放送",
-          "score": 0.0043
         }
       ],
       "Takaichi-JP-positive": [
@@ -4849,199 +4677,199 @@
         },
         {
           "word": "首相",
-          "score": 0.0271
+          "score": 0.0287
         },
         {
           "word": "ng",
-          "score": 0.0212
+          "score": 0.0225
         },
         {
           "word": "大統領",
-          "score": 0.0167
-        },
-        {
-          "word": "大臣",
-          "score": 0.0141
+          "score": 0.0177
         },
         {
           "word": "英語",
-          "score": 0.0138
+          "score": 0.0146
+        },
+        {
+          "word": "大臣",
+          "score": 0.0146
         },
         {
           "word": "会談",
-          "score": 0.0111
+          "score": 0.0117
         },
         {
           "word": "th",
-          "score": 0.0111
+          "score": 0.0117
         },
         {
           "word": "動画",
-          "score": 0.0109
+          "score": 0.0112
         },
         {
           "word": "nh",
-          "score": 0.0101
+          "score": 0.0107
         },
         {
           "word": "the",
-          "score": 0.0101
-        },
-        {
-          "word": "情報",
-          "score": 0.0095
+          "score": 0.0107
         },
         {
           "word": "公式",
-          "score": 0.0095
+          "score": 0.0101
         },
         {
           "word": "自民党",
-          "score": 0.0091
+          "score": 0.0097
         },
         {
           "word": "政治",
-          "score": 0.0091
+          "score": 0.0096
         },
         {
           "word": "and",
-          "score": 0.0088
-        },
-        {
-          "word": "世界",
-          "score": 0.0071
-        },
-        {
-          "word": "00",
-          "score": 0.0069
-        },
-        {
-          "word": "女性",
-          "score": 0.0068
+          "score": 0.0093
         },
         {
           "word": "自民黨",
-          "score": 0.0067
+          "score": 0.0078
+        },
+        {
+          "word": "世界",
+          "score": 0.0075
+        },
+        {
+          "word": "情報",
+          "score": 0.0075
+        },
+        {
+          "word": "00",
+          "score": 0.0073
+        },
+        {
+          "word": "女性",
+          "score": 0.0072
         },
         {
           "word": "ch",
-          "score": 0.0058
-        },
-        {
-          "word": "配信",
-          "score": 0.0056
+          "score": 0.0062
         },
         {
           "word": "Sanae",
-          "score": 0.0056
-        },
-        {
-          "word": "Instagram",
-          "score": 0.0056
-        },
-        {
-          "word": "最新",
-          "score": 0.0054
-        },
-        {
-          "word": "10",
-          "score": 0.0054
-        },
-        {
-          "word": "投資",
-          "score": 0.0054
+          "score": 0.006
         },
         {
           "word": "TBS",
-          "score": 0.0054
-        },
-        {
-          "word": "波動",
-          "score": 0.0054
+          "score": 0.0057
         },
         {
           "word": "時間",
-          "score": 0.0053
+          "score": 0.0056
         },
         {
           "word": "報道",
-          "score": 0.0053
-        },
-        {
-          "word": "政策",
-          "score": 0.0051
+          "score": 0.0056
         },
         {
           "word": "ph",
-          "score": 0.0051
-        },
-        {
-          "word": "議員",
-          "score": 0.0049
+          "score": 0.0054
         },
         {
           "word": "SANAE",
-          "score": 0.0046
+          "score": 0.0049
         },
         {
-          "word": "議院",
-          "score": 0.0046
+          "word": "總裁",
+          "score": 0.0049
         },
         {
           "word": "情勢",
-          "score": 0.0046
-        },
-        {
-          "word": "候補",
-          "score": 0.0046
+          "score": 0.0049
         },
         {
           "word": "VOICEVOX",
-          "score": 0.0046
+          "score": 0.0049
+        },
+        {
+          "word": "投資",
+          "score": 0.0049
+        },
+        {
+          "word": "配信",
+          "score": 0.0049
         },
         {
           "word": "Takaichi",
-          "score": 0.0046
-        },
-        {
-          "word": "今回",
-          "score": 0.0046
+          "score": 0.0049
         },
         {
           "word": "未来",
-          "score": 0.0046
+          "score": 0.0048
         },
         {
           "word": "2025",
-          "score": 0.0045
+          "score": 0.0048
         },
         {
           "word": "提供",
+          "score": 0.0048
+        },
+        {
+          "word": "10",
+          "score": 0.0045
+        },
+        {
+          "word": "政策",
           "score": 0.0045
         },
         {
           "word": "引用",
-          "score": 0.0043
+          "score": 0.0045
         },
         {
           "word": "再生",
-          "score": 0.0042
-        },
-        {
-          "word": "活動",
-          "score": 0.0042
-        },
-        {
-          "word": "財政",
-          "score": 0.0042
+          "score": 0.0045
         },
         {
           "word": "官邸",
-          "score": 0.0042
+          "score": 0.0045
         },
         {
           "word": "市内",
+          "score": 0.0045
+        },
+        {
+          "word": "候補",
+          "score": 0.0045
+        },
+        {
+          "word": "Miraa",
+          "score": 0.0044
+        },
+        {
+          "word": "tr",
+          "score": 0.0044
+        },
+        {
+          "word": "工作",
           "score": 0.0042
+        },
+        {
+          "word": "新聞",
+          "score": 0.0041
+        },
+        {
+          "word": "今回",
+          "score": 0.0041
+        },
+        {
+          "word": "日米",
+          "score": 0.0041
+        },
+        {
+          "word": "誕生",
+          "score": 0.004
         }
       ],
       "Takaichi-ZH-negative": [
@@ -5206,6 +5034,10 @@
           "score": 0.0027
         },
         {
+          "word": "不足",
+          "score": 0.0027
+        },
+        {
           "word": "人間",
           "score": 0.0026
         },
@@ -5240,20 +5072,16 @@
         {
           "word": "次郎",
           "score": 0.0025
-        },
-        {
-          "word": "中方",
-          "score": 0.0025
         }
       ],
       "Takaichi-ZH-neutral": [
         {
           "word": "日本",
-          "score": 0.0408
+          "score": 0.0409
         },
         {
           "word": "動画",
-          "score": 0.0133
+          "score": 0.0132
         },
         {
           "word": "首相",
@@ -5261,7 +5089,7 @@
         },
         {
           "word": "中国",
-          "score": 0.0084
+          "score": 0.0083
         },
         {
           "word": "政治",
@@ -5269,11 +5097,11 @@
         },
         {
           "word": "自民党",
-          "score": 0.0072
+          "score": 0.0071
         },
         {
           "word": "大臣",
-          "score": 0.0065
+          "score": 0.0064
         },
         {
           "word": "美国",
@@ -5281,7 +5109,7 @@
         },
         {
           "word": "問題",
-          "score": 0.0054
+          "score": 0.0053
         },
         {
           "word": "越南",
@@ -5289,18 +5117,14 @@
         },
         {
           "word": "政策",
-          "score": 0.0047
+          "score": 0.0048
         },
         {
           "word": "视频",
-          "score": 0.0046
+          "score": 0.0047
         },
         {
           "word": "情報",
-          "score": 0.0044
-        },
-        {
-          "word": "配信",
           "score": 0.0044
         },
         {
@@ -5313,6 +5137,10 @@
         },
         {
           "word": "使用",
+          "score": 0.0043
+        },
+        {
+          "word": "配信",
           "score": 0.0042
         },
         {
@@ -5424,15 +5252,7 @@
           "score": 0.0028
         },
         {
-          "word": "安全",
-          "score": 0.0027
-        },
-        {
           "word": "记者",
-          "score": 0.0027
-        },
-        {
-          "word": "YouTube",
           "score": 0.0027
         },
         {
@@ -5444,22 +5264,30 @@
           "score": 0.0026
         },
         {
+          "word": "安全",
+          "score": 0.0026
+        },
+        {
           "word": "右翼",
           "score": 0.0026
+        },
+        {
+          "word": "稀土",
+          "score": 0.0025
         }
       ],
       "Takaichi-ZH-positive": [
         {
           "word": "日本",
-          "score": 0.0507
+          "score": 0.0493
         },
         {
           "word": "首相",
-          "score": 0.0248
+          "score": 0.0253
         },
         {
           "word": "大臣",
-          "score": 0.0094
+          "score": 0.0096
         },
         {
           "word": "安全",
@@ -5470,135 +5298,127 @@
           "score": 0.0088
         },
         {
-          "word": "動画",
+          "word": "ng",
           "score": 0.0083
         },
         {
           "word": "自民党",
-          "score": 0.0083
+          "score": 0.0079
         },
         {
-          "word": "ng",
-          "score": 0.0081
+          "word": "動画",
+          "score": 0.0079
         },
         {
           "word": "世界",
-          "score": 0.008
+          "score": 0.0077
         },
         {
           "word": "保障",
-          "score": 0.0073
+          "score": 0.0074
         },
         {
           "word": "協力",
-          "score": 0.006
+          "score": 0.0061
         },
         {
           "word": "女性",
-          "score": 0.0058
-        },
-        {
-          "word": "情報",
-          "score": 0.0056
+          "score": 0.0059
         },
         {
           "word": "美国",
-          "score": 0.0055
+          "score": 0.0056
         },
         {
           "word": "外交",
-          "score": 0.0055
+          "score": 0.0056
+        },
+        {
+          "word": "情報",
+          "score": 0.0054
         },
         {
           "word": "竹田恒泰",
-          "score": 0.0051
+          "score": 0.0052
         },
         {
           "word": "地域",
-          "score": 0.0049
+          "score": 0.005
         },
         {
           "word": "重要",
-          "score": 0.0049
-        },
-        {
-          "word": "配信",
-          "score": 0.0047
+          "score": 0.005
         },
         {
           "word": "強化",
-          "score": 0.0047
+          "score": 0.0048
         },
         {
           "word": "中国",
-          "score": 0.0045
-        },
-        {
-          "word": "確認",
-          "score": 0.0045
+          "score": 0.0046
         },
         {
           "word": "支持",
-          "score": 0.0044
+          "score": 0.0045
         },
         {
           "word": "引用",
+          "score": 0.0043
+        },
+        {
+          "word": "Youtube",
+          "score": 0.0042
+        },
+        {
+          "word": "政策",
+          "score": 0.0042
+        },
+        {
+          "word": "確認",
+          "score": 0.0042
+        },
+        {
+          "word": "訪問",
           "score": 0.0042
         },
         {
           "word": "分野",
-          "score": 0.0041
-        },
-        {
-          "word": "Youtube",
-          "score": 0.0041
-        },
-        {
-          "word": "政策",
-          "score": 0.0041
-        },
-        {
-          "word": "訪問",
-          "score": 0.0041
+          "score": 0.004
         },
         {
           "word": "th",
-          "score": 0.0039
+          "score": 0.004
         },
         {
           "word": "nh",
-          "score": 0.0039
+          "score": 0.004
         },
         {
           "word": "大統領",
-          "score": 0.0038
+          "score": 0.0039
         },
         {
           "word": "OPENREC",
+          "score": 0.0039
+        },
+        {
+          "word": "配信",
           "score": 0.0038
         },
         {
-          "word": "問題",
+          "word": "自民黨",
           "score": 0.0038
-        },
-        {
-          "word": "未来",
-          "score": 0.0037
-        },
-        {
-          "word": "00",
-          "score": 0.0037
         },
         {
           "word": "国家",
-          "score": 0.0036
-        },
-        {
-          "word": "放送",
-          "score": 0.0036
+          "score": 0.0037
         },
         {
           "word": "安定",
+          "score": 0.0036
+        },
+        {
+          "word": "問題",
           "score": 0.0036
         },
         {
@@ -5610,43 +5430,51 @@
           "score": 0.0036
         },
         {
-          "word": "国民",
+          "word": "00",
+          "score": 0.0036
+        },
+        {
+          "word": "未来",
           "score": 0.0035
         },
         {
-          "word": "今回",
-          "score": 0.0034
+          "word": "放送",
+          "score": 0.0035
         },
         {
           "word": "太平洋",
-          "score": 0.0034
+          "score": 0.0035
         },
         {
           "word": "時間",
-          "score": 0.0034
+          "score": 0.0035
         },
         {
           "word": "新聞",
-          "score": 0.0034
-        },
-        {
-          "word": "自民黨",
-          "score": 0.0033
+          "score": 0.0035
         },
         {
           "word": "提供",
-          "score": 0.0033
+          "score": 0.0034
         },
         {
           "word": "情勢",
           "score": 0.0033
         },
         {
-          "word": "支援",
-          "score": 0.0032
+          "word": "今回",
+          "score": 0.0033
         },
         {
           "word": "公式",
+          "score": 0.0033
+        },
+        {
+          "word": "国民",
+          "score": 0.0032
+        },
+        {
+          "word": "中共",
           "score": 0.0032
         }
       ]
@@ -5822,16 +5650,16 @@
           "value": 3
         },
         {
-          "name": "notre",
-          "value": 3
-        },
-        {
           "name": "europe",
           "value": 3
         },
         {
           "name": "être",
           "value": 3
+        },
+        {
+          "name": "notre",
+          "value": 2
         },
         {
           "name": "contre",
@@ -6265,15 +6093,19 @@
         },
         {
           "name": "首相",
-          "value": 21
+          "value": 20
         },
         {
           "name": "大臣",
-          "value": 17
+          "value": 16
         },
         {
           "name": "動画",
-          "value": 14
+          "value": 15
+        },
+        {
+          "name": "中国",
+          "value": 9
         },
         {
           "name": "政治",
@@ -6284,11 +6116,11 @@
           "value": 9
         },
         {
-          "name": "中国",
+          "name": "ng",
           "value": 9
         },
         {
-          "name": "ng",
+          "name": "公式",
           "value": 8
         },
         {
@@ -6296,23 +6128,11 @@
           "value": 8
         },
         {
-          "name": "公式",
-          "value": 8
+          "name": "NEWS",
+          "value": 7
         },
         {
           "name": "自民党",
-          "value": 7
-        },
-        {
-          "name": "情報",
-          "value": 7
-        },
-        {
-          "name": "NEWS",
-          "value": 6
-        },
-        {
-          "name": "女性",
           "value": 6
         },
         {
@@ -6320,7 +6140,15 @@
           "value": 6
         },
         {
-          "name": "議院",
+          "name": "情報",
+          "value": 6
+        },
+        {
+          "name": "女性",
+          "value": 6
+        },
+        {
+          "name": "the",
           "value": 6
         },
         {
@@ -6328,27 +6156,11 @@
           "value": 6
         },
         {
-          "name": "問題",
-          "value": 6
-        },
-        {
-          "name": "安全",
-          "value": 6
-        },
-        {
-          "name": "the",
-          "value": 5
-        },
-        {
-          "name": "議員",
-          "value": 5
-        },
-        {
-          "name": "10",
-          "value": 5
-        },
-        {
           "name": "Takaichi",
+          "value": 6
+        },
+        {
+          "name": "問題",
           "value": 5
         },
         {
@@ -6356,19 +6168,11 @@
           "value": 5
         },
         {
-          "name": "最新",
+          "name": "Sanae",
           "value": 5
         },
         {
           "name": "SNS",
-          "value": 5
-        },
-        {
-          "name": "2025",
-          "value": 5
-        },
-        {
-          "name": "Sanae",
           "value": 5
         },
         {
@@ -6380,11 +6184,23 @@
           "value": 5
         },
         {
-          "name": "国民",
+          "name": "2025",
+          "value": 5
+        },
+        {
+          "name": "10",
+          "value": 5
+        },
+        {
+          "name": "安全",
           "value": 5
         },
         {
           "name": "提供",
+          "value": 5
+        },
+        {
+          "name": "議院",
           "value": 5
         },
         {
@@ -6393,10 +6209,26 @@
         },
         {
           "name": "投稿",
-          "value": 4
+          "value": 5
+        },
+        {
+          "name": "国民",
+          "value": 5
+        },
+        {
+          "name": "議員",
+          "value": 5
         },
         {
           "name": "世界",
+          "value": 5
+        },
+        {
+          "name": "and",
+          "value": 4
+        },
+        {
+          "name": "最新",
           "value": 4
         },
         {
@@ -6404,23 +6236,11 @@
           "value": 4
         },
         {
-          "name": "and",
-          "value": 4
-        },
-        {
-          "name": "保障",
-          "value": 4
-        },
-        {
-          "name": "場合",
-          "value": 4
-        },
-        {
           "name": "英語",
           "value": 4
         },
         {
-          "name": "Instagram",
+          "name": "場合",
           "value": 4
         },
         {
@@ -6432,19 +6252,27 @@
           "value": 4
         },
         {
+          "name": "保障",
+          "value": 4
+        },
+        {
           "name": "基本",
           "value": 4
         },
         {
-          "name": "11",
+          "name": "nh",
           "value": 4
         },
         {
-          "name": "nh",
+          "name": "台湾",
+          "value": 4
+        },
+        {
+          "name": "11",
           "value": 3
         },
         {
-          "name": "台湾",
+          "name": "Instagram",
           "value": 3
         },
         {
@@ -6452,11 +6280,11 @@
           "value": 3
         },
         {
-          "name": "今回",
+          "name": "Jepang",
           "value": 3
         },
         {
-          "name": "Jepang",
+          "name": "新聞",
           "value": 3
         }
       ],
@@ -6490,11 +6318,11 @@
           "value": 6
         },
         {
-          "name": "大臣",
+          "name": "收起",
           "value": 6
         },
         {
-          "name": "收起",
+          "name": "大臣",
           "value": 6
         },
         {
@@ -6614,10 +6442,6 @@
           "value": 2
         },
         {
-          "name": "保障",
-          "value": 2
-        },
-        {
           "name": "武器",
           "value": 2
         },
@@ -6634,7 +6458,7 @@
           "value": 2
         },
         {
-          "name": "配信",
+          "name": "保障",
           "value": 2
         },
         {
@@ -6660,6 +6484,10 @@
         {
           "name": "引用",
           "value": 2
+        },
+        {
+          "name": "自由",
+          "value": 2
         }
       ]
     }
@@ -6682,7 +6510,7 @@
             "mars"
           ],
           "doc_count": 251,
-          "weight": 3.784332470363569,
+          "weight": 3.783171228856271,
           "sentiment_dist": {
             "negative": 28.7,
             "positive": 7.2,
@@ -6700,15 +6528,15 @@
             "une",
             "que",
             "pas",
-            "avec",
-            "dans"
+            "dans",
+            "avec"
           ],
-          "doc_count": 824,
-          "weight": 48.462714224145266,
+          "doc_count": 822,
+          "weight": 48.56457770352656,
           "sentiment_dist": {
             "negative": 41.4,
-            "neutral": 33.3,
-            "positive": 25.4
+            "neutral": 33.5,
+            "positive": 25.2
           }
         },
         {
@@ -6719,14 +6547,14 @@
             "emmanuel",
             "april",
             "法国总统",
-            "法国总统候选人",
             "与极右翼候选人",
+            "法国总统候选人",
             "june",
             "pen",
             "法国极右翼政党总统候选人"
           ],
           "doc_count": 102,
-          "weight": 7.17342663629794,
+          "weight": 7.168268960518012,
           "sentiment_dist": {
             "neutral": 56.9,
             "positive": 21.6,
@@ -6743,12 +6571,12 @@
             "shut",
             "wake",
             "west",
-            "nationality",
             "islamist",
+            "nationality",
             "stripped"
           ],
           "doc_count": 41,
-          "weight": 8.402824544733525,
+          "weight": 8.39791461061299,
           "sentiment_dist": {
             "positive": 82.9,
             "neutral": 12.2,
@@ -6762,19 +6590,19 @@
             "french",
             "viktor",
             "support",
-            "france",
             "yes",
-            "european",
+            "france",
             "法国极右翼政党总统候选人",
+            "european",
             "stand",
             "leader"
           ],
-          "doc_count": 517,
-          "weight": 17.905445287691542,
+          "doc_count": 518,
+          "weight": 17.81911586167194,
           "sentiment_dist": {
-            "positive": 26.9,
-            "negative": 38.9,
-            "neutral": 34.2
+            "positive": 26.6,
+            "negative": 39.0,
+            "neutral": 34.4
           }
         },
         {
@@ -6782,8 +6610,8 @@
           "keywords": [
             "las",
             "los",
-            "que",
             "derecha",
+            "que",
             "extrema",
             "grandes",
             "ciudades",
@@ -6791,12 +6619,12 @@
             "izquierda",
             "para"
           ],
-          "doc_count": 83,
-          "weight": 14.271256836768162,
+          "doc_count": 81,
+          "weight": 14.266951634814246,
           "sentiment_dist": {
-            "neutral": 21.7,
-            "positive": 51.8,
-            "negative": 26.5
+            "neutral": 19.8,
+            "positive": 53.1,
+            "negative": 27.2
           }
         }
       ],
@@ -6949,12 +6777,12 @@
             "invest",
             "china"
           ],
-          "doc_count": 142,
-          "weight": 3.355707094954938,
+          "doc_count": 138,
+          "weight": 3.3549559356762475,
           "sentiment_dist": {
-            "positive": 14.8,
-            "negative": 39.4,
-            "neutral": 45.8
+            "positive": 12.3,
+            "negative": 50.7,
+            "neutral": 37.0
           }
         },
         {
@@ -6971,12 +6799,12 @@
             "pearl",
             "meeting"
           ],
-          "doc_count": 377,
-          "weight": 18.957714448632878,
+          "doc_count": 378,
+          "weight": 18.96053293074317,
           "sentiment_dist": {
-            "positive": 31.3,
-            "negative": 22.8,
-            "neutral": 45.9
+            "positive": 31.0,
+            "negative": 23.3,
+            "neutral": 45.8
           }
         },
         {
@@ -6994,11 +6822,11 @@
             "para"
           ],
           "doc_count": 285,
-          "weight": 22.443728687645724,
+          "weight": 22.441719544266554,
           "sentiment_dist": {
-            "positive": 35.8,
-            "neutral": 40.0,
-            "negative": 24.2
+            "positive": 40.0,
+            "neutral": 39.3,
+            "negative": 20.7
           }
         },
         {
@@ -7015,12 +6843,12 @@
             "ruling",
             "new"
           ],
-          "doc_count": 385,
-          "weight": 14.763290284798266,
+          "doc_count": 386,
+          "weight": 14.755657929375573,
           "sentiment_dist": {
-            "neutral": 53.2,
-            "positive": 30.6,
-            "negative": 16.1
+            "neutral": 53.4,
+            "positive": 30.8,
+            "negative": 15.8
           }
         },
         {
@@ -7032,17 +6860,17 @@
             "follow",
             "war",
             "like",
-            "taiwan",
             "subscribe",
+            "taiwan",
             "global",
             "visit"
           ],
-          "doc_count": 515,
-          "weight": 24.22958171214147,
+          "doc_count": 516,
+          "weight": 24.241429686504414,
           "sentiment_dist": {
-            "positive": 36.1,
-            "neutral": 45.0,
-            "negative": 18.8
+            "positive": 34.7,
+            "neutral": 47.1,
+            "negative": 18.2
           }
         },
         {
@@ -7059,12 +6887,12 @@
             "quốc",
             "thăm"
           ],
-          "doc_count": 62,
-          "weight": 16.249977771826735,
+          "doc_count": 59,
+          "weight": 16.245703973434054,
           "sentiment_dist": {
-            "positive": 45.2,
-            "negative": 12.9,
-            "neutral": 41.9
+            "positive": 42.4,
+            "negative": 10.2,
+            "neutral": 47.5
           }
         }
       ],
@@ -7078,17 +6906,17 @@
             "sns",
             "facebook",
             "機能",
-            "290",
             "月額",
+            "290",
             "報道局",
             "tiktok"
           ],
-          "doc_count": 45,
-          "weight": 15.9870280841986,
+          "doc_count": 39,
+          "weight": 17.403844801115266,
           "sentiment_dist": {
-            "positive": 42.2,
-            "negative": 15.6,
-            "neutral": 42.2
+            "positive": 43.6,
+            "negative": 17.9,
+            "neutral": 38.5
           }
         },
         {
@@ -7100,17 +6928,17 @@
             "中国",
             "平和",
             "世界",
-            "女性",
             "大統領",
             "国民",
-            "会談"
+            "会談",
+            "女性"
           ],
-          "doc_count": 113,
-          "weight": 20.947926334582153,
+          "doc_count": 97,
+          "weight": 21.732993077947913,
           "sentiment_dist": {
-            "neutral": 36.3,
-            "positive": 49.6,
-            "negative": 14.2
+            "neutral": 38.1,
+            "positive": 45.4,
+            "negative": 16.5
           }
         },
         {
@@ -7127,12 +6955,12 @@
             "使用",
             "目的"
           ],
-          "doc_count": 67,
-          "weight": 17.98217433410485,
+          "doc_count": 62,
+          "weight": 19.28603801206344,
           "sentiment_dist": {
-            "positive": 29.9,
-            "negative": 14.9,
-            "neutral": 55.2
+            "positive": 35.5,
+            "negative": 12.9,
+            "neutral": 51.6
           }
         },
         {
@@ -7144,46 +6972,24 @@
             "映像",
             "投稿",
             "dig",
-            "中国",
             "情報",
+            "中国",
             "news",
             "台湾"
           ],
-          "doc_count": 50,
-          "weight": 11.590537080902918,
+          "doc_count": 41,
+          "weight": 12.315321509387648,
           "sentiment_dist": {
-            "negative": 8.0,
-            "neutral": 62.0,
-            "positive": 30.0
+            "negative": 9.8,
+            "neutral": 51.2,
+            "positive": 39.0
           }
         },
         {
           "id": 4,
           "keywords": [
-            "大臣",
-            "自民党",
-            "議院",
-            "女性",
-            "議員",
-            "担当",
-            "文字",
-            "政策",
-            "安全",
-            "政治"
-          ],
-          "doc_count": 92,
-          "weight": 21.320441289699108,
-          "sentiment_dist": {
-            "positive": 43.5,
-            "negative": 15.2,
-            "neutral": 41.3
-          }
-        },
-        {
-          "id": 5,
-          "keywords": [
-            "sanae",
             "takaichi",
+            "sanae",
             "jepang",
             "dan",
             "yang",
@@ -7193,12 +6999,34 @@
             "prime",
             "th"
           ],
-          "doc_count": 45,
-          "weight": 12.171892876512393,
+          "doc_count": 41,
+          "weight": 12.81941830153115,
           "sentiment_dist": {
-            "positive": 40.0,
-            "negative": 22.2,
-            "neutral": 37.8
+            "positive": 43.9,
+            "negative": 26.8,
+            "neutral": 29.3
+          }
+        },
+        {
+          "id": 5,
+          "keywords": [
+            "大臣",
+            "自民党",
+            "女性",
+            "文字",
+            "担当",
+            "議院",
+            "議員",
+            "政策",
+            "政治",
+            "安全"
+          ],
+          "doc_count": 96,
+          "weight": 16.442384297954586,
+          "sentiment_dist": {
+            "positive": 35.4,
+            "negative": 15.6,
+            "neutral": 49.0
           }
         }
       ],
@@ -7209,20 +7037,20 @@
             "日本",
             "中国",
             "高評",
-            "世界",
             "美国",
+            "世界",
             "特朗普",
             "外交",
-            "国民",
             "海峡",
-            "问题"
+            "问题",
+            "原油"
           ],
-          "doc_count": 491,
-          "weight": 31.865157881486024,
+          "doc_count": 484,
+          "weight": 32.51415507614916,
           "sentiment_dist": {
-            "neutral": 23.2,
-            "positive": 15.1,
-            "negative": 61.7
+            "positive": 12.2,
+            "neutral": 25.0,
+            "negative": 62.8
           }
         },
         {
@@ -7231,20 +7059,20 @@
             "视频",
             "微博",
             "北京日报",
-            "中国",
             "新闻",
+            "中国",
             "央视",
             "新闻网",
             "新浪",
             "来源",
             "记者"
           ],
-          "doc_count": 176,
-          "weight": 8.91004793001825,
+          "doc_count": 174,
+          "weight": 8.751358018825352,
           "sentiment_dist": {
-            "negative": 65.9,
-            "neutral": 29.0,
-            "positive": 5.1
+            "negative": 66.7,
+            "neutral": 27.0,
+            "positive": 6.3
           }
         },
         {
@@ -7255,18 +7083,18 @@
             "憲法",
             "大臣",
             "平和",
-            "国会",
             "世界",
+            "国会",
             "改正",
             "jp",
             "女性"
           ],
-          "doc_count": 651,
-          "weight": 29.259614038684855,
+          "doc_count": 644,
+          "weight": 28.181893456949364,
           "sentiment_dist": {
-            "neutral": 20.0,
-            "positive": 14.4,
-            "negative": 65.6
+            "neutral": 18.9,
+            "positive": 14.8,
+            "negative": 66.3
           }
         },
         {
@@ -7275,20 +7103,20 @@
             "收起",
             "新闻",
             "央视",
-            "时讯",
             "lcctv",
+            "时讯",
             "国际",
             "上台",
-            "北京日报",
             "新华社",
+            "北京日报",
             "报道"
           ],
           "doc_count": 49,
-          "weight": 3.646310880761113,
+          "weight": 3.5938679614947615,
           "sentiment_dist": {
-            "positive": 6.1,
-            "negative": 67.3,
-            "neutral": 26.5
+            "negative": 59.2,
+            "neutral": 30.6,
+            "positive": 10.2
           }
         },
         {
@@ -7305,12 +7133,12 @@
             "作成",
             "内容"
           ],
-          "doc_count": 325,
-          "weight": 17.702493901424504,
+          "doc_count": 308,
+          "weight": 17.49028936455491,
           "sentiment_dist": {
-            "positive": 17.5,
-            "neutral": 29.8,
-            "negative": 52.6
+            "positive": 17.9,
+            "neutral": 28.6,
+            "negative": 53.6
           }
         },
         {
@@ -7320,19 +7148,19 @@
             "教会",
             "統一",
             "投票",
-            "候補者",
             "議員",
+            "候補者",
             "本当",
             "国賊",
-            "一票",
-            "政策"
+            "政策",
+            "一票"
           ],
-          "doc_count": 189,
-          "weight": 8.616375367625258,
+          "doc_count": 200,
+          "weight": 9.468436122026466,
           "sentiment_dist": {
-            "neutral": 20.6,
-            "positive": 19.0,
-            "negative": 60.3
+            "neutral": 21.0,
+            "positive": 16.5,
+            "negative": 62.5
           }
         }
       ]
@@ -7341,27 +7169,27 @@
       {
         "language": "ZH",
         "shared_keywords": [
-          "投票",
-          "微博",
-          "美国",
-          "特朗普",
-          "视频",
-          "国民",
           "国际",
-          "收起"
+          "美国",
+          "国民",
+          "微博",
+          "视频",
+          "收起",
+          "投票",
+          "特朗普"
         ],
         "count": 8
       },
       {
         "language": "EN",
         "shared_keywords": [
-          "que",
+          "leader",
+          "para",
           "收起d",
           "o网页链接",
-          "para",
+          "que",
           "las",
-          "los",
-          "leader"
+          "los"
         ],
         "count": 7
       }
@@ -7370,33 +7198,6 @@
   "temporal_analysis": {
     "monthly_sentiment": {
       "LePen-EN": [
-        {
-          "month": "2017-04",
-          "positive": 1,
-          "negative": 0,
-          "neutral": 0,
-          "total": 1,
-          "neg_ratio": 0.0,
-          "pos_ratio": 100.0
-        },
-        {
-          "month": "2021-07",
-          "positive": 1,
-          "negative": 0,
-          "neutral": 0,
-          "total": 1,
-          "neg_ratio": 0.0,
-          "pos_ratio": 100.0
-        },
-        {
-          "month": "2021-10",
-          "positive": 1,
-          "negative": 0,
-          "neutral": 0,
-          "total": 1,
-          "neg_ratio": 0.0,
-          "pos_ratio": 100.0
-        },
         {
           "month": "2022-03",
           "positive": 0,
@@ -7987,51 +7788,6 @@
       ],
       "Takaichi-EN": [
         {
-          "month": "2024-07",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 1,
-          "total": 1,
-          "neg_ratio": 0.0,
-          "pos_ratio": 0.0
-        },
-        {
-          "month": "2024-11",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 1,
-          "total": 1,
-          "neg_ratio": 0.0,
-          "pos_ratio": 0.0
-        },
-        {
-          "month": "2025-03",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 1,
-          "total": 1,
-          "neg_ratio": 0.0,
-          "pos_ratio": 0.0
-        },
-        {
-          "month": "2025-06",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 1,
-          "total": 1,
-          "neg_ratio": 0.0,
-          "pos_ratio": 0.0
-        },
-        {
-          "month": "2025-09",
-          "positive": 2,
-          "negative": 0,
-          "neutral": 0,
-          "total": 2,
-          "neg_ratio": 0.0,
-          "pos_ratio": 100.0
-        },
-        {
           "month": "2025-10",
           "positive": 72,
           "negative": 33,
@@ -8106,123 +7862,6 @@
       ],
       "Takaichi-JP": [
         {
-          "month": "2021-09",
-          "positive": 2,
-          "negative": 0,
-          "neutral": 1,
-          "total": 3,
-          "neg_ratio": 0.0,
-          "pos_ratio": 66.7
-        },
-        {
-          "month": "2024-08",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 2,
-          "total": 2,
-          "neg_ratio": 0.0,
-          "pos_ratio": 0.0
-        },
-        {
-          "month": "2024-09",
-          "positive": 4,
-          "negative": 0,
-          "neutral": 0,
-          "total": 4,
-          "neg_ratio": 0.0,
-          "pos_ratio": 100.0
-        },
-        {
-          "month": "2024-10",
-          "positive": 1,
-          "negative": 0,
-          "neutral": 0,
-          "total": 1,
-          "neg_ratio": 0.0,
-          "pos_ratio": 100.0
-        },
-        {
-          "month": "2024-11",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 1,
-          "total": 1,
-          "neg_ratio": 0.0,
-          "pos_ratio": 0.0
-        },
-        {
-          "month": "2025-01",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 2,
-          "total": 2,
-          "neg_ratio": 0.0,
-          "pos_ratio": 0.0
-        },
-        {
-          "month": "2025-02",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 1,
-          "total": 1,
-          "neg_ratio": 0.0,
-          "pos_ratio": 0.0
-        },
-        {
-          "month": "2025-03",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 2,
-          "total": 2,
-          "neg_ratio": 0.0,
-          "pos_ratio": 0.0
-        },
-        {
-          "month": "2025-04",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 4,
-          "total": 4,
-          "neg_ratio": 0.0,
-          "pos_ratio": 0.0
-        },
-        {
-          "month": "2025-05",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 1,
-          "total": 1,
-          "neg_ratio": 0.0,
-          "pos_ratio": 0.0
-        },
-        {
-          "month": "2025-06",
-          "positive": 1,
-          "negative": 0,
-          "neutral": 3,
-          "total": 4,
-          "neg_ratio": 0.0,
-          "pos_ratio": 25.0
-        },
-        {
-          "month": "2025-08",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 1,
-          "total": 1,
-          "neg_ratio": 0.0,
-          "pos_ratio": 0.0
-        },
-        {
-          "month": "2025-09",
-          "positive": 9,
-          "negative": 0,
-          "neutral": 2,
-          "total": 11,
-          "neg_ratio": 0.0,
-          "pos_ratio": 81.8
-        },
-        {
           "month": "2025-10",
           "positive": 45,
           "negative": 2,
@@ -8296,78 +7935,6 @@
         }
       ],
       "Takaichi-ZH": [
-        {
-          "month": "2021-09",
-          "positive": 1,
-          "negative": 0,
-          "neutral": 0,
-          "total": 1,
-          "neg_ratio": 0.0,
-          "pos_ratio": 100.0
-        },
-        {
-          "month": "2023-08",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 1,
-          "total": 1,
-          "neg_ratio": 0.0,
-          "pos_ratio": 0.0
-        },
-        {
-          "month": "2024-03",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 1,
-          "total": 1,
-          "neg_ratio": 0.0,
-          "pos_ratio": 0.0
-        },
-        {
-          "month": "2024-09",
-          "positive": 8,
-          "negative": 0,
-          "neutral": 1,
-          "total": 9,
-          "neg_ratio": 0.0,
-          "pos_ratio": 88.9
-        },
-        {
-          "month": "2024-10",
-          "positive": 1,
-          "negative": 0,
-          "neutral": 0,
-          "total": 1,
-          "neg_ratio": 0.0,
-          "pos_ratio": 100.0
-        },
-        {
-          "month": "2025-06",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 1,
-          "total": 1,
-          "neg_ratio": 0.0,
-          "pos_ratio": 0.0
-        },
-        {
-          "month": "2025-08",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 2,
-          "total": 2,
-          "neg_ratio": 0.0,
-          "pos_ratio": 0.0
-        },
-        {
-          "month": "2025-09",
-          "positive": 5,
-          "negative": 0,
-          "neutral": 3,
-          "total": 8,
-          "neg_ratio": 0.0,
-          "pos_ratio": 62.5
-        },
         {
           "month": "2025-10",
           "positive": 41,
@@ -8444,8 +8011,8 @@
     },
     "volume_sentiment_correlation": {
       "LePen-EN": {
-        "r": 0.015,
-        "p_value": 0.9228422360140842,
+        "r": -0.02,
+        "p_value": 0.9050409115777,
         "significant": false
       },
       "LePen-ZH": {
@@ -8454,37 +8021,29 @@
         "significant": false
       },
       "Takaichi-EN": {
-        "r": 0.437,
-        "p_value": 0.13580512553310492,
+        "r": -0.021,
+        "p_value": 0.961014150870667,
         "significant": false
       },
       "Takaichi-JP": {
-        "r": 0.457,
-        "p_value": 0.0373093948840432,
+        "r": -0.811,
+        "p_value": 0.014534280043063591,
         "significant": true
       },
       "Takaichi-ZH": {
-        "r": 0.854,
-        "p_value": 2.6005833005122826e-05,
+        "r": 0.791,
+        "p_value": 0.019318538678498448,
         "significant": true
       }
     },
     "key_events": [
-      {
-        "date": "2025-03",
-        "leader": "LePen",
-        "language": "EN",
-        "segment": "LePen-EN",
-        "post_count": 39,
-        "spike_factor": 3.0
-      },
       {
         "date": "2026-01",
         "leader": "LePen",
         "language": "EN",
         "segment": "LePen-EN",
         "post_count": 72,
-        "spike_factor": 5.5
+        "spike_factor": 2.5
       },
       {
         "date": "2026-02",
@@ -8492,7 +8051,7 @@
         "language": "EN",
         "segment": "LePen-EN",
         "post_count": 188,
-        "spike_factor": 14.2
+        "spike_factor": 6.6
       },
       {
         "date": "2026-03",
@@ -8500,7 +8059,7 @@
         "language": "EN",
         "segment": "LePen-EN",
         "post_count": 343,
-        "spike_factor": 26.0
+        "spike_factor": 12.1
       },
       {
         "date": "2026-04",
@@ -8508,7 +8067,7 @@
         "language": "EN",
         "segment": "LePen-EN",
         "post_count": 412,
-        "spike_factor": 31.2
+        "spike_factor": 14.5
       },
       {
         "date": "2026-05",
@@ -8516,7 +8075,7 @@
         "language": "EN",
         "segment": "LePen-EN",
         "post_count": 126,
-        "spike_factor": 9.5
+        "spike_factor": 4.4
       },
       {
         "date": "2025-03",
@@ -8551,124 +8110,12 @@
         "spike_factor": 3.4
       },
       {
-        "date": "2025-10",
-        "leader": "Takaichi",
-        "language": "EN",
-        "segment": "Takaichi-EN",
-        "post_count": 239,
-        "spike_factor": 3.6
-      },
-      {
-        "date": "2026-02",
-        "leader": "Takaichi",
-        "language": "EN",
-        "segment": "Takaichi-EN",
-        "post_count": 182,
-        "spike_factor": 2.7
-      },
-      {
         "date": "2026-03",
         "leader": "Takaichi",
         "language": "EN",
         "segment": "Takaichi-EN",
         "post_count": 603,
-        "spike_factor": 9.0
-      },
-      {
-        "date": "2026-04",
-        "leader": "Takaichi",
-        "language": "EN",
-        "segment": "Takaichi-EN",
-        "post_count": 238,
-        "spike_factor": 3.5
-      },
-      {
-        "date": "2025-10",
-        "leader": "Takaichi",
-        "language": "JP",
-        "segment": "Takaichi-JP",
-        "post_count": 87,
-        "spike_factor": 11.4
-      },
-      {
-        "date": "2025-11",
-        "leader": "Takaichi",
-        "language": "JP",
-        "segment": "Takaichi-JP",
-        "post_count": 49,
-        "spike_factor": 6.4
-      },
-      {
-        "date": "2025-12",
-        "leader": "Takaichi",
-        "language": "JP",
-        "segment": "Takaichi-JP",
-        "post_count": 40,
-        "spike_factor": 5.2
-      },
-      {
-        "date": "2026-01",
-        "leader": "Takaichi",
-        "language": "JP",
-        "segment": "Takaichi-JP",
-        "post_count": 81,
-        "spike_factor": 10.6
-      },
-      {
-        "date": "2026-02",
-        "leader": "Takaichi",
-        "language": "JP",
-        "segment": "Takaichi-JP",
-        "post_count": 64,
-        "spike_factor": 8.4
-      },
-      {
-        "date": "2026-03",
-        "leader": "Takaichi",
-        "language": "JP",
-        "segment": "Takaichi-JP",
-        "post_count": 33,
-        "spike_factor": 4.3
-      },
-      {
-        "date": "2026-04",
-        "leader": "Takaichi",
-        "language": "JP",
-        "segment": "Takaichi-JP",
-        "post_count": 34,
-        "spike_factor": 4.5
-      },
-      {
-        "date": "2025-11",
-        "leader": "Takaichi",
-        "language": "ZH",
-        "segment": "Takaichi-ZH",
-        "post_count": 66,
-        "spike_factor": 2.5
-      },
-      {
-        "date": "2026-01",
-        "leader": "Takaichi",
-        "language": "ZH",
-        "segment": "Takaichi-ZH",
-        "post_count": 67,
-        "spike_factor": 2.6
-      },
-      {
-        "date": "2026-02",
-        "leader": "Takaichi",
-        "language": "ZH",
-        "segment": "Takaichi-ZH",
-        "post_count": 112,
-        "spike_factor": 4.3
-      },
-      {
-        "date": "2026-03",
-        "leader": "Takaichi",
-        "language": "ZH",
-        "segment": "Takaichi-ZH",
-        "post_count": 215,
-        "spike_factor": 8.2
+        "spike_factor": 3.1
       },
       {
         "date": "2026-04",
@@ -8676,15 +8123,7 @@
         "language": "ZH",
         "segment": "Takaichi-ZH",
         "post_count": 705,
-        "spike_factor": 27.0
-      },
-      {
-        "date": "2026-05",
-        "leader": "Takaichi",
-        "language": "ZH",
-        "segment": "Takaichi-ZH",
-        "post_count": 207,
-        "spike_factor": 7.9
+        "spike_factor": 3.8
       }
     ],
     "known_events": [
@@ -8701,867 +8140,321 @@
         "segment": "LePen-EN"
       },
       {
-        "date": "2024-09",
-        "leader": "Takaichi",
-        "event": "LDP Leadership Election",
-        "segment": "Takaichi-JP"
-      },
-      {
-        "date": "2024-10",
-        "leader": "Takaichi",
-        "event": "LDP Leadership Race / PM Campaign",
-        "segment": "Takaichi-ZH"
-      },
-      {
-        "date": "2025-01",
-        "leader": "Takaichi",
-        "event": "Regular Diet Session / Policy Debate",
-        "segment": "Takaichi-JP"
-      },
-      {
         "date": "2025-03",
         "leader": "LePen",
         "event": "Embezzlement Trial Verdict",
+        "segment": "LePen-EN"
+      },
+      {
+        "date": "2025-10",
+        "leader": "Takaichi",
+        "event": "Takaichi Becomes Prime Minister",
+        "segment": "Takaichi-ZH"
+      },
+      {
+        "date": "2026-03",
+        "leader": "LePen",
+        "event": "Le Pen Ban Appeal Hearing",
         "segment": "LePen-EN"
       }
     ],
     "cumulative_sentiment": {
       "Takaichi": [
         {
-          "month": "2021-09",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2021-10",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2021-11",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2021-12",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2022-01",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2022-02",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2022-03",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2022-04",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2022-05",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2022-06",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2022-07",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2022-08",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2022-09",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2022-10",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2022-11",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2022-12",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2023-01",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2023-02",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2023-03",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2023-04",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2023-05",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2023-06",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2023-07",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2023-08",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2023-09",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2023-10",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2023-11",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2023-12",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2024-01",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2024-02",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2024-03",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2024-04",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2024-05",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2024-06",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2024-07",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2024-08",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2024-09",
-          "cumulative_positive": 15,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2024-10",
-          "cumulative_positive": 17,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2024-11",
-          "cumulative_positive": 17,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2024-12",
-          "cumulative_positive": 17,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2025-01",
-          "cumulative_positive": 17,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2025-02",
-          "cumulative_positive": 17,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2025-03",
-          "cumulative_positive": 17,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2025-04",
-          "cumulative_positive": 17,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2025-05",
-          "cumulative_positive": 17,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2025-06",
-          "cumulative_positive": 18,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2025-07",
-          "cumulative_positive": 18,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2025-08",
-          "cumulative_positive": 18,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2025-09",
-          "cumulative_positive": 34,
-          "cumulative_negative": 0
-        },
-        {
           "month": "2025-10",
-          "cumulative_positive": 192,
+          "cumulative_positive": 158,
           "cumulative_negative": 40
         },
         {
           "month": "2025-11",
-          "cumulative_positive": 242,
+          "cumulative_positive": 208,
           "cumulative_negative": 77
         },
         {
           "month": "2025-12",
-          "cumulative_positive": 277,
+          "cumulative_positive": 243,
           "cumulative_negative": 100
         },
         {
           "month": "2026-01",
-          "cumulative_positive": 364,
+          "cumulative_positive": 330,
           "cumulative_negative": 119
         },
         {
           "month": "2026-02",
-          "cumulative_positive": 543,
+          "cumulative_positive": 509,
           "cumulative_negative": 166
         },
         {
           "month": "2026-03",
-          "cumulative_positive": 791,
+          "cumulative_positive": 757,
           "cumulative_negative": 449
         },
         {
           "month": "2026-04",
-          "cumulative_positive": 912,
+          "cumulative_positive": 878,
           "cumulative_negative": 1067
         },
         {
           "month": "2026-05",
-          "cumulative_positive": 992,
+          "cumulative_positive": 958,
           "cumulative_negative": 1217
         }
       ],
       "LePen": [
         {
-          "month": "2017-04",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2017-05",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2017-06",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2017-07",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2017-08",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2017-09",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2017-10",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2017-11",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2017-12",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2018-01",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2018-02",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2018-03",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2018-04",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2018-05",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2018-06",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2018-07",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2018-08",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2018-09",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2018-10",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2018-11",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2018-12",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2019-01",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2019-02",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2019-03",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2019-04",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2019-05",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2019-06",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2019-07",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2019-08",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2019-09",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2019-10",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2019-11",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2019-12",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2020-01",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2020-02",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2020-03",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2020-04",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2020-05",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2020-06",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2020-07",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2020-08",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2020-09",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2020-10",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2020-11",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2020-12",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2021-01",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2021-02",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2021-03",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2021-04",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2021-05",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2021-06",
-          "cumulative_positive": 1,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2021-07",
-          "cumulative_positive": 2,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2021-08",
-          "cumulative_positive": 2,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2021-09",
-          "cumulative_positive": 2,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2021-10",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2021-11",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2021-12",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2022-01",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
-          "month": "2022-02",
-          "cumulative_positive": 3,
-          "cumulative_negative": 0
-        },
-        {
           "month": "2022-03",
-          "cumulative_positive": 3,
+          "cumulative_positive": 0,
           "cumulative_negative": 0
         },
         {
           "month": "2022-04",
-          "cumulative_positive": 5,
+          "cumulative_positive": 2,
           "cumulative_negative": 11
         },
         {
           "month": "2022-05",
-          "cumulative_positive": 5,
+          "cumulative_positive": 2,
           "cumulative_negative": 11
         },
         {
           "month": "2022-06",
-          "cumulative_positive": 5,
+          "cumulative_positive": 2,
           "cumulative_negative": 11
         },
         {
           "month": "2022-07",
-          "cumulative_positive": 5,
+          "cumulative_positive": 2,
           "cumulative_negative": 11
         },
         {
           "month": "2022-08",
-          "cumulative_positive": 5,
+          "cumulative_positive": 2,
           "cumulative_negative": 11
         },
         {
           "month": "2022-09",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 12
         },
         {
           "month": "2022-10",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 12
         },
         {
           "month": "2022-11",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 12
         },
         {
           "month": "2022-12",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 12
         },
         {
           "month": "2023-01",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 12
         },
         {
           "month": "2023-02",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 12
         },
         {
           "month": "2023-03",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 12
         },
         {
           "month": "2023-04",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 12
         },
         {
           "month": "2023-05",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 12
         },
         {
           "month": "2023-06",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 13
         },
         {
           "month": "2023-07",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 13
         },
         {
           "month": "2023-08",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 13
         },
         {
           "month": "2023-09",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 14
         },
         {
           "month": "2023-10",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 17
         },
         {
           "month": "2023-11",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 19
         },
         {
           "month": "2023-12",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 23
         },
         {
           "month": "2024-01",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 24
         },
         {
           "month": "2024-02",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 25
         },
         {
           "month": "2024-03",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 26
         },
         {
           "month": "2024-04",
-          "cumulative_positive": 6,
+          "cumulative_positive": 3,
           "cumulative_negative": 27
         },
         {
           "month": "2024-05",
-          "cumulative_positive": 8,
+          "cumulative_positive": 5,
           "cumulative_negative": 30
         },
         {
           "month": "2024-06",
-          "cumulative_positive": 13,
+          "cumulative_positive": 10,
           "cumulative_negative": 33
         },
         {
           "month": "2024-07",
-          "cumulative_positive": 13,
+          "cumulative_positive": 10,
           "cumulative_negative": 44
         },
         {
           "month": "2024-08",
-          "cumulative_positive": 13,
+          "cumulative_positive": 10,
           "cumulative_negative": 45
         },
         {
           "month": "2024-09",
-          "cumulative_positive": 14,
+          "cumulative_positive": 11,
           "cumulative_negative": 49
         },
         {
           "month": "2024-10",
-          "cumulative_positive": 15,
+          "cumulative_positive": 12,
           "cumulative_negative": 49
         },
         {
           "month": "2024-11",
-          "cumulative_positive": 16,
+          "cumulative_positive": 13,
           "cumulative_negative": 57
         },
         {
           "month": "2024-12",
-          "cumulative_positive": 16,
+          "cumulative_positive": 13,
           "cumulative_negative": 67
         },
         {
           "month": "2025-01",
-          "cumulative_positive": 18,
+          "cumulative_positive": 15,
           "cumulative_negative": 72
         },
         {
           "month": "2025-02",
-          "cumulative_positive": 20,
+          "cumulative_positive": 17,
           "cumulative_negative": 74
         },
         {
           "month": "2025-03",
-          "cumulative_positive": 42,
+          "cumulative_positive": 39,
           "cumulative_negative": 104
         },
         {
           "month": "2025-04",
-          "cumulative_positive": 155,
+          "cumulative_positive": 152,
           "cumulative_negative": 124
         },
         {
           "month": "2025-05",
-          "cumulative_positive": 167,
+          "cumulative_positive": 164,
           "cumulative_negative": 125
         },
         {
           "month": "2025-06",
-          "cumulative_positive": 175,
+          "cumulative_positive": 172,
           "cumulative_negative": 128
         },
         {
           "month": "2025-07",
-          "cumulative_positive": 183,
+          "cumulative_positive": 180,
           "cumulative_negative": 130
         },
         {
           "month": "2025-08",
-          "cumulative_positive": 188,
+          "cumulative_positive": 185,
           "cumulative_negative": 133
         },
         {
           "month": "2025-09",
-          "cumulative_positive": 210,
+          "cumulative_positive": 207,
           "cumulative_negative": 136
         },
         {
           "month": "2025-10",
-          "cumulative_positive": 230,
+          "cumulative_positive": 227,
           "cumulative_negative": 139
         },
         {
           "month": "2025-11",
-          "cumulative_positive": 241,
+          "cumulative_positive": 238,
           "cumulative_negative": 144
         },
         {
           "month": "2025-12",
-          "cumulative_positive": 255,
+          "cumulative_positive": 252,
           "cumulative_negative": 150
         },
         {
           "month": "2026-01",
-          "cumulative_positive": 281,
+          "cumulative_positive": 278,
           "cumulative_negative": 170
         },
         {
           "month": "2026-02",
-          "cumulative_positive": 342,
+          "cumulative_positive": 339,
           "cumulative_negative": 245
         },
         {
           "month": "2026-03",
-          "cumulative_positive": 474,
+          "cumulative_positive": 471,
           "cumulative_negative": 389
         },
         {
           "month": "2026-04",
-          "cumulative_positive": 606,
+          "cumulative_positive": 603,
           "cumulative_negative": 577
         },
         {
           "month": "2026-05",
-          "cumulative_positive": 662,
+          "cumulative_positive": 659,
           "cumulative_negative": 611
         }
       ]
@@ -9571,17 +8464,17 @@
     "leader_comparison": {
       "Takaichi": {
         "sentiment": {
-          "positive": 24.5,
-          "negative": 40.0,
-          "neutral": 35.5
+          "positive": 24.1,
+          "negative": 40.6,
+          "neutral": 35.3
         },
-        "total_posts": 4272,
+        "total_posts": 4205,
         "emotion": {
-          "happiness": 27.2,
-          "anger": 21.7,
-          "disgust": 17.1,
-          "neutral": 14.4,
-          "fear": 10.6,
+          "happiness": 26.7,
+          "anger": 22.0,
+          "disgust": 17.4,
+          "neutral": 14.1,
+          "fear": 10.8,
           "surprise": 6.2,
           "sadness": 2.4,
           "embarrassment": 0.2,
@@ -9593,16 +8486,16 @@
       },
       "LePen": {
         "sentiment": {
-          "positive": 29.4,
-          "negative": 29.7,
+          "positive": 29.3,
+          "negative": 29.8,
           "neutral": 40.9
         },
-        "total_posts": 2743,
+        "total_posts": 2740,
         "emotion": {
           "anger": 25.6,
           "disgust": 21.3,
           "happiness": 17.0,
-          "neutral": 13.5,
+          "neutral": 13.6,
           "fear": 12.8,
           "surprise": 6.7,
           "sadness": 2.7,
@@ -9621,21 +8514,21 @@
           "counts_by_language": {
             "EN": {
               "matched": 275,
-              "total": 1846,
+              "total": 1840,
               "ratio": 14.9
             },
             "JP": {
-              "matched": 36,
-              "total": 452,
-              "ratio": 8.0
+              "matched": 35,
+              "total": 415,
+              "ratio": 8.4
             },
             "ZH": {
               "matched": 107,
-              "total": 1974,
-              "ratio": 5.4
+              "total": 1950,
+              "ratio": 5.5
             }
           },
-          "total_matched": 418,
+          "total_matched": 417,
           "examples": [
             {
               "text": "Japan’s Iron Lady!  A joy to welcome Prime Minister Sanae Takaichi @takaichi_sanae to the White House for her productive day of bilateral meetings with President @realDonaldTrump. As she said, “Japan ",
@@ -9680,21 +8573,21 @@
           "counts_by_language": {
             "EN": {
               "matched": 11,
-              "total": 1846,
+              "total": 1840,
               "ratio": 0.6
             },
             "JP": {
-              "matched": 5,
-              "total": 452,
-              "ratio": 1.1
+              "matched": 3,
+              "total": 415,
+              "ratio": 0.7
             },
             "ZH": {
               "matched": 11,
-              "total": 1974,
+              "total": 1950,
               "ratio": 0.6
             }
           },
-          "total_matched": 27,
+          "total_matched": 25,
           "examples": [
             {
               "text": "BREAKING: 🇯🇵🇨🇳🇹🇼 Experts warn that Japan under Sanae Takaichi, who now holds a supermajority, is set to dramatically rebuild its military power, marking a sharp shift away from decades of post WWII re",
@@ -9739,21 +8632,21 @@
           "counts_by_language": {
             "EN": {
               "matched": 395,
-              "total": 1846,
-              "ratio": 21.4
+              "total": 1840,
+              "ratio": 21.5
             },
             "JP": {
-              "matched": 11,
-              "total": 452,
+              "matched": 10,
+              "total": 415,
               "ratio": 2.4
             },
             "ZH": {
               "matched": 50,
-              "total": 1974,
-              "ratio": 2.5
+              "total": 1950,
+              "ratio": 2.6
             }
           },
-          "total_matched": 456,
+          "total_matched": 455,
           "examples": [
             {
               "text": "🚨 JUST IN: Japanese PM Sanae Takaichi is being praised by Americans for personally going to Arlington National Cemetery and laying a wreath at the Tomb of the Unknown Soldier\n\nShe loves and respects A",
@@ -9777,17 +8670,17 @@
               "language": "EN"
             },
             {
-              "text": "🌿 今日為大家介紹嘅係日本政壇突出嘅女性政治家：\n高市早苗（たかいち さなえ）\n\nーーーー\n📜 基本背景與政治經歷\n\n高市早苗，1961年出生於奈良縣，是自由民主黨（LDP）衆議院議員，自1993年進入政界，目前已連任多屆，現任為奈良2區代表。\n她是一位資深保守派政治家，歷任多項重大閣僚職務，包括：總務大臣、經濟安全保障大臣、內政通信大臣等，涉足科學技術、通商、經濟安全、網路安全等多面向政策領域。",
-              "matched_patterns": [
-                "老"
-              ],
-              "language": "JP"
-            },
-            {
               "text": "【高市早苗の裏話】化粧や服装をボロカスにいう議員が居たとのことｗｗ#高市早苗 #高市内閣 #小泉進次郎 #小野田紀美 #麻生太郎 #自民党 \n\nメイクやコスメ色んな指導があったのでしょうか\nいろいろな方向からのサポートがありますねｗｗ",
               "matched_patterns": [
                 "化粧",
                 "服装"
+              ],
+              "language": "JP"
+            },
+            {
+              "text": "【今回の動画について】高市早苗,高市,怪我,リウマチ,大石あきこ,中道など、今話題のニュースを切り口に、独自の視点で「どうしようもねえな！」と一喝します。\n\nこのチャンネルでは、元・上場企業管理部門／元・楽天ショップ店長のコースケが、気取らないラフなスタイルで、忖度なしの本音を語ります。 ぜひチャンネル登録をして、次回の動画もご覧ください。\n\n■【企業様・お仕事のご相談】 info@kosuke-",
+              "matched_patterns": [
+                "スタイル"
               ],
               "language": "JP"
             }
@@ -9799,21 +8692,21 @@
           "counts_by_language": {
             "EN": {
               "matched": 12,
-              "total": 1846,
+              "total": 1840,
               "ratio": 0.7
             },
             "JP": {
-              "matched": 12,
-              "total": 452,
+              "matched": 11,
+              "total": 415,
               "ratio": 2.7
             },
             "ZH": {
               "matched": 84,
-              "total": 1974,
+              "total": 1950,
               "ratio": 4.3
             }
           },
-          "total_matched": 108,
+          "total_matched": 107,
           "examples": [
             {
               "text": "🇯🇵 Dear Japanese People,\n\nDo you remember when the constitution was written for peace? When Hiroshima and Nagasaki stood as warnings, not memories to be erased?\n\nSanae Takaichi just said combatants wi",
@@ -9862,18 +8755,18 @@
           "counts_by_language": {
             "EN": {
               "matched": 54,
-              "total": 1846,
+              "total": 1840,
               "ratio": 2.9
             },
             "JP": {
               "matched": 6,
-              "total": 452,
-              "ratio": 1.3
+              "total": 415,
+              "ratio": 1.4
             },
             "ZH": {
               "matched": 52,
-              "total": 1974,
-              "ratio": 2.6
+              "total": 1950,
+              "ratio": 2.7
             }
           },
           "total_matched": 112,
@@ -9923,7 +8816,7 @@
           "counts_by_language": {
             "EN": {
               "matched": 93,
-              "total": 1870,
+              "total": 1867,
               "ratio": 5.0
             },
             "ZH": {
@@ -9978,7 +8871,7 @@
           "counts_by_language": {
             "EN": {
               "matched": 8,
-              "total": 1870,
+              "total": 1867,
               "ratio": 0.4
             },
             "ZH": {
@@ -10031,8 +8924,8 @@
           "description": "关注外貌、穿着、年龄、身材等身体特征",
           "counts_by_language": {
             "EN": {
-              "matched": 257,
-              "total": 1870,
+              "matched": 255,
+              "total": 1867,
               "ratio": 13.7
             },
             "ZH": {
@@ -10041,7 +8934,7 @@
               "ratio": 4.7
             }
           },
-          "total_matched": 298,
+          "total_matched": 296,
           "examples": [
             {
               "text": "🇫🇷 BREAKING: Marine Le Pen’s right-wing National Rally party has WON the left-wing district of La Flèche in today’s Municipal Elections in France.\n\nLa Flèche has been a socialist stronghold since 1989",
@@ -10086,7 +8979,7 @@
           "counts_by_language": {
             "EN": {
               "matched": 3,
-              "total": 1870,
+              "total": 1867,
               "ratio": 0.2
             },
             "ZH": {
@@ -10140,8 +9033,8 @@
           "counts_by_language": {
             "EN": {
               "matched": 169,
-              "total": 1870,
-              "ratio": 9.0
+              "total": 1867,
+              "ratio": 9.1
             },
             "ZH": {
               "matched": 417,
@@ -10195,17 +9088,17 @@
         "counts_by_language": {
           "EN": {
             "matched": 33,
-            "total": 1846,
+            "total": 1840,
             "ratio": 1.8
           },
           "JP": {
-            "matched": 7,
-            "total": 452,
-            "ratio": 1.5
+            "matched": 6,
+            "total": 415,
+            "ratio": 1.4
           },
           "ZH": {
             "matched": 16,
-            "total": 1974,
+            "total": 1950,
             "ratio": 0.8
           }
         },
@@ -10237,7 +9130,7 @@
         "counts_by_language": {
           "EN": {
             "matched": 58,
-            "total": 1870,
+            "total": 1867,
             "ratio": 3.1
           },
           "ZH": {
@@ -10320,7 +9213,7 @@
       {
         "id": "finding_1",
         "title": "中文社交媒体对高市早苗的负面情绪显著偏高",
-        "detail": "Takaichi-ZH的负面情感比例高达62.5%，远高于英文和日文语境。",
+        "detail": "Takaichi-ZH的负面情感比例高达63.2%，远高于英文和日文语境。",
         "type": "sentiment",
         "significance": "high"
       },
@@ -10334,7 +9227,7 @@
       {
         "id": "finding_emotion_Takaichi",
         "title": "Takaichi的主要情绪",
-        "detail": "Takaichi相关帖子中最高情绪为happiness(27.2%)。",
+        "detail": "Takaichi相关帖子中最高情绪为happiness(26.7%)。",
         "type": "emotion",
         "significance": "medium"
       },
@@ -10348,7 +9241,7 @@
       {
         "id": "finding_frame_Takaichi",
         "title": "Takaichi的主导性别框架",
-        "detail": "Takaichi的社交媒体中最突出的框架是\"外貌/身体框架\"，共匹配456条帖子。",
+        "detail": "Takaichi的社交媒体中最突出的框架是\"外貌/身体框架\"，共匹配455条帖子。",
         "type": "frame",
         "significance": "high"
       },
@@ -10369,7 +9262,7 @@
       {
         "id": "finding_femono_Takaichi",
         "title": "Femonationalism指标",
-        "detail": "Takaichi相关帖子中检测到56条包含女性民族主义框架的帖子。",
+        "detail": "Takaichi相关帖子中检测到55条包含女性民族主义框架的帖子。",
         "type": "theory",
         "significance": "medium"
       },
@@ -10383,21 +9276,21 @@
       {
         "id": "finding_temporal_Takaichi-JP",
         "title": "Takaichi-JP讨论量与负面情感显著相关",
-        "detail": "r=0.457, p=0.0373，说明讨论越多，负面情感比例越高。",
+        "detail": "r=-0.811, p=0.0145，说明讨论越多，负面情感比例越高。",
         "type": "temporal",
         "significance": "high"
       },
       {
         "id": "finding_temporal_Takaichi-ZH",
         "title": "Takaichi-ZH讨论量与负面情感显著相关",
-        "detail": "r=0.854, p=0.0000，说明讨论越多，负面情感比例越高。",
+        "detail": "r=0.791, p=0.0193，说明讨论越多，负面情感比例越高。",
         "type": "temporal",
         "significance": "high"
       }
     ],
     "overview": {
-      "total_posts": 8310,
-      "relevant_posts": 7015,
+      "total_posts": 8220,
+      "relevant_posts": 6945,
       "leaders": [
         "Takaichi",
         "LePen"
@@ -10408,7 +9301,7 @@
         "ZH"
       ],
       "date_range": {
-        "min": "2017-04-24 02:00:53",
+        "min": "2022-03-01 18:16:42",
         "max": "2026-05-06 06:00:44"
       }
     }

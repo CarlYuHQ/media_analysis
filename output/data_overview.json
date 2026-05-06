@@ -1,7 +1,7 @@
 {
-  "total_rows": 8310,
-  "relevant_rows": 7015,
-  "irrelevant_rows": 1295,
+  "total_rows": 8220,
+  "relevant_rows": 6945,
+  "irrelevant_rows": 1275,
   "leaders": [
     "Takaichi",
     "LePen"
@@ -12,7 +12,7 @@
     "ZH"
   ],
   "date_range": {
-    "min": "2017-04-24 02:00:53",
+    "min": "2022-03-01 18:16:42",
     "max": "2026-05-06 06:00:44"
   },
   "file_stats": {
@@ -84,8 +84,8 @@
   ],
   "rows_by_segment": {
     "LePen-EN": {
-      "total": 2067,
-      "relevant": 1870,
+      "total": 2064,
+      "relevant": 1867,
       "irrelevant": 197
     },
     "LePen-ZH": {
@@ -94,18 +94,18 @@
       "irrelevant": 129
     },
     "Takaichi-EN": {
-      "total": 2068,
-      "relevant": 1846,
+      "total": 2062,
+      "relevant": 1840,
       "irrelevant": 222
     },
     "Takaichi-JP": {
-      "total": 1068,
-      "relevant": 452,
-      "irrelevant": 616
+      "total": 1011,
+      "relevant": 415,
+      "irrelevant": 596
     },
     "Takaichi-ZH": {
-      "total": 2105,
-      "relevant": 1974,
+      "total": 2081,
+      "relevant": 1950,
       "irrelevant": 131
     }
   }

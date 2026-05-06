@@ -3,7 +3,7 @@
     "LePen-EN": {
       "neutral": 717,
       "negative": 675,
-      "positive": 478,
+      "positive": 475,
       "irrelevant": 197
     },
     "LePen-ZH": {
@@ -13,30 +13,30 @@
       "irrelevant": 129
     },
     "Takaichi-EN": {
-      "neutral": 855,
-      "positive": 589,
+      "neutral": 851,
+      "positive": 587,
       "negative": 402,
       "irrelevant": 219
     },
     "Takaichi-JP": {
-      "irrelevant": 614,
-      "neutral": 198,
-      "positive": 180,
+      "irrelevant": 595,
+      "neutral": 178,
+      "positive": 163,
       "negative": 74
     },
     "Takaichi-ZH": {
       "negative": 1233,
-      "neutral": 463,
-      "positive": 278,
+      "neutral": 454,
+      "positive": 263,
       "irrelevant": 128
     }
   },
   "proportions": {
     "LePen-EN": {
-      "neutral": 38.3,
-      "negative": 36.1,
-      "positive": 25.6,
-      "total": 1870
+      "neutral": 38.4,
+      "negative": 36.2,
+      "positive": 25.4,
+      "total": 1867
     },
     "LePen-ZH": {
       "neutral": 46.4,
@@ -45,53 +45,53 @@
       "total": 873
     },
     "Takaichi-EN": {
-      "neutral": 46.3,
+      "neutral": 46.2,
       "positive": 31.9,
       "negative": 21.8,
-      "total": 1846
+      "total": 1840
     },
     "Takaichi-JP": {
-      "neutral": 43.8,
-      "positive": 39.8,
-      "negative": 16.4,
-      "total": 452
+      "neutral": 42.9,
+      "positive": 39.3,
+      "negative": 17.8,
+      "total": 415
     },
     "Takaichi-ZH": {
-      "negative": 62.5,
-      "neutral": 23.5,
-      "positive": 14.1,
-      "total": 1974
+      "negative": 63.2,
+      "neutral": 23.3,
+      "positive": 13.5,
+      "total": 1950
     }
   },
   "chi_square_tests": [
     {
       "test": "Takaichi vs LePen (Chinese)",
-      "chi2": 531.86,
-      "p_value": 3.216944055456137e-116,
+      "chi2": 549.08,
+      "p_value": 5.8784760624912e-120,
       "df": 2,
-      "cramers_v": 0.432,
+      "cramers_v": 0.441,
       "significant": true
     },
     {
       "test": "Takaichi vs LePen (English)",
-      "chi2": 92.71,
-      "p_value": 7.37916931629423e-21,
+      "chi2": 92.27,
+      "p_value": 9.191554235243447e-21,
       "df": 2,
       "cramers_v": 0.158,
       "significant": true
     },
     {
       "test": "Takaichi across languages (JP vs EN vs ZH)",
-      "chi2": 787.65,
-      "p_value": 3.6251665337767037e-169,
+      "chi2": 784.4,
+      "p_value": 1.8334583935423525e-168,
       "df": 4,
-      "cramers_v": 0.304,
+      "cramers_v": 0.305,
       "significant": true
     },
     {
       "test": "LePen across languages (EN vs ZH)",
-      "chi2": 119.24,
-      "p_value": 1.2775221559529415e-26,
+      "chi2": 120.07,
+      "p_value": 8.451837274510217e-27,
       "df": 2,
       "cramers_v": 0.209,
       "significant": true
@@ -111,10 +111,10 @@
       "total": 281
     },
     "instagram": {
-      "positive": 50.5,
-      "neutral": 37.5,
-      "negative": 11.9,
-      "total": 637
+      "positive": 50.3,
+      "neutral": 36.3,
+      "negative": 13.4,
+      "total": 567
     },
     "reddit": {
       "neutral": 49.6,

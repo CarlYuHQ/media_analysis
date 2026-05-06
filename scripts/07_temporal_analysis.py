@@ -90,10 +90,9 @@ def main():
     known_events = [
         {'date': '2022-04', 'leader': 'LePen', 'event': 'French Presidential Election Runoff', 'segment': 'LePen-EN'},
         {'date': '2024-06', 'leader': 'LePen', 'event': 'European Parliament Elections', 'segment': 'LePen-EN'},
-        {'date': '2024-09', 'leader': 'Takaichi', 'event': 'LDP Leadership Election', 'segment': 'Takaichi-JP'},
-        {'date': '2024-10', 'leader': 'Takaichi', 'event': 'LDP Leadership Race / PM Campaign', 'segment': 'Takaichi-ZH'},
-        {'date': '2025-01', 'leader': 'Takaichi', 'event': 'Regular Diet Session / Policy Debate', 'segment': 'Takaichi-JP'},
         {'date': '2025-03', 'leader': 'LePen', 'event': 'Embezzlement Trial Verdict', 'segment': 'LePen-EN'},
+        {'date': '2025-10', 'leader': 'Takaichi', 'event': 'Takaichi Becomes Prime Minister', 'segment': 'Takaichi-ZH'},
+        {'date': '2026-03', 'leader': 'LePen', 'event': 'Le Pen Ban Appeal Hearing', 'segment': 'LePen-EN'},
     ]
     result['key_events'] = key_events
     result['known_events'] = known_events

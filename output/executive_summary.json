@@ -5,7 +5,7 @@
     {
       "id": "finding_1",
       "title": "中文社交媒体对高市早苗的负面情绪显著偏高",
-      "detail": "Takaichi-ZH的负面情感比例高达62.5%，远高于英文和日文语境。",
+      "detail": "Takaichi-ZH的负面情感比例高达63.2%，远高于英文和日文语境。",
       "type": "sentiment",
       "significance": "high"
     },
@@ -19,7 +19,7 @@
     {
       "id": "finding_emotion_Takaichi",
       "title": "Takaichi的主要情绪",
-      "detail": "Takaichi相关帖子中最高情绪为happiness(27.2%)。",
+      "detail": "Takaichi相关帖子中最高情绪为happiness(26.7%)。",
       "type": "emotion",
       "significance": "medium"
     },
@@ -33,7 +33,7 @@
     {
       "id": "finding_frame_Takaichi",
       "title": "Takaichi的主导性别框架",
-      "detail": "Takaichi的社交媒体中最突出的框架是\"外貌/身体框架\"，共匹配456条帖子。",
+      "detail": "Takaichi的社交媒体中最突出的框架是\"外貌/身体框架\"，共匹配455条帖子。",
       "type": "frame",
       "significance": "high"
     },
@@ -54,7 +54,7 @@
     {
       "id": "finding_femono_Takaichi",
       "title": "Femonationalism指标",
-      "detail": "Takaichi相关帖子中检测到56条包含女性民族主义框架的帖子。",
+      "detail": "Takaichi相关帖子中检测到55条包含女性民族主义框架的帖子。",
       "type": "theory",
       "significance": "medium"
     },
@@ -68,21 +68,21 @@
     {
       "id": "finding_temporal_Takaichi-JP",
       "title": "Takaichi-JP讨论量与负面情感显著相关",
-      "detail": "r=0.457, p=0.0373，说明讨论越多，负面情感比例越高。",
+      "detail": "r=-0.811, p=0.0145，说明讨论越多，负面情感比例越高。",
       "type": "temporal",
       "significance": "high"
     },
     {
       "id": "finding_temporal_Takaichi-ZH",
       "title": "Takaichi-ZH讨论量与负面情感显著相关",
-      "detail": "r=0.854, p=0.0000，说明讨论越多，负面情感比例越高。",
+      "detail": "r=0.791, p=0.0193，说明讨论越多，负面情感比例越高。",
       "type": "temporal",
       "significance": "high"
     }
   ],
   "overview": {
-    "total_posts": 8310,
-    "relevant_posts": 7015,
+    "total_posts": 8220,
+    "relevant_posts": 6945,
     "leaders": [
       "Takaichi",
       "LePen"
@@ -93,7 +93,7 @@
       "ZH"
     ],
     "date_range": {
-      "min": "2017-04-24 02:00:53",
+      "min": "2022-03-01 18:16:42",
       "max": "2026-05-06 06:00:44"
     }
   }

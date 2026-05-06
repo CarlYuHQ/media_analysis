@@ -135,7 +135,16 @@ def load_and_clean():
     }
     df['country'] = df['country'].replace(country_fixes)
 
-    # 10. 年月列用于时间分析
+    # 10. 日期过滤：勒庞仅保留2022年及以后，高市早苗仅保留2025年10月及以后
+    before_filter = len(df)
+    lepen_mask = (df['leader'] == 'LePen') & (df['created_at'] < '2022-01-01')
+    takaichi_mask = (df['leader'] == 'Takaichi') & (df['created_at'] < '2025-10-01')
+    dropped = lepen_mask.sum() + takaichi_mask.sum()
+    df = df[~(lepen_mask | takaichi_mask)].copy()
+    print(f"Date filtering: removed {dropped} rows (LePen pre-2022: {lepen_mask.sum()}, Takaichi pre-2025-10: {takaichi_mask.sum()})")
+    print(f"Rows after date filter: {len(df)} (was {before_filter})")
+
+    # 11. 年月列用于时间分析
     df['year_month'] = df['created_at'].dt.to_period('M').astype(str)
 
     cleaned_rows = len(df)

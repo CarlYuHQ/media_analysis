@@ -2,17 +2,17 @@
   "leader_comparison": {
     "Takaichi": {
       "sentiment": {
-        "positive": 24.5,
-        "negative": 40.0,
-        "neutral": 35.5
+        "positive": 24.1,
+        "negative": 40.6,
+        "neutral": 35.3
       },
-      "total_posts": 4272,
+      "total_posts": 4205,
       "emotion": {
-        "happiness": 27.2,
-        "anger": 21.7,
-        "disgust": 17.1,
-        "neutral": 14.4,
-        "fear": 10.6,
+        "happiness": 26.7,
+        "anger": 22.0,
+        "disgust": 17.4,
+        "neutral": 14.1,
+        "fear": 10.8,
         "surprise": 6.2,
         "sadness": 2.4,
         "embarrassment": 0.2,
@@ -24,16 +24,16 @@
     },
     "LePen": {
       "sentiment": {
-        "positive": 29.4,
-        "negative": 29.7,
+        "positive": 29.3,
+        "negative": 29.8,
         "neutral": 40.9
       },
-      "total_posts": 2743,
+      "total_posts": 2740,
       "emotion": {
         "anger": 25.6,
         "disgust": 21.3,
         "happiness": 17.0,
-        "neutral": 13.5,
+        "neutral": 13.6,
         "fear": 12.8,
         "surprise": 6.7,
         "sadness": 2.7,
@@ -52,21 +52,21 @@
         "counts_by_language": {
           "EN": {
             "matched": 275,
-            "total": 1846,
+            "total": 1840,
             "ratio": 14.9
           },
           "JP": {
-            "matched": 36,
-            "total": 452,
-            "ratio": 8.0
+            "matched": 35,
+            "total": 415,
+            "ratio": 8.4
           },
           "ZH": {
             "matched": 107,
-            "total": 1974,
-            "ratio": 5.4
+            "total": 1950,
+            "ratio": 5.5
           }
         },
-        "total_matched": 418,
+        "total_matched": 417,
         "examples": [
           {
             "text": "Japan’s Iron Lady!  A joy to welcome Prime Minister Sanae Takaichi @takaichi_sanae to the White House for her productive day of bilateral meetings with President @realDonaldTrump. As she said, “Japan ",
@@ -111,21 +111,21 @@
         "counts_by_language": {
           "EN": {
             "matched": 11,
-            "total": 1846,
+            "total": 1840,
             "ratio": 0.6
           },
           "JP": {
-            "matched": 5,
-            "total": 452,
-            "ratio": 1.1
+            "matched": 3,
+            "total": 415,
+            "ratio": 0.7
           },
           "ZH": {
             "matched": 11,
-            "total": 1974,
+            "total": 1950,
             "ratio": 0.6
           }
         },
-        "total_matched": 27,
+        "total_matched": 25,
         "examples": [
           {
             "text": "BREAKING: 🇯🇵🇨🇳🇹🇼 Experts warn that Japan under Sanae Takaichi, who now holds a supermajority, is set to dramatically rebuild its military power, marking a sharp shift away from decades of post WWII re",
@@ -170,21 +170,21 @@
         "counts_by_language": {
           "EN": {
             "matched": 395,
-            "total": 1846,
-            "ratio": 21.4
+            "total": 1840,
+            "ratio": 21.5
           },
           "JP": {
-            "matched": 11,
-            "total": 452,
+            "matched": 10,
+            "total": 415,
             "ratio": 2.4
           },
           "ZH": {
             "matched": 50,
-            "total": 1974,
-            "ratio": 2.5
+            "total": 1950,
+            "ratio": 2.6
           }
         },
-        "total_matched": 456,
+        "total_matched": 455,
         "examples": [
           {
             "text": "🚨 JUST IN: Japanese PM Sanae Takaichi is being praised by Americans for personally going to Arlington National Cemetery and laying a wreath at the Tomb of the Unknown Soldier\n\nShe loves and respects A",
@@ -208,17 +208,17 @@
             "language": "EN"
           },
           {
-            "text": "🌿 今日為大家介紹嘅係日本政壇突出嘅女性政治家：\n高市早苗（たかいち さなえ）\n\nーーーー\n📜 基本背景與政治經歷\n\n高市早苗，1961年出生於奈良縣，是自由民主黨（LDP）衆議院議員，自1993年進入政界，目前已連任多屆，現任為奈良2區代表。\n她是一位資深保守派政治家，歷任多項重大閣僚職務，包括：總務大臣、經濟安全保障大臣、內政通信大臣等，涉足科學技術、通商、經濟安全、網路安全等多面向政策領域。",
-            "matched_patterns": [
-              "老"
-            ],
-            "language": "JP"
-          },
-          {
             "text": "【高市早苗の裏話】化粧や服装をボロカスにいう議員が居たとのことｗｗ#高市早苗 #高市内閣 #小泉進次郎 #小野田紀美 #麻生太郎 #自民党 \n\nメイクやコスメ色んな指導があったのでしょうか\nいろいろな方向からのサポートがありますねｗｗ",
             "matched_patterns": [
               "化粧",
               "服装"
+            ],
+            "language": "JP"
+          },
+          {
+            "text": "【今回の動画について】高市早苗,高市,怪我,リウマチ,大石あきこ,中道など、今話題のニュースを切り口に、独自の視点で「どうしようもねえな！」と一喝します。\n\nこのチャンネルでは、元・上場企業管理部門／元・楽天ショップ店長のコースケが、気取らないラフなスタイルで、忖度なしの本音を語ります。 ぜひチャンネル登録をして、次回の動画もご覧ください。\n\n■【企業様・お仕事のご相談】 info@kosuke-",
+            "matched_patterns": [
+              "スタイル"
             ],
             "language": "JP"
           }
@@ -230,21 +230,21 @@
         "counts_by_language": {
           "EN": {
             "matched": 12,
-            "total": 1846,
+            "total": 1840,
             "ratio": 0.7
           },
           "JP": {
-            "matched": 12,
-            "total": 452,
+            "matched": 11,
+            "total": 415,
             "ratio": 2.7
           },
           "ZH": {
             "matched": 84,
-            "total": 1974,
+            "total": 1950,
             "ratio": 4.3
           }
         },
-        "total_matched": 108,
+        "total_matched": 107,
         "examples": [
           {
             "text": "🇯🇵 Dear Japanese People,\n\nDo you remember when the constitution was written for peace? When Hiroshima and Nagasaki stood as warnings, not memories to be erased?\n\nSanae Takaichi just said combatants wi",
@@ -293,18 +293,18 @@
         "counts_by_language": {
           "EN": {
             "matched": 54,
-            "total": 1846,
+            "total": 1840,
             "ratio": 2.9
           },
           "JP": {
             "matched": 6,
-            "total": 452,
-            "ratio": 1.3
+            "total": 415,
+            "ratio": 1.4
           },
           "ZH": {
             "matched": 52,
-            "total": 1974,
-            "ratio": 2.6
+            "total": 1950,
+            "ratio": 2.7
           }
         },
         "total_matched": 112,
@@ -354,7 +354,7 @@
         "counts_by_language": {
           "EN": {
             "matched": 93,
-            "total": 1870,
+            "total": 1867,
             "ratio": 5.0
           },
           "ZH": {
@@ -409,7 +409,7 @@
         "counts_by_language": {
           "EN": {
             "matched": 8,
-            "total": 1870,
+            "total": 1867,
             "ratio": 0.4
           },
           "ZH": {
@@ -462,8 +462,8 @@
         "description": "关注外貌、穿着、年龄、身材等身体特征",
         "counts_by_language": {
           "EN": {
-            "matched": 257,
-            "total": 1870,
+            "matched": 255,
+            "total": 1867,
             "ratio": 13.7
           },
           "ZH": {
@@ -472,7 +472,7 @@
             "ratio": 4.7
           }
         },
-        "total_matched": 298,
+        "total_matched": 296,
         "examples": [
           {
             "text": "🇫🇷 BREAKING: Marine Le Pen’s right-wing National Rally party has WON the left-wing district of La Flèche in today’s Municipal Elections in France.\n\nLa Flèche has been a socialist stronghold since 1989",
@@ -517,7 +517,7 @@
         "counts_by_language": {
           "EN": {
             "matched": 3,
-            "total": 1870,
+            "total": 1867,
             "ratio": 0.2
           },
           "ZH": {
@@ -571,8 +571,8 @@
         "counts_by_language": {
           "EN": {
             "matched": 169,
-            "total": 1870,
-            "ratio": 9.0
+            "total": 1867,
+            "ratio": 9.1
           },
           "ZH": {
             "matched": 417,
@@ -626,17 +626,17 @@
       "counts_by_language": {
         "EN": {
           "matched": 33,
-          "total": 1846,
+          "total": 1840,
           "ratio": 1.8
         },
         "JP": {
-          "matched": 7,
-          "total": 452,
-          "ratio": 1.5
+          "matched": 6,
+          "total": 415,
+          "ratio": 1.4
         },
         "ZH": {
           "matched": 16,
-          "total": 1974,
+          "total": 1950,
           "ratio": 0.8
         }
       },
@@ -668,7 +668,7 @@
       "counts_by_language": {
         "EN": {
           "matched": 58,
-          "total": 1870,
+          "total": 1867,
           "ratio": 3.1
         },
         "ZH": {

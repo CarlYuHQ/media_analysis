@@ -43,7 +43,7 @@
       },
       {
         "word": "pas",
-        "score": 0.0087
+        "score": 0.0086
       },
       {
         "word": "dans",
@@ -55,7 +55,7 @@
       },
       {
         "word": "avec",
-        "score": 0.0076
+        "score": 0.0075
       },
       {
         "word": "vous",
@@ -139,7 +139,7 @@
       },
       {
         "word": "french",
-        "score": 0.0033
+        "score": 0.0032
       },
       {
         "word": "mais",
@@ -170,16 +170,16 @@
         "score": 0.0026
       },
       {
-        "word": "notre",
-        "score": 0.0026
-      },
-      {
         "word": "europe",
         "score": 0.0026
       },
       {
         "word": "être",
         "score": 0.0026
+      },
+      {
+        "word": "notre",
+        "score": 0.0025
       },
       {
         "word": "contre",
@@ -491,7 +491,7 @@
       },
       {
         "word": "world",
-        "score": 0.0031
+        "score": 0.0032
       },
       {
         "word": "pearl",
@@ -609,209 +609,209 @@
     "Takaichi-JP": [
       {
         "word": "日本",
-        "score": 0.0347
+        "score": 0.035
       },
       {
         "word": "首相",
-        "score": 0.0208
+        "score": 0.0204
       },
       {
         "word": "大臣",
-        "score": 0.0172
+        "score": 0.0164
       },
       {
         "word": "動画",
-        "score": 0.014
-      },
-      {
-        "word": "政治",
-        "score": 0.009
-      },
-      {
-        "word": "配信",
-        "score": 0.0089
+        "score": 0.0148
       },
       {
         "word": "中国",
-        "score": 0.0088
+        "score": 0.0094
+      },
+      {
+        "word": "政治",
+        "score": 0.0091
+      },
+      {
+        "word": "配信",
+        "score": 0.0091
       },
       {
         "word": "ng",
-        "score": 0.0083
-      },
-      {
-        "word": "政策",
-        "score": 0.008
+        "score": 0.0088
       },
       {
         "word": "公式",
+        "score": 0.0079
+      },
+      {
+        "word": "政策",
         "score": 0.0075
       },
       {
-        "word": "自民党",
-        "score": 0.0071
-      },
-      {
-        "word": "情報",
-        "score": 0.0067
-      },
-      {
         "word": "NEWS",
-        "score": 0.0065
+        "score": 0.0069
       },
       {
-        "word": "女性",
-        "score": 0.006
+        "word": "自民党",
+        "score": 0.0063
       },
       {
         "word": "大統領",
-        "score": 0.0059
+        "score": 0.0063
       },
       {
-        "word": "議院",
+        "word": "情報",
+        "score": 0.006
+      },
+      {
+        "word": "女性",
         "score": 0.0058
       },
       {
-        "word": "担当",
-        "score": 0.0056
-      },
-      {
-        "word": "問題",
-        "score": 0.0056
-      },
-      {
-        "word": "安全",
-        "score": 0.0056
-      },
-      {
         "word": "the",
-        "score": 0.0053
+        "score": 0.0056
       },
       {
-        "word": "議員",
-        "score": 0.0053
-      },
-      {
-        "word": "10",
-        "score": 0.0052
+        "word": "担当",
+        "score": 0.0055
       },
       {
         "word": "Takaichi",
-        "score": 0.0052
+        "score": 0.0055
+      },
+      {
+        "word": "問題",
+        "score": 0.0054
       },
       {
         "word": "th",
-        "score": 0.0049
-      },
-      {
-        "word": "最新",
-        "score": 0.0049
-      },
-      {
-        "word": "SNS",
-        "score": 0.0048
-      },
-      {
-        "word": "2025",
-        "score": 0.0048
+        "score": 0.0052
       },
       {
         "word": "Sanae",
-        "score": 0.0047
+        "score": 0.005
+      },
+      {
+        "word": "SNS",
+        "score": 0.005
       },
       {
         "word": "TikTok",
-        "score": 0.0047
+        "score": 0.005
       },
       {
         "word": "TBS",
-        "score": 0.0047
+        "score": 0.005
       },
       {
-        "word": "国民",
-        "score": 0.0046
+        "word": "2025",
+        "score": 0.0049
+      },
+      {
+        "word": "10",
+        "score": 0.0049
+      },
+      {
+        "word": "安全",
+        "score": 0.0049
       },
       {
         "word": "提供",
-        "score": 0.0046
+        "score": 0.0049
+      },
+      {
+        "word": "議院",
+        "score": 0.0049
       },
       {
         "word": "特典",
-        "score": 0.0046
+        "score": 0.0049
       },
       {
         "word": "投稿",
-        "score": 0.0045
+        "score": 0.0048
+      },
+      {
+        "word": "国民",
+        "score": 0.0047
+      },
+      {
+        "word": "議員",
+        "score": 0.0047
       },
       {
         "word": "世界",
+        "score": 0.0046
+      },
+      {
+        "word": "and",
+        "score": 0.0045
+      },
+      {
+        "word": "最新",
         "score": 0.0044
       },
       {
         "word": "会談",
-        "score": 0.0043
+        "score": 0.0044
       },
       {
-        "word": "and",
+        "word": "英語",
         "score": 0.0042
-      },
-      {
-        "word": "保障",
-        "score": 0.0041
       },
       {
         "word": "場合",
         "score": 0.0041
       },
       {
-        "word": "英語",
-        "score": 0.004
-      },
-      {
-        "word": "Instagram",
-        "score": 0.0039
-      },
-      {
         "word": "映像",
-        "score": 0.0038
+        "score": 0.0041
       },
       {
         "word": "Facebook",
-        "score": 0.0037
+        "score": 0.004
+      },
+      {
+        "word": "保障",
+        "score": 0.0039
       },
       {
         "word": "基本",
+        "score": 0.0037
+      },
+      {
+        "word": "nh",
+        "score": 0.0036
+      },
+      {
+        "word": "台湾",
         "score": 0.0036
       },
       {
         "word": "11",
-        "score": 0.0036
-      },
-      {
-        "word": "nh",
         "score": 0.0034
       },
       {
-        "word": "台湾",
+        "word": "Instagram",
         "score": 0.0034
       },
       {
         "word": "00",
-        "score": 0.0032
-      },
-      {
-        "word": "今回",
-        "score": 0.0032
+        "score": 0.0034
       },
       {
         "word": "Jepang",
-        "score": 0.0031
+        "score": 0.0033
+      },
+      {
+        "word": "新聞",
+        "score": 0.0033
       }
     ],
     "Takaichi-ZH": [
       {
         "word": "日本",
-        "score": 0.0493
+        "score": 0.0492
       },
       {
         "word": "首相",
@@ -819,15 +819,15 @@
       },
       {
         "word": "中国",
-        "score": 0.0099
+        "score": 0.01
       },
       {
         "word": "動画",
-        "score": 0.0068
+        "score": 0.0067
       },
       {
         "word": "美国",
-        "score": 0.0063
+        "score": 0.0064
       },
       {
         "word": "政治",
@@ -838,20 +838,20 @@
         "score": 0.0056
       },
       {
-        "word": "大臣",
-        "score": 0.0055
-      },
-      {
         "word": "收起",
         "score": 0.0055
       },
       {
+        "word": "大臣",
+        "score": 0.0055
+      },
+      {
         "word": "国民",
-        "score": 0.0054
+        "score": 0.0053
       },
       {
         "word": "自民党",
-        "score": 0.0052
+        "score": 0.0051
       },
       {
         "word": "国家",
@@ -859,7 +859,7 @@
       },
       {
         "word": "微博",
-        "score": 0.0046
+        "score": 0.0047
       },
       {
         "word": "世界",
@@ -883,11 +883,11 @@
       },
       {
         "word": "政策",
-        "score": 0.0033
+        "score": 0.0034
       },
       {
         "word": "問題",
-        "score": 0.0033
+        "score": 0.0032
       },
       {
         "word": "支持",
@@ -907,7 +907,7 @@
       },
       {
         "word": "情報",
-        "score": 0.0029
+        "score": 0.0028
       },
       {
         "word": "问题",
@@ -919,7 +919,7 @@
       },
       {
         "word": "議員",
-        "score": 0.0023
+        "score": 0.0024
       },
       {
         "word": "女性",
@@ -962,16 +962,12 @@
         "score": 0.002
       },
       {
-        "word": "保障",
-        "score": 0.0019
-      },
-      {
         "word": "武器",
-        "score": 0.0019
+        "score": 0.002
       },
       {
         "word": "不是",
-        "score": 0.0019
+        "score": 0.002
       },
       {
         "word": "教会",
@@ -982,12 +978,12 @@
         "score": 0.0019
       },
       {
-        "word": "配信",
+        "word": "保障",
         "score": 0.0019
       },
       {
         "word": "重要",
-        "score": 0.0019
+        "score": 0.0018
       },
       {
         "word": "社会",
@@ -1008,6 +1004,10 @@
       {
         "word": "引用",
         "score": 0.0018
+      },
+      {
+        "word": "自由",
+        "score": 0.0017
       }
     ]
   },
@@ -1419,15 +1419,15 @@
     "LePen-EN-positive": [
       {
         "word": "pen",
-        "score": 0.0571
+        "score": 0.057
       },
       {
         "word": "les",
-        "score": 0.0224
+        "score": 0.0222
       },
       {
         "word": "france",
-        "score": 0.0201
+        "score": 0.02
       },
       {
         "word": "des",
@@ -1435,7 +1435,7 @@
       },
       {
         "word": "une",
-        "score": 0.0169
+        "score": 0.017
       },
       {
         "word": "pour",
@@ -1443,7 +1443,7 @@
       },
       {
         "word": "qui",
-        "score": 0.0156
+        "score": 0.0157
       },
       {
         "word": "est",
@@ -1471,11 +1471,11 @@
       },
       {
         "word": "pas",
-        "score": 0.0089
+        "score": 0.0088
       },
       {
         "word": "avec",
-        "score": 0.0087
+        "score": 0.0086
       },
       {
         "word": "macron",
@@ -1495,39 +1495,39 @@
       },
       {
         "word": "mosques",
-        "score": 0.0065
+        "score": 0.0066
       },
       {
         "word": "bardella",
         "score": 0.0065
       },
       {
-        "word": "rassemblement",
-        "score": 0.0062
-      },
-      {
         "word": "elle",
         "score": 0.0061
       },
       {
+        "word": "rassemblement",
+        "score": 0.006
+      },
+      {
         "word": "notre",
-        "score": 0.0061
+        "score": 0.006
       },
       {
         "word": "national",
-        "score": 0.0059
+        "score": 0.0058
       },
       {
         "word": "plus",
-        "score": 0.0054
-      },
-      {
-        "word": "french",
         "score": 0.0053
       },
       {
         "word": "par",
         "score": 0.0052
+      },
+      {
+        "word": "french",
+        "score": 0.005
       },
       {
         "word": "expelled",
@@ -1539,7 +1539,7 @@
       },
       {
         "word": "francia",
-        "score": 0.0045
+        "score": 0.0046
       },
       {
         "word": "son",
@@ -2553,7 +2553,7 @@
       },
       {
         "word": "democratic",
-        "score": 0.0036
+        "score": 0.0037
       },
       {
         "word": "ldp",
@@ -2585,6 +2585,10 @@
       },
       {
         "word": "security",
+        "score": 0.0032
+      },
+      {
+        "word": "video",
         "score": 0.0032
       },
       {
@@ -2622,10 +2626,6 @@
       {
         "word": "leader",
         "score": 0.003
-      },
-      {
-        "word": "video",
-        "score": 0.003
       }
     ],
     "Takaichi-EN-positive": [
@@ -2639,7 +2639,7 @@
       },
       {
         "word": "prime",
-        "score": 0.0207
+        "score": 0.0208
       },
       {
         "word": "trump",
@@ -2667,7 +2667,7 @@
       },
       {
         "word": "tokyo",
-        "score": 0.0068
+        "score": 0.0069
       },
       {
         "word": "que",
@@ -2952,6 +2952,10 @@
         "score": 0.0064
       },
       {
+        "word": "心配",
+        "score": 0.0064
+      },
+      {
         "word": "訂閱",
         "score": 0.0064
       },
@@ -2989,10 +2993,6 @@
       },
       {
         "word": "災害",
-        "score": 0.0058
-      },
-      {
-        "word": "心配",
         "score": 0.0058
       },
       {
@@ -3035,203 +3035,203 @@
     "Takaichi-JP-neutral": [
       {
         "word": "日本",
-        "score": 0.0343
+        "score": 0.0348
       },
       {
         "word": "首相",
-        "score": 0.0236
+        "score": 0.0219
       },
       {
         "word": "動画",
-        "score": 0.0194
+        "score": 0.0208
       },
       {
         "word": "大臣",
-        "score": 0.019
+        "score": 0.017
       },
       {
         "word": "中国",
-        "score": 0.0134
+        "score": 0.0144
       },
       {
         "word": "配信",
-        "score": 0.013
+        "score": 0.014
       },
       {
         "word": "NEWS",
-        "score": 0.0117
+        "score": 0.0125
       },
       {
         "word": "政策",
-        "score": 0.0113
+        "score": 0.0109
       },
       {
         "word": "担当",
-        "score": 0.0105
+        "score": 0.0102
       },
       {
         "word": "政治",
-        "score": 0.01
-      },
-      {
-        "word": "議院",
-        "score": 0.0095
-      },
-      {
-        "word": "自民党",
-        "score": 0.0094
+        "score": 0.0098
       },
       {
         "word": "特典",
-        "score": 0.0091
-      },
-      {
-        "word": "問題",
-        "score": 0.009
+        "score": 0.0098
       },
       {
         "word": "ng",
-        "score": 0.0084
+        "score": 0.009
+      },
+      {
+        "word": "問題",
+        "score": 0.0087
       },
       {
         "word": "公式",
-        "score": 0.0081
+        "score": 0.0087
       },
       {
-        "word": "安全",
-        "score": 0.0077
+        "word": "議院",
+        "score": 0.0084
       },
       {
         "word": "TikTok",
-        "score": 0.0073
-      },
-      {
-        "word": "議員",
-        "score": 0.007
+        "score": 0.0078
       },
       {
         "word": "TBS",
-        "score": 0.0067
+        "score": 0.0072
       },
       {
-        "word": "女性",
-        "score": 0.0065
+        "word": "自民党",
+        "score": 0.0071
       },
       {
         "word": "Takaichi",
-        "score": 0.0064
+        "score": 0.0069
       },
       {
         "word": "SNS",
-        "score": 0.0064
+        "score": 0.0069
       },
       {
         "word": "台湾",
-        "score": 0.0064
+        "score": 0.0069
+      },
+      {
+        "word": "議員",
+        "score": 0.0066
+      },
+      {
+        "word": "安全",
+        "score": 0.0066
+      },
+      {
+        "word": "会議",
+        "score": 0.0065
+      },
+      {
+        "word": "Facebook",
+        "score": 0.0065
+      },
+      {
+        "word": "基本",
+        "score": 0.0063
+      },
+      {
+        "word": "th",
+        "score": 0.0063
       },
       {
         "word": "情報",
         "score": 0.0062
       },
       {
-        "word": "基本",
-        "score": 0.0061
-      },
-      {
-        "word": "会議",
-        "score": 0.006
-      },
-      {
-        "word": "Facebook",
-        "score": 0.006
-      },
-      {
-        "word": "th",
-        "score": 0.0059
-      },
-      {
-        "word": "安倍",
-        "score": 0.0058
+        "word": "投稿",
+        "score": 0.0062
       },
       {
         "word": "場合",
-        "score": 0.0058
+        "score": 0.006
       },
       {
-        "word": "投稿",
-        "score": 0.0058
+        "word": "女性",
+        "score": 0.0059
       },
       {
         "word": "10",
         "score": 0.0057
       },
       {
-        "word": "保障",
+        "word": "最新",
+        "score": 0.0055
+      },
+      {
+        "word": "提供",
+        "score": 0.0055
+      },
+      {
+        "word": "Sanae",
         "score": 0.0055
       },
       {
         "word": "Instagram",
-        "score": 0.0053
+        "score": 0.0055
+      },
+      {
+        "word": "Jepang",
+        "score": 0.0054
       },
       {
         "word": "2025",
         "score": 0.0053
       },
       {
-        "word": "最新",
+        "word": "映像",
         "score": 0.0053
       },
       {
-        "word": "提供",
+        "word": "保障",
         "score": 0.0052
       },
       {
-        "word": "Sanae",
-        "score": 0.0051
-      },
-      {
         "word": "野党",
-        "score": 0.0051
-      },
-      {
-        "word": "Jepang",
-        "score": 0.005
-      },
-      {
-        "word": "映像",
-        "score": 0.0049
-      },
-      {
-        "word": "公明党",
-        "score": 0.0047
+        "score": 0.0052
       },
       {
         "word": "報道局",
-        "score": 0.0046
+        "score": 0.005
       },
       {
         "word": "月額",
+        "score": 0.0049
+      },
+      {
+        "word": "the",
+        "score": 0.0048
+      },
+      {
+        "word": "代表",
+        "score": 0.0046
+      },
+      {
+        "word": "放送",
+        "score": 0.0046
+      },
+      {
+        "word": "連絡",
         "score": 0.0046
       },
       {
         "word": "輸出",
+        "score": 0.0046
+      },
+      {
+        "word": "所属",
         "score": 0.0045
       },
       {
-        "word": "代表",
+        "word": "公明党",
         "score": 0.0045
-      },
-      {
-        "word": "the",
-        "score": 0.0045
-      },
-      {
-        "word": "11",
-        "score": 0.0043
-      },
-      {
-        "word": "放送",
-        "score": 0.0043
       }
     ],
     "Takaichi-JP-positive": [
@@ -3241,199 +3241,199 @@
       },
       {
         "word": "首相",
-        "score": 0.0271
+        "score": 0.0287
       },
       {
         "word": "ng",
-        "score": 0.0212
+        "score": 0.0225
       },
       {
         "word": "大統領",
-        "score": 0.0167
-      },
-      {
-        "word": "大臣",
-        "score": 0.0141
+        "score": 0.0177
       },
       {
         "word": "英語",
-        "score": 0.0138
+        "score": 0.0146
+      },
+      {
+        "word": "大臣",
+        "score": 0.0146
       },
       {
         "word": "会談",
-        "score": 0.0111
+        "score": 0.0117
       },
       {
         "word": "th",
-        "score": 0.0111
+        "score": 0.0117
       },
       {
         "word": "動画",
-        "score": 0.0109
+        "score": 0.0112
       },
       {
         "word": "nh",
-        "score": 0.0101
+        "score": 0.0107
       },
       {
         "word": "the",
-        "score": 0.0101
-      },
-      {
-        "word": "情報",
-        "score": 0.0095
+        "score": 0.0107
       },
       {
         "word": "公式",
-        "score": 0.0095
+        "score": 0.0101
       },
       {
         "word": "自民党",
-        "score": 0.0091
+        "score": 0.0097
       },
       {
         "word": "政治",
-        "score": 0.0091
+        "score": 0.0096
       },
       {
         "word": "and",
-        "score": 0.0088
-      },
-      {
-        "word": "世界",
-        "score": 0.0071
-      },
-      {
-        "word": "00",
-        "score": 0.0069
-      },
-      {
-        "word": "女性",
-        "score": 0.0068
+        "score": 0.0093
       },
       {
         "word": "自民黨",
-        "score": 0.0067
+        "score": 0.0078
+      },
+      {
+        "word": "世界",
+        "score": 0.0075
+      },
+      {
+        "word": "情報",
+        "score": 0.0075
+      },
+      {
+        "word": "00",
+        "score": 0.0073
+      },
+      {
+        "word": "女性",
+        "score": 0.0072
       },
       {
         "word": "ch",
-        "score": 0.0058
-      },
-      {
-        "word": "配信",
-        "score": 0.0056
+        "score": 0.0062
       },
       {
         "word": "Sanae",
-        "score": 0.0056
-      },
-      {
-        "word": "Instagram",
-        "score": 0.0056
-      },
-      {
-        "word": "最新",
-        "score": 0.0054
-      },
-      {
-        "word": "10",
-        "score": 0.0054
-      },
-      {
-        "word": "投資",
-        "score": 0.0054
+        "score": 0.006
       },
       {
         "word": "TBS",
-        "score": 0.0054
-      },
-      {
-        "word": "波動",
-        "score": 0.0054
+        "score": 0.0057
       },
       {
         "word": "時間",
-        "score": 0.0053
+        "score": 0.0056
       },
       {
         "word": "報道",
-        "score": 0.0053
-      },
-      {
-        "word": "政策",
-        "score": 0.0051
+        "score": 0.0056
       },
       {
         "word": "ph",
-        "score": 0.0051
-      },
-      {
-        "word": "議員",
-        "score": 0.0049
+        "score": 0.0054
       },
       {
         "word": "SANAE",
-        "score": 0.0046
+        "score": 0.0049
       },
       {
-        "word": "議院",
-        "score": 0.0046
+        "word": "總裁",
+        "score": 0.0049
       },
       {
         "word": "情勢",
-        "score": 0.0046
-      },
-      {
-        "word": "候補",
-        "score": 0.0046
+        "score": 0.0049
       },
       {
         "word": "VOICEVOX",
-        "score": 0.0046
+        "score": 0.0049
+      },
+      {
+        "word": "投資",
+        "score": 0.0049
+      },
+      {
+        "word": "配信",
+        "score": 0.0049
       },
       {
         "word": "Takaichi",
-        "score": 0.0046
-      },
-      {
-        "word": "今回",
-        "score": 0.0046
+        "score": 0.0049
       },
       {
         "word": "未来",
-        "score": 0.0046
+        "score": 0.0048
       },
       {
         "word": "2025",
-        "score": 0.0045
+        "score": 0.0048
       },
       {
         "word": "提供",
+        "score": 0.0048
+      },
+      {
+        "word": "10",
+        "score": 0.0045
+      },
+      {
+        "word": "政策",
         "score": 0.0045
       },
       {
         "word": "引用",
-        "score": 0.0043
+        "score": 0.0045
       },
       {
         "word": "再生",
-        "score": 0.0042
-      },
-      {
-        "word": "活動",
-        "score": 0.0042
-      },
-      {
-        "word": "財政",
-        "score": 0.0042
+        "score": 0.0045
       },
       {
         "word": "官邸",
-        "score": 0.0042
+        "score": 0.0045
       },
       {
         "word": "市内",
+        "score": 0.0045
+      },
+      {
+        "word": "候補",
+        "score": 0.0045
+      },
+      {
+        "word": "Miraa",
+        "score": 0.0044
+      },
+      {
+        "word": "tr",
+        "score": 0.0044
+      },
+      {
+        "word": "工作",
         "score": 0.0042
+      },
+      {
+        "word": "新聞",
+        "score": 0.0041
+      },
+      {
+        "word": "今回",
+        "score": 0.0041
+      },
+      {
+        "word": "日米",
+        "score": 0.0041
+      },
+      {
+        "word": "誕生",
+        "score": 0.004
       }
     ],
     "Takaichi-ZH-negative": [
@@ -3598,6 +3598,10 @@
         "score": 0.0027
       },
       {
+        "word": "不足",
+        "score": 0.0027
+      },
+      {
         "word": "人間",
         "score": 0.0026
       },
@@ -3632,20 +3636,16 @@
       {
         "word": "次郎",
         "score": 0.0025
-      },
-      {
-        "word": "中方",
-        "score": 0.0025
       }
     ],
     "Takaichi-ZH-neutral": [
       {
         "word": "日本",
-        "score": 0.0408
+        "score": 0.0409
       },
       {
         "word": "動画",
-        "score": 0.0133
+        "score": 0.0132
       },
       {
         "word": "首相",
@@ -3653,7 +3653,7 @@
       },
       {
         "word": "中国",
-        "score": 0.0084
+        "score": 0.0083
       },
       {
         "word": "政治",
@@ -3661,11 +3661,11 @@
       },
       {
         "word": "自民党",
-        "score": 0.0072
+        "score": 0.0071
       },
       {
         "word": "大臣",
-        "score": 0.0065
+        "score": 0.0064
       },
       {
         "word": "美国",
@@ -3673,7 +3673,7 @@
       },
       {
         "word": "問題",
-        "score": 0.0054
+        "score": 0.0053
       },
       {
         "word": "越南",
@@ -3681,18 +3681,14 @@
       },
       {
         "word": "政策",
-        "score": 0.0047
+        "score": 0.0048
       },
       {
         "word": "视频",
-        "score": 0.0046
+        "score": 0.0047
       },
       {
         "word": "情報",
-        "score": 0.0044
-      },
-      {
-        "word": "配信",
         "score": 0.0044
       },
       {
@@ -3705,6 +3701,10 @@
       },
       {
         "word": "使用",
+        "score": 0.0043
+      },
+      {
+        "word": "配信",
         "score": 0.0042
       },
       {
@@ -3816,15 +3816,7 @@
         "score": 0.0028
       },
       {
-        "word": "安全",
-        "score": 0.0027
-      },
-      {
         "word": "记者",
-        "score": 0.0027
-      },
-      {
-        "word": "YouTube",
         "score": 0.0027
       },
       {
@@ -3836,22 +3828,30 @@
         "score": 0.0026
       },
       {
+        "word": "安全",
+        "score": 0.0026
+      },
+      {
         "word": "右翼",
         "score": 0.0026
+      },
+      {
+        "word": "稀土",
+        "score": 0.0025
       }
     ],
     "Takaichi-ZH-positive": [
       {
         "word": "日本",
-        "score": 0.0507
+        "score": 0.0493
       },
       {
         "word": "首相",
-        "score": 0.0248
+        "score": 0.0253
       },
       {
         "word": "大臣",
-        "score": 0.0094
+        "score": 0.0096
       },
       {
         "word": "安全",
@@ -3862,135 +3862,127 @@
         "score": 0.0088
       },
       {
-        "word": "動画",
+        "word": "ng",
         "score": 0.0083
       },
       {
         "word": "自民党",
-        "score": 0.0083
+        "score": 0.0079
       },
       {
-        "word": "ng",
-        "score": 0.0081
+        "word": "動画",
+        "score": 0.0079
       },
       {
         "word": "世界",
-        "score": 0.008
+        "score": 0.0077
       },
       {
         "word": "保障",
-        "score": 0.0073
+        "score": 0.0074
       },
       {
         "word": "協力",
-        "score": 0.006
+        "score": 0.0061
       },
       {
         "word": "女性",
-        "score": 0.0058
-      },
-      {
-        "word": "情報",
-        "score": 0.0056
+        "score": 0.0059
       },
       {
         "word": "美国",
-        "score": 0.0055
+        "score": 0.0056
       },
       {
         "word": "外交",
-        "score": 0.0055
+        "score": 0.0056
+      },
+      {
+        "word": "情報",
+        "score": 0.0054
       },
       {
         "word": "竹田恒泰",
-        "score": 0.0051
+        "score": 0.0052
       },
       {
         "word": "地域",
-        "score": 0.0049
+        "score": 0.005
       },
       {
         "word": "重要",
-        "score": 0.0049
-      },
-      {
-        "word": "配信",
-        "score": 0.0047
+        "score": 0.005
       },
       {
         "word": "強化",
-        "score": 0.0047
+        "score": 0.0048
       },
       {
         "word": "中国",
-        "score": 0.0045
-      },
-      {
-        "word": "確認",
-        "score": 0.0045
+        "score": 0.0046
       },
       {
         "word": "支持",
-        "score": 0.0044
+        "score": 0.0045
       },
       {
         "word": "引用",
+        "score": 0.0043
+      },
+      {
+        "word": "Youtube",
+        "score": 0.0042
+      },
+      {
+        "word": "政策",
+        "score": 0.0042
+      },
+      {
+        "word": "確認",
+        "score": 0.0042
+      },
+      {
+        "word": "訪問",
         "score": 0.0042
       },
       {
         "word": "分野",
-        "score": 0.0041
-      },
-      {
-        "word": "Youtube",
-        "score": 0.0041
-      },
-      {
-        "word": "政策",
-        "score": 0.0041
-      },
-      {
-        "word": "訪問",
-        "score": 0.0041
+        "score": 0.004
       },
       {
         "word": "th",
-        "score": 0.0039
+        "score": 0.004
       },
       {
         "word": "nh",
-        "score": 0.0039
+        "score": 0.004
       },
       {
         "word": "大統領",
-        "score": 0.0038
+        "score": 0.0039
       },
       {
         "word": "OPENREC",
+        "score": 0.0039
+      },
+      {
+        "word": "配信",
         "score": 0.0038
       },
       {
-        "word": "問題",
+        "word": "自民黨",
         "score": 0.0038
-      },
-      {
-        "word": "未来",
-        "score": 0.0037
-      },
-      {
-        "word": "00",
-        "score": 0.0037
       },
       {
         "word": "国家",
-        "score": 0.0036
-      },
-      {
-        "word": "放送",
-        "score": 0.0036
+        "score": 0.0037
       },
       {
         "word": "安定",
+        "score": 0.0036
+      },
+      {
+        "word": "問題",
         "score": 0.0036
       },
       {
@@ -4002,43 +3994,51 @@
         "score": 0.0036
       },
       {
-        "word": "国民",
+        "word": "00",
+        "score": 0.0036
+      },
+      {
+        "word": "未来",
         "score": 0.0035
       },
       {
-        "word": "今回",
-        "score": 0.0034
+        "word": "放送",
+        "score": 0.0035
       },
       {
         "word": "太平洋",
-        "score": 0.0034
+        "score": 0.0035
       },
       {
         "word": "時間",
-        "score": 0.0034
+        "score": 0.0035
       },
       {
         "word": "新聞",
-        "score": 0.0034
-      },
-      {
-        "word": "自民黨",
-        "score": 0.0033
+        "score": 0.0035
       },
       {
         "word": "提供",
-        "score": 0.0033
+        "score": 0.0034
       },
       {
         "word": "情勢",
         "score": 0.0033
       },
       {
-        "word": "支援",
-        "score": 0.0032
+        "word": "今回",
+        "score": 0.0033
       },
       {
         "word": "公式",
+        "score": 0.0033
+      },
+      {
+        "word": "国民",
+        "score": 0.0032
+      },
+      {
+        "word": "中共",
         "score": 0.0032
       }
     ]
@@ -4214,16 +4214,16 @@
         "value": 3
       },
       {
-        "name": "notre",
-        "value": 3
-      },
-      {
         "name": "europe",
         "value": 3
       },
       {
         "name": "être",
         "value": 3
+      },
+      {
+        "name": "notre",
+        "value": 2
       },
       {
         "name": "contre",
@@ -4657,15 +4657,19 @@
       },
       {
         "name": "首相",
-        "value": 21
+        "value": 20
       },
       {
         "name": "大臣",
-        "value": 17
+        "value": 16
       },
       {
         "name": "動画",
-        "value": 14
+        "value": 15
+      },
+      {
+        "name": "中国",
+        "value": 9
       },
       {
         "name": "政治",
@@ -4676,11 +4680,11 @@
         "value": 9
       },
       {
-        "name": "中国",
+        "name": "ng",
         "value": 9
       },
       {
-        "name": "ng",
+        "name": "公式",
         "value": 8
       },
       {
@@ -4688,23 +4692,11 @@
         "value": 8
       },
       {
-        "name": "公式",
-        "value": 8
+        "name": "NEWS",
+        "value": 7
       },
       {
         "name": "自民党",
-        "value": 7
-      },
-      {
-        "name": "情報",
-        "value": 7
-      },
-      {
-        "name": "NEWS",
-        "value": 6
-      },
-      {
-        "name": "女性",
         "value": 6
       },
       {
@@ -4712,7 +4704,15 @@
         "value": 6
       },
       {
-        "name": "議院",
+        "name": "情報",
+        "value": 6
+      },
+      {
+        "name": "女性",
+        "value": 6
+      },
+      {
+        "name": "the",
         "value": 6
       },
       {
@@ -4720,27 +4720,11 @@
         "value": 6
       },
       {
-        "name": "問題",
-        "value": 6
-      },
-      {
-        "name": "安全",
-        "value": 6
-      },
-      {
-        "name": "the",
-        "value": 5
-      },
-      {
-        "name": "議員",
-        "value": 5
-      },
-      {
-        "name": "10",
-        "value": 5
-      },
-      {
         "name": "Takaichi",
+        "value": 6
+      },
+      {
+        "name": "問題",
         "value": 5
       },
       {
@@ -4748,19 +4732,11 @@
         "value": 5
       },
       {
-        "name": "最新",
+        "name": "Sanae",
         "value": 5
       },
       {
         "name": "SNS",
-        "value": 5
-      },
-      {
-        "name": "2025",
-        "value": 5
-      },
-      {
-        "name": "Sanae",
         "value": 5
       },
       {
@@ -4772,11 +4748,23 @@
         "value": 5
       },
       {
-        "name": "国民",
+        "name": "2025",
+        "value": 5
+      },
+      {
+        "name": "10",
+        "value": 5
+      },
+      {
+        "name": "安全",
         "value": 5
       },
       {
         "name": "提供",
+        "value": 5
+      },
+      {
+        "name": "議院",
         "value": 5
       },
       {
@@ -4785,10 +4773,26 @@
       },
       {
         "name": "投稿",
-        "value": 4
+        "value": 5
+      },
+      {
+        "name": "国民",
+        "value": 5
+      },
+      {
+        "name": "議員",
+        "value": 5
       },
       {
         "name": "世界",
+        "value": 5
+      },
+      {
+        "name": "and",
+        "value": 4
+      },
+      {
+        "name": "最新",
         "value": 4
       },
       {
@@ -4796,23 +4800,11 @@
         "value": 4
       },
       {
-        "name": "and",
-        "value": 4
-      },
-      {
-        "name": "保障",
-        "value": 4
-      },
-      {
-        "name": "場合",
-        "value": 4
-      },
-      {
         "name": "英語",
         "value": 4
       },
       {
-        "name": "Instagram",
+        "name": "場合",
         "value": 4
       },
       {
@@ -4824,19 +4816,27 @@
         "value": 4
       },
       {
+        "name": "保障",
+        "value": 4
+      },
+      {
         "name": "基本",
         "value": 4
       },
       {
-        "name": "11",
+        "name": "nh",
         "value": 4
       },
       {
-        "name": "nh",
+        "name": "台湾",
+        "value": 4
+      },
+      {
+        "name": "11",
         "value": 3
       },
       {
-        "name": "台湾",
+        "name": "Instagram",
         "value": 3
       },
       {
@@ -4844,11 +4844,11 @@
         "value": 3
       },
       {
-        "name": "今回",
+        "name": "Jepang",
         "value": 3
       },
       {
-        "name": "Jepang",
+        "name": "新聞",
         "value": 3
       }
     ],
@@ -4882,11 +4882,11 @@
         "value": 6
       },
       {
-        "name": "大臣",
+        "name": "收起",
         "value": 6
       },
       {
-        "name": "收起",
+        "name": "大臣",
         "value": 6
       },
       {
@@ -5006,10 +5006,6 @@
         "value": 2
       },
       {
-        "name": "保障",
-        "value": 2
-      },
-      {
         "name": "武器",
         "value": 2
       },
@@ -5026,7 +5022,7 @@
         "value": 2
       },
       {
-        "name": "配信",
+        "name": "保障",
         "value": 2
       },
       {
@@ -5051,6 +5047,10 @@
       },
       {
         "name": "引用",
+        "value": 2
+      },
+      {
+        "name": "自由",
         "value": 2
       }
     ]
