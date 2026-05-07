@@ -732,9 +732,9 @@ footer a { color: var(--accent-gold); text-decoration:none; }
       <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.8rem; line-height:1.6;"><strong>说明：</strong>帖子的情绪分类（预标注：愤怒、厌恶、恐惧、快乐等十余种）为原始数据集预标注字段，涵盖十余种情绪类型。雷达图显示各情绪类别在两位领导人全部相关帖子中的占比，数值为百分比（%）。</p>
     </div>
     <div class="chart-container">
-      <h3>情绪-情感交叉热力图</h3>
+      <h3>领导人情绪分布热力图</h3>
       <div id="chart-emotion-heatmap" style="height:400px;"></div>
-      <p class="chart-note"><strong>数据来源：</strong>原始CSV字段<code>emotion</code> × <code>sentiment</code>交叉统计。热力图颜色深浅表示同时被标注为某情绪+某情感的帖子数量，揭示情绪与情感极性的关联模式（如"愤怒"与"负面"的强关联）。</p>
+      <p class="chart-note"><strong>数据来源：</strong>基于原始CSV字段<code>emotion</code>统计各情绪类别在两位领导人全部相关帖子中的占比（%）。X轴为主要情绪类型，Y轴为领导人，颜色深浅表示占比高低，数值越大说明该情绪在讨论中出现越多。</p>
     </div>
   </div>
   <div class="grid-2 reveal" style="margin-top:2rem;">
