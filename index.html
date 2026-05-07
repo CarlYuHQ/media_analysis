@@ -858,12 +858,18 @@ footer a { color: var(--accent-gold); text-decoration:none; }
   <div class="grid-2 reveal" style="margin-top:2rem;">
     <div class="card">
       <h3 style="font-family:var(--font-heading); margin-bottom:1rem;">双重束缚得分</h3>
-      <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:1rem;">负面帖子中同时出现性别与领导力相关词汇的比例，衡量「双重束缚」张力。</p>
+      <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:1rem;">衡量女性领导人面临的「双重束缚」张力：当女性展现强势领导力时被批评缺乏女性特质，当表现出温柔时又被质疑领导能力。</p>
+      <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:1rem; line-height:1.6;"><strong>计算方法：</strong>筛选<code>sentiment=negative</code>的帖子，检查其<code>text</code>字段是否<strong>同时</strong>包含性别词汇和领导力词汇。<br>
+      <strong>性别词汇：</strong>中文（女性、她、女政治家等）、英文（woman、female、she等）、日文（女性、彼女等）；<strong>领导力词汇：</strong>中文（领导、首相、权力等）、英文（leader、president、power等）、日文（リーダー、首相、権力等）。<br>
+      双重束缚得分 = 同时包含两类词汇的帖子数 / 负面帖子总数 × 100%。</p>
       <div id="double-bind-display" style="font-size:0.9rem;"></div>
     </div>
     <div class="card">
       <h3 style="font-family:var(--font-heading); margin-bottom:1rem;">女性民族主义指标</h3>
-      <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:1rem;">挪用女性权利话语为民族主义/反移民议程服务的帖子（Farris, 2017）。</p>
+      <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:1rem;">检测「女性民族主义」（Femonationalism, Farris 2017）话语：将女性权利话语挪用为民族主义或反移民议程服务的论述策略。</p>
+      <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:1rem; line-height:1.6;"><strong>计算方法：</strong>对每条帖子的<code>text</code>字段进行关键词匹配，检测是否同时涉及女性权利话语与民族主义/反移民话语。<br>
+      <strong>匹配关键词：</strong>中文（女性权利、保护女性、穆斯林女性、移民、伊斯兰、传统价值等）、英文（women rights、protect women、muslim women、immigrant、islam等）、日文（女性の権利、移民、イスラム等）。<br>
+      匹配率 = 命中关键词的帖子数 / 该语言帖子总数 × 100%。</p>
       <div id="femono-display" style="font-size:0.9rem;"></div>
     </div>
   </div>
