@@ -821,7 +821,7 @@ footer a { color: var(--accent-gold); text-decoration:none; }
   <p class="section-subtitle reveal">不同领导人间的媒体框架有何差异？通过计算编码检测性别化模式</p>
   <div class="reveal" style="margin-bottom:1.5rem; padding:1rem 1.2rem; background:rgba(0,0,0,0.03); border-radius:var(--radius); font-size:0.8rem; color:var(--text-secondary); line-height:1.7;">
     <strong>方法说明：</strong><br>
-    <strong>比较雷达图：</strong>展示两位领导人在六个维度上的对比，包括<code>sentiment</code>字段的正面/负面比例和<code>emotion</code>字段的快乐、愤怒、厌恶、恐惧占比。每个维度的最大值为两位领导人中较高者的1.2倍，便于直观比较差异。<br>
+    <strong>比较雷达图：</strong>汇总两位领导人在五个维度的综合得分，各维度归一化为0-100分：<strong>（1）负面情感比例</strong>：所有语言<code>sentiment</code>字段中negative的占比；<strong>（2）负面情绪强度</strong>：<code>emotion</code>字段中愤怒+厌恶+恐惧三项占比之和；<strong>（3）性别框架倾向</strong>：五类性别框架关键词匹配率的各语言均值汇总；<strong>（4）双重束缚得分</strong>：负面帖子中<code>text</code>同时出现性别词汇+领导力词汇的各语言均值；<strong>（5）女性民族主义指标</strong>：<code>text</code>中同时出现女性权利词汇+民族主义/反移民词汇的各语言均值。各维度越高表示该倾向越强。<br>
     <strong>性别框架检测：</strong>对每条帖子的<code>text</code>字段进行多语言关键词模式匹配，如"铁娘子"/"iron lady"/"強い女性"匹配铁娘子框架，"漂亮"/"beauty"/"化粧"匹配外貌框架，统计各框架匹配帖子数量。<br>
     <strong>双重束缚得分：</strong>筛选<code>sentiment=negative</code>的帖子，检查<code>text</code>是否同时包含性别词汇（如"她"/"女性"/"woman"）和领导力词汇（如"首相"/"领导"/"leader"），双重提及的帖子占负面帖子比例为双重束缚得分。
   </div>
@@ -829,7 +829,7 @@ footer a { color: var(--accent-gold); text-decoration:none; }
     <div class="chart-container">
       <h3>领导人多维对比</h3>
       <div id="chart-comparison-radar" style="height:400px;"></div>
-      <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.8rem; line-height:1.6;"><strong>说明：</strong>雷达图展示两位领导人在六个维度上的对比，包括情感分布（<code>sentiment</code>字段的正面/负面比例）和主导情绪类型（<code>emotion</code>字段的快乐、愤怒、厌恶、恐惧占比）。每个维度的最大值为两位领导人中较高者的1.2倍，便于直观比较差异。</p>
+      <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.8rem; line-height:1.6;"><strong>说明：</strong>雷达图汇总两位领导人在五个维度的综合得分（归一化为0-100）：负面情感比例、负面情绪强度（愤怒+厌恶+恐惧）、性别框架倾向（五类框架匹配率汇总）、双重束缚得分（负面帖子中性别+领导力词汇同时出现比例）、女性民族主义指标（女性权利+民族主义词汇同时出现比例）。各维度越高表示该倾向越强。</p>
     </div>
     <div class="chart-container">
       <h3>性别框架出现频率</h3>
@@ -1374,23 +1374,83 @@ function isDarkSection(el) {
   if (!el) return;
   const chart = echarts.init(el);
   const lc = C.leader_comparison || {};
+  const gf = C.gender_frames || {};
+  const db = C.double_bind || {};
+  const fm = C.femonationalism || {};
+
+  // Helper: average ratio across languages
+  function avgRatio(obj) {
+    if (!obj) return 0;
+    const vals = Object.values(obj);
+    if (!vals.length) return 0;
+    return vals.reduce((s,v) => s + (v.ratio||0), 0) / vals.length;
+  }
+  function avgDoubleBind(leader) {
+    const langs = db[leader];
+    if (!langs) return 0;
+    const vals = Object.values(langs);
+    if (!vals.length) return 0;
+    return vals.reduce((s,v) => s + (v.double_bind_ratio||0), 0) / vals.length;
+  }
+  function avgFemono(leader) {
+    const langs = fm[leader]?.counts_by_language;
+    return avgRatio(langs);
+  }
+
+  // 5 dimensions, all normalized to 0-100
   const dims = [
-    { name:'正面比例', key: d=>d.sentiment?.positive||0 },
-    { name:'负面比例', key: d=>d.sentiment?.negative||0 },
-    { name:'快乐', key: d=>d.emotion?.happiness||0 },
-    { name:'愤怒', key: d=>d.emotion?.anger||0 },
-    { name:'厌恶', key: d=>d.emotion?.disgust||0 },
-    { name:'恐惧', key: d=>d.emotion?.fear||0 }
+    { name:'负面情感比例',
+      calc: d => d.sentiment?.negative || 0 },
+    { name:'负面情绪强度',
+      calc: d => {
+        const e = d.emotion || {};
+        return (e.anger||0) + (e.disgust||0) + (e.fear||0);
+      }},
+    { name:'性别框架倾向',
+      calc: (_, leader) => {
+        const frames = gf[leader] || {};
+        const total = Object.values(frames).reduce((s,f) => s + avgRatio(f.counts_by_language), 0);
+        return Math.min(total * 3, 100); // scale up, cap at 100
+      }},
+    { name:'双重束缚得分',
+      calc: (_, leader) => avgDoubleBind(leader) },
+    { name:'女性民族主义',
+      calc: (_, leader) => avgFemono(leader) * 5 } // scale up for visibility
   ];
-  const maxVals = dims.map(d => Math.max(d.key(lc.Takaichi||{}), d.key(lc.LePen||{})) * 1.2 || 1);
+
+  const leaders = ['Takaichi','LePen'];
+  const leaderLabels = ['高市早苗','勒庞'];
+  const leaderColors = [COLORS.takaichi, COLORS.lepen];
+
+  const seriesData = leaders.map((l, i) => ({
+    value: dims.map(d => {
+      const raw = d.calc(lc[l] || {}, l);
+      return Math.round(raw * 10) / 10;
+    }),
+    name: leaderLabels[i],
+    itemStyle: { color: leaderColors[i] },
+    areaStyle: { opacity: 0.15 }
+  }));
+
   chart.setOption({
-    tooltip: {},
-    legend: { data:['高市早苗','勒庞'], bottom:0, textStyle:{color:'#4a4a5a'} },
-    radar: { indicator: dims.map((d,i)=>({name:d.name,max:maxVals[i]})), radius:'60%', axisName:{color:'#4a4a5a',fontSize:11} },
-    series: [{ type:'radar', data:[
-      { value:dims.map(d=>d.key(lc.Takaichi||{})), name:'高市早苗', itemStyle:{color:COLORS.takaichi}, areaStyle:{opacity:0.15} },
-      { value:dims.map(d=>d.key(lc.LePen||{})), name:'勒庞', itemStyle:{color:COLORS.lepen}, areaStyle:{opacity:0.15} }
-    ], lineStyle:{width:2} }]
+    tooltip: {
+      trigger: 'item',
+      formatter: function(params) {
+        let s = '<b>' + params.name + '</b><br/>';
+        params.value.forEach((v, i) => {
+          s += dims[i].name + ': ' + v + '<br/>';
+        });
+        return s;
+      }
+    },
+    legend: { data: leaderLabels, bottom: 0, textStyle: { color: '#4a4a5a' } },
+    radar: {
+      indicator: dims.map(d => ({ name: d.name, max: 100 })),
+      radius: '60%',
+      axisName: { color: '#4a4a5a', fontSize: 12 },
+      splitArea: { areaStyle: { color: ['rgba(124,58,237,0.02)','rgba(124,58,237,0.04)','rgba(124,58,237,0.02)','rgba(124,58,237,0.04)','rgba(124,58,237,0.02)'] } }
+    },
+    series: [{ type: 'radar', data: seriesData, lineStyle: { width: 2 } }]
   });
   window.addEventListener('resize', () => chart.resize());
 })();
