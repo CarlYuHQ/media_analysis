@@ -829,7 +829,7 @@ footer a { color: var(--accent-gold); text-decoration:none; }
     <div class="chart-container">
       <h3>领导人多维对比</h3>
       <div id="chart-comparison-radar" style="height:400px;"></div>
-      <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.8rem; line-height:1.6;"><strong>说明：</strong>雷达图汇总两位领导人在五个维度上的综合得分，情感分布（正面/负面比例）、主导情绪类型、性别框架倾向、双重束缚得分和女性民族主义指标。每个维度归一化为0-100分以便比较。</p>
+      <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.8rem; line-height:1.6;"><strong>说明：</strong>雷达图展示两位领导人在六个维度上的对比，包括情感分布（<code>sentiment</code>字段的正面/负面比例）和主导情绪类型（<code>emotion</code>字段的快乐、愤怒、厌恶、恐惧占比）。每个维度的最大值为两位领导人中较高者的1.2倍，便于直观比较差异。</p>
     </div>
     <div class="chart-container">
       <h3>性别框架出现频率</h3>
