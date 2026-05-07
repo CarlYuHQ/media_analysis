@@ -697,7 +697,7 @@ footer a { color: var(--accent-gold); text-decoration:none; }
     </div>
     <div class="chart-container" style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08);">
       <h3 style="color:#e8e4df;">情感比例细目</h3>
-      <div id="chart-sentiment-donuts" style="height:440px;"></div>
+      <div id="chart-sentiment-donuts" style="height:560px;"></div>
     </div>
   </div>
 
@@ -1186,15 +1186,15 @@ function isDarkSection(el) {
       {value: props.negative||0, name:'负面', itemStyle:{color:COLORS.neg}},
       {value: props.neutral||0, name:'中性', itemStyle:{color:COLORS.neu}}
     ];
-    // Position in 3x2 grid (3 top, 2 bottom centered)
+    // Position in 3+2 grid
     const positions = [
-      {cx:'17%',cy:'30%'},{cx:'50%',cy:'30%'},{cx:'83%',cy:'30%'},
-      {cx:'33%',cy:'75%'},{cx:'67%',cy:'75%'}
+      {cx:'17%',cy:'28%'},{cx:'50%',cy:'28%'},{cx:'83%',cy:'28%'},
+      {cx:'33%',cy:'72%'},{cx:'67%',cy:'72%'}
     ];
     return {
-      type:'pie', radius:['25%','42%'],
+      type:'pie', radius:['22%','36%'],
       center:[positions[idx].cx, positions[idx].cy],
-      data, label:{show:true, formatter:'{b}\n{d}%', fontSize:9, color:'#e8e4df'},
+      data, label:{show:true, formatter:'{b}\n{d}%', fontSize:10, color:'#e8e4df'},
       emphasis:{itemStyle:{shadowBlur:10}}
     };
   });
@@ -1202,8 +1202,8 @@ function isDarkSection(el) {
     tooltip:{trigger:'item', formatter:'{b}: {c}%'},
     title: showSegs.map((item, idx) => {
       const positions = [
-        {x:'4%',y:'3%'},{x:'37%',y:'3%'},{x:'70%',y:'3%'},
-        {x:'20%',y:'55%'},{x:'54%',y:'55%'}
+        {x:'4%',y:'2%'},{x:'37%',y:'2%'},{x:'70%',y:'2%'},
+        {x:'20%',y:'52%'},{x:'54%',y:'52%'}
       ];
       return {text:item.label, left:positions[idx].x, top:positions[idx].y, textStyle:{fontSize:11, color:'#e8e4df', fontWeight:600}};
     }),
@@ -1296,7 +1296,7 @@ function isDarkSection(el) {
   });
   chart.setOption({
     tooltip: { formatter: p => `${emotionLabels[p.data[0]]} / ${leaderLabels[p.data[1]]}: ${p.data[2]}%` },
-    grid: { top:10, bottom:40, left:80, right:20 },
+    grid: { top:10, bottom:60, left:80, right:20 },
     xAxis: { type:'category', data:emotionLabels, axisLabel:{fontSize:10,rotate:30}, splitArea:{show:true} },
     yAxis: { type:'category', data:leaderLabels, axisLabel:{fontSize:11} },
     visualMap: { min:0, max:maxVal, orient:'horizontal', left:'center', bottom:0, inRange:{color:['#f0ece4','#c41e3a']}, text:['高','低'], textStyle:{fontSize:10} },
