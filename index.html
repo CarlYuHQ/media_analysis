@@ -758,8 +758,8 @@ footer a { color: var(--accent-gold); text-decoration:none; }
   <p class="section-subtitle reveal">人们在讨论什么？TF-IDF 关键词与 NMF 主题建模揭示话语主题结构</p>
   <div class="reveal" style="margin-bottom:1.5rem; padding:1rem 1.2rem; background:rgba(0,0,0,0.03); border-radius:var(--radius); font-size:0.8rem; color:var(--text-secondary); line-height:1.7;">
     <strong>方法说明：</strong><br>
-<strong>关键词词云：</strong>基于原始CSV字段<code>text</code>（帖子正文），经<code>scripts/05_tfidf_analysis.py</code>处理。中文用jieba分词，日文用MeCab(fugashi)进行词性标注并提取名詞/動詞/形容詞，英文按空格分词且仅保留纯ASCII单词（排除中文/日文字符）。停用词过滤后计算TF-IDF权重（TF=词频/总词数，IDF=log(文档数/包含该词的文档数)），取Top 50关键词生成词云。<br>
-<strong>主题分布：</strong>基于<code>scripts/06_topic_modeling.py</code>。对分词后文本用sklearn的TfidfVectorizer构建词-文档矩阵（max_df=0.85过滤高频词，min_df=2过滤低频词），再用NMF非负矩阵分解提取6个潜在主题。每个主题展示权重最高的10个关键词，柱状图显示该主题下帖子的正面/负面/中性情感分布（基于<code>sentiment</code>字段）。<br>
+<strong>关键词词云：</strong>基于原始CSV字段<code>text</code>（帖子正文），中文用jieba分词，日文用MeCab(fugashi)进行词性标注并提取名詞/動詞/形容詞，英文按空格分词且仅保留纯ASCII单词（排除中文/日文字符）。停用词过滤后计算TF-IDF权重（TF=词频/总词数，IDF=log(文档数/包含该词的文档数)），取Top 50关键词生成词云。<br>
+<strong>主题分布：</strong>对分词后文本用TfidfVectorizer构建词-文档矩阵（max_df=0.85过滤高频词，min_df=2过滤低频词），再用NMF非负矩阵分解提取6个潜在主题。每个主题展示权重最高的10个关键词，柱状图显示该主题下帖子的正面/负面/中性情感分布（基于<code>sentiment</code>字段）。<br>
 <strong>注意：</strong>英文数据集中包含大量法语和西班牙语帖子（因平台用户多语种发帖），关键词和主题中出现非英语词汇属于正常现象。
   </div>
   <div class="grid-3 reveal">
@@ -820,8 +820,8 @@ footer a { color: var(--accent-gold); text-decoration:none; }
   <h2 class="section-title reveal">比较分析与性别框架分析</h2>
   <p class="section-subtitle reveal">不同领导人间的媒体框架有何差异？通过计算编码检测性别化模式</p>
   <div class="reveal" style="margin-bottom:1.5rem; padding:1rem 1.2rem; background:rgba(0,0,0,0.03); border-radius:var(--radius); font-size:0.8rem; color:var(--text-secondary); line-height:1.7;">
-    <strong>方法说明（<code>scripts/08_comparative_analysis.py</code>）：</strong><br>
-    <strong>比较雷达图：</strong>汇总两位领导人在五个维度的综合得分，情感分布（<code>sentiment</code>字段统计正面/负面比例）、主导情绪（<code>emotion</code>字段众数）、性别框架倾向（关键词匹配，见下方）、双重束缚得分（负面帖子中<code>text</code>同时出现性别词汇+领导力词汇的比例）和女性民族主义指标（<code>text</code>中同时出现女性权利词汇+民族主义/反移民词汇）。每个维度归一化为0-100分。<br>
+    <strong>方法说明：</strong><br>
+    <strong>比较雷达图：</strong>展示两位领导人在六个维度上的对比，包括<code>sentiment</code>字段的正面/负面比例和<code>emotion</code>字段的快乐、愤怒、厌恶、恐惧占比。每个维度的最大值为两位领导人中较高者的1.2倍，便于直观比较差异。<br>
     <strong>性别框架检测：</strong>对每条帖子的<code>text</code>字段进行多语言关键词模式匹配，如"铁娘子"/"iron lady"/"強い女性"匹配铁娘子框架，"漂亮"/"beauty"/"化粧"匹配外貌框架，统计各框架匹配帖子数量。<br>
     <strong>双重束缚得分：</strong>筛选<code>sentiment=negative</code>的帖子，检查<code>text</code>是否同时包含性别词汇（如"她"/"女性"/"woman"）和领导力词汇（如"首相"/"领导"/"leader"），双重提及的帖子占负面帖子比例为双重束缚得分。
   </div>
@@ -877,7 +877,7 @@ footer a { color: var(--accent-gold); text-decoration:none; }
   <h2 class="section-title reveal">时间趋势分析</h2>
   <p class="section-subtitle reveal">情感如何随时间变化，关键事件、讨论高峰与相关性</p>
   <div class="reveal" style="margin-bottom:1.5rem; padding:1rem 1.2rem; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:var(--radius); font-size:0.8rem; color:#a0a0aa; line-height:1.7;">
-    <strong>方法说明（<code>scripts/07_temporal_analysis.py</code>）：</strong>时间轴基于原始CSV字段<code>created_at</code>（帖子发布时间戳），按月（YYYY-MM）重采样。每月负面情感比例 = 该月<code>sentiment=negative</code>帖子数 / 该月相关帖子总数。讨论量-负面情感相关性用Pearson相关系数衡量月度帖子总量与月度负面比例之间的线性关联。
+    <strong>方法说明：</strong>时间轴基于原始CSV字段<code>created_at</code>（帖子发布时间戳），按月（YYYY-MM）重采样。每月负面情感比例 = 该月<code>sentiment=negative</code>帖子数 / 该月相关帖子总数。讨论量-负面情感相关性用Pearson相关系数衡量月度帖子总量与月度负面比例之间的线性关联。
   </div>
   <div class="chart-container reveal" style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); margin-bottom:2rem;">
     <h3 style="color:#e8e4df;">月度负面情感比例趋势</h3>
@@ -890,7 +890,7 @@ footer a { color: var(--accent-gold); text-decoration:none; }
   </div>
   <div class="card-dark reveal" style="padding:2rem; border-radius:var(--radius); border:1px solid rgba(255,255,255,0.08);">
     <h3 style="color:#e8e4df; font-family:var(--font-heading); margin-bottom:1rem;">关键事件时间线</h3>
-    <p class="chart-note" style="margin-bottom:1rem;"><strong>数据来源：</strong>事件为研究者根据政治日历手工标注（定义在<code>scripts/07_temporal_analysis.py</code>的<code>known_events</code>列表中），与<code>created_at</code>时间轴对齐。标注信息包含数据集（<code>segment</code>）、事件日期和详细描述。</p>
+    <p class="chart-note" style="margin-bottom:1rem;"><strong>数据来源：</strong>事件为研究者根据政治日历手工标注，与<code>created_at</code>时间轴对齐。标注信息包含数据集（<code>segment</code>）、事件日期和详细描述。</p>
     <div id="events-timeline" style="font-size:0.85rem; color:var(--text-muted);"></div>
   </div>
 </section>
