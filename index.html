@@ -1397,35 +1397,40 @@ function isDarkSection(el) {
     return avgRatio(langs);
   }
 
-  // 5 dimensions, all normalized to 0-100
+  // 5 dimensions, raw values (dynamic max for radar)
   const dims = [
-    { name:'负面情感比例',
+    { name:'负面情感比例(%)',
       calc: d => d.sentiment?.negative || 0 },
-    { name:'负面情绪强度',
+    { name:'负面情绪强度(%)',
       calc: d => {
         const e = d.emotion || {};
         return (e.anger||0) + (e.disgust||0) + (e.fear||0);
       }},
-    { name:'性别框架倾向',
+    { name:'性别框架倾向(%)',
       calc: (_, leader) => {
         const frames = gf[leader] || {};
-        const total = Object.values(frames).reduce((s,f) => s + avgRatio(f.counts_by_language), 0);
-        return Math.min(total * 3, 100); // scale up, cap at 100
+        return Object.values(frames).reduce((s,f) => s + avgRatio(f.counts_by_language), 0);
       }},
-    { name:'双重束缚得分',
+    { name:'双重束缚得分(%)',
       calc: (_, leader) => avgDoubleBind(leader) },
-    { name:'女性民族主义',
-      calc: (_, leader) => avgFemono(leader) * 5 } // scale up for visibility
+    { name:'女性民族主义(%)',
+      calc: (_, leader) => avgFemono(leader) }
   ];
 
   const leaders = ['Takaichi','LePen'];
   const leaderLabels = ['高市早苗','勒庞'];
   const leaderColors = [COLORS.takaichi, COLORS.lepen];
 
+  const rawValues = leaders.map(l => dims.map(d => Math.round(d.calc(lc[l]||{}, l)*10)/10));
+
+  // Dynamic max: use the larger of the two leaders * 1.2 for each dimension
+  const maxVals = dims.map((_, i) => {
+    const m = Math.max(rawValues[0][i], rawValues[1][i]);
+    return Math.round(m * 1.2 * 10) / 10 || 1;
+  });
+
   const seriesData = leaders.map((l, i) => ({
-    value: dims.map(d => {
-      const raw = d.calc(lc[l] || {}, l);
-      return Math.round(raw * 10) / 10;
+    value: rawValues[i],
     }),
     name: leaderLabels[i],
     itemStyle: { color: leaderColors[i] },
@@ -1445,9 +1450,9 @@ function isDarkSection(el) {
     },
     legend: { data: leaderLabels, bottom: 0, textStyle: { color: '#4a4a5a' } },
     radar: {
-      indicator: dims.map(d => ({ name: d.name, max: 100 })),
-      radius: '60%',
-      axisName: { color: '#4a4a5a', fontSize: 12 },
+      indicator: dims.map((d,i) => ({ name: d.name, max: maxVals[i] })),
+      radius: '65%',
+      axisName: { color: '#4a4a5a', fontSize: 11 },
       splitArea: { areaStyle: { color: ['rgba(124,58,237,0.02)','rgba(124,58,237,0.04)','rgba(124,58,237,0.02)','rgba(124,58,237,0.04)','rgba(124,58,237,0.02)'] } }
     },
     series: [{ type: 'radar', data: seriesData, lineStyle: { width: 2 } }]
