@@ -821,7 +821,7 @@ footer a { color: var(--accent-gold); text-decoration:none; }
   <p class="section-subtitle reveal">不同领导人间的媒体框架有何差异？通过计算编码检测性别化模式</p>
   <div class="reveal" style="margin-bottom:1.5rem; padding:1rem 1.2rem; background:rgba(0,0,0,0.03); border-radius:var(--radius); font-size:0.8rem; color:var(--text-secondary); line-height:1.7;">
     <strong>方法说明：</strong><br>
-    <strong>比较雷达图：</strong>汇总两位领导人在五个维度的综合得分，各维度归一化为0-100分：<strong>（1）负面情感比例</strong>：所有语言<code>sentiment</code>字段中negative的占比；<strong>（2）负面情绪强度</strong>：<code>emotion</code>字段中愤怒+厌恶+恐惧三项占比之和；<strong>（3）性别框架倾向</strong>：五类性别框架关键词匹配率的各语言均值汇总；<strong>（4）双重束缚得分</strong>：负面帖子中<code>text</code>同时出现性别词汇+领导力词汇的各语言均值；<strong>（5）女性民族主义指标</strong>：<code>text</code>中同时出现女性权利词汇+民族主义/反移民词汇的各语言均值。各维度越高表示该倾向越强。<br>
+    <strong>比较雷达图：</strong>汇总两位领导人在五个维度的综合得分：<strong>（1）负面情感比例</strong>：所有语言<code>sentiment</code>字段中negative的占比（%）；<strong>（2）负面情绪强度</strong>：<code>emotion</code>字段中愤怒+厌恶+恐惧三项占比之和（%）；<strong>（3）性别框架倾向</strong>：五类性别框架关键词匹配率的各语言均值汇总（%）；<strong>（4）双重束缚得分</strong>：负面帖子中<code>text</code>同时出现性别词汇+领导力词汇的各语言均值（%）；<strong>（5）女性民族主义指标</strong>：<code>text</code>中同时出现女性权利词汇+民族主义/反移民词汇的各语言均值（%）。雷达图每个轴的最大值取两位领导人中较高者的1.2倍，以便在保持比例关系的同时直观展示差异。各维度越高表示该倾向越强。<br>
     <strong>性别框架检测：</strong>对每条帖子的<code>text</code>字段进行多语言关键词模式匹配，如"铁娘子"/"iron lady"/"強い女性"匹配铁娘子框架，"漂亮"/"beauty"/"化粧"匹配外貌框架，统计各框架匹配帖子数量。<br>
     <strong>双重束缚得分：</strong>筛选<code>sentiment=negative</code>的帖子，检查<code>text</code>是否同时包含性别词汇（如"她"/"女性"/"woman"）和领导力词汇（如"首相"/"领导"/"leader"），双重提及的帖子占负面帖子比例为双重束缚得分。
   </div>
@@ -829,7 +829,7 @@ footer a { color: var(--accent-gold); text-decoration:none; }
     <div class="chart-container">
       <h3>领导人多维对比</h3>
       <div id="chart-comparison-radar" style="height:400px;"></div>
-      <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.8rem; line-height:1.6;"><strong>说明：</strong>雷达图汇总两位领导人在五个维度的综合得分（归一化为0-100）：负面情感比例、负面情绪强度（愤怒+厌恶+恐惧）、性别框架倾向（五类框架匹配率汇总）、双重束缚得分（负面帖子中性别+领导力词汇同时出现比例）、女性民族主义指标（女性权利+民族主义词汇同时出现比例）。各维度越高表示该倾向越强。</p>
+      <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.8rem; line-height:1.6;"><strong>说明：</strong>雷达图汇总两位领导人在五个维度的综合得分：负面情感比例、负面情绪强度（愤怒+厌恶+恐惧）、性别框架倾向（五类框架匹配率汇总）、双重束缚得分、女性民族主义指标。各维度数值为原始百分比，雷达图每个轴的最大值取两位领导人中较高者的1.2倍，以便在保持真实比例关系的同时直观展示差异。各维度越高表示该倾向越强。</p>
     </div>
     <div class="chart-container">
       <h3>性别框架出现频率</h3>
